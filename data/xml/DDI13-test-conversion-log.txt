@@ -1,0 +1,458 @@
+[21:33:36 03/03]	Opening log /home/jari/biotext/TEESBioNLP13/DDI11TestCorpora130203/DDI13-conversion-log.txt at Sun Mar  3 21:33:36 2013
+####### Log opened at Sun Mar  3 21:33:36 2013 #######
+Command line: convertDDI13.py -o /home/jari/biotext/TEESBioNLP13/DDI11TestCorpora130203 --datasets DDI13_TEST_TASK_9.1,DDI13_TEST_TASK_9.2 --parse
+[21:33:36 03/03]	======================= Converting DDI'13 corpus =======================
+[21:33:36 03/03]	--------------- Downloading DDI'13 Shared Task files ---------------
+[21:33:36 03/03]	Skipping already downloaded file http://www.cs.york.ac.uk/semeval-2013/task9/data/uploads/datasets/train/semeval_task9_train.zip
+[21:33:36 03/03]	Extracting package /home/jari/.tees/corpora/download/semeval_task9_train.zip
+[21:33:37 03/03]	Redirected to http://kent.dl.sourceforge.net/project/tees/data/DDI13-TEES-parses-130224.tar.gz
+[21:33:37 03/03]	Skipping already downloaded file http://sourceforge.net/projects/tees/files/data/DDI13-TEES-parses-130224.tar.gz
+[21:33:37 03/03]	Extracting package /home/jari/.tees/corpora/download/DDI13-TEES-parses-130224.tar.gz
+[21:33:38 03/03]	Redirected to file:///home/jari/Dropbox/DDIExtraction2013/Test/task9.1/semeval-2013-test-task9.1.zip
+[21:33:38 03/03]	Skipping already downloaded file /home/jari/Dropbox/DDIExtraction2013/Test/task9.1/semeval-2013-test-task9.1.zip
+[21:33:38 03/03]	Extracting package /home/jari/.tees/corpora/download/semeval-2013-test-task9.1.zip
+[21:33:39 03/03]	Redirected to file:///home/jari/Dropbox/DDIExtraction2013/Test/task9.2/semeval-2013-test-task9.2.zip
+[21:33:39 03/03]	Skipping already downloaded file /home/jari/Dropbox/DDIExtraction2013/Test/task9.2/semeval-2013-test-task9.2.zip
+[21:33:39 03/03]	Extracting package /home/jari/.tees/corpora/download/semeval-2013-test-task9.2.zip
+[21:33:39 03/03]	Merging input XMLs
+[21:33:39 03/03]	Reading Estrone.xml
+[21:33:39 03/03]	Reading Interferon alfacon-1.xml
+[21:33:39 03/03]	Reading Marinol.xml
+[21:33:39 03/03]	Reading Masoprocol.xml
+[21:33:39 03/03]	Reading Methoxsalen.xml
+[21:33:39 03/03]	Reading Methyl aminolevulinate.xml
+[21:33:39 03/03]	Reading Milrinone.xml
+[21:33:39 03/03]	Reading Misoprostol.xml
+[21:33:39 03/03]	Reading Mitoxantrone.xml
+[21:33:39 03/03]	Reading Moricizine.xml
+[21:33:39 03/03]	Reading Moxifloxacin.xml
+[21:33:39 03/03]	Reading Olmesartan.xml
+[21:33:39 03/03]	Reading Oxiconazole.xml
+[21:33:39 03/03]	Reading Oxybuprocaine.xml
+[21:33:39 03/03]	Reading Oxytocin.xml
+[21:33:39 03/03]	Reading Palivizumab.xml
+[21:33:39 03/03]	Reading Palonosetron.xml
+[21:33:39 03/03]	Reading Pamidronate.xml
+[21:33:39 03/03]	Reading Panitumumab.xml
+[21:33:39 03/03]	Reading Paramethadione.xml
+[21:33:39 03/03]	Reading Pegaptanib.xml
+[21:33:39 03/03]	Reading Pentostatin.xml
+[21:33:39 03/03]	Reading Phentolamine.xml
+[21:33:39 03/03]	Reading Pimecrolimus.xml
+[21:33:39 03/03]	Reading Pioglitazone.xml
+[21:33:39 03/03]	Reading Pirenzepine.xml
+[21:33:39 03/03]	Reading Porfimer.xml
+[21:33:39 03/03]	Reading Praziquantel.xml
+[21:33:39 03/03]	Reading Propylthiouracil.xml
+[21:33:39 03/03]	Reading Pyrazinamide.xml
+[21:33:39 03/03]	Reading Quinacrine.xml
+[21:33:39 03/03]	Reading Ranibizumab.xml
+[21:33:39 03/03]	Reading Reboxetine.xml
+[21:33:39 03/03]	Reading Remifentanil.xml
+[21:33:39 03/03]	Reading Remoxipride.xml
+[21:33:39 03/03]	Reading Ribavirin.xml
+[21:33:39 03/03]	Reading Rifaximin.xml
+[21:33:39 03/03]	Reading Rituximab.xml
+[21:33:39 03/03]	Reading S-Adenosylmethionine.xml
+[21:33:39 03/03]	Reading Secretin.xml
+[21:33:39 03/03]	Reading Sermorelin.xml
+[21:33:39 03/03]	Reading Sertaconazole.xml
+[21:33:39 03/03]	Reading Sodium Tetradecyl Sulfate.xml
+[21:33:39 03/03]	Reading Sparfloxacin.xml
+[21:33:39 03/03]	Reading Sulfanilamide.xml
+[21:33:39 03/03]	Reading Tacrolimus.xml
+[21:33:39 03/03]	Reading Telbivudine.xml
+[21:33:39 03/03]	Reading Temazepam.xml
+[21:33:39 03/03]	Reading Terconazole.xml
+[21:33:39 03/03]	Reading Tetracycline.xml
+[21:33:39 03/03]	Reading Tositumomab.xml
+[21:33:39 03/03]	Reading Valrubicin.xml
+[21:33:39 03/03]	Reading Vincristine.xml
+[21:33:39 03/03]	Reading Vitamin E.xml
+[21:33:39 03/03]	Reading 21704241.xml
+[21:33:39 03/03]	Reading 21706978.xml
+[21:33:39 03/03]	Reading 21711060.xml
+[21:33:39 03/03]	Reading 21715286.xml
+[21:33:39 03/03]	Reading 21722807.xml
+[21:33:39 03/03]	Reading 21728157.xml
+[21:33:39 03/03]	Reading 21728158.xml
+[21:33:39 03/03]	Reading 21728182.xml
+[21:33:39 03/03]	Reading 21730162.xml
+[21:33:39 03/03]	Reading 21731080.xml
+[21:33:39 03/03]	Reading 21734381.xml
+[21:33:39 03/03]	Reading 21740149.xml
+[21:33:39 03/03]	Reading 21745652.xml
+[21:33:39 03/03]	Reading 21750603.xml
+[21:33:39 03/03]	Reading 21751434.xml
+[21:33:39 03/03]	Reading 21751542.xml
+[21:33:39 03/03]	Reading 21751666.xml
+[21:33:39 03/03]	Reading 21751828.xml
+[21:33:39 03/03]	Reading 21752788.xml
+[21:33:39 03/03]	Reading 21753875.xml
+[21:33:39 03/03]	Reading 21761733.xml
+[21:33:39 03/03]	Reading 21761739.xml
+[21:33:39 03/03]	Reading 21762153.xml
+[21:33:39 03/03]	Reading 21765011.xml
+[21:33:39 03/03]	Reading 21765950.xml
+[21:33:39 03/03]	Reading 21767799.xml
+[21:33:39 03/03]	Reading 21771591.xml
+[21:33:39 03/03]	Reading 21775592.xml
+[21:33:39 03/03]	Reading 21777098.xml
+[21:33:39 03/03]	Reading 21789791.xml
+[21:33:39 03/03]	Reading 21791288.xml
+[21:33:39 03/03]	Reading 21791289.xml
+[21:33:39 03/03]	Reading 21794966.xml
+[21:33:39 03/03]	Reading 21796866.xml
+[21:33:39 03/03]	Reading 21809597.xml
+[21:33:39 03/03]	Reading 21809598.xml
+[21:33:39 03/03]	Reading 21813678.xml
+[21:33:39 03/03]	Reading 21824120.xml
+[21:33:39 03/03]	Reading 21834368.xml
+[21:33:39 03/03]	Reading 21837983.xml
+[21:33:39 03/03]	Reading 21842018.xml
+[21:33:39 03/03]	Reading 21843050.xml
+[21:33:39 03/03]	Reading 21850885.xml
+[21:33:39 03/03]	Reading 21874017.xml
+[21:33:39 03/03]	Reading 21878085.xml
+[21:33:39 03/03]	Reading 21879526.xml
+[21:33:39 03/03]	Reading 21887897.xml
+[21:33:39 03/03]	Reading 21888100.xml
+[21:33:39 03/03]	Reading 21888103.xml
+[21:33:39 03/03]	Reading 21888227.xml
+[21:33:39 03/03]	Reading 21899534.xml
+[21:33:39 03/03]	Reading 21901983.xml
+[21:33:39 03/03]	Reading 21928724.xml
+[21:33:39 03/03]	Reading 21957770.xml
+[21:33:39 03/03]	Reading 22010421.xml
+[21:33:39 03/03]	Reading 22016959.xml
+[21:33:39 03/03]	Reading 22016977.xml
+[21:33:39 03/03]	Reading 22029224.xml
+[21:33:39 03/03]	Processing elements
+[21:33:39 03/03]	Parsing
+[21:33:39 03/03]	* Preprocessor:PROCESS(ENTER) *
+[21:33:39 03/03]	Tool chain parameters: 
+[21:33:39 03/03]	Omitting step CONVERT
+[21:33:39 03/03]	=== EXIT STEP CONVERT time: 0:00:00.000760 ===
+[21:33:39 03/03]	Omitting step SPLIT-SENTENCES
+[21:33:39 03/03]	=== EXIT STEP SPLIT-SENTENCES time: 0:00:00.000333 ===
+[21:33:39 03/03]	Omitting step NER
+[21:33:39 03/03]	=== EXIT STEP NER time: 0:00:00.000126 ===
+[21:33:39 03/03]	=== ENTER STEP Preprocessor:PROCESS:PARSE ===
+[21:33:39 03/03]	Running step PARSE with arguments {'debug': False, 'input': <__builtin__.ElementTree instance at 0xa05b26c>, 'requireEntities': False, 'parseName': 'McCC', 'output': '/tmp/tmpBSIVca/parsing-parse.xml.gz'}
+[21:33:39 03/03]	BLLIP parser
+[21:33:39 03/03]	BLLIP time stamp: 03.03.13 21:33:39
+[21:33:39 03/03]	BLLIP parser at: /home/jari/TEES_DATA/tools/BLLIP/dmcc-bllip-parser-c672258
+[21:33:39 03/03]	Biomodel at: /home/jari/TEES_DATA/tools/BLLIP/biomodel
+[21:33:39 03/03]	Loading corpus <__builtin__.ElementTree instance at 0xa05b26c>
+[21:33:39 03/03]	Corpus file loaded
+[21:33:39 03/03]	Parser does the tokenization
+[21:33:39 03/03]	Running BLLIP parser with tokenization
+[21:41:00 03/03]	Parsing: 87.87 % (0:6:52.161) Process failed for sentence 665, rerunning from sentence 666
+[21:41:00 03/03]	Running BLLIP parser with tokenization
+[21:41:55 03/03]	Parsing: 88.24 % (0:0:52.089) Process failed for sentence 712, rerunning from sentence 713
+[21:41:55 03/03]	Running BLLIP parser with tokenization
+[21:42:12 03/03]	Parsing: 100.00 % (0:0:17.022)
+[21:42:12 03/03]	Warning, processing failed for 2 out of 717 sentences
+[21:42:12 03/03]	Inserting parses
+[21:42:12 03/03]	Warning, token duplication (u'.', [(u'Drug/Laboratory', u'NN', u'Drug/Laboratory'), (u'Test', u'NN', u'Test'), (u'Interaction', u'NN', u'Interaction'), (u':', u':', u':'), (u'The', u'DT', u'The'), (u'concomitant', u'JJ', u'concomitant'), (u'use', u'NN', u'use'), (u'of', u'IN', u'of'), (u'anticholinergic', u'JJ', u'anticholinergic'), (u'agents', u'NNS', u'agents'), (u'may', u'MD', u'may'), (u'make', u'VB', u'make'), (u'patients', u'NNS', u'patients'), (u'hyporesponsive', u'JJ', u'hyporesponsive'), (u',', u',', u','), (u'i.e.', u'FW', u'i.e.'), (u'.', u'.', u'.')], u'.', 113, 'Drug/Laboratory Test Interaction: The concomitant use of anticholinergic agents may make patients hyporesponsive, i.e. ', ('DDI-DrugBank.d740.s0', None))
+[21:42:13 03/03]	Warning, token duplication (u'.', [(u'Potential', u'JJ', u'Potential'), (u'problems', u'NNS', u'problems'), (u'with', u'IN', u'with'), (u'the', u'DT', u'the'), (u'use', u'NN', u'use'), (u'of', u'IN', u'of'), (u'antidepressants', u'NNS', u'antidepressants'), (u'were', u'VBD', u'were'), (u'frequently', u'RB', u'frequently'), (u'observed', u'VBN', u'observed'), (u'in', u'IN', u'in'), (u'older', u'JJR', u'older'), (u'U.S.', u'NN', u'U.S.'), (u'.', u'.', u'.')], u'.', 84, 'Potential problems with the use of antidepressants were frequently observed in older U.S. ', ('DDI-MedLine.d203.s14', None))
+[21:42:13 03/03]	Parsed 665 sentences (0 failed)
+[21:42:13 03/03]	All sentences were parsed succesfully
+[21:42:13 03/03]	Writing output to /tmp/tmpBSIVca/parsing-parse.xml.gz
+[21:42:17 03/03]	=== EXIT STEP PARSE time: 0:08:37.988161 ===
+[21:42:17 03/03]	=== ENTER STEP Preprocessor:PROCESS:CONVERT-PARSE ===
+[21:42:17 03/03]	Running step CONVERT-PARSE with arguments {'debug': False, 'input': <__builtin__.ElementTree instance at 0xa05b26c>, 'parser': 'McCC', 'output': '/tmp/tmpBSIVca/parsing-converted-parse.xml.gz'}
+[21:42:17 03/03]	Running Stanford conversion
+[21:42:17 03/03]	Stanford tools at: /home/jari/TEES_DATA/tools/stanford-parser-2012-03-09
+[21:42:17 03/03]	Stanford tools arguments: java -mx500m -cp stanford-parser.jar edu.stanford.nlp.trees.EnglishGrammaticalStructure -CCprocessed -keepPunct -treeFile
+[21:42:17 03/03]	Stanford time stamp: 03.03.13 21:42:17
+[21:42:17 03/03]	Loading corpus <__builtin__.ElementTree instance at 0xa05b26c>
+[21:42:17 03/03]	Corpus file loaded
+[21:43:18 03/03]	Stanford Conversion: 100.00 % (0:1:0.598)
+[21:43:18 03/03]	Processed succesfully all sentences
+[21:43:19 03/03]	Stanford conversion was done for 665 sentences, 1 had no dependencies, 0 failed
+[21:43:19 03/03]	Writing output to /tmp/tmpBSIVca/parsing-converted-parse.xml.gz
+[21:43:25 03/03]	=== EXIT STEP CONVERT-PARSE time: 0:01:07.909790 ===
+[21:43:25 03/03]	Omitting step SPLIT-NAMES
+[21:43:25 03/03]	=== EXIT STEP SPLIT-NAMES time: 0:00:00.000397 ===
+[21:43:25 03/03]	=== ENTER STEP Preprocessor:PROCESS:FIND-HEADS ===
+[21:43:25 03/03]	Running step FIND-HEADS with arguments {'parse': 'McCC', 'removeExisting': True, 'output': '/tmp/tmpBSIVca/parsing-heads.xml.gz', 'input': <__builtin__.ElementTree instance at 0xa05b26c>}
+[21:43:25 03/03]	Removing existing head offsets
+[21:43:25 03/03]	Removed head offsets from 0 entities
+[21:43:25 03/03]	Determining head offsets using parse McCC and tokenization None
+[21:43:25 03/03]	112 documents, 665 sentences
+[21:43:25 03/03]	Making sentence graphs (DDI-MedLine.d153.s8): 100.00 % (0:0:0.200)
+[21:43:25 03/03]	Skipped 0 duplicate interaction edges in SentenceGraphs
+[21:43:26 03/03]	Writing output to /tmp/tmpBSIVca/parsing-heads.xml.gz
+[21:43:32 03/03]	=== EXIT STEP FIND-HEADS time: 0:00:06.729727 ===
+[21:43:32 03/03]	Omitting step DIVIDE-SETS
+[21:43:32 03/03]	=== EXIT STEP DIVIDE-SETS: 0:00:00.000439 ===
+[21:43:32 03/03]	* Preprocessor:PROCESS(EXIT) 0:09:52.633942 *
+[21:43:36 03/03]	--------------- Corpus Structure Analysis ---------------
+[21:43:36 03/03]	Analyzing <Element 'corpus' at 0x9d2f5c0>
+[21:43:36 03/03]	
+[21:43:36 03/03]	Writing output to /home/jari/biotext/TEESBioNLP13/DDI11TestCorpora130203/DDI13-test-task9.1.xml
+[21:43:40 03/03]	Merging input XMLs
+[21:43:40 03/03]	Reading Abacavir.xml
+[21:43:40 03/03]	Reading Ezetimibe.xml
+[21:43:40 03/03]	Reading Fluconazole.xml
+[21:43:40 03/03]	Reading Mazindol.xml
+[21:43:40 03/03]	Reading Mebendazole.xml
+[21:43:40 03/03]	Reading Mecamylamine.xml
+[21:43:40 03/03]	Reading Medroxyprogesterone.xml
+[21:43:40 03/03]	Reading Megestrol.xml
+[21:43:40 03/03]	Reading Melatonin.xml
+[21:43:40 03/03]	Reading Meloxicam.xml
+[21:43:40 03/03]	Reading Melphalan.xml
+[21:43:40 03/03]	Reading Mepenzolate.xml
+[21:43:40 03/03]	Reading Meperidine.xml
+[21:43:40 03/03]	Reading Mephenytoin.xml
+[21:43:40 03/03]	Reading Mequitazine.xml
+[21:43:40 03/03]	Reading Meropenem.xml
+[21:43:40 03/03]	Reading Metaraminol.xml
+[21:43:40 03/03]	Reading Metaxalone.xml
+[21:43:40 03/03]	Reading Methazolamide.xml
+[21:43:40 03/03]	Reading Methimazole.xml
+[21:43:40 03/03]	Reading Methotrimeprazine.xml
+[21:43:40 03/03]	Reading Methsuximide.xml
+[21:43:40 03/03]	Reading Methyclothiazide.xml
+[21:43:40 03/03]	Reading Methyldopa.xml
+[21:43:40 03/03]	Reading Methylergonovine.xml
+[21:43:40 03/03]	Reading Methylphenidate.xml
+[21:43:40 03/03]	Reading Methylprednisolone.xml
+[21:43:40 03/03]	Reading Methylscopolamine.xml
+[21:43:40 03/03]	Reading Methyprylon.xml
+[21:43:40 03/03]	Reading Methysergide.xml
+[21:43:40 03/03]	Reading Metoclopramide.xml
+[21:43:40 03/03]	Reading Metolazone.xml
+[21:43:40 03/03]	Reading Metoprolol.xml
+[21:43:40 03/03]	Reading Metronidazole.xml
+[21:43:40 03/03]	Reading Metyrapone.xml
+[21:43:40 03/03]	Reading Metyrosine.xml
+[21:43:40 03/03]	Reading Mexiletine.xml
+[21:43:40 03/03]	Reading Mibefradil.xml
+[21:43:40 03/03]	Reading Micafungin.xml
+[21:43:40 03/03]	Reading Midazolam.xml
+[21:43:40 03/03]	Reading Midodrine.xml
+[21:43:40 03/03]	Reading Mifepristone.xml
+[21:43:40 03/03]	Reading Miglustat.xml
+[21:43:40 03/03]	Reading Minocycline.xml
+[21:43:40 03/03]	Reading Minoxidil.xml
+[21:43:40 03/03]	Reading Mirtazapine.xml
+[21:43:40 03/03]	Reading Mitotane.xml
+[21:43:40 03/03]	Reading Mivacurium.xml
+[21:43:40 03/03]	Reading Moexipril.xml
+[21:43:40 03/03]	Reading Mometasone.xml
+[21:43:40 03/03]	Reading Montelukast.xml
+[21:43:40 03/03]	Reading Morphine.xml
+[21:43:40 03/03]	Reading Mycophenolic acid.xml
+[21:43:40 03/03]	Reading Ondansetron.xml
+[21:43:40 03/03]	Reading Orciprenaline.xml
+[21:43:40 03/03]	Reading Orlistat.xml
+[21:43:40 03/03]	Reading Oxacillin.xml
+[21:43:40 03/03]	Reading Oxaliplatin.xml
+[21:43:40 03/03]	Reading Oxandrolone.xml
+[21:43:40 03/03]	Reading Oxybutynin.xml
+[21:43:40 03/03]	Reading Oxycodone.xml
+[21:43:40 03/03]	Reading Oxymorphone.xml
+[21:43:40 03/03]	Reading Paliperidone.xml
+[21:43:40 03/03]	Reading Pantoprazole.xml
+[21:43:40 03/03]	Reading Paricalcitol.xml
+[21:43:40 03/03]	Reading Pegfilgrastim.xml
+[21:43:40 03/03]	Reading Peginterferon alfa-2b.xml
+[21:43:40 03/03]	Reading Pegvisomant.xml
+[21:43:40 03/03]	Reading Pemetrexed.xml
+[21:43:40 03/03]	Reading Pemoline.xml
+[21:43:40 03/03]	Reading Penicillin G.xml
+[21:43:40 03/03]	Reading Pentazocine.xml
+[21:43:40 03/03]	Reading Pentoxifylline.xml
+[21:43:40 03/03]	Reading Pergolide.xml
+[21:43:40 03/03]	Reading Perindopril.xml
+[21:43:40 03/03]	Reading Phentermine.xml
+[21:43:40 03/03]	Reading Phenylephrine.xml
+[21:43:40 03/03]	Reading Phenylpropanolamine.xml
+[21:43:40 03/03]	Reading Pilocarpine.xml
+[21:43:40 03/03]	Reading Pindolol.xml
+[21:43:40 03/03]	Reading Pirbuterol.xml
+[21:43:40 03/03]	Reading Piroxicam.xml
+[21:43:40 03/03]	Reading Pralidoxime.xml
+[21:43:40 03/03]	Reading Pramipexole.xml
+[21:43:40 03/03]	Reading Pramlintide.xml
+[21:43:40 03/03]	Reading Prednisone.xml
+[21:43:40 03/03]	Reading Procaine.xml
+[21:43:40 03/03]	Reading Procarbazine.xml
+[21:43:40 03/03]	Reading Prochlorperazine.xml
+[21:43:40 03/03]	Reading Propofol.xml
+[21:43:40 03/03]	Reading Propoxyphene.xml
+[21:43:40 03/03]	Reading Pseudoephedrine.xml
+[21:43:40 03/03]	Reading Pyrimethamine.xml
+[21:43:40 03/03]	Reading Raloxifene.xml
+[21:43:40 03/03]	Reading Ranitidine.xml
+[21:43:40 03/03]	Reading Retapamulin.xml
+[21:43:40 03/03]	Reading Reteplase.xml
+[21:43:40 03/03]	Reading Riboflavin.xml
+[21:43:40 03/03]	Reading Rimantadine.xml
+[21:43:40 03/03]	Reading Rivastigmine.xml
+[21:43:40 03/03]	Reading Rocuronium.xml
+[21:43:40 03/03]	Reading Ropivacaine.xml
+[21:43:40 03/03]	Reading Rosiglitazone.xml
+[21:43:40 03/03]	Reading Roxithromycin.xml
+[21:43:40 03/03]	Reading Salmon Calcitonin.xml
+[21:43:40 03/03]	Reading Salsalate.xml
+[21:43:40 03/03]	Reading Sargramostim.xml
+[21:43:40 03/03]	Reading Scopolamine.xml
+[21:43:40 03/03]	Reading Secobarbital.xml
+[21:43:40 03/03]	Reading Selegiline.xml
+[21:43:40 03/03]	Reading Sitagliptin.xml
+[21:43:40 03/03]	Reading Sodium bicarbonate.xml
+[21:43:40 03/03]	Reading Solifenacin.xml
+[21:43:40 03/03]	Reading Somatropin recombinant.xml
+[21:43:40 03/03]	Reading Sorafenib.xml
+[21:43:40 03/03]	Reading Stavudine.xml
+[21:43:40 03/03]	Reading Streptokinase.xml
+[21:43:40 03/03]	Reading Streptozocin.xml
+[21:43:40 03/03]	Reading Succimer.xml
+[21:43:40 03/03]	Reading Sulfamethizole.xml
+[21:43:40 03/03]	Reading Sulfamethoxazole.xml
+[21:43:40 03/03]	Reading Sulfasalazine.xml
+[21:43:40 03/03]	Reading Sulfoxone.xml
+[21:43:40 03/03]	Reading Sumatriptan.xml
+[21:43:40 03/03]	Reading Sunitinib.xml
+[21:43:40 03/03]	Reading Suprofen.xml
+[21:43:40 03/03]	Reading Tamsulosin.xml
+[21:43:40 03/03]	Reading Temozolomide.xml
+[21:43:40 03/03]	Reading Tenecteplase.xml
+[21:43:40 03/03]	Reading Teniposide.xml
+[21:43:40 03/03]	Reading Terbinafine.xml
+[21:43:40 03/03]	Reading Terfenadine.xml
+[21:43:40 03/03]	Reading Testolactone.xml
+[21:43:40 03/03]	Reading Thalidomide.xml
+[21:43:40 03/03]	Reading Thiabendazole.xml
+[21:43:40 03/03]	Reading Thiamine.xml
+[21:43:40 03/03]	Reading Thiethylperazine.xml
+[21:43:40 03/03]	Reading Thioguanine.xml
+[21:43:40 03/03]	Reading Thymalfasin.xml
+[21:43:40 03/03]	Reading Tigecycline.xml
+[21:43:40 03/03]	Reading Tiludronate.xml
+[21:43:40 03/03]	Reading Tiotropium.xml
+[21:43:40 03/03]	Reading Tirofiban.xml
+[21:43:40 03/03]	Reading Tobramycin.xml
+[21:43:40 03/03]	Reading Tolmetin.xml
+[21:43:40 03/03]	Reading Tolterodine.xml
+[21:43:40 03/03]	Reading Trastuzumab.xml
+[21:43:40 03/03]	Reading Trilostane.xml
+[21:43:40 03/03]	Reading Trimethoprim.xml
+[21:43:40 03/03]	Reading Trimetrexate.xml
+[21:43:40 03/03]	Reading Triprolidine.xml
+[21:43:40 03/03]	Reading Trospium.xml
+[21:43:40 03/03]	Reading Vancomycin.xml
+[21:43:40 03/03]	Reading Vigabatrin.xml
+[21:43:40 03/03]	Reading Vindesine.xml
+[21:43:40 03/03]	Reading Vitamin A.xml
+[21:43:40 03/03]	Reading Vitamin C.xml
+[21:43:40 03/03]	Reading Vorinostat.xml
+[21:43:40 03/03]	Reading 21705423.xml
+[21:43:40 03/03]	Reading 21706316.xml
+[21:43:40 03/03]	Reading 21715267.xml
+[21:43:40 03/03]	Reading 21716267.xml
+[21:43:40 03/03]	Reading 21720561.xml
+[21:43:40 03/03]	Reading 21729965.xml
+[21:43:40 03/03]	Reading 21731754.xml
+[21:43:40 03/03]	Reading 21741958.xml
+[21:43:40 03/03]	Reading 21750604.xml
+[21:43:40 03/03]	Reading 21751692.xml
+[21:43:40 03/03]	Reading 21751753.xml
+[21:43:40 03/03]	Reading 21753255.xml
+[21:43:40 03/03]	Reading 21753749.xml
+[21:43:40 03/03]	Reading 21762640.xml
+[21:43:40 03/03]	Reading 21763710.xml
+[21:43:40 03/03]	Reading 21771377.xml
+[21:43:40 03/03]	Reading 21772306.xml
+[21:43:40 03/03]	Reading 21785118.xml
+[21:43:40 03/03]	Reading 21795430.xml
+[21:43:40 03/03]	Reading 21796416.xml
+[21:43:40 03/03]	Reading 21800506.xml
+[21:43:40 03/03]	Reading 21807063.xml
+[21:43:40 03/03]	Reading 21809690.xml
+[21:43:40 03/03]	Reading 21813412.xml
+[21:43:40 03/03]	Reading 21825263.xml
+[21:43:40 03/03]	Reading 21844260.xml
+[21:43:40 03/03]	Reading 21868520.xml
+[21:43:40 03/03]	Reading 21868551.xml
+[21:43:40 03/03]	Reading 21873163.xml
+[21:43:40 03/03]	Reading 21876510.xml
+[21:43:40 03/03]	Reading 21878082.xml
+[21:43:40 03/03]	Reading 21897348.xml
+[21:43:40 03/03]	Reading 22029226.xml
+[21:43:40 03/03]	Processing elements
+[21:43:40 03/03]	Parsing
+[21:43:40 03/03]	* Preprocessor:PROCESS(ENTER) *
+[21:43:40 03/03]	Tool chain parameters: 
+[21:43:40 03/03]	Removing existing preprocessor output file /tmp/tmpBSIVca/parsing
+[21:43:40 03/03]	Omitting step CONVERT
+[21:43:40 03/03]	=== EXIT STEP CONVERT time: 0:00:00.000421 ===
+[21:43:40 03/03]	Omitting step SPLIT-SENTENCES
+[21:43:40 03/03]	=== EXIT STEP SPLIT-SENTENCES time: 0:00:00.000326 ===
+[21:43:40 03/03]	Omitting step NER
+[21:43:40 03/03]	=== EXIT STEP NER time: 0:00:00.000124 ===
+[21:43:40 03/03]	=== ENTER STEP Preprocessor:PROCESS:PARSE ===
+[21:43:40 03/03]	Running step PARSE with arguments {'debug': False, 'input': <__builtin__.ElementTree instance at 0xa43326c>, 'requireEntities': False, 'parseName': 'McCC', 'output': '/tmp/tmpBSIVca/parsing-parse.xml.gz'}
+[21:43:40 03/03]	BLLIP parser
+[21:43:40 03/03]	BLLIP time stamp: 03.03.13 21:43:40
+[21:43:40 03/03]	BLLIP parser at: /home/jari/TEES_DATA/tools/BLLIP/dmcc-bllip-parser-c672258
+[21:43:40 03/03]	Biomodel at: /home/jari/TEES_DATA/tools/BLLIP/biomodel
+[21:43:40 03/03]	Loading corpus <__builtin__.ElementTree instance at 0xa43326c>
+[21:43:40 03/03]	Corpus file loaded
+[21:43:40 03/03]	Parser does the tokenization
+[21:43:40 03/03]	Running BLLIP parser with tokenization
+[21:59:12 03/03]	Parsing: 95.93 % (0:15:11.920) Process failed for sentence 1299, rerunning from sentence 1300
+[21:59:12 03/03]	Running BLLIP parser with tokenization
+[21:59:39 03/03]	Parsing: 96.15 % (0:0:27.037) Warning, processing failed for 2 out of 1326 sentences
+[21:59:39 03/03]	Inserting parses
+[21:59:40 03/03]	Warning, token duplication (u'.', [(u'When', u'WRB', u'When'), (u'administered', u'VBN', u'administered'), (u'concomitantly', u'RB', u'concomitantly'), (u'with', u'IN', u'with'), (u'ProAmatine', u'NN', u'ProAmatine'), (u',', u',', u','), (u'cardiac', u'JJ', u'cardiac'), (u'glycosides', u'NNS', u'glycosides'), (u'may', u'MD', u'may'), (u'enhance', u'VB', u'enhance'), (u'or', u'CC', u'or'), (u'precipitate', u'VB', u'precipitate'), (u'bradycardia', u'NN', u'bradycardia'), (u',', u',', u','), (u'A.V.', u'NNP', u'A.V.'), (u'.', u'.', u'.')], u'.', 110, 'When administered concomitantly with ProAmatine   , cardiac glycosides may enhance or precipitate bradycardia, A.V. ', ('DDI-DrugBank.d603.s0', None))
+[21:59:40 03/03]	Warning, token duplication (u'.', [(u'In', u'IN', u'In'), (u'a', u'DT', u'a'), (u'crossover', u'JJ', u'crossover'), (u'study', u'NN', u'study'), (u'in', u'IN', u'in'), (u'76', u'CD', u'76'), (u'pediatric', u'JJ', u'pediatric'), (u'patients', u'NNS', u'patients'), (u',', u',', u','), (u'I.V.', u'NN', u'I.V.'), (u'.', u'.', u'.')], u'.', 46, 'In a crossover study in 76 pediatric patients, I.V. ', ('DDI-DrugBank.d763.s6', None))
+[21:59:40 03/03]	Warning, token duplication (u'.', [(u'St.', u'NN', u'St.'), (u'.', u'.', u'.')], u'.', 0, 'St. ', ('DDI-DrugBank.d639.s3', None))
+[21:59:40 03/03]	Warning, token duplication (u'.', [(u'Patients', u'NNS', u'Patients'), (u'receiving', u'VBG', u'receiving'), (u'SUTENT', u'NN', u'SUTENT'), (u'should', u'MD', u'should'), (u'not', u'RB', u'not'), (u'take', u'VB', u'take'), (u'St.', u'NN', u'St.'), (u'.', u'.', u'.')], u'.', 41, 'Patients receiving SUTENT should not take St. ', ('DDI-DrugBank.d639.s5', None))
+[21:59:40 03/03]	Warning, token duplication (u'.', [(u'Ketoconazole', u'NN', u'Ketoconazole'), (u':', u':', u':'), (u'Spontaneous', u'JJ', u'Spontaneous'), (u'adverse', u'JJ', u'adverse'), (u'reaction', u'NN', u'reaction'), (u'reports', u'NNS', u'reports'), (u'of', u'IN', u'of'), (u'patients', u'NNS', u'patients'), (u'taking', u'VBG', u'taking'), (u'concomitant', u'JJ', u'concomitant'), (u'ketoconazole', u'NN', u'ketoconazole'), (u'with', u'IN', u'with'), (u'recommended', u'VBN', u'recommended'), (u'doses', u'NNS', u'doses'), (u'of', u'IN', u'of'), (u'terfenadine', u'NN', u'terfenadine'), (u'demonstrate', u'VBP', u'demonstrate'), (u'QT', u'NN', u'QT'), (u'interval', u'JJ', u'interval'), (u'prolongation', u'NN', u'prolongation'), (u'and', u'CC', u'and'), (u'rare', u'JJ', u'rare'), (u'serious', u'JJ', u'serious'), (u'cardiac', u'JJ', u'cardiac'), (u'events', u'NNS', u'events'), (u',', u',', u','), (u'e.g.', u'FW', u'e.g.'), (u'.', u'.', u'.')], u'.', 202, 'Ketoconazole: Spontaneous adverse reaction reports of patients taking concomitant ketoconazole with recommended doses of terfenadine demonstrate QT interval prolongation and rare serious cardiac events, e.g. ', ('DDI-DrugBank.d743.s0', None))
+[21:59:40 03/03]	Warning, token duplication (u'.', [(u'Important', u'JJ', u'Important'), (u'Non-Thalidomide', u'NN', u'Non-Thalidomide'), (u'Drug', u'NN', u'Drug'), (u'Interactions', u'NNS', u'Interactions'), (u'Drugs', u'NNS', u'Drugs'), (u'That', u'IN', u'That'), (u'Interfere', u'VBP', u'Interfere'), (u'with', u'IN', u'with'), (u'Hormonal', u'JJ', u'Hormonal'), (u'Contraceptives', u'NNS', u'Contraceptives'), (u':', u':', u':'), (u'Concomitant', u'JJ', u'Concomitant'), (u'use', u'NN', u'use'), (u'of', u'IN', u'of'), (u'HIV-protease', u'NN', u'HIV-protease'), (u'inhibitors', u'NNS', u'inhibitors'), (u',', u',', u','), (u'griseofulvin', u'NN', u'griseofulvin'), (u',', u',', u','), (u'modafinil', u'NN', u'modafinil'), (u',', u',', u','), (u'penicillins', u'NNS', u'penicillins'), (u',', u',', u','), (u'rifampin', u'NN', u'rifampin'), (u',', u',', u','), (u'rifabutin', u'NN', u'rifabutin'), (u',', u',', u','), (u'phenytoin', u'NN', u'phenytoin'), (u',', u',', u','), (u'carbamazepine', u'NN', u'carbamazepine'), (u',', u',', u','), (u'or', u'CC', u'or'), (u'certain', u'JJ', u'certain'), (u'herbal', u'JJ', u'herbal'), (u'supplements', u'NNS', u'supplements'), (u'such', u'JJ', u'such'), (u'as', u'IN', u'as'), (u'St.', u'NN', u'St.'), (u'.', u'.', u'.')], u'.', 261, 'Important Non-Thalidomide Drug Interactions Drugs That Interfere with Hormonal Contraceptives: Concomitant use of HIV-protease inhibitors, griseofulvin, modafinil, penicillins, rifampin, rifabutin, phenytoin, carbamazepine, or certain herbal supplements such as St. ', ('DDI-DrugBank.d604.s4', None))
+[21:59:41 03/03]	Parsed 1299 sentences (0 failed)
+[21:59:41 03/03]	All sentences were parsed succesfully
+[21:59:41 03/03]	Writing output to /tmp/tmpBSIVca/parsing-parse.xml.gz
+[21:59:50 03/03]	=== EXIT STEP PARSE time: 0:16:09.287468 ===
+[21:59:50 03/03]	=== ENTER STEP Preprocessor:PROCESS:CONVERT-PARSE ===
+[21:59:50 03/03]	Running step CONVERT-PARSE with arguments {'debug': False, 'input': <__builtin__.ElementTree instance at 0xa43326c>, 'parser': 'McCC', 'output': '/tmp/tmpBSIVca/parsing-converted-parse.xml.gz'}
+[21:59:50 03/03]	Running Stanford conversion
+[21:59:50 03/03]	Stanford tools at: /home/jari/TEES_DATA/tools/stanford-parser-2012-03-09
+[21:59:50 03/03]	Stanford tools arguments: java -mx500m -cp stanford-parser.jar edu.stanford.nlp.trees.EnglishGrammaticalStructure -CCprocessed -keepPunct -treeFile
+[21:59:50 03/03]	Stanford time stamp: 03.03.13 21:59:50
+[21:59:50 03/03]	Loading corpus <__builtin__.ElementTree instance at 0xa43326c>
+[21:59:50 03/03]	Corpus file loaded
+[22:01:55 03/03]	Stanford Conversion: 100.00 % (0:2:4.773)
+[22:01:55 03/03]	Processed succesfully all sentences
+[22:01:57 03/03]	Stanford conversion was done for 1299 sentences, 0 had no dependencies, 0 failed
+[22:01:57 03/03]	Writing output to /tmp/tmpBSIVca/parsing-converted-parse.xml.gz
+[22:02:09 03/03]	=== EXIT STEP CONVERT-PARSE time: 0:02:19.503801 ===
+[22:02:09 03/03]	Omitting step SPLIT-NAMES
+[22:02:09 03/03]	=== EXIT STEP SPLIT-NAMES time: 0:00:00.000417 ===
+[22:02:09 03/03]	=== ENTER STEP Preprocessor:PROCESS:FIND-HEADS ===
+[22:02:09 03/03]	Running step FIND-HEADS with arguments {'parse': 'McCC', 'removeExisting': True, 'output': '/tmp/tmpBSIVca/parsing-heads.xml.gz', 'input': <__builtin__.ElementTree instance at 0xa43326c>}
+[22:02:09 03/03]	Removing existing head offsets
+[22:02:09 03/03]	Removed head offsets from 0 entities
+[22:02:09 03/03]	Determining head offsets using parse McCC and tokenization None
+[22:02:10 03/03]	191 documents, 1299 sentences
+[22:02:11 03/03]	Making sentence graphs (DDI-MedLine.d195.s7): 100.00 % (0:0:1.491)
+[22:02:11 03/03]	Skipped 0 duplicate interaction edges in SentenceGraphs
+[22:02:12 03/03]	Writing output to /tmp/tmpBSIVca/parsing-heads.xml.gz
+[22:02:24 03/03]	=== EXIT STEP FIND-HEADS time: 0:00:15.056148 ===
+[22:02:24 03/03]	Omitting step DIVIDE-SETS
+[22:02:24 03/03]	=== EXIT STEP DIVIDE-SETS: 0:00:00.000220 ===
+[22:02:24 03/03]	* Preprocessor:PROCESS(EXIT) 0:18:43.852751 *
+[22:02:31 03/03]	--------------- Corpus Structure Analysis ---------------
+[22:02:31 03/03]	Analyzing <Element 'corpus' at 0xb78fed8>
+[22:02:33 03/03]	ENTITY brand
+[22:02:33 03/03]	ENTITY drug
+[22:02:33 03/03]	ENTITY drug_n
+[22:02:33 03/03]	ENTITY group
+[22:02:33 03/03]	
+[22:02:33 03/03]	Writing output to /home/jari/biotext/TEESBioNLP13/DDI11TestCorpora130203/DDI13-test-task9.2.xml
+[22:02:40 03/03]	Stopped logging stdout to /home/jari/biotext/TEESBioNLP13/DDI11TestCorpora130203/DDI13-conversion-log.txt

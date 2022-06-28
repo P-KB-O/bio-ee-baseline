@@ -4,9 +4,7 @@ here is a repo about biomedical event extraction.
 
 ## biomedical datasets
 
-we evaluate model on [MLEE dataset](http://www.nactem.ac.uk/MLEE/). you can see the annotation visualization in [here](http://www.nactem.ac.uk/eccb2012/index.xhtml#/)
-
-![](image/bioEE.png)
+you can use [TEES](https://github.com/jbjorne/TEES) to get BioNLP[09-13] datasets which format are xml.
 
 **surprise!** I found a fantastic biomedical github repo [bigscience-workshop/biomedical](https://github.com/bigscience-workshop/biomedical)
 

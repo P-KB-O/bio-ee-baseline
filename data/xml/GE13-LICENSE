@@ -1,0 +1,51 @@
+License Terms for BioNLP Shared Task 2013 GE Task set
+
+
+1. Copyright of full texts
+
+The full texts contained in this data set are from the PMC Open Access
+Subset of PubMed Central (PMC), the U.S.  National Institutes of Health
+(NIH) free digital archive of biomedical and life sciences journal
+literature.
+
+Articles in the PMC Open Access Subset are protected by copyright, but are
+made available under a Creative Commons or similar license that generally
+allows more liberal redistribution and reuse than a traditional copyrighted
+work. Please refer to the license of each article for specific terms of use.
+
+
+2. Copyright of annotations
+
+The annotations included in this data set belong in their entirety to
+Database Center for Life Science.
+
+
+3. License terms
+
+Use and distribution of the full texts is subject to the license terms
+applying to each publication.
+
+Annotations in this data set are licensed under
+
+     the Creative Commons Attribution 3.0 Unported License.
+
+To view a copy of this license, visit
+
+     http://creativecommons.org/licenses/by/3.0/
+
+or send a letter to
+
+     Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+     California, 94041, USA.
+
+Annotations covered by this license must be attributed to
+
+     "Database Center for Life Science" or "DBCLS" in short.
+
+
+4. References
+
+- PubMed Central: http://www.ncbi.nlm.nih.gov/pmc/
+- BioNLP Shared Task 2013: https://2013.bionlp-st.org/
+- BioNLP Shared Task GE Task: https://bionlp-st.dbcls.jp/GE/
+- Database Center for Life Science: http://dbcls.rois.ac.jp/

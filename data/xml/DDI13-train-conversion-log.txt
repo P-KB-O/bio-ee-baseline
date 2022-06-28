@@ -1,0 +1,1714 @@
+[18:51:00 24/02]	Opening log /home/jari/biotext/TEESBioNLP13/convertDDI13-130224-parsed/DDI13-conversion-log.txt at Sun Feb 24 18:51:00 2013
+####### Log opened at Sun Feb 24 18:51:00 2013 #######
+Command line: convertDDI13.py -o /home/jari/biotext/TEESBioNLP13/convertDDI13-130224-parsed --parse
+[18:51:00 24/02]	======================= Converting DDI'13 corpus =======================
+[18:51:00 24/02]	--------------- Downloading DDI'13 Shared Task files ---------------
+[18:51:01 24/02]	Skipping already downloaded file http://www.cs.york.ac.uk/semeval-2013/task9/data/uploads/datasets/train/semeval_task9_train.zip
+[18:51:01 24/02]	Extracting package /home/jari/.tees/corpora/download/semeval_task9_train.zip
+[18:51:02 24/02]	Redirected to file:///home/jari/biotext/TEESBioNLP13/DDI13-parses-130221.tar.gz
+[18:51:02 24/02]	Skipping already downloaded file /home/jari/biotext/TEESBioNLP13/DDI13-parses-130221.tar.gz
+[18:51:02 24/02]	Extracting package /home/jari/.tees/corpora/download/DDI13-parses-130221.tar.gz
+[18:51:03 24/02]	{'DDI13_TRAIN_TEES_PARSES': '/tmp/tmpT8Yu03/DDI13-parses-130221', 'DDI13_TRAIN': '/tmp/tmpT8Yu03/Train/'}
+[18:51:03 24/02]	Merging input XMLs
+[18:51:03 24/02]	Reading 19-norandrostenedione_ddi.xml
+[18:51:03 24/02]	Reading Abarelix_ddi.xml
+[18:51:03 24/02]	Reading Abatacept_ddi.xml
+[18:51:03 24/02]	Reading Abciximab_ddi.xml
+[18:51:03 24/02]	Reading Acamprosate_ddi.xml
+[18:51:03 24/02]	Reading Acarbose_ddi.xml
+[18:51:03 24/02]	Reading Acebutolol_ddi.xml
+[18:51:03 24/02]	Reading Acetazolamide_ddi.xml
+[18:51:03 24/02]	Reading Acetohydroxamic Acid_ddi.xml
+[18:51:03 24/02]	Reading Aciclovir_ddi.xml
+[18:51:03 24/02]	Reading Acitretin_ddi.xml
+[18:51:03 24/02]	Reading Adalimumab_ddi.xml
+[18:51:03 24/02]	Reading Adapalene_ddi.xml
+[18:51:03 24/02]	Reading Adefovir Dipivoxil_ddi.xml
+[18:51:03 24/02]	Reading Adenosine_ddi.xml
+[18:51:03 24/02]	Reading Adinazolam_ddi.xml
+[18:51:03 24/02]	Reading Agalsidase beta_ddi.xml
+[18:51:03 24/02]	Reading Albendazole_ddi.xml
+[18:51:03 24/02]	Reading Alclometasone_ddi.xml
+[18:51:03 24/02]	Reading Aldesleukin_ddi.xml
+[18:51:03 24/02]	Reading Alefacept_ddi.xml
+[18:51:03 24/02]	Reading Alemtuzumab_ddi.xml
+[18:51:03 24/02]	Reading Alendronate_ddi.xml
+[18:51:03 24/02]	Reading Alfentanil_ddi.xml
+[18:51:03 24/02]	Reading Alfuzosin_ddi.xml
+[18:51:03 24/02]	Reading Alglucosidase alfa_ddi.xml
+[18:51:03 24/02]	Reading Aliskiren_ddi.xml
+[18:51:03 24/02]	Reading Alitretinoin_ddi.xml
+[18:51:03 24/02]	Reading Allopurinol_ddi.xml
+[18:51:03 24/02]	Reading Almotriptan_ddi.xml
+[18:51:03 24/02]	Reading Alosetron_ddi.xml
+[18:51:03 24/02]	Reading Alprazolam_ddi.xml
+[18:51:03 24/02]	Reading Alprostadil_ddi.xml
+[18:51:03 24/02]	Reading Alteplase_ddi.xml
+[18:51:03 24/02]	Reading Altretamine_ddi.xml
+[18:51:03 24/02]	Reading Amantadine_ddi.xml
+[18:51:03 24/02]	Reading Amifostine_ddi.xml
+[18:51:03 24/02]	Reading Amiloride_ddi.xml
+[18:51:03 24/02]	Reading Aminocaproic Acid_ddi.xml
+[18:51:03 24/02]	Reading Aminoglutethimide_ddi.xml
+[18:51:03 24/02]	Reading Aminohippurate_ddi.xml
+[18:51:03 24/02]	Reading Aminolevulinic acid_ddi.xml
+[18:51:03 24/02]	Reading Aminosalicylic Acid_ddi.xml
+[18:51:03 24/02]	Reading Amiodarone_ddi.xml
+[18:51:03 24/02]	Reading Amitriptyline_ddi.xml
+[18:51:03 24/02]	Reading Amphotericin B_ddi.xml
+[18:51:03 24/02]	Reading Ampicillin_ddi.xml
+[18:51:03 24/02]	Reading Amprenavir_ddi.xml
+[18:51:03 24/02]	Reading Amyl Nitrite_ddi.xml
+[18:51:03 24/02]	Reading Anagrelide_ddi.xml
+[18:51:03 24/02]	Reading Anakinra_ddi.xml
+[18:51:03 24/02]	Reading Anastrozole_ddi.xml
+[18:51:03 24/02]	Reading Anidulafungin_ddi.xml
+[18:51:03 24/02]	Reading Anileridine_ddi.xml
+[18:51:03 24/02]	Reading Anisindione_ddi.xml
+[18:51:03 24/02]	Reading Apomorphine_ddi.xml
+[18:51:03 24/02]	Reading Apraclonidine_ddi.xml
+[18:51:03 24/02]	Reading Aprepitant_ddi.xml
+[18:51:03 24/02]	Reading Arbutamine_ddi.xml
+[18:51:03 24/02]	Reading Ardeparin_ddi.xml
+[18:51:03 24/02]	Reading Arformoterol_ddi.xml
+[18:51:03 24/02]	Reading Argatroban_ddi.xml
+[18:51:03 24/02]	Reading Aripiprazole_ddi.xml
+[18:51:03 24/02]	Reading Arsenic trioxide_ddi.xml
+[18:51:03 24/02]	Reading Asparaginase_ddi.xml
+[18:51:03 24/02]	Reading Aspirin_ddi.xml
+[18:51:03 24/02]	Reading Astemizole_ddi.xml
+[18:51:03 24/02]	Reading Atenolol_ddi.xml
+[18:51:03 24/02]	Reading Atomoxetine_ddi.xml
+[18:51:03 24/02]	Reading Atorvastatin_ddi.xml
+[18:51:03 24/02]	Reading Atovaquone_ddi.xml
+[18:51:03 24/02]	Reading Atracurium_ddi.xml
+[18:51:03 24/02]	Reading Atropine_ddi.xml
+[18:51:03 24/02]	Reading Auranofin_ddi.xml
+[18:51:03 24/02]	Reading Azacitidine_ddi.xml
+[18:51:03 24/02]	Reading Azatadine_ddi.xml
+[18:51:03 24/02]	Reading Azathioprine_ddi.xml
+[18:51:03 24/02]	Reading Azelaic Acid_ddi.xml
+[18:51:03 24/02]	Reading Azithromycin_ddi.xml
+[18:51:03 24/02]	Reading Azlocillin_ddi.xml
+[18:51:03 24/02]	Reading Baclofen_ddi.xml
+[18:51:03 24/02]	Reading Balsalazide_ddi.xml
+[18:51:03 24/02]	Reading Basiliximab_ddi.xml
+[18:51:03 24/02]	Reading Becaplermin_ddi.xml
+[18:51:03 24/02]	Reading Beclomethasone_ddi.xml
+[18:51:03 24/02]	Reading Benazepril_ddi.xml
+[18:51:03 24/02]	Reading Bendroflumethiazide_ddi.xml
+[18:51:03 24/02]	Reading Bentiromide_ddi.xml
+[18:51:03 24/02]	Reading Bentoquatam_ddi.xml
+[18:51:03 24/02]	Reading Benzocaine_ddi.xml
+[18:51:03 24/02]	Reading Benzphetamine_ddi.xml
+[18:51:03 24/02]	Reading Benzthiazide_ddi.xml
+[18:51:03 24/02]	Reading Benztropine_ddi.xml
+[18:51:03 24/02]	Reading Bepridil_ddi.xml
+[18:51:03 24/02]	Reading Betamethasone_ddi.xml
+[18:51:03 24/02]	Reading Betaxolol_ddi.xml
+[18:51:03 24/02]	Reading Bethanechol_ddi.xml
+[18:51:03 24/02]	Reading Bevacizumab_ddi.xml
+[18:51:03 24/02]	Reading Bexarotene_ddi.xml
+[18:51:03 24/02]	Reading Bezafibrate_ddi.xml
+[18:51:03 24/02]	Reading Bicalutamide_ddi.xml
+[18:51:03 24/02]	Reading Bimatoprost_ddi.xml
+[18:51:03 24/02]	Reading Biperiden_ddi.xml
+[18:51:03 24/02]	Reading Bisoprolol_ddi.xml
+[18:51:03 24/02]	Reading Bitolterol_ddi.xml
+[18:51:03 24/02]	Reading Bivalirudin_ddi.xml
+[18:51:03 24/02]	Reading Bleomycin_ddi.xml
+[18:51:03 24/02]	Reading Bortezomib_ddi.xml
+[18:51:03 24/02]	Reading Bosentan_ddi.xml
+[18:51:03 24/02]	Reading Botulinum Toxin Type A_ddi.xml
+[18:51:03 24/02]	Reading Botulinum Toxin Type B_ddi.xml
+[18:51:03 24/02]	Reading Bretylium_ddi.xml
+[18:51:03 24/02]	Reading Brimonidine_ddi.xml
+[18:51:03 24/02]	Reading Brinzolamide_ddi.xml
+[18:51:03 24/02]	Reading Bromocriptine_ddi.xml
+[18:51:03 24/02]	Reading Brompheniramine_ddi.xml
+[18:51:03 24/02]	Reading Buclizine_ddi.xml
+[18:51:03 24/02]	Reading Budesonide_ddi.xml
+[18:51:03 24/02]	Reading Bumetanide_ddi.xml
+[18:51:03 24/02]	Reading Bupivacaine_ddi.xml
+[18:51:03 24/02]	Reading Buprenorphine_ddi.xml
+[18:51:03 24/02]	Reading Bupropion_ddi.xml
+[18:51:03 24/02]	Reading Buspirone_ddi.xml
+[18:51:03 24/02]	Reading Busulfan_ddi.xml
+[18:51:03 24/02]	Reading Butabarbital_ddi.xml
+[18:51:03 24/02]	Reading Butalbital_ddi.xml
+[18:51:03 24/02]	Reading Butenafine_ddi.xml
+[18:51:03 24/02]	Reading Butorphanol_ddi.xml
+[18:51:03 24/02]	Reading Cabergoline_ddi.xml
+[18:51:03 24/02]	Reading Caffeine_ddi.xml
+[18:51:03 24/02]	Reading Calcidiol_ddi.xml
+[18:51:03 24/02]	Reading Calcitriol_ddi.xml
+[18:51:03 24/02]	Reading Calcium Acetate_ddi.xml
+[18:51:03 24/02]	Reading Calcium Gluceptate_ddi.xml
+[18:51:03 24/02]	Reading Candesartan_ddi.xml
+[18:51:03 24/02]	Reading Capecitabine_ddi.xml
+[18:51:03 24/02]	Reading Captopril_ddi.xml
+[18:51:03 24/02]	Reading Carbamazepine_ddi.xml
+[18:51:03 24/02]	Reading Carbenicillin_ddi.xml
+[18:51:03 24/02]	Reading Carbidopa_ddi.xml
+[18:51:03 24/02]	Reading Carbimazole_ddi.xml
+[18:51:03 24/02]	Reading Carbinoxamine_ddi.xml
+[18:51:03 24/02]	Reading Carboplatin_ddi.xml
+[18:51:03 24/02]	Reading Carboprost Tromethamine_ddi.xml
+[18:51:03 24/02]	Reading Carteolol_ddi.xml
+[18:51:03 24/02]	Reading Carvedilol_ddi.xml
+[18:51:03 24/02]	Reading Caspofungin_ddi.xml
+[18:51:03 24/02]	Reading Cefadroxil_ddi.xml
+[18:51:03 24/02]	Reading Cefazolin_ddi.xml
+[18:51:03 24/02]	Reading Cefdinir_ddi.xml
+[18:51:03 24/02]	Reading Cefditoren_ddi.xml
+[18:51:03 24/02]	Reading Cefepime_ddi.xml
+[18:51:03 24/02]	Reading Cefixime_ddi.xml
+[18:51:03 24/02]	Reading Cefotaxime_ddi.xml
+[18:51:03 24/02]	Reading Cefotetan_ddi.xml
+[18:51:03 24/02]	Reading Cefoxitin_ddi.xml
+[18:51:03 24/02]	Reading Cefprozil_ddi.xml
+[18:51:03 24/02]	Reading Ceftazidime_ddi.xml
+[18:51:03 24/02]	Reading Ceftibuten_ddi.xml
+[18:51:03 24/02]	Reading Ceftizoxime_ddi.xml
+[18:51:03 24/02]	Reading Cefuroxime_ddi.xml
+[18:51:03 24/02]	Reading Celecoxib_ddi.xml
+[18:51:03 24/02]	Reading Cephalexin_ddi.xml
+[18:51:03 24/02]	Reading Cerivastatin_ddi.xml
+[18:51:03 24/02]	Reading Cetirizine_ddi.xml
+[18:51:03 24/02]	Reading Cetrorelix_ddi.xml
+[18:51:03 24/02]	Reading Cetuximab_ddi.xml
+[18:51:03 24/02]	Reading Cevimeline_ddi.xml
+[18:51:03 24/02]	Reading Chlorambucil_ddi.xml
+[18:51:03 24/02]	Reading Chlordiazepoxide_ddi.xml
+[18:51:03 24/02]	Reading Chloroprocaine_ddi.xml
+[18:51:03 24/02]	Reading Chloroquine_ddi.xml
+[18:51:03 24/02]	Reading Chlorothiazide_ddi.xml
+[18:51:03 24/02]	Reading Chlorotrianisene_ddi.xml
+[18:51:03 24/02]	Reading Chloroxine_ddi.xml
+[18:51:03 24/02]	Reading Chlorpheniramine_ddi.xml
+[18:51:03 24/02]	Reading Chlorpromazine_ddi.xml
+[18:51:03 24/02]	Reading Chlorpropamide_ddi.xml
+[18:51:03 24/02]	Reading Chlorprothixene_ddi.xml
+[18:51:03 24/02]	Reading Chlorthalidone_ddi.xml
+[18:51:03 24/02]	Reading Chlorzoxazone_ddi.xml
+[18:51:03 24/02]	Reading Cholecalciferol_ddi.xml
+[18:51:03 24/02]	Reading Cholestyramine_ddi.xml
+[18:51:03 24/02]	Reading Ciclesonide_ddi.xml
+[18:51:03 24/02]	Reading Cidofovir_ddi.xml
+[18:51:03 24/02]	Reading Cilostazol_ddi.xml
+[18:51:03 24/02]	Reading Cimetidine_ddi.xml
+[18:51:03 24/02]	Reading Cinacalcet_ddi.xml
+[18:51:03 24/02]	Reading Cinoxacin_ddi.xml
+[18:51:03 24/02]	Reading Ciprofloxacin_ddi.xml
+[18:51:03 24/02]	Reading Cisapride_ddi.xml
+[18:51:03 24/02]	Reading Cisatracurium Besylate_ddi.xml
+[18:51:03 24/02]	Reading Cisplatin_ddi.xml
+[18:51:03 24/02]	Reading Citalopram_ddi.xml
+[18:51:03 24/02]	Reading Cladribine_ddi.xml
+[18:51:03 24/02]	Reading Clavulanate_ddi.xml
+[18:51:03 24/02]	Reading Clemastine_ddi.xml
+[18:51:03 24/02]	Reading Clidinium_ddi.xml
+[18:51:03 24/02]	Reading Clindamycin_ddi.xml
+[18:51:03 24/02]	Reading Clobazam_ddi.xml
+[18:51:03 24/02]	Reading Clobetasol_ddi.xml
+[18:51:03 24/02]	Reading Clofarabine_ddi.xml
+[18:51:03 24/02]	Reading Clofazimine_ddi.xml
+[18:51:03 24/02]	Reading Clofibrate_ddi.xml
+[18:51:03 24/02]	Reading Clomifene_ddi.xml
+[18:51:03 24/02]	Reading Clomipramine_ddi.xml
+[18:51:03 24/02]	Reading Clonazepam_ddi.xml
+[18:51:03 24/02]	Reading Clonidine_ddi.xml
+[18:51:03 24/02]	Reading Clopidogrel_ddi.xml
+[18:51:03 24/02]	Reading Clorazepate_ddi.xml
+[18:51:03 24/02]	Reading Clozapine_ddi.xml
+[18:51:03 24/02]	Reading Coagulation factor VIIa_ddi.xml
+[18:51:03 24/02]	Reading Codeine_ddi.xml
+[18:51:03 24/02]	Reading Colchicine_ddi.xml
+[18:51:03 24/02]	Reading Colesevelam_ddi.xml
+[18:51:03 24/02]	Reading Colestipol_ddi.xml
+[18:51:03 24/02]	Reading Colistimethate_ddi.xml
+[18:51:03 24/02]	Reading Conivaptan_ddi.xml
+[18:51:03 24/02]	Reading Conjugated Estrogens_ddi.xml
+[18:51:03 24/02]	Reading Corticotropin_ddi.xml
+[18:51:03 24/02]	Reading Cortisone acetate_ddi.xml
+[18:51:03 24/02]	Reading Cosyntropin_ddi.xml
+[18:51:03 24/02]	Reading Cromoglicate_ddi.xml
+[18:51:03 24/02]	Reading Crotamiton_ddi.xml
+[18:51:03 24/02]	Reading Cyanocobalamin_ddi.xml
+[18:51:03 24/02]	Reading Cyclobenzaprine_ddi.xml
+[18:51:03 24/02]	Reading Cyclopentolate_ddi.xml
+[18:51:03 24/02]	Reading Cyclophosphamide_ddi.xml
+[18:51:03 24/02]	Reading Cycloserine_ddi.xml
+[18:51:03 24/02]	Reading Cyproheptadine_ddi.xml
+[18:51:03 24/02]	Reading Cysteamine_ddi.xml
+[18:51:03 24/02]	Reading Cytarabine_ddi.xml
+[18:51:03 24/02]	Reading Dactinomycin_ddi.xml
+[18:51:03 24/02]	Reading Dantrolene_ddi.xml
+[18:51:03 24/02]	Reading Dapsone_ddi.xml
+[18:51:03 24/02]	Reading Daptomycin_ddi.xml
+[18:51:03 24/02]	Reading Darbepoetin alfa_ddi.xml
+[18:51:03 24/02]	Reading Darifenacin_ddi.xml
+[18:51:03 24/02]	Reading Dasatinib_ddi.xml
+[18:51:03 24/02]	Reading Daunorubicin_ddi.xml
+[18:51:03 24/02]	Reading Decamethonium_ddi.xml
+[18:51:03 24/02]	Reading Decitabine_ddi.xml
+[18:51:03 24/02]	Reading Deferasirox_ddi.xml
+[18:51:03 24/02]	Reading Delavirdine_ddi.xml
+[18:51:03 24/02]	Reading Demecarium bromide_ddi.xml
+[18:51:03 24/02]	Reading Demeclocycline_ddi.xml
+[18:51:03 24/02]	Reading Denileukin diftitox_ddi.xml
+[18:51:03 24/02]	Reading Deserpidine_ddi.xml
+[18:51:03 24/02]	Reading Desflurane_ddi.xml
+[18:51:03 24/02]	Reading Desipramine_ddi.xml
+[18:51:03 24/02]	Reading Desloratadine_ddi.xml
+[18:51:03 24/02]	Reading Desmopressin_ddi.xml
+[18:51:03 24/02]	Reading Desogestrel_ddi.xml
+[18:51:03 24/02]	Reading Desoximetasone_ddi.xml
+[18:51:03 24/02]	Reading Dexamethasone_ddi.xml
+[18:51:03 24/02]	Reading Dexbrompheniramine_ddi.xml
+[18:51:03 24/02]	Reading Dexfenfluramine_ddi.xml
+[18:51:03 24/02]	Reading Dexmedetomidine_ddi.xml
+[18:51:03 24/02]	Reading Dexrazoxane_ddi.xml
+[18:51:03 24/02]	Reading Dextroamphetamine_ddi.xml
+[18:51:03 24/02]	Reading Dezocine_ddi.xml
+[18:51:03 24/02]	Reading Diatrizoate_ddi.xml
+[18:51:03 24/02]	Reading Dichlorphenamide_ddi.xml
+[18:51:03 24/02]	Reading Diclofenac_ddi.xml
+[18:51:03 24/02]	Reading Dicloxacillin_ddi.xml
+[18:51:03 24/02]	Reading Dicyclomine_ddi.xml
+[18:51:03 24/02]	Reading Didanosine_ddi.xml
+[18:51:03 24/02]	Reading Dienestrol_ddi.xml
+[18:51:03 24/02]	Reading Diethylpropion_ddi.xml
+[18:51:03 24/02]	Reading Diethylstilbestrol_ddi.xml
+[18:51:03 24/02]	Reading Diflunisal_ddi.xml
+[18:51:03 24/02]	Reading Digoxin_ddi.xml
+[18:51:03 24/02]	Reading Dihydroergotamine_ddi.xml
+[18:51:03 24/02]	Reading Dihydrotachysterol_ddi.xml
+[18:51:03 24/02]	Reading Diltiazem_ddi.xml
+[18:51:03 24/02]	Reading Dimenhydrinate_ddi.xml
+[18:51:03 24/02]	Reading Dinoprost Tromethamine_ddi.xml
+[18:51:03 24/02]	Reading Dinoprostone_ddi.xml
+[18:51:03 24/02]	Reading Diphenhydramine_ddi.xml
+[18:51:03 24/02]	Reading Diphenidol_ddi.xml
+[18:51:03 24/02]	Reading Diphenoxylate_ddi.xml
+[18:51:03 24/02]	Reading Diphenylpyraline_ddi.xml
+[18:51:03 24/02]	Reading Dipyridamole_ddi.xml
+[18:51:03 24/02]	Reading Dirithromycin_ddi.xml
+[18:51:03 24/02]	Reading Disopyramide_ddi.xml
+[18:51:03 24/02]	Reading Disulfiram_ddi.xml
+[18:51:03 24/02]	Reading Dobutamine_ddi.xml
+[18:51:03 24/02]	Reading Docetaxel_ddi.xml
+[18:51:03 24/02]	Reading Dofetilide_ddi.xml
+[18:51:03 24/02]	Reading Dolasetron_ddi.xml
+[18:51:03 24/02]	Reading Donepezil_ddi.xml
+[18:51:03 24/02]	Reading Dopamine_ddi.xml
+[18:51:03 24/02]	Reading Dornase Alfa_ddi.xml
+[18:51:03 24/02]	Reading Dorzolamide_ddi.xml
+[18:51:03 24/02]	Reading Doxacurium chloride_ddi.xml
+[18:51:03 24/02]	Reading Doxapram_ddi.xml
+[18:51:03 24/02]	Reading Doxazosin_ddi.xml
+[18:51:03 24/02]	Reading Doxepin_ddi.xml
+[18:51:03 24/02]	Reading Doxorubicin_ddi.xml
+[18:51:03 24/02]	Reading Doxycycline_ddi.xml
+[18:51:03 24/02]	Reading Doxylamine_ddi.xml
+[18:51:03 24/02]	Reading Dromostanolone_ddi.xml
+[18:51:03 24/02]	Reading Droperidol_ddi.xml
+[18:51:03 24/02]	Reading Drotrecogin alfa_ddi.xml
+[18:51:03 24/02]	Reading Duloxetine_ddi.xml
+[18:51:03 24/02]	Reading Dyphylline_ddi.xml
+[18:51:03 24/02]	Reading Echothiophate Iodide_ddi.xml
+[18:51:03 24/02]	Reading Eculizumab_ddi.xml
+[18:51:03 24/02]	Reading Edetic Acid_ddi.xml
+[18:51:03 24/02]	Reading Edrophonium_ddi.xml
+[18:51:03 24/02]	Reading Efalizumab_ddi.xml
+[18:51:03 24/02]	Reading Efavirenz_ddi.xml
+[18:51:03 24/02]	Reading Emtricitabine_ddi.xml
+[18:51:03 24/02]	Reading Enalapril_ddi.xml
+[18:51:03 24/02]	Reading Enflurane_ddi.xml
+[18:51:03 24/02]	Reading Enfuvirtide_ddi.xml
+[18:51:03 24/02]	Reading Enoxacin_ddi.xml
+[18:51:03 24/02]	Reading Enoxaparin_ddi.xml
+[18:51:03 24/02]	Reading Entacapone_ddi.xml
+[18:51:03 24/02]	Reading Entecavir_ddi.xml
+[18:51:03 24/02]	Reading Epinastine_ddi.xml
+[18:51:03 24/02]	Reading Epinephrine_ddi.xml
+[18:51:03 24/02]	Reading Epirubicin_ddi.xml
+[18:51:03 24/02]	Reading Eplerenone_ddi.xml
+[18:51:03 24/02]	Reading Epoetin alfa_ddi.xml
+[18:51:03 24/02]	Reading Epoprostenol_ddi.xml
+[18:51:03 24/02]	Reading Eprosartan_ddi.xml
+[18:51:03 24/02]	Reading Eptifibatide_ddi.xml
+[18:51:03 24/02]	Reading Ergocalciferol_ddi.xml
+[18:51:03 24/02]	Reading Ergoloid mesylate_ddi.xml
+[18:51:03 24/02]	Reading Ergotamine_ddi.xml
+[18:51:03 24/02]	Reading Erlotinib_ddi.xml
+[18:51:03 24/02]	Reading Ertapenem_ddi.xml
+[18:51:03 24/02]	Reading Erythromycin_ddi.xml
+[18:51:03 24/02]	Reading Escitalopram_ddi.xml
+[18:51:03 24/02]	Reading Esmolol_ddi.xml
+[18:51:03 24/02]	Reading Esomeprazole_ddi.xml
+[18:51:03 24/02]	Reading Estazolam_ddi.xml
+[18:51:03 24/02]	Reading Estradiol_ddi.xml
+[18:51:03 24/02]	Reading Estramustine_ddi.xml
+[18:51:03 24/02]	Reading Eszopiclone_ddi.xml
+[18:51:03 24/02]	Reading Etanercept_ddi.xml
+[18:51:03 24/02]	Reading Ethacrynic acid_ddi.xml
+[18:51:03 24/02]	Reading Ethambutol_ddi.xml
+[18:51:03 24/02]	Reading Ethchlorvynol_ddi.xml
+[18:51:03 24/02]	Reading Ethinamate_ddi.xml
+[18:51:03 24/02]	Reading Ethinyl Estradiol_ddi.xml
+[18:51:03 24/02]	Reading Ethionamide_ddi.xml
+[18:51:03 24/02]	Reading Ethopropazine_ddi.xml
+[18:51:03 24/02]	Reading Ethosuximide_ddi.xml
+[18:51:03 24/02]	Reading Ethotoin_ddi.xml
+[18:51:03 24/02]	Reading Ethoxzolamide_ddi.xml
+[18:51:03 24/02]	Reading Ethynodiol Diacetate_ddi.xml
+[18:51:03 24/02]	Reading Etidronic acid_ddi.xml
+[18:51:03 24/02]	Reading Etodolac_ddi.xml
+[18:51:03 24/02]	Reading Etomidate_ddi.xml
+[18:51:03 24/02]	Reading Etonogestrel_ddi.xml
+[18:51:03 24/02]	Reading Etoposide_ddi.xml
+[18:51:03 24/02]	Reading Exemestane_ddi.xml
+[18:51:03 24/02]	Reading Famciclovir_ddi.xml
+[18:51:03 24/02]	Reading Famotidine_ddi.xml
+[18:51:03 24/02]	Reading Felbamate_ddi.xml
+[18:51:03 24/02]	Reading Felodipine_ddi.xml
+[18:51:03 24/02]	Reading Fenfluramine_ddi.xml
+[18:51:03 24/02]	Reading Fenofibrate_ddi.xml
+[18:51:03 24/02]	Reading Fenoldopam_ddi.xml
+[18:51:03 24/02]	Reading Fenoprofen_ddi.xml
+[18:51:03 24/02]	Reading Fentanyl_ddi.xml
+[18:51:03 24/02]	Reading Fexofenadine_ddi.xml
+[18:51:03 24/02]	Reading Filgrastim_ddi.xml
+[18:51:03 24/02]	Reading Finasteride_ddi.xml
+[18:51:03 24/02]	Reading Flecainide_ddi.xml
+[18:51:03 24/02]	Reading Floxuridine_ddi.xml
+[18:51:03 24/02]	Reading Flucytosine_ddi.xml
+[18:51:03 24/02]	Reading Fludarabine_ddi.xml
+[18:51:03 24/02]	Reading Fludrocortisone_ddi.xml
+[18:51:03 24/02]	Reading Flumazenil_ddi.xml
+[18:51:03 24/02]	Reading Fluorouracil_ddi.xml
+[18:51:03 24/02]	Reading Fluoxetine_ddi.xml
+[18:51:03 24/02]	Reading Fluoxymesterone_ddi.xml
+[18:51:03 24/02]	Reading Flupenthixol_ddi.xml
+[18:51:03 24/02]	Reading Flurbiprofen_ddi.xml
+[18:51:03 24/02]	Reading Flutamide_ddi.xml
+[18:51:03 24/02]	Reading Fluvoxamine_ddi.xml
+[18:51:03 24/02]	Reading Folic Acid_ddi.xml
+[18:51:03 24/02]	Reading Follitropin beta_ddi.xml
+[18:51:03 24/02]	Reading Fomepizole_ddi.xml
+[18:51:03 24/02]	Reading Fondaparinux sodium_ddi.xml
+[18:51:03 24/02]	Reading Formoterol_ddi.xml
+[18:51:03 24/02]	Reading Foscarnet_ddi.xml
+[18:51:03 24/02]	Reading Fosfomycin_ddi.xml
+[18:51:03 24/02]	Reading Fosinopril_ddi.xml
+[18:51:03 24/02]	Reading Fosphenytoin_ddi.xml
+[18:51:04 24/02]	Reading Frovatriptan_ddi.xml
+[18:51:04 24/02]	Reading Fulvestrant_ddi.xml
+[18:51:04 24/02]	Reading Furosemide_ddi.xml
+[18:51:04 24/02]	Reading Gabapentin_ddi.xml
+[18:51:04 24/02]	Reading Gadodiamide_ddi.xml
+[18:51:04 24/02]	Reading Galsulfase_ddi.xml
+[18:51:04 24/02]	Reading Ganciclovir_ddi.xml
+[18:51:04 24/02]	Reading Gefitinib_ddi.xml
+[18:51:04 24/02]	Reading Gemcitabine_ddi.xml
+[18:51:04 24/02]	Reading Gemfibrozil_ddi.xml
+[18:51:04 24/02]	Reading Gemifloxacin_ddi.xml
+[18:51:04 24/02]	Reading Gemtuzumab ozogamicin_ddi.xml
+[18:51:04 24/02]	Reading Glatiramer Acetate_ddi.xml
+[18:51:04 24/02]	Reading Glibenclamide_ddi.xml
+[18:51:04 24/02]	Reading Glimepiride_ddi.xml
+[18:51:04 24/02]	Reading Glipizide_ddi.xml
+[18:51:04 24/02]	Reading Glycopyrrolate_ddi.xml
+[18:51:04 24/02]	Reading Gonadorelin_ddi.xml
+[18:51:04 24/02]	Reading Goserelin_ddi.xml
+[18:51:04 24/02]	Reading Grepafloxacin_ddi.xml
+[18:51:04 24/02]	Reading Griseofulvin_ddi.xml
+[18:51:04 24/02]	Reading Guaifenesin_ddi.xml
+[18:51:04 24/02]	Reading Guanethidine_ddi.xml
+[18:51:04 24/02]	Reading Guanfacine_ddi.xml
+[18:51:04 24/02]	Reading Haloperidol_ddi.xml
+[18:51:04 24/02]	Reading Halothane_ddi.xml
+[18:51:04 24/02]	Reading Heparin_ddi.xml
+[18:51:04 24/02]	Reading Heroin_ddi.xml
+[18:51:04 24/02]	Reading Hexachlorophene_ddi.xml
+[18:51:04 24/02]	Reading Hexobarbital_ddi.xml
+[18:51:04 24/02]	Reading Hydralazine_ddi.xml
+[18:51:04 24/02]	Reading Hydrochlorothiazide_ddi.xml
+[18:51:04 24/02]	Reading Hydrocodone_ddi.xml
+[18:51:04 24/02]	Reading Hydrocortisone_ddi.xml
+[18:51:04 24/02]	Reading Hydroflumethiazide_ddi.xml
+[18:51:04 24/02]	Reading Hydromorphone_ddi.xml
+[18:51:04 24/02]	Reading Hydroxocobalamin_ddi.xml
+[18:51:04 24/02]	Reading Hydroxyurea_ddi.xml
+[18:51:04 24/02]	Reading Hydroxyzine_ddi.xml
+[18:51:04 24/02]	Reading Hyoscyamine_ddi.xml
+[18:51:04 24/02]	Reading Ibandronate_ddi.xml
+[18:51:04 24/02]	Reading Ibritumomab_ddi.xml
+[18:51:04 24/02]	Reading Ibuprofen_ddi.xml
+[18:51:04 24/02]	Reading Ibutilide_ddi.xml
+[18:51:04 24/02]	Reading Icodextrin_ddi.xml
+[18:51:04 24/02]	Reading Icosapent_ddi.xml
+[18:51:04 24/02]	Reading Idoxuridine_ddi.xml
+[18:51:04 24/02]	Reading Ifosfamide_ddi.xml
+[18:51:04 24/02]	Reading Iloprost_ddi.xml
+[18:51:04 24/02]	Reading Imatinib_ddi.xml
+[18:51:04 24/02]	Reading Imipramine_ddi.xml
+[18:51:04 24/02]	Reading Imiquimod_ddi.xml
+[18:51:04 24/02]	Reading Indinavir_ddi.xml
+[18:51:04 24/02]	Reading Indomethacin_ddi.xml
+[18:51:04 24/02]	Reading Infliximab_ddi.xml
+[18:51:04 24/02]	Reading Insulin Glargine recombinant_ddi.xml
+[18:51:04 24/02]	Reading Insulin recombinant_ddi.xml
+[18:51:04 24/02]	Reading Interferon beta-1a_ddi.xml
+[18:51:04 24/02]	Reading Interferon beta-1b_ddi.xml
+[18:51:04 24/02]	Reading Ipratropium_ddi.xml
+[18:51:04 24/02]	Reading Irbesartan_ddi.xml
+[18:51:04 24/02]	Reading Irinotecan_ddi.xml
+[18:51:04 24/02]	Reading Isocarboxazid_ddi.xml
+[18:51:04 24/02]	Reading Isoetharine_ddi.xml
+[18:51:04 24/02]	Reading Isoflurane_ddi.xml
+[18:51:04 24/02]	Reading Isoniazid_ddi.xml
+[18:51:04 24/02]	Reading Isoproterenol_ddi.xml
+[18:51:04 24/02]	Reading Isosorbide Dinitrate_ddi.xml
+[18:51:04 24/02]	Reading Isosorbide Mononitrate_ddi.xml
+[18:51:04 24/02]	Reading Isotretinoin_ddi.xml
+[18:51:04 24/02]	Reading Isradipine_ddi.xml
+[18:51:04 24/02]	Reading Itraconazole_ddi.xml
+[18:51:04 24/02]	Reading Kanamycin_ddi.xml
+[18:51:04 24/02]	Reading Ketamine_ddi.xml
+[18:51:04 24/02]	Reading Ketoconazole_ddi.xml
+[18:51:04 24/02]	Reading Ketoprofen_ddi.xml
+[18:51:04 24/02]	Reading Ketorolac_ddi.xml
+[18:51:04 24/02]	Reading L-Arginine_ddi.xml
+[18:51:04 24/02]	Reading L-Aspartic Acid_ddi.xml
+[18:51:04 24/02]	Reading L-Carnitine_ddi.xml
+[18:51:04 24/02]	Reading L-Glutamic Acid_ddi.xml
+[18:51:04 24/02]	Reading L-Glutamine_ddi.xml
+[18:51:04 24/02]	Reading L-Histidine_ddi.xml
+[18:51:04 24/02]	Reading L-Lysine_ddi.xml
+[18:51:04 24/02]	Reading L-Methionine_ddi.xml
+[18:51:04 24/02]	Reading L-Phenylalanine_ddi.xml
+[18:51:04 24/02]	Reading L-Tryptophan_ddi.xml
+[18:51:04 24/02]	Reading L-Tyrosine_ddi.xml
+[18:51:04 24/02]	Reading Labetalol_ddi.xml
+[18:51:04 24/02]	Reading Lactulose_ddi.xml
+[18:51:04 24/02]	Reading Lamivudine_ddi.xml
+[18:51:04 24/02]	Reading Lansoprazole_ddi.xml
+[18:51:04 24/02]	Reading Lapatinib_ddi.xml
+[18:51:04 24/02]	Reading Laronidase_ddi.xml
+[18:51:04 24/02]	Reading Latanoprost_ddi.xml
+[18:51:04 24/02]	Reading Leflunomide_ddi.xml
+[18:51:04 24/02]	Reading Lenalidomide_ddi.xml
+[18:51:04 24/02]	Reading Lepirudin_ddi.xml
+[18:51:04 24/02]	Reading Letrozole_ddi.xml
+[18:51:04 24/02]	Reading Leucovorin_ddi.xml
+[18:51:04 24/02]	Reading Levamisole_ddi.xml
+[18:51:04 24/02]	Reading Levetiracetam_ddi.xml
+[18:51:04 24/02]	Reading Levobunolol_ddi.xml
+[18:51:04 24/02]	Reading Levobupivacaine_ddi.xml
+[18:51:04 24/02]	Reading Levofloxacin_ddi.xml
+[18:51:04 24/02]	Reading Levorphanol_ddi.xml
+[18:51:04 24/02]	Reading Levosimendan_ddi.xml
+[18:51:04 24/02]	Reading Levothyroxine_ddi.xml
+[18:51:04 24/02]	Reading Lidocaine_ddi.xml
+[18:51:04 24/02]	Reading Lincomycin_ddi.xml
+[18:51:04 24/02]	Reading Lindane_ddi.xml
+[18:51:04 24/02]	Reading Linezolid_ddi.xml
+[18:51:04 24/02]	Reading Liothyronine_ddi.xml
+[18:51:04 24/02]	Reading Lisdexamfetamine_ddi.xml
+[18:51:04 24/02]	Reading Lisinopril_ddi.xml
+[18:51:04 24/02]	Reading Lofexidine_ddi.xml
+[18:51:04 24/02]	Reading Lomefloxacin_ddi.xml
+[18:51:04 24/02]	Reading Loperamide_ddi.xml
+[18:51:04 24/02]	Reading Loracarbef_ddi.xml
+[18:51:04 24/02]	Reading Loratadine_ddi.xml
+[18:51:04 24/02]	Reading Lorazepam_ddi.xml
+[18:51:04 24/02]	Reading Losartan_ddi.xml
+[18:51:04 24/02]	Reading Lovastatin_ddi.xml
+[18:51:04 24/02]	Reading Loxapine_ddi.xml
+[18:51:04 24/02]	Reading Lymecycline_ddi.xml
+[18:51:04 24/02]	Reading Meclofenamic acid_ddi.xml
+[18:51:04 24/02]	Reading Mefenamic acid_ddi.xml
+[18:51:04 24/02]	Reading Mefloquine_ddi.xml
+[18:51:04 24/02]	Reading Menadione_ddi.xml
+[18:51:04 24/02]	Reading Nabilone_ddi.xml
+[18:51:04 24/02]	Reading Nabumetone_ddi.xml
+[18:51:04 24/02]	Reading Nadolol_ddi.xml
+[18:51:04 24/02]	Reading Nafarelin_ddi.xml
+[18:51:04 24/02]	Reading Nafcillin_ddi.xml
+[18:51:04 24/02]	Reading Nalbuphine_ddi.xml
+[18:51:04 24/02]	Reading Nalidixic Acid_ddi.xml
+[18:51:04 24/02]	Reading Naltrexone_ddi.xml
+[18:51:04 24/02]	Reading Naproxen_ddi.xml
+[18:51:04 24/02]	Reading Naratriptan_ddi.xml
+[18:51:04 24/02]	Reading Natalizumab_ddi.xml
+[18:51:04 24/02]	Reading Nateglinide_ddi.xml
+[18:51:04 24/02]	Reading Nedocromil_ddi.xml
+[18:51:04 24/02]	Reading Nelfinavir_ddi.xml
+[18:51:04 24/02]	Reading Neomycin_ddi.xml
+[18:51:04 24/02]	Reading Neostigmine_ddi.xml
+[18:51:04 24/02]	Reading Nesiritide_ddi.xml
+[18:51:04 24/02]	Reading Netilmicin_ddi.xml
+[18:51:04 24/02]	Reading Nevirapine_ddi.xml
+[18:51:04 24/02]	Reading Niacin_ddi.xml
+[18:51:04 24/02]	Reading Nicardipine_ddi.xml
+[18:51:04 24/02]	Reading Nicotine_ddi.xml
+[18:51:04 24/02]	Reading Nifedipine_ddi.xml
+[18:51:04 24/02]	Reading Nilutamide_ddi.xml
+[18:51:04 24/02]	Reading Nimodipine_ddi.xml
+[18:51:04 24/02]	Reading Nisoldipine_ddi.xml
+[18:51:04 24/02]	Reading Nitazoxanide_ddi.xml
+[18:51:04 24/02]	Reading Nitric Oxide_ddi.xml
+[18:51:04 24/02]	Reading Nitrofurantoin_ddi.xml
+[18:51:04 24/02]	Reading Nitroglycerin_ddi.xml
+[18:51:04 24/02]	Reading Nitroprusside_ddi.xml
+[18:51:04 24/02]	Reading Nizatidine_ddi.xml
+[18:51:04 24/02]	Reading Norethindrone_ddi.xml
+[18:51:04 24/02]	Reading Norfloxacin_ddi.xml
+[18:51:04 24/02]	Reading Norgestimate_ddi.xml
+[18:51:04 24/02]	Reading Nortriptyline_ddi.xml
+[18:51:04 24/02]	Reading Oxcarbazepine_ddi.xml
+[18:51:04 24/02]	Reading Paclitaxel_ddi.xml
+[18:51:04 24/02]	Reading Peginterferon alfa-2a_ddi.xml
+[18:51:04 24/02]	Reading Piperacillin_ddi.xml
+[18:51:04 24/02]	Reading Piperazine_ddi.xml
+[18:51:04 24/02]	Reading Rofecoxib_ddi.xml
+[18:51:04 24/02]	Reading Saquinavir_ddi.xml
+[18:51:04 24/02]	Reading Sulfacetamide_ddi.xml
+[18:51:04 24/02]	Reading Sulfapyridine_ddi.xml
+[18:51:04 24/02]	Reading Tiagabine_ddi.xml
+[18:51:04 24/02]	Reading Valdecoxib_ddi.xml
+[18:51:04 24/02]	Reading Vardenafil_ddi.xml
+[18:51:04 24/02]	Reading Zalcitabine_ddi.xml
+[18:51:04 24/02]	Reading Zaleplon_ddi.xml
+[18:51:04 24/02]	Reading 10150268.xml
+[18:51:04 24/02]	Reading 10226677.xml
+[18:51:04 24/02]	Reading 10319155.xml
+[18:51:04 24/02]	Reading 1089034.xml
+[18:51:04 24/02]	Reading 1089817.xml
+[18:51:04 24/02]	Reading 10959916.xml
+[18:51:04 24/02]	Reading 10978746.xml
+[18:51:04 24/02]	Reading 10978751.xml
+[18:51:04 24/02]	Reading 11064383.xml
+[18:51:04 24/02]	Reading 11085305.xml
+[18:51:04 24/02]	Reading 11085328.xml
+[18:51:04 24/02]	Reading 11085333.xml
+[18:51:04 24/02]	Reading 11085336.xml
+[18:51:04 24/02]	Reading 1109248.xml
+[18:51:04 24/02]	Reading 1109299.xml
+[18:51:04 24/02]	Reading 1109556.xml
+[18:51:04 24/02]	Reading 11114408.xml
+[18:51:04 24/02]	Reading 11115418.xml
+[18:51:04 24/02]	Reading 11120981.xml
+[18:51:04 24/02]	Reading 11121387.xml
+[18:51:04 24/02]	Reading 11121884.xml
+[18:51:04 24/02]	Reading 11125022.xml
+[18:51:04 24/02]	Reading 11125235.xml
+[18:51:04 24/02]	Reading 1113260.xml
+[18:51:04 24/02]	Reading 11134454.xml
+[18:51:04 24/02]	Reading 11137320.xml
+[18:51:04 24/02]	Reading 11137351.xml
+[18:51:04 24/02]	Reading 11137650.xml
+[18:51:04 24/02]	Reading 11137703.xml
+[18:51:04 24/02]	Reading 11144988.xml
+[18:51:04 24/02]	Reading 11148572.xml
+[18:51:04 24/02]	Reading 11151029.xml
+[18:51:04 24/02]	Reading 11152438.xml
+[18:51:04 24/02]	Reading 11152855.xml
+[18:51:04 24/02]	Reading 1115340.xml
+[18:51:04 24/02]	Reading 1115367.xml
+[18:51:04 24/02]	Reading 1115445.xml
+[18:51:04 24/02]	Reading 11154900.xml
+[18:51:04 24/02]	Reading 11155575.xml
+[18:51:04 24/02]	Reading 1115721.xml
+[18:51:04 24/02]	Reading 11158747.xml
+[18:51:04 24/02]	Reading 11160777.xml
+[18:51:04 24/02]	Reading 1116650.xml
+[18:51:04 24/02]	Reading 11166779.xml
+[18:51:04 24/02]	Reading 11170315.xml
+[18:51:04 24/02]	Reading 11172561.xml
+[18:51:04 24/02]	Reading 11178969.xml
+[18:51:04 24/02]	Reading 11180036.xml
+[18:51:04 24/02]	Reading 11180037.xml
+[18:51:04 24/02]	Reading 11180038.xml
+[18:51:04 24/02]	Reading 11180040.xml
+[18:51:04 24/02]	Reading 11181395.xml
+[18:51:04 24/02]	Reading 11197581.xml
+[18:51:04 24/02]	Reading 11197767.xml
+[18:51:04 24/02]	Reading 11197768.xml
+[18:51:04 24/02]	Reading 11198959.xml
+[18:51:04 24/02]	Reading 11199955.xml
+[18:51:04 24/02]	Reading 11206047.xml
+[18:51:04 24/02]	Reading 11206048.xml
+[18:51:04 24/02]	Reading 11206187.xml
+[18:51:04 24/02]	Reading 11206417.xml
+[18:51:04 24/02]	Reading 11210403.xml
+[18:51:04 24/02]	Reading 11210404.xml
+[18:51:04 24/02]	Reading 11210678.xml
+[18:51:04 24/02]	Reading 11211460.xml
+[18:51:04 24/02]	Reading 11213358.xml
+[18:51:04 24/02]	Reading 11213561.xml
+[18:51:04 24/02]	Reading 11213850.xml
+[18:51:04 24/02]	Reading 11217867.xml
+[18:51:04 24/02]	Reading 11217868.xml
+[18:51:04 24/02]	Reading 11218973.xml
+[18:51:04 24/02]	Reading 11219023.xml
+[18:51:04 24/02]	Reading 11219477.xml
+[18:51:04 24/02]	Reading 11271411.xml
+[18:51:04 24/02]	Reading 1167743.xml
+[18:51:04 24/02]	Reading 1167797.xml
+[18:51:04 24/02]	Reading 15825309.xml
+[18:51:04 24/02]	Reading 15825391.xml
+[18:51:04 24/02]	Reading 15825399.xml
+[18:51:04 24/02]	Reading 15830476.xml
+[18:51:04 24/02]	Reading 15986716.xml
+[18:51:04 24/02]	Reading 163470.xml
+[18:51:04 24/02]	Reading 16649322.xml
+[18:51:04 24/02]	Reading 16649344.xml
+[18:51:04 24/02]	Reading 17894105.xml
+[18:51:04 24/02]	Reading 19489169.xml
+[18:51:04 24/02]	Reading 2578306.xml
+[18:51:04 24/02]	Reading 2578597.xml
+[18:51:04 24/02]	Reading 2857099.xml
+[18:51:04 24/02]	Reading 2857100.xml
+[18:51:04 24/02]	Reading 2857198.xml
+[18:51:04 24/02]	Reading 2857499.xml
+[18:51:04 24/02]	Reading 2981680.xml
+[18:51:04 24/02]	Reading 2981704.xml
+[18:51:04 24/02]	Reading 2982252.xml
+[18:51:04 24/02]	Reading 3155550.xml
+[18:51:04 24/02]	Reading 3871245.xml
+[18:51:04 24/02]	Reading 3871459.xml
+[18:51:04 24/02]	Reading 3881076.xml
+[18:51:04 24/02]	Reading 3881461.xml
+[18:51:04 24/02]	Reading 3881917.xml
+[18:51:04 24/02]	Reading 3918122.xml
+[18:51:04 24/02]	Reading 3964797.xml
+[18:51:04 24/02]	Reading 3966974.xml
+[18:51:04 24/02]	Reading 3967572.xml
+[18:51:04 24/02]	Reading 3968644.xml
+[18:51:04 24/02]	Reading 3969689.xml
+[18:51:04 24/02]	Reading 4038510.xml
+[18:51:04 24/02]	Reading 4469683.xml
+[18:51:04 24/02]	Reading 46730.xml
+[18:51:04 24/02]	Reading 6100190.xml
+[18:51:04 24/02]	Reading 6100240.xml
+[18:51:04 24/02]	Reading 6443625.xml
+[18:51:04 24/02]	Reading 6536282.xml
+[18:51:04 24/02]	Reading 6536292.xml
+[18:51:04 24/02]	Reading 6537219.xml
+[18:51:04 24/02]	Reading 6545279.xml
+[18:51:04 24/02]	Reading 6545985.xml
+[18:51:04 24/02]	Reading 7476793.xml
+[18:51:04 24/02]	Reading 7496198.xml
+[18:51:04 24/02]	Reading 7599505.xml
+[18:51:04 24/02]	Reading 7600639.xml
+[18:51:04 24/02]	Reading 7625885.xml
+[18:51:04 24/02]	Reading 7632757.xml
+[18:51:04 24/02]	Reading 7635041.xml
+[18:51:04 24/02]	Reading 7653281.xml
+[18:51:04 24/02]	Reading 7654327.xml
+[18:51:04 24/02]	Reading 7744123.xml
+[18:51:04 24/02]	Reading 7746025.xml
+[18:51:04 24/02]	Reading 7756960.xml
+[18:51:04 24/02]	Reading 7756965.xml
+[18:51:04 24/02]	Reading 7780789.xml
+[18:51:04 24/02]	Reading 7786695.xml
+[18:51:04 24/02]	Reading 7794883.xml
+[18:51:04 24/02]	Reading 7798493.xml
+[18:51:04 24/02]	Reading 8521984.xml
+[18:51:04 24/02]	Reading 8542840.xml
+[18:51:04 24/02]	Reading 8619063.xml
+[18:51:04 24/02]	Reading 8640374.xml
+[18:51:04 24/02]	Reading 8682269.xml
+[18:51:04 24/02]	Reading 8996605.xml
+[18:51:04 24/02]	Reading 9120829.xml
+[18:51:04 24/02]	Processing elements
+[18:51:04 24/02]	Dividing training set into folds
+[18:51:05 24/02]	Traceback (most recent call last):
+[18:51:05 24/02]	  File "convertDDI13.py", line 167, in <module>
+[18:51:05 24/02]	    convertDDI13(options.outdir, options.downloaddir, options.redownload, not options.noparses, options.parse, options.intermediateFiles, options.debug)
+[18:51:05 24/02]	  File "convertDDI13.py", line 122, in convertDDI13
+[18:51:05 24/02]	    assert insertParses == False
+[18:51:05 24/02]	AssertionError
+[18:51:40 24/02]	Opening log /home/jari/biotext/TEESBioNLP13/convertDDI13-130224-parsed/DDI13-conversion-log.txt at Sun Feb 24 18:51:40 2013
+####### Log opened at Sun Feb 24 18:51:40 2013 #######
+Command line: convertDDI13.py -o /home/jari/biotext/TEESBioNLP13/convertDDI13-130224-parsed --parse
+[18:51:40 24/02]	======================= Converting DDI'13 corpus =======================
+[18:51:40 24/02]	--------------- Downloading DDI'13 Shared Task files ---------------
+[18:51:40 24/02]	Skipping already downloaded file http://www.cs.york.ac.uk/semeval-2013/task9/data/uploads/datasets/train/semeval_task9_train.zip
+[18:51:40 24/02]	Extracting package /home/jari/.tees/corpora/download/semeval_task9_train.zip
+[18:51:40 24/02]	Redirected to file:///home/jari/biotext/TEESBioNLP13/DDI13-parses-130221.tar.gz
+[18:51:40 24/02]	Skipping already downloaded file /home/jari/biotext/TEESBioNLP13/DDI13-parses-130221.tar.gz
+[18:51:40 24/02]	Extracting package /home/jari/.tees/corpora/download/DDI13-parses-130221.tar.gz
+[18:51:41 24/02]	{'DDI13_TRAIN_TEES_PARSES': '/tmp/tmpLSXAhe/DDI13-parses-130221', 'DDI13_TRAIN': '/tmp/tmpLSXAhe/Train/'}
+[18:51:41 24/02]	Merging input XMLs
+[18:51:41 24/02]	Reading 19-norandrostenedione_ddi.xml
+[18:51:41 24/02]	Reading Abarelix_ddi.xml
+[18:51:41 24/02]	Reading Abatacept_ddi.xml
+[18:51:41 24/02]	Reading Abciximab_ddi.xml
+[18:51:41 24/02]	Reading Acamprosate_ddi.xml
+[18:51:41 24/02]	Reading Acarbose_ddi.xml
+[18:51:41 24/02]	Reading Acebutolol_ddi.xml
+[18:51:41 24/02]	Reading Acetazolamide_ddi.xml
+[18:51:41 24/02]	Reading Acetohydroxamic Acid_ddi.xml
+[18:51:41 24/02]	Reading Aciclovir_ddi.xml
+[18:51:41 24/02]	Reading Acitretin_ddi.xml
+[18:51:41 24/02]	Reading Adalimumab_ddi.xml
+[18:51:41 24/02]	Reading Adapalene_ddi.xml
+[18:51:41 24/02]	Reading Adefovir Dipivoxil_ddi.xml
+[18:51:41 24/02]	Reading Adenosine_ddi.xml
+[18:51:41 24/02]	Reading Adinazolam_ddi.xml
+[18:51:41 24/02]	Reading Agalsidase beta_ddi.xml
+[18:51:41 24/02]	Reading Albendazole_ddi.xml
+[18:51:41 24/02]	Reading Alclometasone_ddi.xml
+[18:51:41 24/02]	Reading Aldesleukin_ddi.xml
+[18:51:41 24/02]	Reading Alefacept_ddi.xml
+[18:51:41 24/02]	Reading Alemtuzumab_ddi.xml
+[18:51:41 24/02]	Reading Alendronate_ddi.xml
+[18:51:41 24/02]	Reading Alfentanil_ddi.xml
+[18:51:41 24/02]	Reading Alfuzosin_ddi.xml
+[18:51:41 24/02]	Reading Alglucosidase alfa_ddi.xml
+[18:51:41 24/02]	Reading Aliskiren_ddi.xml
+[18:51:41 24/02]	Reading Alitretinoin_ddi.xml
+[18:51:41 24/02]	Reading Allopurinol_ddi.xml
+[18:51:41 24/02]	Reading Almotriptan_ddi.xml
+[18:51:41 24/02]	Reading Alosetron_ddi.xml
+[18:51:41 24/02]	Reading Alprazolam_ddi.xml
+[18:51:41 24/02]	Reading Alprostadil_ddi.xml
+[18:51:41 24/02]	Reading Alteplase_ddi.xml
+[18:51:41 24/02]	Reading Altretamine_ddi.xml
+[18:51:41 24/02]	Reading Amantadine_ddi.xml
+[18:51:41 24/02]	Reading Amifostine_ddi.xml
+[18:51:41 24/02]	Reading Amiloride_ddi.xml
+[18:51:41 24/02]	Reading Aminocaproic Acid_ddi.xml
+[18:51:41 24/02]	Reading Aminoglutethimide_ddi.xml
+[18:51:41 24/02]	Reading Aminohippurate_ddi.xml
+[18:51:41 24/02]	Reading Aminolevulinic acid_ddi.xml
+[18:51:41 24/02]	Reading Aminosalicylic Acid_ddi.xml
+[18:51:41 24/02]	Reading Amiodarone_ddi.xml
+[18:51:41 24/02]	Reading Amitriptyline_ddi.xml
+[18:51:41 24/02]	Reading Amphotericin B_ddi.xml
+[18:51:41 24/02]	Reading Ampicillin_ddi.xml
+[18:51:41 24/02]	Reading Amprenavir_ddi.xml
+[18:51:41 24/02]	Reading Amyl Nitrite_ddi.xml
+[18:51:41 24/02]	Reading Anagrelide_ddi.xml
+[18:51:41 24/02]	Reading Anakinra_ddi.xml
+[18:51:41 24/02]	Reading Anastrozole_ddi.xml
+[18:51:41 24/02]	Reading Anidulafungin_ddi.xml
+[18:51:41 24/02]	Reading Anileridine_ddi.xml
+[18:51:41 24/02]	Reading Anisindione_ddi.xml
+[18:51:41 24/02]	Reading Apomorphine_ddi.xml
+[18:51:41 24/02]	Reading Apraclonidine_ddi.xml
+[18:51:41 24/02]	Reading Aprepitant_ddi.xml
+[18:51:41 24/02]	Reading Arbutamine_ddi.xml
+[18:51:41 24/02]	Reading Ardeparin_ddi.xml
+[18:51:41 24/02]	Reading Arformoterol_ddi.xml
+[18:51:41 24/02]	Reading Argatroban_ddi.xml
+[18:51:41 24/02]	Reading Aripiprazole_ddi.xml
+[18:51:41 24/02]	Reading Arsenic trioxide_ddi.xml
+[18:51:41 24/02]	Reading Asparaginase_ddi.xml
+[18:51:41 24/02]	Reading Aspirin_ddi.xml
+[18:51:41 24/02]	Reading Astemizole_ddi.xml
+[18:51:41 24/02]	Reading Atenolol_ddi.xml
+[18:51:41 24/02]	Reading Atomoxetine_ddi.xml
+[18:51:41 24/02]	Reading Atorvastatin_ddi.xml
+[18:51:41 24/02]	Reading Atovaquone_ddi.xml
+[18:51:41 24/02]	Reading Atracurium_ddi.xml
+[18:51:41 24/02]	Reading Atropine_ddi.xml
+[18:51:41 24/02]	Reading Auranofin_ddi.xml
+[18:51:41 24/02]	Reading Azacitidine_ddi.xml
+[18:51:41 24/02]	Reading Azatadine_ddi.xml
+[18:51:41 24/02]	Reading Azathioprine_ddi.xml
+[18:51:41 24/02]	Reading Azelaic Acid_ddi.xml
+[18:51:41 24/02]	Reading Azithromycin_ddi.xml
+[18:51:41 24/02]	Reading Azlocillin_ddi.xml
+[18:51:41 24/02]	Reading Baclofen_ddi.xml
+[18:51:41 24/02]	Reading Balsalazide_ddi.xml
+[18:51:41 24/02]	Reading Basiliximab_ddi.xml
+[18:51:41 24/02]	Reading Becaplermin_ddi.xml
+[18:51:41 24/02]	Reading Beclomethasone_ddi.xml
+[18:51:41 24/02]	Reading Benazepril_ddi.xml
+[18:51:41 24/02]	Reading Bendroflumethiazide_ddi.xml
+[18:51:41 24/02]	Reading Bentiromide_ddi.xml
+[18:51:41 24/02]	Reading Bentoquatam_ddi.xml
+[18:51:41 24/02]	Reading Benzocaine_ddi.xml
+[18:51:41 24/02]	Reading Benzphetamine_ddi.xml
+[18:51:41 24/02]	Reading Benzthiazide_ddi.xml
+[18:51:41 24/02]	Reading Benztropine_ddi.xml
+[18:51:41 24/02]	Reading Bepridil_ddi.xml
+[18:51:41 24/02]	Reading Betamethasone_ddi.xml
+[18:51:41 24/02]	Reading Betaxolol_ddi.xml
+[18:51:41 24/02]	Reading Bethanechol_ddi.xml
+[18:51:41 24/02]	Reading Bevacizumab_ddi.xml
+[18:51:41 24/02]	Reading Bexarotene_ddi.xml
+[18:51:41 24/02]	Reading Bezafibrate_ddi.xml
+[18:51:41 24/02]	Reading Bicalutamide_ddi.xml
+[18:51:41 24/02]	Reading Bimatoprost_ddi.xml
+[18:51:41 24/02]	Reading Biperiden_ddi.xml
+[18:51:41 24/02]	Reading Bisoprolol_ddi.xml
+[18:51:41 24/02]	Reading Bitolterol_ddi.xml
+[18:51:41 24/02]	Reading Bivalirudin_ddi.xml
+[18:51:41 24/02]	Reading Bleomycin_ddi.xml
+[18:51:41 24/02]	Reading Bortezomib_ddi.xml
+[18:51:41 24/02]	Reading Bosentan_ddi.xml
+[18:51:41 24/02]	Reading Botulinum Toxin Type A_ddi.xml
+[18:51:41 24/02]	Reading Botulinum Toxin Type B_ddi.xml
+[18:51:41 24/02]	Reading Bretylium_ddi.xml
+[18:51:41 24/02]	Reading Brimonidine_ddi.xml
+[18:51:41 24/02]	Reading Brinzolamide_ddi.xml
+[18:51:41 24/02]	Reading Bromocriptine_ddi.xml
+[18:51:41 24/02]	Reading Brompheniramine_ddi.xml
+[18:51:41 24/02]	Reading Buclizine_ddi.xml
+[18:51:41 24/02]	Reading Budesonide_ddi.xml
+[18:51:41 24/02]	Reading Bumetanide_ddi.xml
+[18:51:41 24/02]	Reading Bupivacaine_ddi.xml
+[18:51:41 24/02]	Reading Buprenorphine_ddi.xml
+[18:51:41 24/02]	Reading Bupropion_ddi.xml
+[18:51:41 24/02]	Reading Buspirone_ddi.xml
+[18:51:41 24/02]	Reading Busulfan_ddi.xml
+[18:51:41 24/02]	Reading Butabarbital_ddi.xml
+[18:51:41 24/02]	Reading Butalbital_ddi.xml
+[18:51:41 24/02]	Reading Butenafine_ddi.xml
+[18:51:41 24/02]	Reading Butorphanol_ddi.xml
+[18:51:41 24/02]	Reading Cabergoline_ddi.xml
+[18:51:41 24/02]	Reading Caffeine_ddi.xml
+[18:51:41 24/02]	Reading Calcidiol_ddi.xml
+[18:51:41 24/02]	Reading Calcitriol_ddi.xml
+[18:51:41 24/02]	Reading Calcium Acetate_ddi.xml
+[18:51:41 24/02]	Reading Calcium Gluceptate_ddi.xml
+[18:51:41 24/02]	Reading Candesartan_ddi.xml
+[18:51:41 24/02]	Reading Capecitabine_ddi.xml
+[18:51:41 24/02]	Reading Captopril_ddi.xml
+[18:51:41 24/02]	Reading Carbamazepine_ddi.xml
+[18:51:41 24/02]	Reading Carbenicillin_ddi.xml
+[18:51:41 24/02]	Reading Carbidopa_ddi.xml
+[18:51:41 24/02]	Reading Carbimazole_ddi.xml
+[18:51:41 24/02]	Reading Carbinoxamine_ddi.xml
+[18:51:41 24/02]	Reading Carboplatin_ddi.xml
+[18:51:41 24/02]	Reading Carboprost Tromethamine_ddi.xml
+[18:51:41 24/02]	Reading Carteolol_ddi.xml
+[18:51:41 24/02]	Reading Carvedilol_ddi.xml
+[18:51:41 24/02]	Reading Caspofungin_ddi.xml
+[18:51:41 24/02]	Reading Cefadroxil_ddi.xml
+[18:51:41 24/02]	Reading Cefazolin_ddi.xml
+[18:51:41 24/02]	Reading Cefdinir_ddi.xml
+[18:51:41 24/02]	Reading Cefditoren_ddi.xml
+[18:51:41 24/02]	Reading Cefepime_ddi.xml
+[18:51:41 24/02]	Reading Cefixime_ddi.xml
+[18:51:41 24/02]	Reading Cefotaxime_ddi.xml
+[18:51:41 24/02]	Reading Cefotetan_ddi.xml
+[18:51:41 24/02]	Reading Cefoxitin_ddi.xml
+[18:51:41 24/02]	Reading Cefprozil_ddi.xml
+[18:51:41 24/02]	Reading Ceftazidime_ddi.xml
+[18:51:41 24/02]	Reading Ceftibuten_ddi.xml
+[18:51:41 24/02]	Reading Ceftizoxime_ddi.xml
+[18:51:41 24/02]	Reading Cefuroxime_ddi.xml
+[18:51:41 24/02]	Reading Celecoxib_ddi.xml
+[18:51:41 24/02]	Reading Cephalexin_ddi.xml
+[18:51:41 24/02]	Reading Cerivastatin_ddi.xml
+[18:51:41 24/02]	Reading Cetirizine_ddi.xml
+[18:51:41 24/02]	Reading Cetrorelix_ddi.xml
+[18:51:41 24/02]	Reading Cetuximab_ddi.xml
+[18:51:41 24/02]	Reading Cevimeline_ddi.xml
+[18:51:41 24/02]	Reading Chlorambucil_ddi.xml
+[18:51:41 24/02]	Reading Chlordiazepoxide_ddi.xml
+[18:51:41 24/02]	Reading Chloroprocaine_ddi.xml
+[18:51:41 24/02]	Reading Chloroquine_ddi.xml
+[18:51:41 24/02]	Reading Chlorothiazide_ddi.xml
+[18:51:41 24/02]	Reading Chlorotrianisene_ddi.xml
+[18:51:41 24/02]	Reading Chloroxine_ddi.xml
+[18:51:41 24/02]	Reading Chlorpheniramine_ddi.xml
+[18:51:41 24/02]	Reading Chlorpromazine_ddi.xml
+[18:51:41 24/02]	Reading Chlorpropamide_ddi.xml
+[18:51:41 24/02]	Reading Chlorprothixene_ddi.xml
+[18:51:41 24/02]	Reading Chlorthalidone_ddi.xml
+[18:51:41 24/02]	Reading Chlorzoxazone_ddi.xml
+[18:51:41 24/02]	Reading Cholecalciferol_ddi.xml
+[18:51:41 24/02]	Reading Cholestyramine_ddi.xml
+[18:51:41 24/02]	Reading Ciclesonide_ddi.xml
+[18:51:41 24/02]	Reading Cidofovir_ddi.xml
+[18:51:41 24/02]	Reading Cilostazol_ddi.xml
+[18:51:41 24/02]	Reading Cimetidine_ddi.xml
+[18:51:41 24/02]	Reading Cinacalcet_ddi.xml
+[18:51:41 24/02]	Reading Cinoxacin_ddi.xml
+[18:51:41 24/02]	Reading Ciprofloxacin_ddi.xml
+[18:51:41 24/02]	Reading Cisapride_ddi.xml
+[18:51:41 24/02]	Reading Cisatracurium Besylate_ddi.xml
+[18:51:41 24/02]	Reading Cisplatin_ddi.xml
+[18:51:41 24/02]	Reading Citalopram_ddi.xml
+[18:51:41 24/02]	Reading Cladribine_ddi.xml
+[18:51:41 24/02]	Reading Clavulanate_ddi.xml
+[18:51:41 24/02]	Reading Clemastine_ddi.xml
+[18:51:41 24/02]	Reading Clidinium_ddi.xml
+[18:51:41 24/02]	Reading Clindamycin_ddi.xml
+[18:51:41 24/02]	Reading Clobazam_ddi.xml
+[18:51:41 24/02]	Reading Clobetasol_ddi.xml
+[18:51:41 24/02]	Reading Clofarabine_ddi.xml
+[18:51:41 24/02]	Reading Clofazimine_ddi.xml
+[18:51:41 24/02]	Reading Clofibrate_ddi.xml
+[18:51:41 24/02]	Reading Clomifene_ddi.xml
+[18:51:41 24/02]	Reading Clomipramine_ddi.xml
+[18:51:41 24/02]	Reading Clonazepam_ddi.xml
+[18:51:41 24/02]	Reading Clonidine_ddi.xml
+[18:51:41 24/02]	Reading Clopidogrel_ddi.xml
+[18:51:41 24/02]	Reading Clorazepate_ddi.xml
+[18:51:41 24/02]	Reading Clozapine_ddi.xml
+[18:51:41 24/02]	Reading Coagulation factor VIIa_ddi.xml
+[18:51:41 24/02]	Reading Codeine_ddi.xml
+[18:51:41 24/02]	Reading Colchicine_ddi.xml
+[18:51:41 24/02]	Reading Colesevelam_ddi.xml
+[18:51:41 24/02]	Reading Colestipol_ddi.xml
+[18:51:41 24/02]	Reading Colistimethate_ddi.xml
+[18:51:41 24/02]	Reading Conivaptan_ddi.xml
+[18:51:41 24/02]	Reading Conjugated Estrogens_ddi.xml
+[18:51:41 24/02]	Reading Corticotropin_ddi.xml
+[18:51:41 24/02]	Reading Cortisone acetate_ddi.xml
+[18:51:41 24/02]	Reading Cosyntropin_ddi.xml
+[18:51:41 24/02]	Reading Cromoglicate_ddi.xml
+[18:51:41 24/02]	Reading Crotamiton_ddi.xml
+[18:51:41 24/02]	Reading Cyanocobalamin_ddi.xml
+[18:51:41 24/02]	Reading Cyclobenzaprine_ddi.xml
+[18:51:41 24/02]	Reading Cyclopentolate_ddi.xml
+[18:51:41 24/02]	Reading Cyclophosphamide_ddi.xml
+[18:51:41 24/02]	Reading Cycloserine_ddi.xml
+[18:51:41 24/02]	Reading Cyproheptadine_ddi.xml
+[18:51:41 24/02]	Reading Cysteamine_ddi.xml
+[18:51:41 24/02]	Reading Cytarabine_ddi.xml
+[18:51:41 24/02]	Reading Dactinomycin_ddi.xml
+[18:51:41 24/02]	Reading Dantrolene_ddi.xml
+[18:51:41 24/02]	Reading Dapsone_ddi.xml
+[18:51:41 24/02]	Reading Daptomycin_ddi.xml
+[18:51:41 24/02]	Reading Darbepoetin alfa_ddi.xml
+[18:51:41 24/02]	Reading Darifenacin_ddi.xml
+[18:51:41 24/02]	Reading Dasatinib_ddi.xml
+[18:51:41 24/02]	Reading Daunorubicin_ddi.xml
+[18:51:41 24/02]	Reading Decamethonium_ddi.xml
+[18:51:41 24/02]	Reading Decitabine_ddi.xml
+[18:51:41 24/02]	Reading Deferasirox_ddi.xml
+[18:51:41 24/02]	Reading Delavirdine_ddi.xml
+[18:51:41 24/02]	Reading Demecarium bromide_ddi.xml
+[18:51:41 24/02]	Reading Demeclocycline_ddi.xml
+[18:51:41 24/02]	Reading Denileukin diftitox_ddi.xml
+[18:51:41 24/02]	Reading Deserpidine_ddi.xml
+[18:51:41 24/02]	Reading Desflurane_ddi.xml
+[18:51:41 24/02]	Reading Desipramine_ddi.xml
+[18:51:41 24/02]	Reading Desloratadine_ddi.xml
+[18:51:41 24/02]	Reading Desmopressin_ddi.xml
+[18:51:41 24/02]	Reading Desogestrel_ddi.xml
+[18:51:41 24/02]	Reading Desoximetasone_ddi.xml
+[18:51:41 24/02]	Reading Dexamethasone_ddi.xml
+[18:51:41 24/02]	Reading Dexbrompheniramine_ddi.xml
+[18:51:41 24/02]	Reading Dexfenfluramine_ddi.xml
+[18:51:41 24/02]	Reading Dexmedetomidine_ddi.xml
+[18:51:41 24/02]	Reading Dexrazoxane_ddi.xml
+[18:51:41 24/02]	Reading Dextroamphetamine_ddi.xml
+[18:51:41 24/02]	Reading Dezocine_ddi.xml
+[18:51:41 24/02]	Reading Diatrizoate_ddi.xml
+[18:51:41 24/02]	Reading Dichlorphenamide_ddi.xml
+[18:51:41 24/02]	Reading Diclofenac_ddi.xml
+[18:51:41 24/02]	Reading Dicloxacillin_ddi.xml
+[18:51:41 24/02]	Reading Dicyclomine_ddi.xml
+[18:51:41 24/02]	Reading Didanosine_ddi.xml
+[18:51:41 24/02]	Reading Dienestrol_ddi.xml
+[18:51:41 24/02]	Reading Diethylpropion_ddi.xml
+[18:51:41 24/02]	Reading Diethylstilbestrol_ddi.xml
+[18:51:41 24/02]	Reading Diflunisal_ddi.xml
+[18:51:41 24/02]	Reading Digoxin_ddi.xml
+[18:51:41 24/02]	Reading Dihydroergotamine_ddi.xml
+[18:51:41 24/02]	Reading Dihydrotachysterol_ddi.xml
+[18:51:41 24/02]	Reading Diltiazem_ddi.xml
+[18:51:41 24/02]	Reading Dimenhydrinate_ddi.xml
+[18:51:41 24/02]	Reading Dinoprost Tromethamine_ddi.xml
+[18:51:41 24/02]	Reading Dinoprostone_ddi.xml
+[18:51:41 24/02]	Reading Diphenhydramine_ddi.xml
+[18:51:41 24/02]	Reading Diphenidol_ddi.xml
+[18:51:41 24/02]	Reading Diphenoxylate_ddi.xml
+[18:51:41 24/02]	Reading Diphenylpyraline_ddi.xml
+[18:51:41 24/02]	Reading Dipyridamole_ddi.xml
+[18:51:41 24/02]	Reading Dirithromycin_ddi.xml
+[18:51:41 24/02]	Reading Disopyramide_ddi.xml
+[18:51:41 24/02]	Reading Disulfiram_ddi.xml
+[18:51:41 24/02]	Reading Dobutamine_ddi.xml
+[18:51:41 24/02]	Reading Docetaxel_ddi.xml
+[18:51:41 24/02]	Reading Dofetilide_ddi.xml
+[18:51:41 24/02]	Reading Dolasetron_ddi.xml
+[18:51:41 24/02]	Reading Donepezil_ddi.xml
+[18:51:41 24/02]	Reading Dopamine_ddi.xml
+[18:51:41 24/02]	Reading Dornase Alfa_ddi.xml
+[18:51:41 24/02]	Reading Dorzolamide_ddi.xml
+[18:51:41 24/02]	Reading Doxacurium chloride_ddi.xml
+[18:51:41 24/02]	Reading Doxapram_ddi.xml
+[18:51:41 24/02]	Reading Doxazosin_ddi.xml
+[18:51:41 24/02]	Reading Doxepin_ddi.xml
+[18:51:41 24/02]	Reading Doxorubicin_ddi.xml
+[18:51:41 24/02]	Reading Doxycycline_ddi.xml
+[18:51:41 24/02]	Reading Doxylamine_ddi.xml
+[18:51:41 24/02]	Reading Dromostanolone_ddi.xml
+[18:51:41 24/02]	Reading Droperidol_ddi.xml
+[18:51:41 24/02]	Reading Drotrecogin alfa_ddi.xml
+[18:51:41 24/02]	Reading Duloxetine_ddi.xml
+[18:51:41 24/02]	Reading Dyphylline_ddi.xml
+[18:51:41 24/02]	Reading Echothiophate Iodide_ddi.xml
+[18:51:41 24/02]	Reading Eculizumab_ddi.xml
+[18:51:41 24/02]	Reading Edetic Acid_ddi.xml
+[18:51:41 24/02]	Reading Edrophonium_ddi.xml
+[18:51:41 24/02]	Reading Efalizumab_ddi.xml
+[18:51:41 24/02]	Reading Efavirenz_ddi.xml
+[18:51:41 24/02]	Reading Emtricitabine_ddi.xml
+[18:51:41 24/02]	Reading Enalapril_ddi.xml
+[18:51:41 24/02]	Reading Enflurane_ddi.xml
+[18:51:41 24/02]	Reading Enfuvirtide_ddi.xml
+[18:51:41 24/02]	Reading Enoxacin_ddi.xml
+[18:51:41 24/02]	Reading Enoxaparin_ddi.xml
+[18:51:41 24/02]	Reading Entacapone_ddi.xml
+[18:51:41 24/02]	Reading Entecavir_ddi.xml
+[18:51:41 24/02]	Reading Epinastine_ddi.xml
+[18:51:41 24/02]	Reading Epinephrine_ddi.xml
+[18:51:41 24/02]	Reading Epirubicin_ddi.xml
+[18:51:41 24/02]	Reading Eplerenone_ddi.xml
+[18:51:41 24/02]	Reading Epoetin alfa_ddi.xml
+[18:51:41 24/02]	Reading Epoprostenol_ddi.xml
+[18:51:41 24/02]	Reading Eprosartan_ddi.xml
+[18:51:41 24/02]	Reading Eptifibatide_ddi.xml
+[18:51:41 24/02]	Reading Ergocalciferol_ddi.xml
+[18:51:41 24/02]	Reading Ergoloid mesylate_ddi.xml
+[18:51:41 24/02]	Reading Ergotamine_ddi.xml
+[18:51:41 24/02]	Reading Erlotinib_ddi.xml
+[18:51:41 24/02]	Reading Ertapenem_ddi.xml
+[18:51:41 24/02]	Reading Erythromycin_ddi.xml
+[18:51:41 24/02]	Reading Escitalopram_ddi.xml
+[18:51:41 24/02]	Reading Esmolol_ddi.xml
+[18:51:41 24/02]	Reading Esomeprazole_ddi.xml
+[18:51:41 24/02]	Reading Estazolam_ddi.xml
+[18:51:41 24/02]	Reading Estradiol_ddi.xml
+[18:51:41 24/02]	Reading Estramustine_ddi.xml
+[18:51:41 24/02]	Reading Eszopiclone_ddi.xml
+[18:51:41 24/02]	Reading Etanercept_ddi.xml
+[18:51:41 24/02]	Reading Ethacrynic acid_ddi.xml
+[18:51:41 24/02]	Reading Ethambutol_ddi.xml
+[18:51:41 24/02]	Reading Ethchlorvynol_ddi.xml
+[18:51:41 24/02]	Reading Ethinamate_ddi.xml
+[18:51:41 24/02]	Reading Ethinyl Estradiol_ddi.xml
+[18:51:41 24/02]	Reading Ethionamide_ddi.xml
+[18:51:41 24/02]	Reading Ethopropazine_ddi.xml
+[18:51:41 24/02]	Reading Ethosuximide_ddi.xml
+[18:51:41 24/02]	Reading Ethotoin_ddi.xml
+[18:51:41 24/02]	Reading Ethoxzolamide_ddi.xml
+[18:51:41 24/02]	Reading Ethynodiol Diacetate_ddi.xml
+[18:51:41 24/02]	Reading Etidronic acid_ddi.xml
+[18:51:41 24/02]	Reading Etodolac_ddi.xml
+[18:51:41 24/02]	Reading Etomidate_ddi.xml
+[18:51:41 24/02]	Reading Etonogestrel_ddi.xml
+[18:51:41 24/02]	Reading Etoposide_ddi.xml
+[18:51:41 24/02]	Reading Exemestane_ddi.xml
+[18:51:41 24/02]	Reading Famciclovir_ddi.xml
+[18:51:41 24/02]	Reading Famotidine_ddi.xml
+[18:51:41 24/02]	Reading Felbamate_ddi.xml
+[18:51:41 24/02]	Reading Felodipine_ddi.xml
+[18:51:41 24/02]	Reading Fenfluramine_ddi.xml
+[18:51:41 24/02]	Reading Fenofibrate_ddi.xml
+[18:51:41 24/02]	Reading Fenoldopam_ddi.xml
+[18:51:41 24/02]	Reading Fenoprofen_ddi.xml
+[18:51:41 24/02]	Reading Fentanyl_ddi.xml
+[18:51:41 24/02]	Reading Fexofenadine_ddi.xml
+[18:51:41 24/02]	Reading Filgrastim_ddi.xml
+[18:51:41 24/02]	Reading Finasteride_ddi.xml
+[18:51:41 24/02]	Reading Flecainide_ddi.xml
+[18:51:41 24/02]	Reading Floxuridine_ddi.xml
+[18:51:41 24/02]	Reading Flucytosine_ddi.xml
+[18:51:41 24/02]	Reading Fludarabine_ddi.xml
+[18:51:41 24/02]	Reading Fludrocortisone_ddi.xml
+[18:51:41 24/02]	Reading Flumazenil_ddi.xml
+[18:51:41 24/02]	Reading Fluorouracil_ddi.xml
+[18:51:41 24/02]	Reading Fluoxetine_ddi.xml
+[18:51:41 24/02]	Reading Fluoxymesterone_ddi.xml
+[18:51:41 24/02]	Reading Flupenthixol_ddi.xml
+[18:51:41 24/02]	Reading Flurbiprofen_ddi.xml
+[18:51:41 24/02]	Reading Flutamide_ddi.xml
+[18:51:41 24/02]	Reading Fluvoxamine_ddi.xml
+[18:51:42 24/02]	Reading Folic Acid_ddi.xml
+[18:51:42 24/02]	Reading Follitropin beta_ddi.xml
+[18:51:42 24/02]	Reading Fomepizole_ddi.xml
+[18:51:42 24/02]	Reading Fondaparinux sodium_ddi.xml
+[18:51:42 24/02]	Reading Formoterol_ddi.xml
+[18:51:42 24/02]	Reading Foscarnet_ddi.xml
+[18:51:42 24/02]	Reading Fosfomycin_ddi.xml
+[18:51:42 24/02]	Reading Fosinopril_ddi.xml
+[18:51:42 24/02]	Reading Fosphenytoin_ddi.xml
+[18:51:42 24/02]	Reading Frovatriptan_ddi.xml
+[18:51:42 24/02]	Reading Fulvestrant_ddi.xml
+[18:51:42 24/02]	Reading Furosemide_ddi.xml
+[18:51:42 24/02]	Reading Gabapentin_ddi.xml
+[18:51:42 24/02]	Reading Gadodiamide_ddi.xml
+[18:51:42 24/02]	Reading Galsulfase_ddi.xml
+[18:51:42 24/02]	Reading Ganciclovir_ddi.xml
+[18:51:42 24/02]	Reading Gefitinib_ddi.xml
+[18:51:42 24/02]	Reading Gemcitabine_ddi.xml
+[18:51:42 24/02]	Reading Gemfibrozil_ddi.xml
+[18:51:42 24/02]	Reading Gemifloxacin_ddi.xml
+[18:51:42 24/02]	Reading Gemtuzumab ozogamicin_ddi.xml
+[18:51:42 24/02]	Reading Glatiramer Acetate_ddi.xml
+[18:51:42 24/02]	Reading Glibenclamide_ddi.xml
+[18:51:42 24/02]	Reading Glimepiride_ddi.xml
+[18:51:42 24/02]	Reading Glipizide_ddi.xml
+[18:51:42 24/02]	Reading Glycopyrrolate_ddi.xml
+[18:51:42 24/02]	Reading Gonadorelin_ddi.xml
+[18:51:42 24/02]	Reading Goserelin_ddi.xml
+[18:51:42 24/02]	Reading Grepafloxacin_ddi.xml
+[18:51:42 24/02]	Reading Griseofulvin_ddi.xml
+[18:51:42 24/02]	Reading Guaifenesin_ddi.xml
+[18:51:42 24/02]	Reading Guanethidine_ddi.xml
+[18:51:42 24/02]	Reading Guanfacine_ddi.xml
+[18:51:42 24/02]	Reading Haloperidol_ddi.xml
+[18:51:42 24/02]	Reading Halothane_ddi.xml
+[18:51:42 24/02]	Reading Heparin_ddi.xml
+[18:51:42 24/02]	Reading Heroin_ddi.xml
+[18:51:42 24/02]	Reading Hexachlorophene_ddi.xml
+[18:51:42 24/02]	Reading Hexobarbital_ddi.xml
+[18:51:42 24/02]	Reading Hydralazine_ddi.xml
+[18:51:42 24/02]	Reading Hydrochlorothiazide_ddi.xml
+[18:51:42 24/02]	Reading Hydrocodone_ddi.xml
+[18:51:42 24/02]	Reading Hydrocortisone_ddi.xml
+[18:51:42 24/02]	Reading Hydroflumethiazide_ddi.xml
+[18:51:42 24/02]	Reading Hydromorphone_ddi.xml
+[18:51:42 24/02]	Reading Hydroxocobalamin_ddi.xml
+[18:51:42 24/02]	Reading Hydroxyurea_ddi.xml
+[18:51:42 24/02]	Reading Hydroxyzine_ddi.xml
+[18:51:42 24/02]	Reading Hyoscyamine_ddi.xml
+[18:51:42 24/02]	Reading Ibandronate_ddi.xml
+[18:51:42 24/02]	Reading Ibritumomab_ddi.xml
+[18:51:42 24/02]	Reading Ibuprofen_ddi.xml
+[18:51:42 24/02]	Reading Ibutilide_ddi.xml
+[18:51:42 24/02]	Reading Icodextrin_ddi.xml
+[18:51:42 24/02]	Reading Icosapent_ddi.xml
+[18:51:42 24/02]	Reading Idoxuridine_ddi.xml
+[18:51:42 24/02]	Reading Ifosfamide_ddi.xml
+[18:51:42 24/02]	Reading Iloprost_ddi.xml
+[18:51:42 24/02]	Reading Imatinib_ddi.xml
+[18:51:42 24/02]	Reading Imipramine_ddi.xml
+[18:51:42 24/02]	Reading Imiquimod_ddi.xml
+[18:51:42 24/02]	Reading Indinavir_ddi.xml
+[18:51:42 24/02]	Reading Indomethacin_ddi.xml
+[18:51:42 24/02]	Reading Infliximab_ddi.xml
+[18:51:42 24/02]	Reading Insulin Glargine recombinant_ddi.xml
+[18:51:42 24/02]	Reading Insulin recombinant_ddi.xml
+[18:51:42 24/02]	Reading Interferon beta-1a_ddi.xml
+[18:51:42 24/02]	Reading Interferon beta-1b_ddi.xml
+[18:51:42 24/02]	Reading Ipratropium_ddi.xml
+[18:51:42 24/02]	Reading Irbesartan_ddi.xml
+[18:51:42 24/02]	Reading Irinotecan_ddi.xml
+[18:51:42 24/02]	Reading Isocarboxazid_ddi.xml
+[18:51:42 24/02]	Reading Isoetharine_ddi.xml
+[18:51:42 24/02]	Reading Isoflurane_ddi.xml
+[18:51:42 24/02]	Reading Isoniazid_ddi.xml
+[18:51:42 24/02]	Reading Isoproterenol_ddi.xml
+[18:51:42 24/02]	Reading Isosorbide Dinitrate_ddi.xml
+[18:51:42 24/02]	Reading Isosorbide Mononitrate_ddi.xml
+[18:51:42 24/02]	Reading Isotretinoin_ddi.xml
+[18:51:42 24/02]	Reading Isradipine_ddi.xml
+[18:51:42 24/02]	Reading Itraconazole_ddi.xml
+[18:51:42 24/02]	Reading Kanamycin_ddi.xml
+[18:51:42 24/02]	Reading Ketamine_ddi.xml
+[18:51:42 24/02]	Reading Ketoconazole_ddi.xml
+[18:51:42 24/02]	Reading Ketoprofen_ddi.xml
+[18:51:42 24/02]	Reading Ketorolac_ddi.xml
+[18:51:42 24/02]	Reading L-Arginine_ddi.xml
+[18:51:42 24/02]	Reading L-Aspartic Acid_ddi.xml
+[18:51:42 24/02]	Reading L-Carnitine_ddi.xml
+[18:51:42 24/02]	Reading L-Glutamic Acid_ddi.xml
+[18:51:42 24/02]	Reading L-Glutamine_ddi.xml
+[18:51:42 24/02]	Reading L-Histidine_ddi.xml
+[18:51:42 24/02]	Reading L-Lysine_ddi.xml
+[18:51:42 24/02]	Reading L-Methionine_ddi.xml
+[18:51:42 24/02]	Reading L-Phenylalanine_ddi.xml
+[18:51:42 24/02]	Reading L-Tryptophan_ddi.xml
+[18:51:42 24/02]	Reading L-Tyrosine_ddi.xml
+[18:51:42 24/02]	Reading Labetalol_ddi.xml
+[18:51:42 24/02]	Reading Lactulose_ddi.xml
+[18:51:42 24/02]	Reading Lamivudine_ddi.xml
+[18:51:42 24/02]	Reading Lansoprazole_ddi.xml
+[18:51:42 24/02]	Reading Lapatinib_ddi.xml
+[18:51:42 24/02]	Reading Laronidase_ddi.xml
+[18:51:42 24/02]	Reading Latanoprost_ddi.xml
+[18:51:42 24/02]	Reading Leflunomide_ddi.xml
+[18:51:42 24/02]	Reading Lenalidomide_ddi.xml
+[18:51:42 24/02]	Reading Lepirudin_ddi.xml
+[18:51:42 24/02]	Reading Letrozole_ddi.xml
+[18:51:42 24/02]	Reading Leucovorin_ddi.xml
+[18:51:42 24/02]	Reading Levamisole_ddi.xml
+[18:51:42 24/02]	Reading Levetiracetam_ddi.xml
+[18:51:42 24/02]	Reading Levobunolol_ddi.xml
+[18:51:42 24/02]	Reading Levobupivacaine_ddi.xml
+[18:51:42 24/02]	Reading Levofloxacin_ddi.xml
+[18:51:42 24/02]	Reading Levorphanol_ddi.xml
+[18:51:42 24/02]	Reading Levosimendan_ddi.xml
+[18:51:42 24/02]	Reading Levothyroxine_ddi.xml
+[18:51:42 24/02]	Reading Lidocaine_ddi.xml
+[18:51:42 24/02]	Reading Lincomycin_ddi.xml
+[18:51:42 24/02]	Reading Lindane_ddi.xml
+[18:51:42 24/02]	Reading Linezolid_ddi.xml
+[18:51:42 24/02]	Reading Liothyronine_ddi.xml
+[18:51:42 24/02]	Reading Lisdexamfetamine_ddi.xml
+[18:51:42 24/02]	Reading Lisinopril_ddi.xml
+[18:51:42 24/02]	Reading Lofexidine_ddi.xml
+[18:51:42 24/02]	Reading Lomefloxacin_ddi.xml
+[18:51:42 24/02]	Reading Loperamide_ddi.xml
+[18:51:42 24/02]	Reading Loracarbef_ddi.xml
+[18:51:42 24/02]	Reading Loratadine_ddi.xml
+[18:51:42 24/02]	Reading Lorazepam_ddi.xml
+[18:51:42 24/02]	Reading Losartan_ddi.xml
+[18:51:42 24/02]	Reading Lovastatin_ddi.xml
+[18:51:42 24/02]	Reading Loxapine_ddi.xml
+[18:51:42 24/02]	Reading Lymecycline_ddi.xml
+[18:51:42 24/02]	Reading Meclofenamic acid_ddi.xml
+[18:51:42 24/02]	Reading Mefenamic acid_ddi.xml
+[18:51:42 24/02]	Reading Mefloquine_ddi.xml
+[18:51:42 24/02]	Reading Menadione_ddi.xml
+[18:51:42 24/02]	Reading Nabilone_ddi.xml
+[18:51:42 24/02]	Reading Nabumetone_ddi.xml
+[18:51:42 24/02]	Reading Nadolol_ddi.xml
+[18:51:42 24/02]	Reading Nafarelin_ddi.xml
+[18:51:42 24/02]	Reading Nafcillin_ddi.xml
+[18:51:42 24/02]	Reading Nalbuphine_ddi.xml
+[18:51:42 24/02]	Reading Nalidixic Acid_ddi.xml
+[18:51:42 24/02]	Reading Naltrexone_ddi.xml
+[18:51:42 24/02]	Reading Naproxen_ddi.xml
+[18:51:42 24/02]	Reading Naratriptan_ddi.xml
+[18:51:42 24/02]	Reading Natalizumab_ddi.xml
+[18:51:42 24/02]	Reading Nateglinide_ddi.xml
+[18:51:42 24/02]	Reading Nedocromil_ddi.xml
+[18:51:42 24/02]	Reading Nelfinavir_ddi.xml
+[18:51:42 24/02]	Reading Neomycin_ddi.xml
+[18:51:42 24/02]	Reading Neostigmine_ddi.xml
+[18:51:42 24/02]	Reading Nesiritide_ddi.xml
+[18:51:42 24/02]	Reading Netilmicin_ddi.xml
+[18:51:42 24/02]	Reading Nevirapine_ddi.xml
+[18:51:42 24/02]	Reading Niacin_ddi.xml
+[18:51:42 24/02]	Reading Nicardipine_ddi.xml
+[18:51:42 24/02]	Reading Nicotine_ddi.xml
+[18:51:42 24/02]	Reading Nifedipine_ddi.xml
+[18:51:42 24/02]	Reading Nilutamide_ddi.xml
+[18:51:42 24/02]	Reading Nimodipine_ddi.xml
+[18:51:42 24/02]	Reading Nisoldipine_ddi.xml
+[18:51:42 24/02]	Reading Nitazoxanide_ddi.xml
+[18:51:42 24/02]	Reading Nitric Oxide_ddi.xml
+[18:51:42 24/02]	Reading Nitrofurantoin_ddi.xml
+[18:51:42 24/02]	Reading Nitroglycerin_ddi.xml
+[18:51:42 24/02]	Reading Nitroprusside_ddi.xml
+[18:51:42 24/02]	Reading Nizatidine_ddi.xml
+[18:51:42 24/02]	Reading Norethindrone_ddi.xml
+[18:51:42 24/02]	Reading Norfloxacin_ddi.xml
+[18:51:42 24/02]	Reading Norgestimate_ddi.xml
+[18:51:42 24/02]	Reading Nortriptyline_ddi.xml
+[18:51:42 24/02]	Reading Oxcarbazepine_ddi.xml
+[18:51:42 24/02]	Reading Paclitaxel_ddi.xml
+[18:51:42 24/02]	Reading Peginterferon alfa-2a_ddi.xml
+[18:51:42 24/02]	Reading Piperacillin_ddi.xml
+[18:51:42 24/02]	Reading Piperazine_ddi.xml
+[18:51:42 24/02]	Reading Rofecoxib_ddi.xml
+[18:51:42 24/02]	Reading Saquinavir_ddi.xml
+[18:51:42 24/02]	Reading Sulfacetamide_ddi.xml
+[18:51:42 24/02]	Reading Sulfapyridine_ddi.xml
+[18:51:42 24/02]	Reading Tiagabine_ddi.xml
+[18:51:42 24/02]	Reading Valdecoxib_ddi.xml
+[18:51:42 24/02]	Reading Vardenafil_ddi.xml
+[18:51:42 24/02]	Reading Zalcitabine_ddi.xml
+[18:51:42 24/02]	Reading Zaleplon_ddi.xml
+[18:51:42 24/02]	Reading 10150268.xml
+[18:51:42 24/02]	Reading 10226677.xml
+[18:51:42 24/02]	Reading 10319155.xml
+[18:51:42 24/02]	Reading 1089034.xml
+[18:51:42 24/02]	Reading 1089817.xml
+[18:51:42 24/02]	Reading 10959916.xml
+[18:51:42 24/02]	Reading 10978746.xml
+[18:51:42 24/02]	Reading 10978751.xml
+[18:51:42 24/02]	Reading 11064383.xml
+[18:51:42 24/02]	Reading 11085305.xml
+[18:51:42 24/02]	Reading 11085328.xml
+[18:51:42 24/02]	Reading 11085333.xml
+[18:51:42 24/02]	Reading 11085336.xml
+[18:51:42 24/02]	Reading 1109248.xml
+[18:51:42 24/02]	Reading 1109299.xml
+[18:51:42 24/02]	Reading 1109556.xml
+[18:51:42 24/02]	Reading 11114408.xml
+[18:51:42 24/02]	Reading 11115418.xml
+[18:51:42 24/02]	Reading 11120981.xml
+[18:51:42 24/02]	Reading 11121387.xml
+[18:51:42 24/02]	Reading 11121884.xml
+[18:51:42 24/02]	Reading 11125022.xml
+[18:51:42 24/02]	Reading 11125235.xml
+[18:51:42 24/02]	Reading 1113260.xml
+[18:51:42 24/02]	Reading 11134454.xml
+[18:51:42 24/02]	Reading 11137320.xml
+[18:51:42 24/02]	Reading 11137351.xml
+[18:51:42 24/02]	Reading 11137650.xml
+[18:51:42 24/02]	Reading 11137703.xml
+[18:51:42 24/02]	Reading 11144988.xml
+[18:51:42 24/02]	Reading 11148572.xml
+[18:51:42 24/02]	Reading 11151029.xml
+[18:51:42 24/02]	Reading 11152438.xml
+[18:51:42 24/02]	Reading 11152855.xml
+[18:51:42 24/02]	Reading 1115340.xml
+[18:51:42 24/02]	Reading 1115367.xml
+[18:51:42 24/02]	Reading 1115445.xml
+[18:51:42 24/02]	Reading 11154900.xml
+[18:51:42 24/02]	Reading 11155575.xml
+[18:51:42 24/02]	Reading 1115721.xml
+[18:51:42 24/02]	Reading 11158747.xml
+[18:51:42 24/02]	Reading 11160777.xml
+[18:51:42 24/02]	Reading 1116650.xml
+[18:51:42 24/02]	Reading 11166779.xml
+[18:51:42 24/02]	Reading 11170315.xml
+[18:51:42 24/02]	Reading 11172561.xml
+[18:51:42 24/02]	Reading 11178969.xml
+[18:51:42 24/02]	Reading 11180036.xml
+[18:51:42 24/02]	Reading 11180037.xml
+[18:51:42 24/02]	Reading 11180038.xml
+[18:51:42 24/02]	Reading 11180040.xml
+[18:51:42 24/02]	Reading 11181395.xml
+[18:51:42 24/02]	Reading 11197581.xml
+[18:51:42 24/02]	Reading 11197767.xml
+[18:51:42 24/02]	Reading 11197768.xml
+[18:51:42 24/02]	Reading 11198959.xml
+[18:51:42 24/02]	Reading 11199955.xml
+[18:51:42 24/02]	Reading 11206047.xml
+[18:51:42 24/02]	Reading 11206048.xml
+[18:51:42 24/02]	Reading 11206187.xml
+[18:51:42 24/02]	Reading 11206417.xml
+[18:51:42 24/02]	Reading 11210403.xml
+[18:51:42 24/02]	Reading 11210404.xml
+[18:51:42 24/02]	Reading 11210678.xml
+[18:51:42 24/02]	Reading 11211460.xml
+[18:51:42 24/02]	Reading 11213358.xml
+[18:51:42 24/02]	Reading 11213561.xml
+[18:51:42 24/02]	Reading 11213850.xml
+[18:51:42 24/02]	Reading 11217867.xml
+[18:51:42 24/02]	Reading 11217868.xml
+[18:51:42 24/02]	Reading 11218973.xml
+[18:51:42 24/02]	Reading 11219023.xml
+[18:51:42 24/02]	Reading 11219477.xml
+[18:51:42 24/02]	Reading 11271411.xml
+[18:51:42 24/02]	Reading 1167743.xml
+[18:51:42 24/02]	Reading 1167797.xml
+[18:51:42 24/02]	Reading 15825309.xml
+[18:51:42 24/02]	Reading 15825391.xml
+[18:51:42 24/02]	Reading 15825399.xml
+[18:51:42 24/02]	Reading 15830476.xml
+[18:51:42 24/02]	Reading 15986716.xml
+[18:51:42 24/02]	Reading 163470.xml
+[18:51:42 24/02]	Reading 16649322.xml
+[18:51:42 24/02]	Reading 16649344.xml
+[18:51:42 24/02]	Reading 17894105.xml
+[18:51:42 24/02]	Reading 19489169.xml
+[18:51:42 24/02]	Reading 2578306.xml
+[18:51:42 24/02]	Reading 2578597.xml
+[18:51:42 24/02]	Reading 2857099.xml
+[18:51:42 24/02]	Reading 2857100.xml
+[18:51:42 24/02]	Reading 2857198.xml
+[18:51:42 24/02]	Reading 2857499.xml
+[18:51:42 24/02]	Reading 2981680.xml
+[18:51:42 24/02]	Reading 2981704.xml
+[18:51:42 24/02]	Reading 2982252.xml
+[18:51:42 24/02]	Reading 3155550.xml
+[18:51:42 24/02]	Reading 3871245.xml
+[18:51:42 24/02]	Reading 3871459.xml
+[18:51:42 24/02]	Reading 3881076.xml
+[18:51:42 24/02]	Reading 3881461.xml
+[18:51:42 24/02]	Reading 3881917.xml
+[18:51:42 24/02]	Reading 3918122.xml
+[18:51:42 24/02]	Reading 3964797.xml
+[18:51:42 24/02]	Reading 3966974.xml
+[18:51:42 24/02]	Reading 3967572.xml
+[18:51:42 24/02]	Reading 3968644.xml
+[18:51:42 24/02]	Reading 3969689.xml
+[18:51:42 24/02]	Reading 4038510.xml
+[18:51:42 24/02]	Reading 4469683.xml
+[18:51:42 24/02]	Reading 46730.xml
+[18:51:42 24/02]	Reading 6100190.xml
+[18:51:42 24/02]	Reading 6100240.xml
+[18:51:42 24/02]	Reading 6443625.xml
+[18:51:42 24/02]	Reading 6536282.xml
+[18:51:42 24/02]	Reading 6536292.xml
+[18:51:42 24/02]	Reading 6537219.xml
+[18:51:42 24/02]	Reading 6545279.xml
+[18:51:42 24/02]	Reading 6545985.xml
+[18:51:42 24/02]	Reading 7476793.xml
+[18:51:42 24/02]	Reading 7496198.xml
+[18:51:42 24/02]	Reading 7599505.xml
+[18:51:42 24/02]	Reading 7600639.xml
+[18:51:42 24/02]	Reading 7625885.xml
+[18:51:42 24/02]	Reading 7632757.xml
+[18:51:42 24/02]	Reading 7635041.xml
+[18:51:42 24/02]	Reading 7653281.xml
+[18:51:42 24/02]	Reading 7654327.xml
+[18:51:42 24/02]	Reading 7744123.xml
+[18:51:42 24/02]	Reading 7746025.xml
+[18:51:42 24/02]	Reading 7756960.xml
+[18:51:42 24/02]	Reading 7756965.xml
+[18:51:42 24/02]	Reading 7780789.xml
+[18:51:42 24/02]	Reading 7786695.xml
+[18:51:42 24/02]	Reading 7794883.xml
+[18:51:42 24/02]	Reading 7798493.xml
+[18:51:42 24/02]	Reading 8521984.xml
+[18:51:42 24/02]	Reading 8542840.xml
+[18:51:42 24/02]	Reading 8619063.xml
+[18:51:42 24/02]	Reading 8640374.xml
+[18:51:42 24/02]	Reading 8682269.xml
+[18:51:42 24/02]	Reading 8996605.xml
+[18:51:42 24/02]	Reading 9120829.xml
+[18:51:42 24/02]	Processing elements
+[18:51:42 24/02]	Dividing training set into folds
+[18:51:43 24/02]	Parsing
+[18:51:43 24/02]	* Preprocessor:PROCESS(ENTER) *
+[18:51:43 24/02]	Tool chain parameters: 
+[18:51:43 24/02]	Omitting step CONVERT
+[18:51:43 24/02]	=== EXIT STEP CONVERT time: 0:00:00.000671 ===
+[18:51:43 24/02]	Omitting step SPLIT-SENTENCES
+[18:51:43 24/02]	=== EXIT STEP SPLIT-SENTENCES time: 0:00:00.000460 ===
+[18:51:43 24/02]	Omitting step NER
+[18:51:43 24/02]	=== EXIT STEP NER time: 0:00:00.000125 ===
+[18:51:43 24/02]	=== ENTER STEP Preprocessor:PROCESS:PARSE ===
+[18:51:43 24/02]	Running step PARSE with arguments {'debug': False, 'input': <__builtin__.ElementTree instance at 0xa2fea2c>, 'requireEntities': False, 'parseName': 'McCC', 'output': '/tmp/tmpLSXAhe/parsing-parse.xml.gz'}
+[18:51:43 24/02]	BLLIP parser
+[18:51:43 24/02]	BLLIP time stamp: 24.02.13 18:51:43
+[18:51:43 24/02]	BLLIP parser at: /home/jari/TEES_DATA/tools/BLLIP/dmcc-bllip-parser-c672258
+[18:51:43 24/02]	Biomodel at: /home/jari/TEES_DATA/tools/BLLIP/biomodel
+[18:51:43 24/02]	Loading corpus <__builtin__.ElementTree instance at 0xa2fea2c>
+[18:51:43 24/02]	Corpus file loaded
+[18:51:43 24/02]	Parser does the tokenization
+[18:51:44 24/02]	Running BLLIP parser with tokenization
+[18:54:15 24/02]	Parsing: 2.23 % (0:2:21.460) Process failed for sentence 176, rerunning from sentence 177
+[18:54:16 24/02]	Running BLLIP parser with tokenization
+[18:58:51 24/02]	Parsing: 4.45 % (0:4:24.435) Process failed for sentence 492, rerunning from sentence 493
+[18:58:51 24/02]	Running BLLIP parser with tokenization
+[18:59:53 24/02]	Parsing: 1.48 % (0:0:45.070) Process failed for sentence 609, rerunning from sentence 610
+[18:59:53 24/02]	Running BLLIP parser with tokenization
+[19:01:58 24/02]	Parsing: 1.11 % (0:1:46.225) Process failed for sentence 714, rerunning from sentence 715
+[19:01:59 24/02]	Running BLLIP parser with tokenization
+[19:03:08 24/02]	Parsing: 0.83 % (0:0:45.081) Process failed for sentence 804, rerunning from sentence 805
+[19:03:08 24/02]	Running BLLIP parser with tokenization
+[19:04:13 24/02]	Parsing: 0.68 % (0:0:43.063) Process failed for sentence 877, rerunning from sentence 878
+[19:04:13 24/02]	Running BLLIP parser with tokenization
+[19:07:26 24/02]	Parsing: 3.15 % (0:2:54.610) Process failed for sentence 1090, rerunning from sentence 1091
+[19:07:27 24/02]	Running BLLIP parser with tokenization
+[19:10:27 24/02]	Parsing: 2.23 % (0:2:51.501) Process failed for sentence 1249, rerunning from sentence 1250
+[19:10:27 24/02]	Running BLLIP parser with tokenization
+[19:11:07 24/02]	Parsing: 0.02 % (0:0:15.016) Process failed for sentence 1288, rerunning from sentence 1289
+[19:11:08 24/02]	Running BLLIP parser with tokenization
+[19:18:41 24/02]	Parsing: 9.03 % (0:7:13.522) Process failed for sentence 1856, rerunning from sentence 1857
+[19:18:41 24/02]	Running BLLIP parser with tokenization
+[19:19:12 24/02]	Parsing: 0.02 % (0:0:15.017) Process failed for sentence 1888, rerunning from sentence 1889
+[19:19:12 24/02]	Running BLLIP parser with tokenization
+[19:20:57 24/02]	Parsing: 1.59 % (0:1:19.177) Process failed for sentence 1991, rerunning from sentence 1992
+[19:20:57 24/02]	Running BLLIP parser with tokenization
+[19:21:11 24/02]	Parsing: 0.02 % (0:0:14.016) Process failed for sentence 1993, rerunning from sentence 1994
+[19:21:11 24/02]	Running BLLIP parser with tokenization
+[19:21:29 24/02]	Parsing: 0.16 % (0:0:14.017) Process failed for sentence 2014, rerunning from sentence 2015
+[19:21:30 24/02]	Running BLLIP parser with tokenization
+[19:21:44 24/02]	Process failed for sentence 2015, rerunning from sentence 2016
+[19:21:44 24/02]	Running BLLIP parser with tokenization
+[19:21:58 24/02]	Parsing: 0.04 % (0:0:14.016) Process failed for sentence 2018, rerunning from sentence 2019
+[19:21:58 24/02]	Running BLLIP parser with tokenization
+[19:29:07 24/02]	Parsing: 10.41 % (0:6:58.295) Process failed for sentence 2572, rerunning from sentence 2573
+[19:29:07 24/02]	Running BLLIP parser with tokenization
+[19:29:23 24/02]	Parsing: 0.11 % (0:0:13.015) Process failed for sentence 2592, rerunning from sentence 2593
+[19:29:23 24/02]	Running BLLIP parser with tokenization
+[19:29:53 24/02]	Parsing: 0.11 % (0:0:14.016) Process failed for sentence 2655, rerunning from sentence 2656
+[19:29:54 24/02]	Running BLLIP parser with tokenization
+[19:30:37 24/02]	Parsing: 0.02 % (0:0:15.016) Process failed for sentence 2709, rerunning from sentence 2710
+[19:30:37 24/02]	Running BLLIP parser with tokenization
+[19:31:58 24/02]	Parsing: 1.03 % (0:0:52.076) Process failed for sentence 2796, rerunning from sentence 2797
+[19:31:58 24/02]	Running BLLIP parser with tokenization
+[19:32:20 24/02]	Parsing: 0.09 % (0:0:15.016) Process failed for sentence 2806, rerunning from sentence 2807
+[19:32:20 24/02]	Running BLLIP parser with tokenization
+[19:33:58 24/02]	Parsing: 1.68 % (0:1:14.142) Process failed for sentence 2909, rerunning from sentence 2910
+[19:33:58 24/02]	Running BLLIP parser with tokenization
+[19:34:38 24/02]	Parsing: 0.10 % (0:0:15.016) Process failed for sentence 2952, rerunning from sentence 2953
+[19:34:39 24/02]	Running BLLIP parser with tokenization
+[19:36:09 24/02]	Parsing: 2.65 % (0:1:16.153) Process failed for sentence 3088, rerunning from sentence 3089
+[19:36:09 24/02]	Running BLLIP parser with tokenization
+[19:37:43 24/02]	Parsing: 2.34 % (0:1:17.166) Process failed for sentence 3194, rerunning from sentence 3195
+[19:37:44 24/02]	Running BLLIP parser with tokenization
+[19:38:20 24/02]	Parsing: 0.03 % (0:0:14.014) Process failed for sentence 3220, rerunning from sentence 3221
+[19:38:20 24/02]	Running BLLIP parser with tokenization
+[19:38:57 24/02]	Parsing: 0.03 % (0:0:14.014) Process failed for sentence 3250, rerunning from sentence 3251
+[19:38:57 24/02]	Running BLLIP parser with tokenization
+[19:39:43 24/02]	Parsing: 1.64 % (0:0:45.075) Process failed for sentence 3317, rerunning from sentence 3318
+[19:39:44 24/02]	Running BLLIP parser with tokenization
+[19:41:43 24/02]	Parsing: 2.43 % (0:1:48.263) Process failed for sentence 3420, rerunning from sentence 3421
+[19:41:43 24/02]	Running BLLIP parser with tokenization
+[19:44:51 24/02]	Parsing: 4.62 % (0:2:47.515) Process failed for sentence 3607, rerunning from sentence 3608
+[19:44:51 24/02]	Running BLLIP parser with tokenization
+[19:45:17 24/02]	Parsing: 0.06 % (0:0:15.016) Process failed for sentence 3629, rerunning from sentence 3630
+[19:45:17 24/02]	Running BLLIP parser with tokenization
+[19:45:31 24/02]	Parsing: 0.03 % (0:0:14.015) Process failed for sentence 3631, rerunning from sentence 3632
+[19:45:32 24/02]	Running BLLIP parser with tokenization
+[19:45:46 24/02]	Parsing: 0.06 % (0:0:14.014) Process failed for sentence 3634, rerunning from sentence 3635
+[19:45:46 24/02]	Running BLLIP parser with tokenization
+[19:46:00 24/02]	Parsing: 0.06 % (0:0:14.016) Process failed for sentence 3637, rerunning from sentence 3638
+[19:46:00 24/02]	Running BLLIP parser with tokenization
+[19:46:14 24/02]	Parsing: 0.03 % (0:0:14.016) Process failed for sentence 3639, rerunning from sentence 3640
+[19:46:14 24/02]	Running BLLIP parser with tokenization
+[19:46:28 24/02]	Process failed for sentence 3640, rerunning from sentence 3641
+[19:46:29 24/02]	Running BLLIP parser with tokenization
+[19:46:43 24/02]	Parsing: 0.03 % (0:0:14.016) Process failed for sentence 3642, rerunning from sentence 3643
+[19:46:43 24/02]	Running BLLIP parser with tokenization
+[19:46:57 24/02]	Process failed for sentence 3643, rerunning from sentence 3644
+[19:46:57 24/02]	Running BLLIP parser with tokenization
+[19:47:12 24/02]	Parsing: 0.03 % (0:0:15.014) Process failed for sentence 3645, rerunning from sentence 3646
+[19:47:13 24/02]	Running BLLIP parser with tokenization
+[19:47:27 24/02]	Process failed for sentence 3646, rerunning from sentence 3647
+[19:47:27 24/02]	Running BLLIP parser with tokenization
+[19:47:41 24/02]	Parsing: 0.03 % (0:0:14.015) Process failed for sentence 3648, rerunning from sentence 3649
+[19:47:41 24/02]	Running BLLIP parser with tokenization
+[19:47:55 24/02]	Process failed for sentence 3649, rerunning from sentence 3650
+[19:47:55 24/02]	Running BLLIP parser with tokenization
+[19:48:09 24/02]	Parsing: 0.03 % (0:0:14.014) Process failed for sentence 3651, rerunning from sentence 3652
+[19:48:10 24/02]	Running BLLIP parser with tokenization
+[19:48:24 24/02]	Process failed for sentence 3652, rerunning from sentence 3653
+[19:48:24 24/02]	Running BLLIP parser with tokenization
+[19:48:37 24/02]	Parsing: 0.03 % (0:0:12.013) Process failed for sentence 3654, rerunning from sentence 3655
+[19:48:37 24/02]	Running BLLIP parser with tokenization
+[19:48:50 24/02]	Parsing: 0.09 % (0:0:13.014) Process failed for sentence 3658, rerunning from sentence 3659
+[19:48:50 24/02]	Running BLLIP parser with tokenization
+[19:49:05 24/02]	Parsing: 0.03 % (0:0:14.015) Process failed for sentence 3660, rerunning from sentence 3661
+[19:49:05 24/02]	Running BLLIP parser with tokenization
+[19:49:19 24/02]	Process failed for sentence 3661, rerunning from sentence 3662
+[19:49:19 24/02]	Running BLLIP parser with tokenization
+[19:49:33 24/02]	Parsing: 0.03 % (0:0:14.015) Process failed for sentence 3663, rerunning from sentence 3664
+[19:49:33 24/02]	Running BLLIP parser with tokenization
+[19:49:48 24/02]	Process failed for sentence 3664, rerunning from sentence 3665
+[19:49:49 24/02]	Running BLLIP parser with tokenization
+[19:50:04 24/02]	Parsing: 0.03 % (0:0:14.016) Process failed for sentence 3666, rerunning from sentence 3667
+[19:50:04 24/02]	Running BLLIP parser with tokenization
+[19:50:18 24/02]	Parsing: 0.09 % (0:0:14.015) Process failed for sentence 3670, rerunning from sentence 3671
+[19:50:18 24/02]	Running BLLIP parser with tokenization
+[19:50:32 24/02]	Parsing: 0.06 % (0:0:14.014) Process failed for sentence 3673, rerunning from sentence 3674
+[19:50:32 24/02]	Running BLLIP parser with tokenization
+[19:50:47 24/02]	Parsing: 0.15 % (0:0:14.015) Process failed for sentence 3679, rerunning from sentence 3680
+[19:50:47 24/02]	Running BLLIP parser with tokenization
+[19:51:01 24/02]	Parsing: 0.03 % (0:0:14.015) Process failed for sentence 3681, rerunning from sentence 3682
+[19:51:01 24/02]	Running BLLIP parser with tokenization
+[19:51:17 24/02]	Process failed for sentence 3682, rerunning from sentence 3683
+[19:51:18 24/02]	Running BLLIP parser with tokenization
+[19:51:33 24/02]	Parsing: 0.03 % (0:0:15.016) Process failed for sentence 3684, rerunning from sentence 3685
+[19:51:33 24/02]	Running BLLIP parser with tokenization
+[19:51:48 24/02]	Process failed for sentence 3685, rerunning from sentence 3686
+[19:51:48 24/02]	Running BLLIP parser with tokenization
+[19:52:03 24/02]	Parsing: 0.03 % (0:0:15.015) Process failed for sentence 3687, rerunning from sentence 3688
+[19:52:03 24/02]	Running BLLIP parser with tokenization
+[19:54:58 24/02]	Parsing: 5.95 % (0:2:45.528) Process failed for sentence 3899, rerunning from sentence 3900
+[19:54:58 24/02]	Running BLLIP parser with tokenization
+[19:56:34 24/02]	Parsing: 2.69 % (0:1:14.158) Process failed for sentence 4009, rerunning from sentence 4010
+[19:56:35 24/02]	Running BLLIP parser with tokenization
+[19:57:24 24/02]	Parsing: 0.68 % (0:0:46.061) Process failed for sentence 4034, rerunning from sentence 4035
+[19:57:24 24/02]	Running BLLIP parser with tokenization
+[19:58:00 24/02]	Parsing: 0.03 % (0:0:14.015) Process failed for sentence 4132, rerunning from sentence 4133
+[19:58:00 24/02]	Running BLLIP parser with tokenization
+[19:59:31 24/02]	Parsing: 2.43 % (0:1:20.170) Process failed for sentence 4217, rerunning from sentence 4218
+[19:59:31 24/02]	Running BLLIP parser with tokenization
+[20:02:26 24/02]	Parsing: 7.63 % (0:2:46.599) Process failed for sentence 4451, rerunning from sentence 4452
+[20:02:27 24/02]	Running BLLIP parser with tokenization
+[20:03:18 24/02]	Parsing: 1.66 % (0:0:44.070) Process failed for sentence 4507, rerunning from sentence 4508
+[20:03:18 24/02]	Running BLLIP parser with tokenization
+[20:07:09 24/02]	Parsing: 11.57 % (0:3:48.047) Process failed for sentence 4811, rerunning from sentence 4812
+[20:07:09 24/02]	Running BLLIP parser with tokenization
+[20:08:20 24/02]	Parsing: 2.45 % (0:0:44.072) Process failed for sentence 4911, rerunning from sentence 4912
+[20:08:21 24/02]	Running BLLIP parser with tokenization
+[20:10:22 24/02]	Parsing: 7.22 % (0:1:46.287) Process failed for sentence 5120, rerunning from sentence 5121
+[20:10:22 24/02]	Running BLLIP parser with tokenization
+[20:13:13 24/02]	Parsing: 12.08 % (0:2:49.716) Process failed for sentence 5363, rerunning from sentence 5364
+[20:13:13 24/02]	Running BLLIP parser with tokenization
+[20:34:14 24/02]	Parsing: 90.55 % (0:20:31.391) Process failed for sentence 6976, rerunning from sentence 6977
+[20:34:14 24/02]	Running BLLIP parser with tokenization
+[20:35:50 24/02]	Parsing: 87.80 % (0:1:32.220) Process failed for sentence 7089, rerunning from sentence 7090
+[20:35:50 24/02]	Running BLLIP parser with tokenization
+[20:36:15 24/02]	Parsing: 100.00 % (0:0:25.029)
+[20:36:16 24/02]	Warning, processing failed for 73 out of 7100 sentences
+[20:36:16 24/02]	Inserting parses
+[20:36:17 24/02]	Warning, token duplication (u'.', [(u'Registered', u'JJ', u'Registered'), (u'trademark', u'NN', u'trademark'), (u'of', u'IN', u'of'), (u'Ames', u'NN', u'Ames'), (u'Company', u'NN', u'Company'), (u',', u',', u','), (u'Division', u'NN', u'Division'), (u'of', u'IN', u'of'), (u'Miles', u'NN', u'Miles'), (u'Laboratories', u'NNS', u'Laboratories'), (u',', u',', u','), (u'Inc.', u'NNP', u'Inc.'), (u'.', u'.', u'.')], u'.', 69, 'Registered trademark of Ames Company, Division of Miles Laboratories, Inc.', ('DDI-DrugBank.d556.s7', None))
+[20:36:18 24/02]	Warning, token duplication (u'.', [(u'When', u'IN', u'When'), (u's.c.', u'NN', u's.c.'), (u'.', u'.', u'.')], u'.', 4, 'When s.c.', ('DDI-DrugBank.d464.s1', None))
+[20:36:20 24/02]	Warning, token duplication (u'.', [(u'While', u'IN', u'While'), (u'no', u'DT', u'no'), (u'clinical', u'JJ', u'clinical'), (u'studies', u'NNS', u'studies'), (u'have', u'VBP', u'have'), (u'been', u'VBN', u'been'), (u'conducted', u'VBN', u'conducted'), (u'to', u'TO', u'to'), (u'evaluate', u'VB', u'evaluate'), (u'the', u'DT', u'the'), (u'effect', u'NN', u'effect'), (u'of', u'IN', u'of'), (u'grepafloxacin', u'NN', u'grepafloxacin'), (u'on', u'IN', u'on'), (u'the', u'DT', u'the'), (u'metabolism', u'NN', u'metabolism'), (u'of', u'IN', u'of'), (u'C.P.A.', u'NN', u'C.P.A.'), (u'.', u'.', u'.')], u'.', 106, 'While no clinical studies have been conducted to evaluate the effect of grepafloxacin on the metabolism of C.P.A.', ('DDI-DrugBank.d78.s12', None))
+[20:36:20 24/02]	Warning, token duplication (u'.', [(u'Other', u'JJ', u'Other'), (u'drugs', u'NNS', u'drugs'), (u'metabolized', u'VBN', u'metabolized'), (u'by', u'IN', u'by'), (u'C.P.A.', u'NN', u'C.P.A.'), (u'.', u'.', u'.')], u'.', 26, 'Other drugs metabolized by C.P.A.', ('DDI-DrugBank.d78.s15', None))
+[20:36:20 24/02]	Warning, token duplication (u'.', [(u'Co-medications', u'NNS', u'Co-medications'), (u'that', u'WDT', u'that'), (u'induce', u'VBP', u'induce'), (u'CYP3A4', u'NN', u'CYP3A4'), (u'(', u'(', u'-LRB-'), (u'e.g.', u'FW', u'e.g.'), (u',', u',', u','), (u'dexamethasone', u'NN', u'dexamethasone'), (u',', u',', u','), (u'phenytoin', u'NN', u'phenytoin'), (u',', u',', u','), (u'carbamazepine', u'NN', u'carbamazepine'), (u',', u',', u','), (u'rifampin', u'NN', u'rifampin'), (u',', u',', u','), (u'phenobarbital', u'NN', u'phenobarbital'), (u'or', u'CC', u'or'), (u'St.', u'NN', u'St.'), (u'.', u'.', u'.')], u'.', 108, 'Co-medications that induce CYP3A4 (e.g., dexamethasone, phenytoin, carbamazepine, rifampin, phenobarbital or St.', ('DDI-DrugBank.d115.s4', None))
+[20:36:21 24/02]	Warning, token duplication (u'.', [(u'However', u'RB', u'However'), (u',', u',', u','), (u'concomitant', u'JJ', u'concomitant'), (u'administration', u'NN', u'administration'), (u'of', u'IN', u'of'), (u'5', u'CD', u'5'), (u'mg', u'NN', u'mg'), (u'b.i.d.', u'NNS', u'b.i.d.'), (u'isradipine', u'NN', u'isradipine'), (u'and', u'CC', u'and'), (u'40', u'CD', u'40'), (u'mg', u'NN', u'mg'), (u'b.i.d.', u'NN', u'b.i.d.'), (u'.', u'.', u'.')], u'.', 71, 'However, concomitant administration of 5 mg b.i.d. isradipine and 40 mg b.i.d.', ('DDI-DrugBank.d81.s5', None))
+[20:36:21 24/02]	Warning, token duplication (u'.', [(u'The', u'DT', u'The'), (u'results', u'NNS', u'results'), (u'from', u'IN', u'from'), (u'a', u'DT', u'a'), (u'study', u'NN', u'study'), (u'in', u'IN', u'in'), (u'which', u'WDT', u'which'), (u'eight', u'CD', u'eight'), (u'HIV-infected', u'JJ', u'HIV-infected'), (u'individuals', u'NNS', u'individuals'), (u'were', u'VBD', u'were'), (u'treated', u'VBN', u'treated'), (u'with', u'IN', u'with'), (u'zidovudine', u'NN', u'zidovudine'), (u',', u',', u','), (u'8', u'CD', u'8'), (u'+/-', u'CC', u'+/-'), (u'0.4', u'CD', u'0.4'), (u'mg/kg/day', u'NN', u'mg/kg/day'), (u',', u',', u','), (u'showed', u'VBD', u'showed'), (u'that', u'IN', u'that'), (u'the', u'DT', u'the'), (u'pharmacokinetics', u'NNS', u'pharmacokinetics'), (u'of', u'IN', u'of'), (u'zidovudine', u'NN', u'zidovudine'), (u'were', u'VBD', u'were'), (u'not', u'RB', u'not'), (u'affected', u'VBN', u'affected'), (u'during', u'IN', u'during'), (u'concomitant', u'JJ', u'concomitant'), (u'administration', u'NN', u'administration'), (u'of', u'IN', u'of'), (u'Itraconazole', u'NN', u'Itraconazole'), (u',', u',', u','), (u'100', u'CD', u'100'), (u'mg', u'NN', u'mg'), (u'b.i.d.', u'NN', u'b.i.d.'), (u'.', u'.', u'.')], u'.', 238, 'The results from a study in which eight HIV-infected individuals were treated with zidovudine, 8 +/- 0.4 mg/kg/day, showed that the pharmacokinetics of zidovudine were not affected during concomitant administration of Itraconazole, 100 mg b.i.d.', ('DDI-DrugBank.d165.s31', None))
+[20:36:21 24/02]	Warning, token duplication (u'.', [(u'Nelfinavir', u'NN', u'Nelfinavir'), (u'is', u'VBZ', u'is'), (u'metabolized', u'VBN', u'metabolized'), (u'in', u'IN', u'in'), (u'proof', u'NN', u'proof'), (u'by', u'IN', u'by'), (u'C.P.A.', u'NN', u'C.P.A.'), (u'.', u'.', u'.')], u'.', 37, 'Nelfinavir is metabolized in proof by C.P.A.', ('DDI-DrugBank.d340.s2', None))
+[20:36:21 24/02]	Warning, token duplication (u'.', [(u'Indinavir', u'NN', u'Indinavir'), (u':', u':', u':'), (u'Coadministration', u'NN', u'Coadministration'), (u'of', u'IN', u'of'), (u'indinavir', u'NN', u'indinavir'), (u'with', u'IN', u'with'), (u'VIRACEPT', u'NN', u'VIRACEPT'), (u'resulted', u'VBD', u'resulted'), (u'in', u'IN', u'in'), (u'an', u'DT', u'an'), (u'83', u'CD', u'83'), (u'%', u'NN', u'%'), (u'increase', u'NN', u'increase'), (u'in', u'IN', u'in'), (u'nelfinavir', u'NN', u'nelfinavir'), (u'plasma', u'NN', u'plasma'), (u'AUC', u'NN', u'AUC'), (u'and', u'CC', u'and'), (u'a', u'DT', u'a'), (u'51', u'CD', u'51'), (u'%', u'NN', u'%'), (u'increase', u'NN', u'increase'), (u'in', u'IN', u'in'), (u'indinavir', u'JJ', u'indinavir'), (u'plasma', u'NN', u'plasma'), (u'A.C.', u'NN', u'A.C.'), (u'.', u'.', u'.')], u'.', 146, 'Indinavir: Coadministration of indinavir with VIRACEPT resulted in an 83% increase in nelfinavir plasma AUC and a 51% increase in indinavir plasma A.C.', ('DDI-DrugBank.d340.s14', None))
+[20:36:21 24/02]	Warning, token duplication (u'.', [(u'Ritonavir', u'NN', u'Ritonavir'), (u':', u':', u':'), (u'Coadministration', u'NN', u'Coadministration'), (u'of', u'IN', u'of'), (u'ritonavir', u'NN', u'ritonavir'), (u'with', u'IN', u'with'), (u'VIRACEPT', u'NN', u'VIRACEPT'), (u'resulted', u'VBD', u'resulted'), (u'in', u'IN', u'in'), (u'a', u'DT', u'a'), (u'152', u'CD', u'152'), (u'%', u'NN', u'%'), (u'increase', u'NN', u'increase'), (u'in', u'IN', u'in'), (u'nelfinavir', u'NN', u'nelfinavir'), (u'plasma', u'NN', u'plasma'), (u'AUC', u'NN', u'AUC'), (u'and', u'CC', u'and'), (u'very', u'RB', u'very'), (u'little', u'JJ', u'little'), (u'change', u'NN', u'change'), (u'in', u'IN', u'in'), (u'ritonavir', u'NN', u'ritonavir'), (u'plasma', u'NN', u'plasma'), (u'A.C.', u'NN', u'A.C.'), (u'.', u'.', u'.')], u'.', 150, 'Ritonavir: Coadministration of ritonavir with VIRACEPT resulted in a 152% increase in nelfinavir plasma AUC and very little change in ritonavir plasma A.C.', ('DDI-DrugBank.d340.s16', None))
+[20:36:21 24/02]	Warning, token duplication (u'.', [(u'Saquinavir', u'NN', u'Saquinavir'), (u':', u':', u':'), (u'Coadministration', u'NN', u'Coadministration'), (u'of', u'IN', u'of'), (u'saquinavir', u'NN', u'saquinavir'), (u'(', u'(', u'-LRB-'), (u'using', u'VBG', u'using'), (u'an', u'DT', u'an'), (u'experimental', u'JJ', u'experimental'), (u'soft-gelatin', u'NN', u'soft-gelatin'), (u'capsule', u'NN', u'capsule'), (u'formulation', u'NN', u'formulation'), (u'of', u'IN', u'of'), (u'saquinavir', u'JJ', u'saquinavir'), (u'1200mg', u'NN', u'1200mg'), (u')', u')', u'-RRB-'), (u'with', u'IN', u'with'), (u'VIRACEPT', u'NN', u'VIRACEPT'), (u'resulted', u'VBD', u'resulted'), (u'in', u'IN', u'in'), (u'an', u'DT', u'an'), (u'18', u'CD', u'18'), (u'%', u'NN', u'%'), (u'increase', u'NN', u'increase'), (u'in', u'IN', u'in'), (u'nelfinavir', u'NN', u'nelfinavir'), (u'plasma', u'NN', u'plasma'), (u'AUC', u'NN', u'AUC'), (u'and', u'CC', u'and'), (u'a', u'DT', u'a'), (u'4-fold', u'JJ', u'4-fold'), (u'increase', u'NN', u'increase'), (u'in', u'IN', u'in'), (u'saquinavir', u'JJ', u'saquinavir'), (u'plasma', u'NN', u'plasma'), (u'A.C.', u'NN', u'A.C.'), (u'.', u'.', u'.')], u'.', 230, 'Saquinavir: Coadministration of saquinavir (using an experimental soft-gelatin capsule formulation of saquinavir 1200mg) with VIRACEPT resulted in an 18% increase in nelfinavir plasma AUC and a 4-fold increase in saquinavir plasma A.C.', ('DDI-DrugBank.d340.s18', None))
+[20:36:21 24/02]	Warning, token duplication (u'.', [(u'Ketoconazole', u'NN', u'Ketoconazole'), (u':', u':', u':'), (u'Coadministration', u'NN', u'Coadministration'), (u'of', u'IN', u'of'), (u'ketoconazole', u'NN', u'ketoconazole'), (u'with', u'IN', u'with'), (u'VIRACEPT', u'NN', u'VIRACEPT'), (u'resulted', u'VBD', u'resulted'), (u'in', u'IN', u'in'), (u'a', u'DT', u'a'), (u'35', u'CD', u'35'), (u'%', u'NN', u'%'), (u'increase', u'NN', u'increase'), (u'in', u'IN', u'in'), (u'nelfinavir', u'NN', u'nelfinavir'), (u'plasma', u'NN', u'plasma'), (u'A.C.', u'NN', u'A.C.'), (u'.', u'.', u'.')], u'.', 108, 'Ketoconazole: Coadministration of ketoconazole with VIRACEPT resulted in a 35% increase in nelfinavir plasma A.C.', ('DDI-DrugBank.d340.s22', None))
+[20:36:21 24/02]	Warning, token duplication (u'.', [(u'Rifabutin', u'NN', u'Rifabutin'), (u':', u':', u':'), (u'Coadministration', u'NN', u'Coadministration'), (u'of', u'IN', u'of'), (u'rifabutin', u'NN', u'rifabutin'), (u'and', u'CC', u'and'), (u'VIRACEPT', u'NN', u'VIRACEPT'), (u'resulted', u'VBD', u'resulted'), (u'in', u'IN', u'in'), (u'a', u'DT', u'a'), (u'32', u'CD', u'32'), (u'%', u'NN', u'%'), (u'decrease', u'NN', u'decrease'), (u'in', u'IN', u'in'), (u'nelfinavir', u'NN', u'nelfinavir'), (u'plasma', u'NN', u'plasma'), (u'AUC', u'NN', u'AUC'), (u'and', u'CC', u'and'), (u'a', u'DT', u'a'), (u'207', u'CD', u'207'), (u'%', u'NN', u'%'), (u'increase', u'NN', u'increase'), (u'in', u'IN', u'in'), (u'rifabutin', u'NN', u'rifabutin'), (u'plasma', u'NN', u'plasma'), (u'A.C.', u'NN', u'A.C.'), (u'.', u'.', u'.')], u'.', 145, 'Rifabutin: Coadministration of rifabutin and VIRACEPT resulted in a 32% decrease in nelfinavir plasma AUC and a 207% increase in rifabutin plasma A.C.', ('DDI-DrugBank.d340.s30', None))
+[20:36:21 24/02]	Warning, token duplication (u'.', [(u'Rifampin', u'NN', u'Rifampin'), (u':', u':', u':'), (u'Coadministration', u'NN', u'Coadministration'), (u'of', u'IN', u'of'), (u'rifampin', u'NN', u'rifampin'), (u'and', u'CC', u'and'), (u'VIRACEPT', u'NN', u'VIRACEPT'), (u'resulted', u'VBD', u'resulted'), (u'in', u'IN', u'in'), (u'an', u'DT', u'an'), (u'82', u'CD', u'82'), (u'%', u'NN', u'%'), (u'decrease', u'NN', u'decrease'), (u'in', u'IN', u'in'), (u'nelfinavir', u'NN', u'nelfinavir'), (u'plasma', u'NN', u'plasma'), (u'A.C.', u'NN', u'A.C.'), (u'.', u'.', u'.')], u'.', 100, 'Rifampin: Coadministration of rifampin and VIRACEPT resulted in an 82% decrease in nelfinavir plasma A.C.', ('DDI-DrugBank.d340.s32', None))
+[20:36:22 24/02]	Warning, token duplication (u'.', [(u'The', u'DT', u'The'), (u'behavioral', u'JJ', u'behavioral'), (u'changes', u'NNS', u'changes'), (u'of', u'IN', u'of'), (u'mice', u'NNS', u'mice'), (u'induced', u'VBN', u'induced'), (u'by', u'IN', u'by'), (u'acute', u'JJ', u'acute'), (u'and', u'CC', u'and'), (u'repeated', u'VBN', u'repeated'), (u'i.p.', u'RB', u'i.p.'), (u'.', u'.', u'.')], u'.', 60, 'The behavioral changes of mice induced by acute and repeated i.p. ', ('DDI-MedLine.d104.s1', None))
+[20:36:22 24/02]	Warning, token duplication (u'.', [(u'At', u'IN', u'At'), (u'37', u'CD', u'37'), (u'degrees', u'NNS', u'degrees'), (u'C', u'NN', u'C'), (u'the', u'DT', u'the'), (u'non-myelinated', u'JJ', u'non-myelinated'), (u'axons', u'NNS', u'axons'), (u'contained', u'VBD', u'contained'), (u'28.4', u'CD', u'28.4'), (u'plus', u'JJ', u'plus'), (u'or', u'CC', u'or'), (u'minus', u'JJ', u'minus'), (u'0.8', u'CD', u'0.8'), (u'S.E.M.', u'NN', u'S.E.M.'), (u'.', u'.', u'.')], u'.', 73, 'At 37 degrees C the non-myelinated axons contained 28.4 plus or minus 0.8 S.E.M. ', ('DDI-MedLine.d77.s2', None))
+[20:36:22 24/02]	Warning, token duplication (u'.', [(u'After', u'IN', u'After'), (u'incubation', u'NN', u'incubation'), (u'at', u'IN', u'at'), (u'0', u'CD', u'0'), (u'degrees', u'NNS', u'degrees'), (u'C', u'NN', u'C'), (u'for', u'IN', u'for'), (u'4', u'CD', u'4'), (u'h', u'NN', u'h'), (u'this', u'DT', u'this'), (u'number', u'NN', u'number'), (u'fell', u'VBP', u'fell'), (u'to', u'TO', u'to'), (u'2.3', u'CD', u'2.3'), (u'plus', u'JJ', u'plus'), (u'or', u'CC', u'or'), (u'minus', u'JJ', u'minus'), (u'0.1', u'CD', u'0.1'), (u'S.E.M.', u'NN', u'S.E.M.'), (u'.', u'.', u'.')], u'.', 81, 'After incubation at 0 degrees C for 4 h this number fell to 2.3 plus or minus 0.1 S.E.M. ', ('DDI-MedLine.d77.s4', None))
+[20:36:23 24/02]	Warning, token duplication (u'.', [(u'Eight', u'CD', u'Eight'), (u'healthy', u'JJ', u'healthy'), (u'volunteers', u'NNS', u'volunteers'), (u'were', u'VBD', u'were'), (u'randomized', u'VBN', u'randomized'), (u'in', u'IN', u'in'), (u'an', u'DT', u'an'), (u'open-label', u'JJ', u'open-label'), (u',', u',', u','), (u'two-way', u'JJ', u'two-way'), (u'crossover', u'NN', u'crossover'), (u'study', u'NN', u'study'), (u'to', u'TO', u'to'), (u'receive', u'VBP', u'receive'), (u'oxycodone', u'NN', u'oxycodone'), (u',', u',', u','), (u'5', u'CD', u'5'), (u'mg', u'NN', u'mg'), (u'p.o.', u'NN', u'p.o.'), (u'.', u'.', u'.')], u'.', 109, 'Eight healthy volunteers were randomized in an open-label, two-way crossover study to receive oxycodone, 5 mg p.o. ', ('DDI-MedLine.d124.s4', None))
+[20:36:23 24/02]	Warning, token duplication (u'.', [(u'Q4H', u'NN', u'Q4H'), (u',', u',', u','), (u'and', u'CC', u'and'), (u'levofloxacin', u'NN', u'levofloxacin'), (u',', u',', u','), (u'500', u'CD', u'500'), (u'mg', u'NN', u'mg'), (u'p.o.', u'NN', u'p.o.'), (u'.', u'.', u'.')], u'.', 29, 'Q4H, and levofloxacin, 500 mg p.o. ', ('DDI-MedLine.d124.s5', None))
+[20:36:23 24/02]	Warning, token duplication (u'.', [(u'1', u'CD', u'1'), (u'hour', u'NN', u'hour'), (u'after', u'IN', u'after'), (u'starting', u'VBG', u'starting'), (u'the', u'DT', u'the'), (u'oxycodone', u'NN', u'oxycodone'), (u'or', u'CC', u'or'), (u'levofloxacin', u'NN', u'levofloxacin'), (u'500', u'CD', u'500'), (u'mg', u'NN', u'mg'), (u'p.o.', u'NN', u'p.o.'), (u'.', u'.', u'.')], u'.', 58, '1 hour after starting the oxycodone or levofloxacin 500 mg p.o. ', ('DDI-MedLine.d124.s6', None))
+[20:36:23 24/02]	Warning, token duplication (u'.', [(u'Two', u'CD', u'Two'), (u'weeks', u'NNS', u'weeks'), (u'after', u'IN', u'after'), (u'bilateral', u'JJ', u'bilateral'), (u'ovariectomy', u'NN', u'ovariectomy'), (u',', u',', u','), (u'female', u'JJ', u'female'), (u'rats', u'NNS', u'rats'), (u'received', u'VBD', u'received'), (u'a', u'DT', u'a'), (u's.c.', u'NN', u's.c.'), (u'.', u'.', u'.')], u'.', 61, 'Two weeks after bilateral ovariectomy, female rats received a s.c. ', ('DDI-MedLine.d102.s2', None))
+[20:36:23 24/02]	Warning, token duplication (u'.', [(u'AUC', u'NN', u'AUC'), (u'for', u'IN', u'for'), (u'total', u'JJ', u'total'), (u'nitrosoureas', u'NN', u'nitrosoureas'), (u'were', u'VBD', u'were'), (u'about', u'RB', u'about'), (u'1.4-1.5', u'CD', u'1.4-1.5'), (u'fold', u'NN', u'fold'), (u'greater', u'JJR', u'greater'), (u'for', u'IN', u'for'), (u'the', u'DT', u'the'), (u'oral', u'JJ', u'oral'), (u'compared', u'VBN', u'compared'), (u'to', u'TO', u'to'), (u'the', u'DT', u'the'), (u'i.p.', u'RB', u'i.p.'), (u'.', u'.', u'.')], u'.', 87, 'AUC for total nitrosoureas were about 1.4-1.5 fold greater for the oral compared to the i.p. ', ('DDI-MedLine.d85.s3', None))
+[20:36:23 24/02]	Token alignment error (u').', [(u'In', u'IN', u'In'), (u'male', u'JJ', u'male'), (u'Sprague-Dawley', u'NN', u'Sprague-Dawley'), (u'rats', u'NNS', u'rats'), (u'fasted', u'VBN', u'fasted'), (u'for', u'IN', u'for'), (u'18', u'CD', u'18'), (u'h', u'NN', u'h'), (u',', u',', u','), (u'concomitant', u'JJ', u'concomitant'), (u'administration', u'NN', u'administration'), (u'of', u'IN', u'of'), (u'caffeine', u'NN', u'caffeine'), (u'(', u'(', u'-LRB-'), (u'0.1', u'CD', u'0.1'), (u'g/kg', u'NN', u'g/kg'), (u',', u',', u','), (u'i.p.', u'RB', u'i.p.'), (u').', u'NN', u'-RRB-.')], u'NN', 99, 'In male Sprague-Dawley rats fasted for 18 h, concomitant administration of caffeine (0.1 g/kg, i.p.) ', ('DDI-MedLine.d55.s2', None))
+[20:36:23 24/02]	Token alignment error (u').', [(u'dmPGE2', u'NN', u'dmPGE2'), (u'(', u'(', u'-LRB-'), (u'0.1-1.0', u'CD', u'0.1-1.0'), (u'mg/kg', u'NN', u'mg/kg'), (u',', u',', u','), (u'p.o.', u'NN', u'p.o.'), (u').', u'CD', u'-RRB-.')], u'CD', 27, 'dmPGE2 (0.1-1.0 mg/kg, p.o.) ', ('DDI-MedLine.d128.s2', None))
+[20:36:23 24/02]	Token alignment error (u').', [(u'Castor', u'NN', u'Castor'), (u'oil', u'NN', u'oil'), (u'(', u'(', u'-LRB-'), (u'4', u'CD', u'4'), (u'ml/kg', u'NN', u'ml/kg'), (u',', u',', u','), (u'p.o.', u'NN', u'p.o.'), (u').', u'NN', u'-RRB-.')], u'NN', 25, 'Castor oil (4 ml/kg, p.o.) ', ('DDI-MedLine.d128.s6', None))
+[20:36:23 24/02]	Token alignment error (u').', [(u'Loperamide', u'NN', u'Loperamide'), (u'and', u'CC', u'and'), (u'morphine', u'NN', u'morphine'), (u'(', u'(', u'-LRB-'), (u'0.1', u'CD', u'0.1'), (u'and', u'CC', u'and'), (u'1.0', u'CD', u'1.0'), (u'mg/kg', u'NN', u'mg/kg'), (u',', u',', u','), (u's.c.', u'NN', u's.c.'), (u').', u'NN', u'-RRB-.')], u'NN', 48, 'Loperamide and morphine (0.1 and 1.0 mg/kg, s.c.) ', ('DDI-MedLine.d128.s12', None))
+[20:36:23 24/02]	Token alignment error (u').', [(u'N-methyllevallorphan', u'NN', u'N-methyllevallorphan'), (u'(', u'(', u'-LRB-'), (u'5', u'CD', u'5'), (u'mg/kg', u'NN', u'mg/kg'), (u',', u',', u','), (u's.c.', u'NN', u's.c.'), (u').', u'CD', u'-RRB-.')], u'CD', 35, 'N-methyllevallorphan (5 mg/kg, s.c.) ', ('DDI-MedLine.d128.s14', None))
+[20:36:23 24/02]	Token alignment error (u').', [(u'and', u'CC', u'and'), (u'glutamate', u'NN', u'glutamate'), (u'(', u'(', u'-LRB-'), (u'15', u'CD', u'15'), (u'mg/kg', u'NN', u'mg/kg'), (u'e.w.', u'NN', u'e.w.'), (u').', u'NN', u'-RRB-.')], u'NN', 28, 'and glutamate (15 mg/kg e.w.) ', ('DDI-MedLine.d20.s3', None))
+[20:36:24 24/02]	Warning, token duplication (u'.', [(u'Atracurium', u'NN', u'Atracurium'), (u'was', u'VBD', u'was'), (u'again', u'RB', u'again'), (u'given', u'VBN', u'given'), (u'by', u'IN', u'by'), (u'infusion', u'NN', u'infusion'), (u'to', u'TO', u'to'), (u'maintain', u'VB', u'maintain'), (u'40', u'CD', u'40'), (u'%', u'NN', u'%'), (u'twitch', u'NN', u'twitch'), (u'for', u'IN', u'for'), (u'a', u'DT', u'a'), (u'second', u'JJ', u'second'), (u'hour', u'NN', u'hour'), (u',', u',', u','), (u'then', u'RB', u'then'), (u'2', u'CD', u'2'), (u'mg', u'NN', u'mg'), (u'gentamycin/kg', u'NN', u'gentamycin/kg'), (u'bwt', u'NN', u'bwt'), (u'were', u'VBD', u'were'), (u'given', u'VBN', u'given'), (u'i.v.', u'NN', u'i.v.'), (u'.', u'.', u'.')], u'.', 119, 'Atracurium was again given by infusion to maintain 40% twitch for a second hour, then 2 mg gentamycin/kg bwt were given i.v. ', ('DDI-MedLine.d90.s3', None))
+[20:36:24 24/02]	Parsed 6976 sentences (71 failed)
+[20:36:24 24/02]	Warning, parsing failed for 71 out of 6976 sentences
+[20:36:24 24/02]	The "pennstring" attribute of these sentences has an empty string.
+[20:36:24 24/02]	Writing output to /tmp/tmpLSXAhe/parsing-parse.xml.gz
+[20:37:11 24/02]	=== EXIT STEP PARSE time: 1:45:27.860181 ===
+[20:37:11 24/02]	=== ENTER STEP Preprocessor:PROCESS:CONVERT-PARSE ===
+[20:37:11 24/02]	Running step CONVERT-PARSE with arguments {'debug': False, 'input': <__builtin__.ElementTree instance at 0xa2fea2c>, 'parser': 'McCC', 'output': '/tmp/tmpLSXAhe/parsing-converted-parse.xml.gz'}
+[20:37:11 24/02]	Running Stanford conversion
+[20:37:11 24/02]	Stanford tools at: /home/jari/TEES_DATA/tools/stanford-parser-2012-03-09
+[20:37:11 24/02]	Stanford tools arguments: java -mx500m -cp stanford-parser.jar edu.stanford.nlp.trees.EnglishGrammaticalStructure -CCprocessed -keepPunct -treeFile
+[20:37:11 24/02]	Stanford time stamp: 24.02.13 20:37:11
+[20:37:11 24/02]	Loading corpus <__builtin__.ElementTree instance at 0xa2fea2c>
+[20:37:11 24/02]	Corpus file loaded
+[20:48:25 24/02]	Stanford Conversion: 100.00 % (0:11:12.286)
+[20:48:28 24/02]	Processed succesfully all sentences
+[20:48:35 24/02]	Token not found (u'administration', 1, ('DDI-MedLine.d55.s2', 'None'))
+[20:48:35 24/02]	Token not found (u'mg/kg', 1, ('DDI-MedLine.d128.s2', 'None'))
+[20:48:35 24/02]	Token not found (u'oil', 1, ('DDI-MedLine.d128.s6', 'None'))
+[20:48:35 24/02]	Token not found (u'Loperamide', 1, ('DDI-MedLine.d128.s12', 'None'))
+[20:48:35 24/02]	Token not found (u'mg/kg', 1, ('DDI-MedLine.d128.s14', 'None'))
+[20:48:36 24/02]	Token not found (u'glutamate', 1, ('DDI-MedLine.d20.s3', 'None'))
+[20:48:36 24/02]	Stanford conversion was done for 6905 sentences, 192 had no dependencies, 0 failed
+[20:48:36 24/02]	Writing output to /tmp/tmpLSXAhe/parsing-converted-parse.xml.gz
+[20:49:37 24/02]	=== EXIT STEP CONVERT-PARSE time: 0:12:26.645745 ===
+[20:49:37 24/02]	Omitting step SPLIT-NAMES
+[20:49:37 24/02]	=== EXIT STEP SPLIT-NAMES time: 0:00:00.000382 ===
+[20:49:37 24/02]	=== ENTER STEP Preprocessor:PROCESS:FIND-HEADS ===
+[20:49:37 24/02]	Running step FIND-HEADS with arguments {'parse': 'McCC', 'removeExisting': True, 'output': '/tmp/tmpLSXAhe/parsing-heads.xml.gz', 'input': <__builtin__.ElementTree instance at 0xa2fea2c>}
+[20:49:37 24/02]	Removing existing head offsets
+[20:49:37 24/02]	Removed head offsets from 0 entities
+[20:49:37 24/02]	Determining head offsets using parse McCC and tokenization None
+[20:49:41 24/02]	Warning, parse missing from 0 and tokenization from 71 sentences out of a total of 6976
+[20:49:41 24/02]	Requested parse McCC and tokenization None
+[20:49:41 24/02]	714 documents, 6976 sentences
+[20:49:51 24/02]	Making sentence graphs (DDI-MedLine.d113.s6): 100.00 % (0:0:10.181)
+[20:49:51 24/02]	Skipped 28 duplicate interaction edges in SentenceGraphs
+[20:49:53 24/02]	Writing output to /tmp/tmpLSXAhe/parsing-heads.xml.gz
+[20:50:59 24/02]	=== EXIT STEP FIND-HEADS time: 0:01:21.374235 ===
+[20:50:59 24/02]	Omitting step DIVIDE-SETS
+[20:50:59 24/02]	=== EXIT STEP DIVIDE-SETS: 0:00:00.002148 ===
+[20:50:59 24/02]	* Preprocessor:PROCESS(EXIT) 1:59:15.892591 *
+[20:51:36 24/02]	--------------- Corpus Structure Analysis ---------------
+[20:51:36 24/02]	Analyzing <Element 'corpus' at 0x9ebeb30>
+[20:51:47 24/02]	ENTITY brand
+[20:51:47 24/02]	ENTITY drug
+[20:51:47 24/02]	ENTITY drug_n
+[20:51:47 24/02]	ENTITY group
+[20:51:47 24/02]	RELATION advise	undirected	brand,drug,group	brand,drug,group
+[20:51:47 24/02]	RELATION effect	undirected	brand,drug,drug_n,group	brand,drug,drug_n,group
+[20:51:47 24/02]	RELATION int	undirected	brand,drug,group	brand,drug,drug_n,group
+[20:51:47 24/02]	RELATION mechanism	undirected	brand,drug,drug_n,group	brand,drug,drug_n,group
+[20:51:47 24/02]	TARGET INTERACTION	advise,effect,int,mechanism
+[20:51:47 24/02]	
+[20:51:47 24/02]	Writing output to /home/jari/biotext/TEESBioNLP13/convertDDI13-130224-parsed/DDI13-train.xml
+[20:52:23 24/02]	Stopped logging stdout to /home/jari/biotext/TEESBioNLP13/convertDDI13-130224-parsed/DDI13-conversion-log.txt
