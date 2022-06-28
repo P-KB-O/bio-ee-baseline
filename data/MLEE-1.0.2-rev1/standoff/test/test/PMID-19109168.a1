@@ -1,0 +1,58 @@
+T1	Drug_or_compound 0 9	Estradiol
+T3	Gene_or_gene_product 20 24	IL-8
+T4	Tissue 51 64	breast tissue
+T5	Pathological_formation 69 82	breast cancer
+T6	Gene_or_gene_product 93 97	IL-8
+T7	Gene_or_gene_product 101 106	CXCL8
+T9	Pathological_formation 132 137	tumor
+T11	Pathological_formation 186 199	breast cancer
+T12	Drug_or_compound 201 209	Estrogen
+T13	Organism_subdivision 224 230	breast
+T15	Pathological_formation 250 255	tumor
+T17	Gene_or_gene_product 297 301	IL-8
+T18	Tissue 322 335	breast tissue
+T19	Pathological_formation 339 352	breast cancer
+T20	Gene_or_gene_product 406 410	IL-8
+T21	Gene_or_gene_product 444 448	IL-8
+T22	Gene_or_gene_product 522 526	IL-8
+T23	Tissue 543 556	breast tissue
+T24	Pathological_formation 617 631	breast cancers
+T25	Pathological_formation 649 675	experimental breast cancer
+T26	Gene_or_gene_product 737 741	IL-8
+T27	Drug_or_compound 746 755	estradiol
+T28	Tissue 766 779	breast tissue
+T29	Pathological_formation 784 815	hormone-dependent breast cancer
+T31	Drug_or_compound 834 843	estradiol
+T33	Gene_or_gene_product 867 871	IL-8
+T34	Tissue 898 911	breast tissue
+T35	Pathological_formation 940 953	breast cancer
+T36	Drug_or_compound 955 964	estradiol
+T37	Gene_or_gene_product 975 979	IL-8
+T39	Drug_or_compound 1006 1015	tamoxifen
+T41	Gene_or_gene_product 1043 1047	IL-8
+T42	Pathological_formation 1093 1099	tumors
+T43	Drug_or_compound 1117 1129	anti-IL-8 Ab
+T47	Cell 1140 1156	endothelial cell
+T48	Cell 1182 1193	cancer cell
+T49	Gene_or_gene_product 1203 1207	IL-8
+T50	Pathological_formation 1212 1218	tumors
+T51	Gene_or_gene_product 1228 1232	IL-8
+T54	Drug_or_compound 1308 1317	estradiol
+T56	Gene_or_gene_product 1359 1363	IL-8
+T57	Tissue 1380 1393	breast tissue
+T58	Pathological_formation 1404 1417	breast cancer
+T59	Gene_or_gene_product 1419 1423	IL-8
+T60	Drug_or_compound 1467 1475	estrogen
+T61	Organism_subdivision 1483 1489	breast
+T63	Pathological_formation 1509 1514	tumor
+T1000	Organism 45 50	human
+T1001	Organism 537 542	human
+T1002	Organism 592 597	women
+T1003	Organism 635 640	women
+T1004	Organism 679 683	mice
+T1005	Organism 1103 1112	nude mice
+T1006	Organism 1374 1379	human
+T1007	Organism 1398 1403	human
+T76	Tissue 391 397	tissue
+T77	Tissue 482 488	tissue
+T78	Cell 375 379	cell

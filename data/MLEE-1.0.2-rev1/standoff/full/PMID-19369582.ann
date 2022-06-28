@@ -1,0 +1,98 @@
+T3	Cell 260 277	endothelial cells
+T6	Tissue 370 387	endothelial tubes
+T7	Tissue 392 417	capillary-like structures
+T8	Cell 469 486	endothelial cells
+T10	Cell 554 570	endothelial cell
+T11	Cell 606 644	human umbilical vein endothelial cells
+T12	Cell 646 652	HUVECs
+T13	Drug_or_compound 655 677	[1,2-(13)C(2)]-glucose
+T15	Drug_or_compound 739 761	[1,2-(13)C(2)]-glucose
+T16	Cell 765 770	HUVEC
+T17	Drug_or_compound 807 814	glucose
+T23	Cell 966 982	endothelial cell
+T25	Gene_or_gene_product 1003 1037	vascular endothelial growth factor
+T26	Gene_or_gene_product 1039 1043	VEGF
+T28	Gene_or_gene_product 1049 1073	fibroblast growth factor
+T29	Gene_or_gene_product 1075 1078	FGF
+T30	Gene_or_gene_product 1104 1119	VEGF receptor-2
+T33	Drug_or_compound 1267 1274	glucose
+T37	Cell 1448 1453	HUVEC
+T38	Cell 1726 1736	tumor cell
+T40	Pathological_formation 1755 1760	tumor
+T50	Drug_or_compound 845 853	glycogen
+T52	Drug_or_compound 869 876	pentose
+T27	Drug_or_compound 1236 1244	glycogen
+T55	Drug_or_compound 1389 1397	glycogen
+T57	Drug_or_compound 1413 1420	pentose
+T63	Tissue 205 211	tissue
+T66	Cell 313 318	cells
+T18	Drug_or_compound 1161 1169	glycogen
+T53	Drug_or_compound 1185 1192	pentose
+T1	Blood_vessel_development 67 77	angiogenic
+T2	Blood_vessel_development 144 156	Angiogenesis
+T4	Blood_vessel_development 288 298	angiogenic
+T20	Pathway 891 910	glycolytic pathways
+T32	Pathway 1193 1206	cycle pathway
+T35	Pathway 1421 1439	phosphate pathways
+T41	Blood_vessel_development 1769 1781	angiogenesis
+T14	Metabolism 725 735	metabolism
+E14	Metabolism:T14 Theme:T15
+T22	Cell_proliferation 983 996	proliferation
+E22	Cell_proliferation:T22 Theme:T23
+T24	Positive_regulation 1080 1091	stimulation
+E24	Positive_regulation:T24 Theme:T28
+*	Equiv T11 T12
+*	Equiv T25 T26
+*	Equiv T28 T29
+T39	Positive_regulation 78 88	activation
+E1	Positive_regulation:T39 Theme:E30
+T42	Localization 249 259	recruiting
+E2	Localization:T42 Theme:T3
+T43	Cell_proliferation 332 343	proliferate
+E3	Cell_proliferation:T43 Theme:T66
+T44	Development 348 361	differentiate
+E4	Development:T44 Theme:T66
+T45	Development 365 369	form
+E6	Development:T45 Theme:T6
+E7	Development:T45 Theme:T7
+T46	Development 502 516	transformation
+E8	Development:T46 Theme:T8
+T47	Regulation 543 550	changes
+E10	Regulation:T47 Theme:E11
+T48	Positive_regulation 571 581	activation
+E11	Positive_regulation:T48 Theme:T10
+T49	Pathway 815 833	metabolic pathways
+E12	Pathway:T49 Participant:T17
+T51	Synthesis 854 863	synthesis
+E13	Synthesis:T51 Theme:T50
+E16	Positive_regulation:T24 Theme:T25
+T54	Catabolism 1249 1257	depleted
+E17	Catabolism:T54 Theme:T27
+T56	Metabolism 1398 1408	metabolism
+E18	Metabolism:T56 Theme:T55
+T58	Negative_regulation 1440 1447	reduced
+E19	Negative_regulation:T58 Theme:E20
+T59	Localization 1468 1477	migration
+E20	Localization:T59 Theme:T37
+T60	Negative_regulation 1717 1725	inhibits
+E23	Negative_regulation:T60 Theme:E25
+T61	Cell_proliferation 1737 1750	proliferation
+E25	Cell_proliferation:T61 Theme:T38
+T62	Positive_regulation 1761 1768	induced
+E26	Positive_regulation:T62 Cause:T40 Theme:E33
+E27	Negative_regulation:T60 Theme:E33
+T64	Growth 212 218	growth
+E28	Growth:T64 Theme:T63
+T65	Development 223 229	repair
+E29	Development:T65 Theme:T63
+E30	Blood_vessel_development:T1 
+E31	Blood_vessel_development:T2 
+E32	Blood_vessel_development:T4 
+E33	Blood_vessel_development:T41 
+E37	Pathway:T20 
+E39	Pathway:T32 Participant:T53
+E41	Pathway:T35 Participant:T57
+T19	Metabolism 1170 1180	metabolism
+E34	Metabolism:T19 Theme:T18
+T31	Pathway 877 882	cycle
+E15	Pathway:T31 Participant:T52

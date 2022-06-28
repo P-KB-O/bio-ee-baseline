@@ -1,0 +1,84 @@
+T1	Drug_or_compound 0 7	Heparin
+T4	Drug_or_compound 94 101	Heparin
+T5	Gene_or_gene_product 214 244	basic fibroblast growth factor
+T6	Gene_or_gene_product 246 250	bFGF
+T9	Drug_or_compound 480 487	Heparin
+T10	Gene_or_gene_product 538 542	bFGF
+T11	Drug_or_compound 563 570	heparin
+T12	Drug_or_compound 592 599	heparin
+T13	Gene_or_gene_product 646 650	bFGF
+T14	Drug_or_compound 663 670	heparin
+T16	Drug_or_compound 937 944	heparin
+T17	Drug_or_compound 981 988	heparin
+T18	Gene_or_gene_product 1015 1019	bFGF
+T19	Drug_or_compound 1146 1153	heparin
+T22	Gene_or_gene_product 1185 1189	bFGF
+T24	Gene_or_gene_product 1220 1224	bFGF
+T25	Drug_or_compound 1237 1244	heparin
+T28	Tissue 1309 1330	vascular microvessels
+T29	Drug_or_compound 1423 1430	heparin
+T30	Gene_or_gene_product 1450 1454	bFGF
+T31	Gene_or_gene_product 1464 1468	bFGF
+T32	Drug_or_compound 1481 1483	HP
+T34	Gene_or_gene_product 1534 1538	bFGF
+T36	Gene_or_gene_product 1598 1602	bFGF
+T37	Drug_or_compound 1618 1625	heparin
+T1000	Organism 1261 1265	mice
+T39	Drug_or_compound 27 31	PLGA
+T40	Drug_or_compound 121 154	poly(D,L-lactic-co-glycolic acid)
+T41	Drug_or_compound 156 160	PLGA
+T42	Drug_or_compound 587 591	PLGA
+T43	Drug_or_compound 658 662	PLGA
+T44	Drug_or_compound 306 310	PLGA
+T46	Drug_or_compound 759 763	PLGA
+T48	Drug_or_compound 976 980	PLGA
+T50	Drug_or_compound 1091 1095	PLGA
+T51	Drug_or_compound 1232 1236	PLGA
+T54	Drug_or_compound 1345 1349	PLGA
+T56	Drug_or_compound 1476 1480	PLGA
+T3	Blood_vessel_development 49 59	angiogenic
+T8	Blood_vessel_development 262 274	angiogenesis
+T15	Blood_vessel_development 729 739	angiogenic
+T38	Blood_vessel_development 1651 1663	angiogenesis
+T20	Regulation 1154 1164	controlled
+E20	Regulation:T20 Theme:E21 Cause:T19
+T21	Localization 1169 1176	release
+E21	Localization:T21 Theme:T22
+T23	Planned_process 1225 1231	loaded
+E23	Planned_process:T23 Instrument:T24
+T33	Localization 1514 1521	release
+E33	Localization:T33 Theme:T34
+T35	Planned_process 1204 1216	implantation
+E35	Planned_process:T35 Theme:T1000
+*	Equiv T5 T6
+T2	Localization 203 210	release
+E1	Localization:T2 Theme:T5
+T7	Positive_regulation 255 261	induce
+E2	Positive_regulation:T7 Theme:E14 Cause:E1
+T26	Planned_process 547 553	loaded
+E3	Planned_process:T26 Instrument:T10
+*	Equiv T41 T40
+T45	Planned_process 651 657	loaded
+E4	Planned_process:T45 Instrument:T13
+T47	Localization 709 716	release
+E5	Localization:T47 Theme:T13
+T49	Localization 1002 1010	released
+E6	Localization:T49 Theme:T18
+T52	Positive_regulation 1280 1287	induced
+E7	Positive_regulation:T52 Theme:E8 Cause:E35
+T53	Development 1292 1301	formation
+E8	Development:T53 Theme:T28
+T55	Planned_process 1455 1462	loading
+E9	Planned_process:T55 Instrument:T30
+T57	Planned_process 1469 1475	loaded
+E10	Planned_process:T57 Instrument:T31
+T58	Binding 1587 1594	binding
+E11	Binding:T58 Theme:T36 Theme:T37
+T59	Positive_regulation 1637 1644	induced
+E12	Positive_regulation:T59 Theme:E16
+E13	Blood_vessel_development:T3 
+E14	Blood_vessel_development:T8 
+E15	Blood_vessel_development:T15 
+E16	Blood_vessel_development:T38 
+T27	Planned_process 1431 1445	immobilization
+E17	Planned_process:T27 Theme:T29

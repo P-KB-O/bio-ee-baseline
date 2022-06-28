@@ -1,0 +1,29 @@
+T1	Gene_or_gene_product 26 39	interleukin-6
+T2	Gene_or_gene_product 41 45	IL-6
+T3	Gene_or_gene_product 90 103	Interleukin-6
+T4	Gene_or_gene_product 105 109	IL-6
+T5	Gene_or_gene_product 275 288	Interleukin-6
+T7	Pathological_formation 326 331	tumor
+T10	Cell 368 380	cancer cells
+T13	Gene_or_gene_product 429 433	IL-6
+T14	Gene_or_gene_product 555 559	IL-6
+T15	Pathological_formation 612 641	non-small cell lung carcinoma
+T16	Pathological_formation 662 682	renal cell carcinoma
+T17	Pathological_formation 684 690	breast
+T18	Gene_or_gene_product 717 721	IL-6
+T19	Pathological_formation 744 749	tumor
+T20	Gene_or_gene_product 828 832	IL-6
+T21	Pathological_formation 907 920	breast cancer
+T11	Pathological_formation 592 610	endometrial cancer
+T22	Pathological_formation 643 660	colorectal cancer
+T23	Pathological_formation 695 709	ovarian cancer
+T24	Pathological_formation 888 905	colorectal cancer
+T25	Pathological_formation 922 936	gastric cancer
+T26	Pathological_formation 941 958	pancreatic cancer
+T27	Organism_substance 549 554	serum
+T1000	Organism 578 586	patients
+T1001	Organism 773 781	patients
+T28	Pathological_formation 73 79	cancer
+T32	Pathological_formation 504 510	cancer
+T34	Organism_substance 711 716	Serum
+T36	Gene_or_gene_product 424 433	Anti-IL-6

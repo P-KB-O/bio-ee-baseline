@@ -1,0 +1,32 @@
+T2	Gene_or_gene_product 25 84	chicken ovalbumin upstream promoter-transcription factor II
+T3	Pathological_formation 105 122	colorectal cancer
+T4	Gene_or_gene_product 125 184	Chicken ovalbumin upstream promoter-transcription factor II
+T5	Gene_or_gene_product 186 195	COUP-TFII
+T10	Gene_or_gene_product 301 310	COUP-TFII
+T11	Cell 342 362	lung carcinoma cells
+T15	Gene_or_gene_product 460 469	COUP-TFII
+T16	Pathological_formation 484 501	colorectal cancer
+T18	Gene_or_gene_product 556 565	COUP-TFII
+T19	Pathological_formation 569 586	colorectal cancer
+T20	Gene_or_gene_product 677 686	COUP-TFII
+T21	Pathological_formation 716 733	colorectal cancer
+T22	Gene_or_gene_product 767 776	COUP-TFII
+T23	Tissue 786 811	colorectal cancer tissues
+T24	Tissue 825 839	normal tissues
+T25	Pathological_formation 856 873	colorectal cancer
+T27	Gene_or_gene_product 950 959	COUP-TFII
+T28	Pathological_formation 1091 1097	tumors
+T29	Gene_or_gene_product 1129 1138	COUP-TFII
+T32	Gene_or_gene_product 1227 1236	COUP-TFII
+T35	Multi-tissue_structure 1309 1315	vessel
+T36	Gene_or_gene_product 1326 1350	carcinoembryonic antigen
+T37	Gene_or_gene_product 1352 1355	CEA
+T38	Gene_or_gene_product 1423 1432	COUP-TFII
+T39	Gene_or_gene_product 1490 1499	COUP-TFII
+T40	Gene_or_gene_product 1566 1575	COUP-TFII
+T41	Pathological_formation 1624 1641	colorectal cancer
+T1001	Organism 99 104	human
+T1003	Organism 336 341	human
+T1004	Organism 780 785	human
+T1005	Organism 874 882	patients
+T1006	Organism 1077 1085	patients

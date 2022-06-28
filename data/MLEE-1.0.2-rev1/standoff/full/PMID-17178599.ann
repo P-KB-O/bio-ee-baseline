@@ -1,0 +1,37 @@
+T4	Tissue 80 94	adipose tissue
+T5	Pathological_formation 223 229	cancer
+T7	Tissue 371 385	adipose tissue
+T10	Cellular_component 427 447	extracellular matrix
+T12	Gene_or_gene_product 479 490	plasminogen
+T13	Gene_or_gene_product 491 498	plasmin
+T1000	Organism 625 629	mice
+T3	Gene_or_gene_product 29 53	matrix metalloproteinase
+T15	Gene_or_gene_product 504 528	matrix metalloproteinase
+T16	Gene_or_gene_product 530 533	MMP
+T19	Gene_or_gene_product 698 701	MMP
+T1	Pathway 12 24	fibrinolytic
+T2	Pathway 54 61	systems
+T8	Blood_vessel_development 410 422	angiogenesis
+T11	Pathway 465 477	fibrinolytic
+T14	Pathway 535 542	systems
+T17	Pathway 681 693	fibrinolytic
+T18	Pathway 702 709	systems
+T6	Remodeling 354 367	modifications
+E6	Remodeling:T6 Theme:T7
+T9	Breakdown 448 459	proteolysis
+E9	Breakdown:T9 Theme:T10
+*	Equiv T15 T16
+T20	Development 65 76	development
+E1	Development:T20 Theme:T4
+T21	Regulation 0 4	Role
+E2	Regulation:T21 Theme:E1 Cause:E5
+E3	Blood_vessel_development:T8 
+E4	Pathway:T1 
+E5	Pathway:T2 Participant:T3
+E7	Pathway:T11 Participant:T12 Participant2:T13
+E8	Pathway:T14 Participant:T15
+E10	Pathway:T17 
+E11	Pathway:T18 Participant:T19
+E12	Regulation:T21 Theme:E1 Cause:E4
+T22	Planned_process 614 624	transgenic
+E13	Planned_process:T22 Theme:T1000

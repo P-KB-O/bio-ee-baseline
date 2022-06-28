@@ -1,0 +1,12 @@
+T1	Drug_or_compound 36 42	Oxygen
+T2	Drug_or_compound 121 144	Reactive oxygen species
+T4	Drug_or_compound 146 149	ROS
+T6	Cell 230 246	phagocytic cells
+T9	Drug_or_compound 376 379	ROS
+T10	Drug_or_compound 400 406	lipids
+T11	Drug_or_compound 408 421	nucleic acids
+T12	Cellular_component 427 444	matrix components
+T13	Multi-tissue_structure 526 534	synovial
+T14	Multi-tissue_structure 646 654	synovial
+T17	Gene_or_gene_product 692 723	hypoxia-inducible factor-1alpha
+T18	Gene_or_gene_product 728 749	nuclear factor-kappaB

@@ -1,0 +1,33 @@
+T1	Cell 19 30	neutrophils
+T2	Cell 94 124	polymorphonuclear granulocytes
+T3	Cell 126 137	neutrophils
+T4	Pathological_formation 173 178	tumor
+T5	Cell 225 236	neutrophils
+T6	Cell 413 423	neutrophil
+T7	Cell 471 482	neutrophils
+T8	Cell 587 598	neutrophils
+T9	Pathological_formation 618 623	tumor
+T11	Pathological_formation 686 691	tumor
+T12	Cell 738 748	neutrophil
+T13	Drug_or_compound 267 290	reactive oxygen species
+T14	Drug_or_compound 292 295	ROS
+T15	Drug_or_compound 768 771	ROS
+T22	Pathological_formation 507 512	tumor
+T10	Blood_vessel_development 636 648	angiogenesis
+T16	Development 142 153	development
+E1	Development:T16 Theme:T4
+T17	Localization 158 167	spreading
+E2	Localization:T17 Theme:T4
+T18	Synthesis 253 263	production
+E3	Synthesis:T18 Theme:T13
+T19	Positive_regulation 628 635	promote
+E4	Positive_regulation:T19 Cause:T8 Theme:E8
+T20	Localization 605 612	migrate
+E5	Localization:T20 Theme:T8 ToLoc:T9
+T21	Localization 653 663	metastasis
+E6	Localization:T21 Theme:T11
+E7	Positive_regulation:T19 Cause:T8 Theme:E6
+E8	Blood_vessel_development:T10 AtLoc:T11
+T23	Negative_regulation 513 523	properties
+E9	Negative_regulation:T23 Cause:T7 Theme:T22
+*	Equiv T13 T14

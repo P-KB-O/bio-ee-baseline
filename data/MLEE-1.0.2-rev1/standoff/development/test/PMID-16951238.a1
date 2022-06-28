@@ -1,0 +1,29 @@
+T1	Drug_or_compound 10 19	celecoxib
+T2	Drug_or_compound 46 62	cyclophosphamide
+T6	Drug_or_compound 300 316	cyclooxygenase-2
+T8	Drug_or_compound 453 469	cyclophosphamide
+T9	Drug_or_compound 502 511	celecoxib
+T11	Cell 973 982	stem cell
+T12	Organ 1360 1364	skin
+T13	Organism_subdivision 1398 1414	gastrointestinal
+T15	Cell 1646 1663	endothelial cells
+T16	Gene_or_gene_product 1741 1775	vascular endothelial growth factor
+T17	Drug_or_compound 1856 1865	celecoxib
+T20	Drug_or_compound 1938 1954	cyclophosphamide
+T21	Drug_or_compound 1969 1978	celecoxib
+T26	Cell 2161 2178	endothelial cells
+T4	Organism_substance 1734 1740	plasma
+T1000	Organism 99 107	patients
+T1001	Organism 542 550	patients
+T1002	Organism 684 692	patients
+T1003	Organism 744 752	Patients
+T1004	Organism 1449 1457	patients
+T1005	Organism 1516 1524	patients
+T1006	Organism 1809 1817	patients
+T1007	Organism 2309 2316	patient
+T22	Pathological_formation 158 180	non-Hodgkin's lymphoma
+T28	Pathological_formation 242 264	non-Hodgkin's lymphoma
+T29	Pathological_formation 590 612	non-Hodgkin's lymphoma
+T30	Pathological_formation 790 805	B-cell lymphoma
+T39	Pathological_formation 2033 2055	non-Hodgkin's lymphoma
+T14	Pathological_formation 1468 1488	deep vein thromboses

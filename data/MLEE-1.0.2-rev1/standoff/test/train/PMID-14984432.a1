@@ -1,0 +1,19 @@
+T1	Gene_or_gene_product 0 12	Angiopoietin
+T2	Gene_or_gene_product 13 18	tie-2
+T5	Organ 70 75	heart
+T7	Gene_or_gene_product 120 154	vascular endothelial growth factor
+T8	Gene_or_gene_product 156 160	VEGF
+T9	Gene_or_gene_product 170 183	angiopoietins
+T10	Gene_or_gene_product 195 197	-2
+T11	Gene_or_gene_product 185 190	Ang-1
+T14	Multi-tissue_structure 422 437	coronary artery
+T15	Organ 461 466	heart
+T18	Gene_or_gene_product 629 633	VEGF
+T19	Gene_or_gene_product 638 643	Ang-2
+T21	Organ 688 693	heart
+T25	Multi-tissue_structure 759 765	vessel
+T27	Pathological_formation 795 801	cancer
+T29	Gene_or_gene_product 914 927	angiopoietins
+T33	Multi-tissue_structure 967 973	vessel
+T34	Organ 998 1003	heart
+T37	Tissue 1056 1067	endothelial

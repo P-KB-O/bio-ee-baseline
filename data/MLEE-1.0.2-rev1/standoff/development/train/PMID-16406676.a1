@@ -1,0 +1,21 @@
+T2	Pathological_formation 14 19	tumor
+T4	Gene_or_gene_product 36 52	thrombospondin-1
+T7	Pathological_formation 122 128	tumors
+T8	Gene_or_gene_product 130 146	Thrombospondin-1
+T9	Gene_or_gene_product 148 153	TSP-1
+T13	Gene_or_gene_product 214 219	TSP-1
+T16	Pathological_formation 248 253	tumor
+T19	Pathological_formation 304 309	tumor
+T23	Gene_or_gene_product 331 336	TSP-1
+T24	Pathological_formation 360 365	tumor
+T25	Gene_or_gene_product 383 386	p53
+T26	Gene_or_gene_product 428 431	Myc
+T27	Gene_or_gene_product 436 439	Ras
+T28	Gene_or_gene_product 441 446	TSP-1
+T36	Cell 483 499	endothelial cell
+T38	Gene_or_gene_product 582 613	transforming growth factor beta
+T39	Gene_or_gene_product 615 623	TGF-beta
+T40	Gene_or_gene_product 628 633	TSP-1
+T43	Pathological_formation 676 681	tumor
+T45	Gene_or_gene_product 738 743	TSP-1
+T49	Pathological_formation 784 789	tumor

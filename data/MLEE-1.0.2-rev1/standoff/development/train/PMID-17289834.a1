@@ -1,0 +1,33 @@
+T2	Drug_or_compound 0 10	Hyperforin
+T4	Cell 18 28	neutrophil
+T5	Gene_or_gene_product 43 69	matrix metalloproteinase-9
+T9	Organ 151 155	lung
+T10	Drug_or_compound 167 177	Hyperforin
+T11	Drug_or_compound 179 182	Hyp
+T13	Cell 368 378	lymphocyte
+T14	Cell 383 393	tumor cell
+T15	Gene_or_gene_product 413 431	matrix proteinases
+T17	Gene_or_gene_product 473 491	leukocyte elastase
+T18	Gene_or_gene_product 493 495	LE
+T19	Drug_or_compound 507 510	Hyp
+T21	Cell 549 593	polymorphonuclear neutrophil (PMN) leukocyte
+T24	Cell 705 708	PMN
+T27	Drug_or_compound 754 757	Hyp
+T28	Drug_or_compound 769 794	dicyclohexylammonium salt
+T31	Gene_or_gene_product 982 987	CD11b
+T33	Drug_or_compound 991 1009	formyl-Met-Leu-Phe
+T34	Cell 1021 1032	neutrophils
+T37	Gene_or_gene_product 1046 1048	LE
+T38	Gene_or_gene_product 1077 1114	gelatinase matrix metalloproteinase-9
+T39	Cell 1116 1119	PMN
+T44	Drug_or_compound 1220 1223	Hyp
+T46	Gene_or_gene_product 1235 1248	interleukin-8
+T47	Drug_or_compound 1304 1307	Hyp
+T50	Cell 1322 1325	PMN
+T53	Drug_or_compound 1377 1386	bleomycin
+T54	Drug_or_compound 1487 1490	Hyp
+T1000	Organism 229 249	Hypericum perforatum
+T1001	Organism 699 704	human
+T1002	Organism 1257 1263	murine
+T58	Organism 216 227	John's wort
+T59	Tissue 631 637	tissue

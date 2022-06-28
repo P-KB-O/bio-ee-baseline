@@ -1,0 +1,27 @@
+T2	Drug_or_compound 10 18	estrogen
+T3	Drug_or_compound 23 35	progesterone
+T5	Cell 39 49	macrophage
+T6	Drug_or_compound 464 484	sex steroid hormones
+T7	Drug_or_compound 586 594	estrogen
+T8	Drug_or_compound 759 771	progesterone
+T9	Cell 816 827	Macrophages
+T12	Cell 887 898	Macrophages
+T13	Cell 974 979	T(H)1
+T14	Cell 980 985	T(H)2
+T15	Drug_or_compound 1112 1120	estrogen
+T16	Drug_or_compound 1125 1137	progesterone
+T18	Cell 1141 1151	macrophage
+T20	Drug_or_compound 1239 1255	steroid hormones
+T21	Cell 1303 1313	macrophage
+T22	Gene_or_gene_product 1323 1328	Fizz1
+T23	Gene_or_gene_product 1333 1336	Ym1
+T26	Drug_or_compound 1411 1419	estrogen
+T27	Drug_or_compound 1423 1435	progesterone
+T29	Drug_or_compound 1475 1491	steroid hormones
+T31	Cell 1492 1503	macrophages
+T32	Drug_or_compound 1573 1581	estrogen
+T33	Drug_or_compound 1585 1597	progesterone
+T35	Cell 1622 1632	macrophage
+T1000	Organism 1019 1025	murine
+T43	Tissue 260 266	tissue
+T24	Pathological_formation 1678 1683	wound

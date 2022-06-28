@@ -1,0 +1,53 @@
+T1	Gene_or_gene_product 0 7	VEGF165
+T4	Gene_or_gene_product 51 58	VEGFR-2
+T5	Gene_or_gene_product 63 75	neuropilin-1
+T8	Gene_or_gene_product 89 96	VEGF165
+T10	Gene_or_gene_product 133 137	NRP1
+T11	Gene_or_gene_product 143 150	VEGFR-2
+T12	Gene_or_gene_product 152 155	KDR
+T13	Cell 174 191	endothelial cells
+T14	Cell 193 195	EC
+T18	Gene_or_gene_product 206 213	VEGF165
+T19	Gene_or_gene_product 225 228	KDR
+T21	Cell 233 235	EC
+T22	Gene_or_gene_product 262 269	VEGF165
+T24	Gene_or_gene_product 289 293	NRP1
+T25	Cell 297 317	prostate tumor cells
+T28	Pathological_formation 347 352	tumor
+T30	Gene_or_gene_product 430 434	NRP1
+T34	Gene_or_gene_product 489 493	NRP1
+T35	Gene_or_gene_product 498 501	KDR
+T36	Gene_or_gene_product 539 543	NRP1
+T37	Gene_or_gene_product 548 551	KDR
+T38	Cell 580 582	EC
+T40	Gene_or_gene_product 591 595	NRP1
+T41	Gene_or_gene_product 631 638	VEGF165
+T43	Gene_or_gene_product 653 660	VEGF121
+T44	Gene_or_gene_product 685 689	NRP1
+T46	Gene_or_gene_product 747 754	VEGF165
+T47	Gene_or_gene_product 756 760	NRP1
+T48	Gene_or_gene_product 766 769	KDR
+T51	Cell 832 834	EC
+T52	Gene_or_gene_product 846 849	KDR
+T54	Gene_or_gene_product 878 882	NRP1
+T55	Cell 902 924	breast carcinoma cells
+T57	Gene_or_gene_product 926 933	VEGF165
+T60	Gene_or_gene_product 973 977	NRP1
+T62	Gene_or_gene_product 1004 1007	KDR
+T64	Gene_or_gene_product 1109 1112	KDR
+T66	Gene_or_gene_product 1117 1121	NRP1
+T69	Gene_or_gene_product 1141 1153	125I-VEGF165
+T70	Gene_or_gene_product 1165 1168	KDR
+T72	Gene_or_gene_product 1229 1236	VEGF165
+T73	Gene_or_gene_product 1238 1241	KDR
+T74	Gene_or_gene_product 1247 1251	NRP1
+T77	Gene_or_gene_product 1264 1271	VEGF165
+T78	Gene_or_gene_product 1283 1286	KDR
+T79	Cell 1333 1335	EC
+T81	Cell 1382 1392	tumor cell
+T82	Gene_or_gene_product 1393 1397	NRP1
+T83	Cell 1402 1404	EC
+T84	Gene_or_gene_product 1405 1408	KDR
+T39	Gene_or_gene_product 586 606	anti-NRP1 antibodies
+T65	Cell 861 866	cells
+T85	Cell 987 992	cells

@@ -1,0 +1,54 @@
+T4	Pathological_formation 15 25	lung tumor
+T6	Gene_or_gene_product 105 115	vasostatin
+T13	Pathological_formation 220 225	tumor
+T14	Gene_or_gene_product 261 271	Vasostatin
+T15	Gene_or_gene_product 298 310	calreticulin
+T19	Gene_or_gene_product 398 408	vasostatin
+T21	Pathological_formation 517 528	lung cancer
+T22	Organism 569 574	rAAV2
+T25	Gene_or_gene_product 588 598	vasostatin
+T26	Pathological_formation 649 659	lung tumor
+T27	Pathological_formation 731 741	lung tumor
+T29	Organism 778 783	rAAV2
+T30	Pathological_formation 819 824	tumor
+T32	Pathological_formation 936 954	subcutaneous tumor
+T34	Organism 958 963	rAAV2
+T35	Cell 981 1007	Lewis lung carcinoma cells
+T37	Pathological_formation 1041 1046	tumor
+T41	Organism 1132 1137	rAAV2
+T42	Pathological_formation 1166 1191	lung tumor A549 xenograft
+T45	Tissue 1228 1245	capillary vessels
+T46	Pathological_formation 1249 1255	tumors
+T47	Organism 1292 1297	rAAV2
+T50	Pathological_formation 1329 1340	A549 tumors
+T51	Multi-tissue_structure 1356 1367	lymph nodes
+T52	Organ 1386 1390	lung
+T53	Pathological_formation 1458 1473	lung metastases
+T54	Organism 1485 1490	rAAV2
+T56	Pathological_formation 1511 1516	tumor
+T57	Organism 1630 1635	rAAV2
+T62	Pathological_formation 1686 1691	tumor
+T64	Pathological_formation 1726 1731	tumor
+T65	Organism 1775 1780	rAAV2
+T66	Pathological_formation 1821 1832	lung cancer
+T1000	Organism 51 55	mice
+T1001	Organism 59 81	adeno-associated virus
+T1002	Organism 422 469	recombinant pseudotype adeno-associated virus 2
+T1003	Organism 643 648	mouse
+T1004	Organism 923 927	Mice
+T1005	Organism 1160 1165	human
+T1006	Organism 1434 1438	mice
+T8	Organism 470 471	5
+T17	Organism 473 478	rAAV2
+T20	Organism 479 484	5-VAS
+T28	Organism 1636 1641	5-VAS
+T39	Organism 1781 1786	5-VAS
+T43	Organism 1138 1143	5-VAS
+T59	Organism 1298 1303	5-VAS
+T67	Organism 575 576	5
+T68	Organism 784 789	5-VAS
+T69	Organism 964 969	5-VAS
+T70	Organism 1491 1496	5-VAS
+T38	Organ 1078 1087	pulmonary
+T78	Pathological_formation 192 197	tumor
+T49	Pathological_formation 599 613	intratumorally

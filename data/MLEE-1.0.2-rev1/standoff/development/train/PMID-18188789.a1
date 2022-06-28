@@ -1,0 +1,13 @@
+T1	Drug_or_compound 489 500	fluorescein
+T2	Drug_or_compound 505 516	indocyanine
+T3	Organ 661 665	eyes
+T4	Organ 809 813	eyes
+T5	Organ 1029 1032	eye
+T8	Tissue 1134 1160	Retinal Pigment Epithelium
+T9	Tissue 1162 1165	RPE
+T10	Multi-tissue_structure 974 981	retinal
+T11	Multi-tissue_structure 1314 1321	retinal
+T1000	Organism 201 209	Patients
+T1001	Organism 672 680	patients
+T1002	Organism 1191 1198	patient
+T1003	Organism 1337 1345	patients

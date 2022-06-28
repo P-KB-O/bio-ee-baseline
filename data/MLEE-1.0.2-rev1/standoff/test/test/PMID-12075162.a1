@@ -1,0 +1,10 @@
+T1	Organism_subdivision 39 45	breast
+T2	Pathological_formation 145 159	breast lesions
+T3	Pathological_formation 282 292	carcinomas
+T5	Pathological_formation 477 487	carcinomas
+T6	Pathological_formation 541 547	tumors
+T7	Pathological_formation 831 841	carcinomas
+T8	Organism_subdivision 967 973	breast
+T9	Pathological_formation 1034 1048	breast lesions
+T14	Pathological_formation 780 787	lesions
+T15	Pathological_formation 850 854	scar

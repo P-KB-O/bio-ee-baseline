@@ -1,0 +1,23 @@
+T3	Cell 39 55	endothelial cell
+T6	Cell 85 111	vascular endothelial cells
+T8	Cell 113 116	ECs
+T12	Multi-tissue_structure 145 153	vascular
+T15	Cell 240 250	aortic ECs
+T17	Cellular_component 307 313	matrix
+T18	Gene_or_gene_product 298 306	collagen
+T19	Gene_or_gene_product 479 487	collagen
+T20	Cell 671 674	ECs
+T21	Cell 721 724	ECs
+T22	Cell 863 866	ECs
+T25	Cell 1056 1058	EC
+T28	Cell 1147 1149	EC
+T31	Cell 1210 1212	EC
+T1000	Organism 233 239	bovine
+T33	Gene_or_gene_product 813 821	Vinculin
+T37	Cell 197 201	cell
+T38	Cell 988 992	cell
+T40	Cell 1128 1132	cell
+T41	Cell 264 269	cells
+T42	Cell 373 378	cells
+T43	Cell 493 498	cells
+T44	Pathological_formation 1247 1252	wound

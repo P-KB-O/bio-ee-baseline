@@ -1,0 +1,69 @@
+T6	Pathological_formation 319 326	cancers
+T8	Pathological_formation 398 405	cancers
+T12	Cell 454 464	tumor cell
+T15	Pathological_formation 556 561	tumor
+T20	Cell 1045 1055	fibroblast
+T23	Cell 1060 1071	endothelial
+T26	Cellular_component 1120 1140	extracellular matrix
+T4	Drug_or_compound 616 649	heparan sulfate glycosaminoglycan
+T1000	Organism 313 318	human
+T1001	Organism 578 585	patient
+T1002	Organism 1346 1351	human
+T1	Gene_or_gene_product 12 21	syndecans
+T2	Gene_or_gene_product 53 62	Syndecans
+T5	Gene_or_gene_product 300 309	syndecans
+T10	Gene_or_gene_product 407 415	syndecan
+T16	Gene_or_gene_product 660 669	syndecans
+T17	Gene_or_gene_product 783 792	syndecans
+T19	Gene_or_gene_product 983 992	syndecans
+T27	Gene_or_gene_product 1198 1207	syndecans
+T28	Gene_or_gene_product 1267 1275	syndecan
+T33	Tissue 936 942	tissue
+T35	Tissue 1223 1229	tissue
+T37	Tissue 148 158	developing
+T38	Tissue 163 176	adult tissues
+T39	Cell 1087 1091	cell
+T41	Pathological_formation 358 363	wound
+T7	Blood_vessel_development 376 388	angiogenesis
+T24	Blood_vessel_development 1102 1114	angiogenesis
+T9	Gene_expression 416 426	expression
+E9	Gene_expression:T9 Theme:T10
+T11	Regulation 445 453	regulate
+E11	Regulation:T11 Cause:E9 Theme:E2
+T14	Development 562 573	progression
+E14	Development:T14 Theme:T15
+T22	Cell_proliferation 1072 1085	proliferation
+E22	Cell_proliferation:T22 Theme:T23
+T25	Development 1141 1153	organization
+E25	Development:T25 Theme:T26
+T3	Gene_expression 130 139	expressed
+E1	Gene_expression:T3 Theme:T2
+T13	Cell_proliferation 480 493	proliferation
+E2	Cell_proliferation:T13 Theme:T12
+T18	Binding 495 503	adhesion
+E3	Binding:T18 Theme:T12
+T29	Localization 509 517	motility
+E4	Localization:T29 Theme:T12
+E5	Regulation:T11 Cause:E9 Theme:E3
+E6	Regulation:T11 Cause:E9 Theme:E4
+T30	Death 586 594	survival
+E7	Death:T30 Theme:T1001
+A1	Negation E7
+T31	Binding 793 797	bind
+E8	Binding:T31 Theme:T17
+T32	Positive_regulation 1006 1015	necessary
+E10	Positive_regulation:T32 Cause:T19 Theme:E22
+E12	Cell_proliferation:T22 Theme:T20
+E13	Positive_regulation:T32 Cause:T19 Theme:E12
+E15	Positive_regulation:T32 Cause:T19 Theme:E24
+E16	Positive_regulation:T32 Cause:T19 Theme:E25
+T34	Breakdown 943 949	injury
+E17	Breakdown:T34 Theme:T33
+T36	Remodeling 1230 1236	repair
+E18	Remodeling:T36 Theme:T35
+R1	frag Arg1:T37 Arg2:T38	
+T40	Localization 1092 1100	motility
+E19	Localization:T40 Theme:T39
+E20	Positive_regulation:T32 Cause:T19 Theme:E19
+E23	Blood_vessel_development:T7 
+E24	Blood_vessel_development:T24 

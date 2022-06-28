@@ -1,0 +1,32 @@
+T2	Cell 14 22	pericyte
+T4	Pathological_formation 38 44	tumour
+T5	Cell 95 104	Pericytes
+T6	Multi-tissue_structure 114 134	tumour blood vessels
+T9	Multi-tissue_structure 188 204	vascular network
+T11	Cell 216 232	tumour pericytes
+T13	Pathological_formation 336 342	tumour
+T15	Cell 444 452	pericyte
+T16	Gene_or_gene_product 515 547	platelet-derived growth factor B
+T17	Gene_or_gene_product 552 575	sphingosine 1-phosphate
+T19	Pathological_formation 592 598	tumour
+T21	Gene_or_gene_product 627 641	angiopoietin 1
+T22	Pathological_formation 657 663	tumour
+T23	Gene_or_gene_product 671 703	Transforming growth factor-beta1
+T26	Pathological_formation 713 719	tumour
+T28	Tissue 740 751	microvessel
+T34	Cell 841 856	tumour pericyte
+T40	Multi-tissue_structure 942 958	microvasculature
+T42	Multi-tissue_structure 1010 1018	vascular
+T46	Cell 1091 1099	pericyte
+T50	Cell 1151 1159	pericyte
+T52	Cellular_component 1172 1192	extracellular matrix
+T56	Cell 1225 1233	pericyte
+T57	Cellular_component 1304 1307	ECM
+T60	Cell 1327 1336	pericytes
+T62	Cellular_component 1387 1390	ECM
+T71	Cell 1526 1556	bone marrow-derived stem cells
+T7	Gene_or_gene_product 74 92	metalloproteinases
+T30	Gene_or_gene_product 806 831	matrix metalloproteinases
+T31	Gene_or_gene_product 833 836	MMP
+T37	Gene_or_gene_product 915 919	MMPs
+T43	Gene_or_gene_product 1069 1073	MMPs

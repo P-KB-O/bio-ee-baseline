@@ -1,0 +1,46 @@
+T3	Gene_or_gene_product 50 54	CCN1
+T4	Gene_or_gene_product 55 60	CYR61
+T6	Gene_or_gene_product 102 108	MRTF-A
+T7	Gene_or_gene_product 113 159	CREB-binding protein histone acetyltransferase
+T13	Gene_or_gene_product 469 473	CCN1
+T18	Gene_or_gene_product 652 656	CCN1
+T20	Gene_or_gene_product 698 702	RhoA
+T21	Gene_or_gene_product 712 717	actin
+T22	Gene_or_gene_product 737 772	p38 stress-activated protein kinase
+T23	Gene_or_gene_product 774 778	SAPK
+T25	Gene_or_gene_product 781 786	Actin
+T26	Gene_or_gene_product 806 827	serum response factor
+T27	Gene_or_gene_product 829 832	SRF
+T28	Gene_or_gene_product 847 850	SRF
+T29	Gene_or_gene_product 872 924	myocardin-related transcriptional activator (MRTF)-A
+T32	Gene_or_gene_product 980 984	CCN1
+T34	Cell 1056 1073	MRTF-A(-/-) cells
+T35	Gene_or_gene_product 1056 1062	MRTF-A
+T38	Gene_or_gene_product 1096 1154	CREB-binding protein (CBP) histone acetyltransferase (HAT)
+T44	Gene_or_gene_product 1220 1223	CBP
+T45	Gene_or_gene_product 1248 1258	histones 3
+T46	Gene_or_gene_product 1272 1275	SRF
+T47	Gene_or_gene_product 1304 1308	CCN1
+T49	Gene_or_gene_product 1343 1351	p38 SAPK
+T52	Gene_or_gene_product 1360 1367	CBP HAT
+T55	Gene_or_gene_product 1404 1407	SRF
+T56	Gene_or_gene_product 1408 1414	MRTF-A
+T58	Gene_or_gene_product 1454 1457	p38
+T59	Gene_or_gene_product 1487 1491	MKK3
+T60	Gene_or_gene_product 1496 1500	MKK6
+T62	Gene_or_gene_product 1516 1523	CBP HAT
+T64	Gene_or_gene_product 1528 1532	CCN1
+T67	Gene_or_gene_product 1593 1597	CCN1
+T69	Gene_or_gene_product 1666 1672	MRTF-A
+T70	Gene_or_gene_product 1695 1699	CCN1
+T71	Gene_or_gene_product 1719 1725	MRTF-A
+T73	Gene_or_gene_product 1741 1751	histone H3
+T75	Gene_or_gene_product 1825 1828	SRF
+T76	Gene_or_gene_product 1830 1836	MRTF-A
+T77	Gene_or_gene_product 1842 1845	CBP
+T30	Gene_or_gene_product 1263 1264	4
+T1000	Organism 1050 1055	mouse
+T37	Tissue 162 188	Smooth muscle-rich tissues
+T61	Multi-tissue_structure 543 551	vascular
+T84	DNA_domain_or_region 985 993	promoter
+T40	DNA_domain_or_region 1533 1541	promoter

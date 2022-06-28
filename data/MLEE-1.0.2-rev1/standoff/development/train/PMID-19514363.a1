@@ -1,0 +1,14 @@
+T1	Pathological_formation 13 18	tumor
+T2	Gene_or_gene_product 30 33	ARF
+T3	Pathological_formation 123 128	tumor
+T4	Gene_or_gene_product 140 143	ARF
+T5	Gene_or_gene_product 206 209	ARF
+T6	Gene_or_gene_product 223 226	p53
+T7	Gene_or_gene_product 241 245	p-53
+T9	Gene_or_gene_product 349 352	ARF
+T11	Gene_or_gene_product 420 423	ARF
+T12	Pathological_formation 508 513	tumor
+T14	Gene_or_gene_product 603 606	ARF
+T15	Gene_or_gene_product 700 703	ARF
+T18	Pathological_formation 656 665	neoplasia
+T21	Cell 447 451	cell

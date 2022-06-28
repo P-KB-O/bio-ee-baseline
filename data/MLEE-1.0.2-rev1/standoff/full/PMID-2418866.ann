@@ -1,0 +1,17 @@
+T2	Multi-tissue_structure 227 234	vessels
+T3	Tissue 283 292	capillary
+T4	Organ 342 345	eye
+T5	Multi-tissue_structure 370 377	vessels
+T7	Multi-tissue_structure 512 519	vessels
+T8	Multi-tissue_structure 544 550	retina
+T9	Multi-tissue_structure 589 596	vessels
+T10	Tissue 322 328	macula
+T11	Tissue 242 259	retinal periphery
+T1000	Organism 95 102	patient
+T13	Multi-tissue_structure 0 7	Retinal
+T1	Blood_vessel_development 8 25	revascularisation
+T6	Blood_vessel_development 440 457	revascularisation
+T12	Development 571 581	appearance
+E1	Development:T12 Theme:T9
+E2	Blood_vessel_development:T1 AtLoc:T13
+E3	Blood_vessel_development:T6 

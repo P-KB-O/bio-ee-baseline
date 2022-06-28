@@ -1,0 +1,108 @@
+T2	Gene_or_gene_product 0 21	Nitric oxide synthase
+T4	Pathological_formation 61 67	tumour
+T5	Drug_or_compound 82 91	melphalan
+T6	Gene_or_gene_product 96 124	tumour necrosis factor alpha
+T7	Organism_subdivision 140 144	limb
+T8	Drug_or_compound 158 170	Nitric oxide
+T9	Drug_or_compound 172 174	NO
+T12	Pathological_formation 215 221	tumour
+T13	Organism_substance 222 227	blood
+T15	Pathological_formation 249 255	tumour
+T18	Gene_or_gene_product 284 295	NO synthase
+T20	Drug_or_compound 299 305	L-NAME
+T22	Pathological_formation 327 333	tumour
+T23	Drug_or_compound 367 373	oxygen
+T24	Tissue 383 396	tumour tissue
+T29	Multi-tissue_structure 410 418	vascular
+T32	Pathological_formation 436 442	tumour
+T33	Drug_or_compound 453 459	L-NAME
+T35	Pathological_formation 507 545	renal subcapsular CC531 adenocarcinoma
+T36	Drug_or_compound 598 604	L-NAME
+T37	Gene_or_gene_product 626 629	TNF
+T38	Drug_or_compound 634 643	melphalan
+T39	Organism_subdivision 672 676	limb
+T40	Pathological_formation 705 731	BN175 soft-tissue sarcomas
+T41	Drug_or_compound 757 763	L-NAME
+T44	Pathological_formation 784 798	adenocarcinoma
+T46	Organ 845 850	renal
+T49	Pathological_formation 877 883	tumour
+T50	Drug_or_compound 909 915	L-NAME
+T51	Gene_or_gene_product 952 955	TNF
+T52	Drug_or_compound 959 968	melphalan
+T53	Drug_or_compound 970 976	L-NAME
+T54	Drug_or_compound 1047 1053	L-NAME
+T56	Pathological_formation 1105 1111	tumour
+T57	Drug_or_compound 1141 1147	L-NAME
+T58	Drug_or_compound 1192 1201	melphalan
+T59	Gene_or_gene_product 1206 1209	TNF
+T61	Gene_or_gene_product 1263 1274	NO synthase
+T65	Pathological_formation 1283 1289	tumour
+T67	Pathological_formation 1366 1372	tumour
+T68	Drug_or_compound 1383 1389	L-NAME
+T69	Drug_or_compound 1422 1431	melphalan
+T70	Gene_or_gene_product 1439 1442	TNF
+T71	Drug_or_compound 1496 1502	L-NAME
+T72	Pathological_formation 1530 1537	tumours
+T1000	Organism 555 559	rats
+T16	Blood_vessel_development 256 268	angiogenesis
+T1	Negative_regulation 22 32	inhibition
+E1	Negative_regulation:T1 Theme:T2
+T17	Negative_regulation 270 280	Inhibition
+E17	Negative_regulation:T17 Theme:T18 Cause:T20
+T25	Regulation 400 409	affecting
+E25	Regulation:T25 Theme:E28 Cause:E17
+T28	Growth 419 425	growth
+E28	Growth:T28 Theme:T29
+T42	Negative_regulation 764 773	inhibited
+E42	Negative_regulation:T42 Cause:E16 Theme:E43
+T43	Growth 774 780	growth
+E43	Growth:T43 Theme:T44
+T45	Negative_regulation 836 844	impaired
+E45	Negative_regulation:T45 Theme:T46
+T47	Negative_regulation 869 876	reduced
+E47	Negative_regulation:T47 Theme:E48
+T48	Growth 884 890	growth
+E48	Growth:T48 Theme:T49
+T60	Negative_regulation 1249 1259	Inhibition
+E60	Negative_regulation:T60 Theme:T61
+T63	Negative_regulation 1275 1282	reduces
+E63	Negative_regulation:T63 Cause:E60 Theme:E64
+T64	Growth 1290 1296	growth
+E64	Growth:T64 Theme:T65
+*	Equiv T8 T9
+T3	Positive_regulation 33 40	results
+E2	Positive_regulation:T3 Cause:E1 Theme:E3
+T10	Negative_regulation 68 76	activity
+E3	Negative_regulation:T10 Theme:T4 Cause:T5
+T21	Positive_regulation 237 248	stimulating
+E6	Positive_regulation:T21 Cause:T8 Theme:E23
+T26	Positive_regulation 312 318	induce
+E7	Positive_regulation:T26 Theme:E8 Cause:E9
+A1	Speculation E7
+T30	Negative_regulation 334 340	effect
+E8	Negative_regulation:T30 Theme:T22
+T31	Negative_regulation 344 352	limiting
+E9	Negative_regulation:T31 Theme:E10 Cause:E17
+T34	Localization 377 382	reach
+E10	Localization:T34 Theme:T23 ToLoc:T24
+E12	Positive_regulation:T26 Theme:E8 Cause:E25
+A2	Speculation E12
+T55	Negative_regulation 443 449	effect
+E13	Negative_regulation:T55 Theme:T32 Cause:T33
+T62	Planned_process 475 489	administration
+E14	Planned_process:T62 Instrument:T33 Theme:T1000
+T66	Planned_process 580 594	administration
+E15	Planned_process:T66 Instrument:T36 Instrument:T37 Instrument:T38
+T73	Planned_process 742 751	treatment
+E16	Planned_process:T73 Instrument:T41
+T74	Negative_regulation 1112 1118	effect
+E18	Negative_regulation:T74 Theme:T56 Cause:E19
+T75	Planned_process 1152 1157	added
+E19	Planned_process:T75 Instrument:T57 Instrument:T58 Instrument:T59
+T76	Negative_regulation 1373 1379	effect
+E20	Negative_regulation:T76 Theme:T67 Cause:T68
+T77	Planned_process 1511 1520	treatment
+E21	Planned_process:T77 Theme:T72
+T78	Regulation 1488 1492	role
+E22	Regulation:T78 Cause:T71 Theme:E21
+E23	Blood_vessel_development:T16 AtLoc:T15

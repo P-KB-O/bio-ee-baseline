@@ -1,0 +1,46 @@
+T2	Gene_or_gene_product 0 15	Thrombospondins
+T4	Gene_or_gene_product 17 34	metallo proteases
+T6	Gene_or_gene_product 39 63	thrombospondin receptors
+T7	Pathological_formation 114 129	tumour sublines
+T8	Gene_or_gene_product 169 183	Thrombospondin
+T12	Pathological_formation 270 276	tumour
+T13	Gene_or_gene_product 285 288	TSP
+T16	Gene_or_gene_product 423 437	thrombospondin
+T17	Pathological_formation 563 578	prostate cancer
+T20	Gene_or_gene_product 672 673	2
+T21	Gene_or_gene_product 651 667	thrombospondin 1
+T22	Gene_or_gene_product 675 680	TSP-1
+T23	Gene_or_gene_product 682 687	TSP-2
+T24	Gene_or_gene_product 690 693	TSP
+T25	Gene_or_gene_product 704 708	CD36
+T26	Gene_or_gene_product 713 717	CD47
+T27	Gene_or_gene_product 753 754	9
+T28	Gene_or_gene_product 723 748	matrix-metalloproteases 2
+T29	Gene_or_gene_product 756 759	MMP
+T30	Gene_or_gene_product 762 767	MMP-9
+T31	Pathological_formation 778 793	prostate cancer
+T38	Gene_or_gene_product 891 896	TSP-1
+T39	Gene_or_gene_product 898 903	TSP-2
+T40	Gene_or_gene_product 905 909	CD36
+T41	Gene_or_gene_product 911 915	CD47
+T42	Gene_or_gene_product 917 922	MMP-2
+T43	Gene_or_gene_product 928 933	MMP-9
+T44	Tissue 966 981	prostate tissue
+T45	Tissue 991 1024	malignant Dunning sublines tissue
+T47	Gene_or_gene_product 1026 1031	TSP-1
+T48	Pathological_formation 1066 1073	tumours
+T49	Organ 1095 1103	prostate
+T52	Gene_or_gene_product 1155 1160	TSP-2
+T53	Gene_or_gene_product 1165 1169	CD36
+T54	Gene_or_gene_product 1193 1198	MMP-2
+T56	Gene_or_gene_product 1251 1256	MMP-9
+T57	Gene_or_gene_product 1271 1284	CD47 receptor
+T58	Pathological_formation 1334 1339	H3327
+T59	Gene_or_gene_product 1365 1379	thrombospondin
+T60	Organ 1403 1411	prostate
+T61	Pathological_formation 1423 1439	prostate tumours
+T64	Gene_or_gene_product 1472 1477	MMP-2
+T1000	Organism 774 777	rat
+T1001	Organism 962 965	rat
+T1002	Organism 1445 1448	rat
+T35	Pathological_formation 137 166	Dunning prostate cancer model

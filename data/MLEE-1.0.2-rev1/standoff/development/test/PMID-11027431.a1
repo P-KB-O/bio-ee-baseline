@@ -1,0 +1,46 @@
+T2	Gene_or_gene_product 0 21	Nitric oxide synthase
+T4	Pathological_formation 61 67	tumour
+T5	Drug_or_compound 82 91	melphalan
+T6	Gene_or_gene_product 96 124	tumour necrosis factor alpha
+T7	Organism_subdivision 140 144	limb
+T8	Drug_or_compound 158 170	Nitric oxide
+T9	Drug_or_compound 172 174	NO
+T12	Pathological_formation 215 221	tumour
+T13	Organism_substance 222 227	blood
+T15	Pathological_formation 249 255	tumour
+T18	Gene_or_gene_product 284 295	NO synthase
+T20	Drug_or_compound 299 305	L-NAME
+T22	Pathological_formation 327 333	tumour
+T23	Drug_or_compound 367 373	oxygen
+T24	Tissue 383 396	tumour tissue
+T29	Multi-tissue_structure 410 418	vascular
+T32	Pathological_formation 436 442	tumour
+T33	Drug_or_compound 453 459	L-NAME
+T35	Pathological_formation 507 545	renal subcapsular CC531 adenocarcinoma
+T36	Drug_or_compound 598 604	L-NAME
+T37	Gene_or_gene_product 626 629	TNF
+T38	Drug_or_compound 634 643	melphalan
+T39	Organism_subdivision 672 676	limb
+T40	Pathological_formation 705 731	BN175 soft-tissue sarcomas
+T41	Drug_or_compound 757 763	L-NAME
+T44	Pathological_formation 784 798	adenocarcinoma
+T46	Organ 845 850	renal
+T49	Pathological_formation 877 883	tumour
+T50	Drug_or_compound 909 915	L-NAME
+T51	Gene_or_gene_product 952 955	TNF
+T52	Drug_or_compound 959 968	melphalan
+T53	Drug_or_compound 970 976	L-NAME
+T54	Drug_or_compound 1047 1053	L-NAME
+T56	Pathological_formation 1105 1111	tumour
+T57	Drug_or_compound 1141 1147	L-NAME
+T58	Drug_or_compound 1192 1201	melphalan
+T59	Gene_or_gene_product 1206 1209	TNF
+T61	Gene_or_gene_product 1263 1274	NO synthase
+T65	Pathological_formation 1283 1289	tumour
+T67	Pathological_formation 1366 1372	tumour
+T68	Drug_or_compound 1383 1389	L-NAME
+T69	Drug_or_compound 1422 1431	melphalan
+T70	Gene_or_gene_product 1439 1442	TNF
+T71	Drug_or_compound 1496 1502	L-NAME
+T72	Pathological_formation 1530 1537	tumours
+T1000	Organism 555 559	rats

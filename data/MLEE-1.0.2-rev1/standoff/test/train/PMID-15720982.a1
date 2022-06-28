@@ -1,0 +1,18 @@
+T1	Drug_or_compound 17 45	low molecular weight heparin
+T2	Drug_or_compound 50 67	hyperbaric oxygen
+T3	Drug_or_compound 339 374	low molecular weight (LMW) heparins
+T4	Drug_or_compound 379 396	hyperbaric oxygen
+T5	Drug_or_compound 398 401	HBO
+T6	Multi-tissue_structure 592 597	cecum
+T7	Drug_or_compound 602 609	ethanol
+T8	Drug_or_compound 752 766	Enoxaparine Na
+T9	Drug_or_compound 785 788	HBO
+T10	Drug_or_compound 825 839	enoxaparine Na
+T11	Drug_or_compound 844 847	HBO
+T12	Drug_or_compound 941 955	enoxaparine Na
+T14	Drug_or_compound 1561 1575	Enoxaparine Na
+T15	Drug_or_compound 1617 1620	HBO
+T16	Drug_or_compound 1668 1682	Enoxaparine Na
+T17	Drug_or_compound 1728 1731	HBO
+T1000	Organism 487 505	Wistar albino rats
+T1001	Organism 627 631	rats

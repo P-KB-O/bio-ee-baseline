@@ -1,0 +1,44 @@
+T3	Tissue 42 52	fat tissue
+T5	Tissue 146 156	fat tissue
+T7	Tissue 234 244	fat tissue
+T8	Organism_substance 327 331	clot
+T9	Gene_or_gene_product 311 317	fibrin
+T10	Gene_or_gene_product 318 326	thrombin
+T11	Organism_substance 423 428	clots
+T12	Drug_or_compound 495 500	taxol
+T13	Drug_or_compound 502 517	cobalt chloride
+T14	Drug_or_compound 524 539	heparin-steroid
+T15	Tissue 570 580	fat tissue
+T17	Multi-tissue_structure 623 637	placental vein
+T21	Multi-tissue_structure 675 688	Blood vessels
+T22	Tissue 729 739	fat tissue
+T23	Multi-tissue_structure 776 789	blood vessels
+T24	Drug_or_compound 844 849	Taxol
+T27	Drug_or_compound 914 919	Taxol
+T28	Drug_or_compound 948 963	heparin-steroid
+T31	Drug_or_compound 1014 1019	taxol
+T32	Drug_or_compound 1024 1039	heparin-steroid
+T36	Drug_or_compound 1106 1121	Cobalt chloride
+T37	Gene_or_gene_product 1139 1173	vascular endothelial growth factor
+T38	Gene_or_gene_product 1175 1179	VEGF
+T41	Tissue 1231 1241	fat tissue
+T44	Multi-tissue_structure 1274 1286	blood vessel
+T45	Tissue 1321 1324	fat
+T47	Tissue 1383 1393	fat tissue
+T48	Multi-tissue_structure 1444 1451	vessels
+T49	Multi-tissue_structure 1469 1487	quiescient vessels
+T50	Tissue 1499 1502	fat
+T53	Tissue 1616 1626	fat tissue
+T55	Tissue 1647 1663	placental tissue
+T58	Tissue 1714 1724	fat tissue
+T1	Organism_substance 397 402	serum
+T1000	Organism 36 41	human
+T1001	Organism 140 145	human
+T1002	Organism 204 209	human
+T1003	Organism 228 233	Human
+T1004	Organism 390 396	bovine
+T1005	Organism 617 622	human
+T1006	Organism 1377 1382	human
+T1007	Organism 1426 1431	human
+T66	Tissue 1432 1438	tissue
+T67	Cell 350 354	cell

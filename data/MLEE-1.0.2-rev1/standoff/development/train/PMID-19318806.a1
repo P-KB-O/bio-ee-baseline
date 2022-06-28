@@ -1,0 +1,46 @@
+T1	Gene_or_gene_product 4 17	semaphorin 7A
+T2	Gene_or_gene_product 27 36	Plexin C1
+T3	Cell 103 114	melanocytes
+T4	Cell 119 140	melanocyte stem cells
+T5	Pathological_formation 215 220	tumor
+T6	Gene_or_gene_product 406 417	Semaphorins
+T7	Gene_or_gene_product 447 454	Plexins
+T8	Gene_or_gene_product 459 470	neuropilins
+T10	Pathological_formation 531 536	tumor
+T13	Multi-tissue_structure 568 580	blood vessel
+T14	Gene_or_gene_product 608 621	Semaphorin 7A
+T15	Gene_or_gene_product 623 629	Sema7A
+T16	Cellular_component 636 644	membrane
+T17	Gene_or_gene_product 652 662	semaphorin
+T18	Cell 690 703	keratinocytes
+T20	Gene_or_gene_product 728 734	Sema7A
+T21	Cell 750 761	melanocytes
+T22	Gene_or_gene_product 770 785	beta1-integrins
+T26	Gene_or_gene_product 845 851	Sema7A
+T27	Cell 900 911	melanocytes
+T29	Gene_or_gene_product 981 990	Plexin C1
+T30	Cell 1010 1021	melanocytes
+T31	Gene_or_gene_product 1030 1037	cofilin
+T32	Gene_or_gene_product 1042 1055	LIM kinase II
+T34	Gene_or_gene_product 1172 1181	Plexin C1
+T35	Pathological_formation 1295 1309	melanoma tumor
+T36	Gene_or_gene_product 1358 1367	Plexin C1
+T38	Gene_or_gene_product 1459 1468	Plexin C1
+T39	Pathological_formation 1483 1488	tumor
+T1000	Organism 684 689	human
+T1001	Organism 744 749	human
+T1002	Organism 894 899	human
+T1003	Organism 1004 1009	human
+T23	Pathological_formation 52 60	melanoma
+T40	Pathological_formation 145 153	melanoma
+T51	Pathological_formation 1371 1390	metastatic melanoma
+T52	Pathological_formation 1405 1421	primary melanoma
+T53	Pathological_formation 1512 1520	melanoma
+T54	Gene_or_gene_product 794 803	Plexin C1
+T55	Pathological_formation 1255 1262	lesions
+T56	Cell 270 274	cell
+T60	Cell 297 301	cell
+T62	Pathological_formation 396 404	melanoma
+T63	Cell 592 596	cell
+T65	Cell 1097 1101	cell
+T11	Cellular_component 863 875	cytoskeletal

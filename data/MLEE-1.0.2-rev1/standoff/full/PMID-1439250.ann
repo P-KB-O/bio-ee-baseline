@@ -1,0 +1,21 @@
+T1	Tissue 221 235	macular center
+T3	Organ 365 369	eyes
+T5	Tissue 449 456	macular
+T6	Tissue 486 492	foveal
+T7	Tissue 508 513	fovea
+T8	Organ 576 580	eyes
+T10	Organism_substance 693 699	serous
+T11	Drug_or_compound 780 791	Fluorescein
+T13	Organism_substance 1017 1023	serous
+T14	Drug_or_compound 1159 1170	fluorescein
+T16	Tissue 1252 1259	macular
+T18	Tissue 1290 1296	foveal
+T1001	Organism 390 398	patients
+T2	Blood_vessel_development 340 358	neovascularization
+T4	Breakdown 457 467	detachment
+E4	Breakdown:T4 Theme:T5
+T15	Breakdown 1260 1270	detachment
+E15	Breakdown:T15 Theme:T16
+T19	Positive_regulation 318 329	stimulating
+E1	Positive_regulation:T19 Theme:E2
+E2	Blood_vessel_development:T2 

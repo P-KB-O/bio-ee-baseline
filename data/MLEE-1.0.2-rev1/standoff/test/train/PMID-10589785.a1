@@ -1,0 +1,22 @@
+T2	Drug_or_compound 25 33	linomide
+T4	Pathological_formation 62 104	von Hippel-Lindau paraganglioma xenografts
+T6	Drug_or_compound 210 218	linomide
+T7	Pathological_formation 236 274	von Hippel-Lindau (VHL)-related tumors
+T8	Tissue 276 306	Paraganglioma tissue fragments
+T9	Drug_or_compound 577 585	linomide
+T10	Pathological_formation 647 652	tumor
+T12	Pathological_formation 772 777	tumor
+T14	Pathological_formation 883 888	tumor
+T15	Drug_or_compound 903 911	linomide
+T17	Multi-tissue_structure 951 964	blood vessels
+T18	Pathological_formation 1028 1034	tumors
+T19	Pathological_formation 1141 1147	tumors
+T20	Drug_or_compound 1153 1161	linomide
+T22	Pathological_formation 1263 1268	tumor
+T23	Gene_or_gene_product 1269 1303	vascular endothelial growth factor
+T27	Gene_or_gene_product 1431 1435	VEGF
+T29	Pathological_formation 1465 1475	VHL tumors
+T1000	Organism 108 112	mice
+T1001	Organism 346 353	patient
+T1002	Organism 385 409	BALB/c nu/nu (nude) mice
+T36	Organism_substance 889 894	blood

@@ -1,0 +1,46 @@
+T2	Gene_or_gene_product 16 61	platelet endothelial cell adhesion molecule-1
+T3	Gene_or_gene_product 74 127	Platelet endothelial cell adhesion molecule (PECAM)-1
+T6	Cell 162 178	endothelial cell
+T11	Gene_or_gene_product 315 322	PECAM-1
+T13	Gene_or_gene_product 370 377	PECAM-1
+T15	Multi-tissue_structure 381 393	blood vessel
+T17	Pathological_formation 466 471	tumor
+T20	Gene_or_gene_product 508 515	PECAM-1
+T22	Multi-tissue_structure 538 549	bone marrow
+T23	Gene_or_gene_product 595 602	PECAM-1
+T28	Cell 710 719	leukocyte
+T29	Gene_or_gene_product 721 728	PECAM-1
+T30	Cell 783 813	PECAM-1-null endothelial cells
+T31	Gene_or_gene_product 783 790	PECAM-1
+T36	Cell 915 945	PECAM-1-null endothelial cells
+T37	Gene_or_gene_product 915 922	PECAM-1
+T39	Cell 966 983	endothelial cells
+T43	Gene_or_gene_product 1075 1082	PECAM-1
+T49	Gene_or_gene_product 1159 1164	Cdc42
+T54	Multi-tissue_structure 1250 1269	retinal vasculature
+T56	Cell 1324 1341	endothelial cells
+T58	Tissue 1368 1375	sprouts
+T59	Gene_or_gene_product 1443 1450	PECAM-1
+T62	Gene_or_gene_product 1532 1539	PECAM-1
+T64	Gene_or_gene_product 1583 1590	PECAM-1
+T67	Cell 1605 1621	endothelial cell
+T7	Gene_or_gene_product 1009 1016	PECAM-1
+T9	Gene_or_gene_product 1029 1036	PECAM-1
+T12	Gene_or_gene_product 209 216	PECAM-1
+T1000	Organism 16 71	platelet endothelial cell adhesion molecule-1-null mice
+T1001	Organism 315 332	PECAM-1-null mice
+T1002	Organism 508 525	PECAM-1-null mice
+T1003	Organism 595 617	PECAM-1-deficient mice
+T1004	Organism 960 965	human
+T1005	Organism 1443 1460	PECAM-1-null mice
+T50	Gene_or_gene_product 1168 1171	Rho
+T8	Gene_or_gene_product 204 227	anti-PECAM-1 antibodies
+T40	Gene_or_gene_product 1004 1025	anti-PECAM-1 antibody
+T72	Cellular_component 1281 1307	long filamentous filopodia
+T73	Cellular_component 1092 1101	filopodia
+T75	Cellular_component 850 859	filopodia
+T77	Cellular_component 1221 1230	filopodia
+T79	Cellular_component 1661 1670	filopodia
+T81	Cell 766 770	cell
+T83	Cell 891 896	cells
+T4	Cell 689 700	endothelial

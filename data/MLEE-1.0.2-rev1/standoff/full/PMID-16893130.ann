@@ -1,0 +1,30 @@
+T1	Cell 12 33	bone marrow stem cell
+T3	Cell 37 81	peripheral blood endothelial progenitor cell
+T5	Organism_subdivision 118 122	limb
+T6	Organism_substance 203 208	blood
+T7	Organism_subdivision 221 225	legs
+T8	Organism_subdivision 296 300	limb
+T9	Cell 457 487	bone marrow-derived stem cells
+T11	Cell 492 520	endothelial progenitor cells
+T15	Multi-tissue_structure 559 572	blood vessels
+T18	Cell 659 681	bone marrow stem cells
+T1000	Organism 93 101	patients
+T1001	Organism 229 237	patients
+T1002	Organism 282 290	patients
+T1003	Organism 740 748	patients
+T1004	Organism 815 823	patients
+T16	Blood_vessel_development 581 596	neoangiogenesis
+T17	Blood_vessel_development 600 618	neovascularization
+T20	Blood_vessel_development 685 695	angiogenic
+T21	Blood_vessel_development 835 845	angiogenic
+T14	Development 540 551	development
+E14	Development:T14 Theme:T15
+T2	Planned_process 82 89	therapy
+E1	Planned_process:T2 Theme:T1000 Instrument:T3
+E2	Planned_process:T2 Theme:T1000 Instrument:T1
+T12	Planned_process 824 831	treated
+E5	Planned_process:T12 Theme:T1004
+E6	Blood_vessel_development:T16 
+E7	Blood_vessel_development:T17 
+E8	Blood_vessel_development:T20 
+E9	Blood_vessel_development:T21 

@@ -1,0 +1,36 @@
+T1	Multi-tissue_structure 17 38	embryonic CNS vessels
+T5	Multi-tissue_structure 83 95	blood vessel
+T6	Anatomical_system 130 152	central nervous system
+T7	Anatomical_system 154 157	CNS
+T8	Organ 165 170	brain
+T9	Organ 175 186	spinal cord
+T10	Developing_anatomical_structure 197 204	embryos
+T11	Cell 266 283	endothelial cells
+T12	Cell 285 294	pericytes
+T13	Cell 299 318	smooth muscle cells
+T14	Cell 324 335	macrophages
+T15	Anatomical_system 406 409	CNS
+T17	Multi-tissue_structure 526 537	vasculature
+T22	Organism 191 196	avian
+T23	Cell 217 221	cell
+T16	Blood_vessel_development 410 422	angiogenesis
+T4	Development 96 105	formation
+E4	Development:T4 Theme:T5
+*	Equiv T6 T7
+T2	Binding 250 262	interactions
+E1	Binding:T2 Theme:T11
+E2	Binding:T2 Theme:T12
+E5	Binding:T2 Theme:T13
+E6	Binding:T2 Theme:T14
+T18	Cell_proliferation 232 245	proliferation
+E7	Cell_proliferation:T18 Theme:T11
+E8	Cell_proliferation:T18 Theme:T12
+E9	Cell_proliferation:T18 Theme:T13
+E10	Cell_proliferation:T18 Theme:T14
+T19	Regulation 395 402	control
+E11	Regulation:T19 Theme:E14
+T20	Development 510 518	assembly
+E12	Development:T20 Theme:T17
+T21	Development 0 13	Morphogenesis
+E13	Development:T21 Theme:T1
+E14	Blood_vessel_development:T16 AtLoc:T15

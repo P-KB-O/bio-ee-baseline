@@ -1,0 +1,29 @@
+T1	Gene_or_gene_product 25 42	plasma endostatin
+T2	Gene_or_gene_product 108 118	Endostatin
+T3	Gene_or_gene_product 145 159	collagen XVIII
+T6	Gene_or_gene_product 208 218	endostatin
+T7	Pathological_formation 272 284	solid tumors
+T9	Gene_or_gene_product 374 391	plasma endostatin
+T11	Gene_or_gene_product 556 558	PE
+T12	Gene_or_gene_product 652 654	PE
+T13	Gene_or_gene_product 804 806	PE
+T14	Gene_or_gene_product 870 872	PE
+T15	Gene_or_gene_product 1131 1133	PE
+T16	Gene_or_gene_product 1200 1202	PE
+T17	Gene_or_gene_product 1227 1229	PE
+T18	Gene_or_gene_product 1315 1317	PE
+T19	Gene_or_gene_product 1397 1399	PE
+T20	Gene_or_gene_product 1420 1422	PE
+T21	Gene_or_gene_product 1545 1547	PE
+T22	Gene_or_gene_product 1629 1631	PE
+T23	Pathological_formation 1646 1651	tumor
+T10	Gene_or_gene_product 393 395	PE
+T1000	Organism 445 453	patients
+T1001	Organism 495 503	patients
+T1002	Organism 677 685	patients
+T1003	Organism 725 733	patients
+T1004	Organism 1009 1016	patient
+T1005	Organism 1173 1181	patients
+T1006	Organism 1294 1302	patients
+T1007	Organism 1377 1385	patients
+T1008	Organism 1481 1489	patients

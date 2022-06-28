@@ -1,0 +1,20 @@
+T2	Pathological_formation 45 71	non-small cell lung cancer
+T3	Pathological_formation 74 80	Tumour
+T7	Pathological_formation 121 127	tumour
+T8	Tissue 193 204	microvessel
+T9	Pathological_formation 215 241	non-small cell lung cancer
+T10	Pathological_formation 458 488	non-small cell lung carcinomas
+T11	Gene_or_gene_product 528 532	CD31
+T12	Organ 587 590	eye
+T13	Organ 718 721	eye
+T14	Gene_or_gene_product 851 855	Ki67
+T16	Gene_or_gene_product 861 865	EGFR
+T18	Gene_or_gene_product 869 872	p53
+T19	Pathological_formation 885 892	Tumours
+T21	Multi-tissue_structure 1057 1067	lymph node
+T23	Pathological_formation 1738 1764	non-small cell lung cancer
+T25	Cell 1871 1882	cancer cell
+T26	Multi-tissue_structure 1896 1907	lymph nodes
+T1000	Organism 906 914	patients
+T1001	Organism 1584 1592	patients
+T1002	Organism 2071 2079	patients

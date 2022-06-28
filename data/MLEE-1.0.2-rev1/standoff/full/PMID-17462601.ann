@@ -1,0 +1,104 @@
+T1	Gene_or_gene_product 29 47	PDGF receptor beta
+T6	Gene_or_gene_product 117 132	VEGF receptor 2
+T7	Gene_or_gene_product 144 174	Platelet-derived growth factor
+T8	Gene_or_gene_product 176 180	PDGF
+T9	Gene_or_gene_product 201 206	PDGFR
+T12	Pathological_formation 266 271	tumor
+T16	Cell 320 328	pericyte
+T18	Multi-tissue_structure 345 351	vessel
+T19	Drug_or_compound 406 409	1B3
+T20	Gene_or_gene_product 434 443	PDGFRbeta
+T22	Drug_or_compound 445 448	1B3
+T23	Gene_or_gene_product 458 467	PDGFRbeta
+T24	Gene_or_gene_product 511 518	PDGF-BB
+T26	Gene_or_gene_product 645 654	PDGFRbeta
+T27	Gene_or_gene_product 701 704	Akt
+T28	Gene_or_gene_product 709 720	MAPK p42/44
+T29	Cell 725 736	tumor cells
+T31	Drug_or_compound 757 760	1B3
+T34	Drug_or_compound 836 841	DC101
+T35	Gene_or_gene_product 878 923	vascular endothelial growth factor receptor 2
+T36	Pathological_formation 942 948	BxPC-3
+T39	Pathological_formation 956 1002	non-small cell lung (NCI-H460) tumor xenograft
+T40	Drug_or_compound 1045 1048	1B3
+T41	Drug_or_compound 1053 1058	DC101
+T42	Pathological_formation 1062 1078	BxPC-3 xenograft
+T44	Pathological_formation 1104 1109	tumor
+T45	Drug_or_compound 1181 1186	DC101
+T47	Gene_or_gene_product 1250 1259	PDGFRbeta
+T2	Pathological_formation 930 940	pancreatic
+T3	Pathological_formation 1372 1379	cancers
+T1000	Organism 428 433	mouse
+T1001	Organism 872 877	mouse
+T1002	Organism 1087 1091	mice
+T1003	Organism 1131 1135	mice
+T1004	Organism 1163 1167	mice
+T5	Gene_or_gene_product 112 141	anti-VEGF receptor 2 antibody
+T58	Pathological_formation 65 70	tumor
+T59	Pathological_formation 792 797	tumor
+T61	Pathological_formation 1303 1308	tumor
+T4	Blood_vessel_development 84 94	angiogenic
+T13	Blood_vessel_development 293 305	angiogenesis
+T33	Blood_vessel_development 811 821	angiogenic
+T49	Blood_vessel_development 1321 1331	angiogenic
+T11	Growth 272 278	growth
+E11	Growth:T11 Theme:T12
+T21	Binding 449 454	binds
+E21	Binding:T21 Theme:T22 Theme:T23
+T25	Positive_regulation 631 641	activation
+E25	Positive_regulation:T25 Theme:T26
+T43	Negative_regulation 1110 1120	regression
+E43	Negative_regulation:T43 Theme:T44
+*	Equiv T7 T8
+R1	frag Arg1:T2 Arg2:T39	
+T10	Positive_regulation 48 56	enhances
+E1	Positive_regulation:T10 Cause:T1 Theme:T5
+T32	Positive_regulation 254 265	stimulating
+E3	Positive_regulation:T32 Cause:T9 Theme:E11
+T37	Positive_regulation 283 292	promoting
+E4	Positive_regulation:T37 Theme:E31
+T38	Positive_regulation 310 319	enhancing
+E5	Positive_regulation:T38 Theme:E7
+T48	Development 352 362	maturation
+E6	Development:T48 Theme:T18
+T15	Localization 329 340	recruitment
+E7	Localization:T15 Theme:T16
+E2	Positive_regulation:T32 Cause:T7 Theme:E11
+E8	Positive_regulation:T32 Cause:T9 Theme:E4
+E9	Positive_regulation:T32 Cause:T7 Theme:E4
+E10	Positive_regulation:T38 Theme:E6
+E12	Positive_regulation:T38 Theme:T9
+E13	Positive_regulation:T38 Theme:T7
+T30	Negative_regulation 504 510	blocks
+E15	Negative_regulation:T30 Theme:E16 Cause:T22
+T50	Binding 524 531	binding
+E16	Binding:T50 Theme:T24
+T51	Negative_regulation 606 612	blocks
+E18	Negative_regulation:T51 Cause:T22 Theme:E25
+E19	Positive_regulation:T25 Theme:T27
+E20	Positive_regulation:T25 Theme:T28
+E22	Negative_regulation:T51 Cause:T22 Theme:E19
+E23	Negative_regulation:T51 Cause:T22 Theme:E20
+T52	Positive_regulation 775 783	enhanced
+E24	Positive_regulation:T52 Cause:T31 Theme:E38
+T53	Planned_process 1011 1020	Treatment
+E26	Planned_process:T53 Instrument:T40 Instrument:T41 Theme:T1002
+T54	Positive_regulation 1092 1100	resulted
+E27	Positive_regulation:T54 Cause:E26 Theme:E43
+T55	Planned_process 1168 1175	treated
+E28	Planned_process:T55 Instrument:T45 Theme:T1004
+T56	Planned_process 1346 1355	treatment
+E29	Planned_process:T56 Theme:T3
+E30	Blood_vessel_development:T4 
+E31	Blood_vessel_development:T13 
+E32	Blood_vessel_development:T33 
+E33	Blood_vessel_development:T49 
+T57	Negative_regulation 95 105	activities
+E34	Negative_regulation:T57 Cause:T5 Theme:E30
+E35	Negative_regulation:T57 Cause:T5 Theme:T58
+E36	Positive_regulation:T10 Cause:T1 Theme:E34
+E37	Positive_regulation:T10 Cause:T1 Theme:E35
+T60	Negative_regulation 822 832	activities
+E38	Negative_regulation:T60 Cause:T34 Theme:E32
+E39	Negative_regulation:T60 Cause:T34 Theme:T59
+E40	Positive_regulation:T52 Cause:T31 Theme:E39

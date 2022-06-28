@@ -1,0 +1,22 @@
+T3	Pathological_formation 90 123	laryngeal squamous cell carcinoma
+T6	Pathological_formation 249 282	laryngeal squamous cell carcinoma
+T7	Pathological_formation 284 288	LSCC
+T9	Gene_or_gene_product 367 401	vascular endothelial growth factor
+T10	Gene_or_gene_product 403 407	VEGF
+T11	Pathological_formation 560 564	LSCC
+T13	Pathological_formation 692 721	cervical lymphatic metastasis
+T15	Pathological_formation 805 832	lymphatic metastasis tumors
+T18	Pathological_formation 895 931	cervical lymphatic metastasis tumors
+T21	Gene_or_gene_product 1163 1167	VEGF
+T22	Pathological_formation 1432 1437	tumor
+T23	Pathological_formation 1449 1453	LSCC
+T25	Pathological_formation 1513 1542	cervical lymphatic metastasis
+T26	Pathological_formation 1546 1550	LSCC
+T27	Gene_or_gene_product 1552 1556	VEGF
+T30	Pathological_formation 1616 1621	tumor
+T32	Pathological_formation 1638 1642	LSCC
+T33	Pathological_formation 1644 1649	Tumor
+T35	Pathological_formation 1683 1688	tumor
+T36	Pathological_formation 1750 1754	LSCC
+T2	Tissue 314 325	microvessel
+T1000	Organism 565 573	patients

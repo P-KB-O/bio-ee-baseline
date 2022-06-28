@@ -1,0 +1,139 @@
+T3	Gene_or_gene_product 50 54	CCN1
+T4	Gene_or_gene_product 55 60	CYR61
+T6	Gene_or_gene_product 102 108	MRTF-A
+T7	Gene_or_gene_product 113 159	CREB-binding protein histone acetyltransferase
+T13	Gene_or_gene_product 469 473	CCN1
+T18	Gene_or_gene_product 652 656	CCN1
+T20	Gene_or_gene_product 698 702	RhoA
+T21	Gene_or_gene_product 712 717	actin
+T22	Gene_or_gene_product 737 772	p38 stress-activated protein kinase
+T23	Gene_or_gene_product 774 778	SAPK
+T25	Gene_or_gene_product 781 786	Actin
+T26	Gene_or_gene_product 806 827	serum response factor
+T27	Gene_or_gene_product 829 832	SRF
+T28	Gene_or_gene_product 847 850	SRF
+T29	Gene_or_gene_product 872 924	myocardin-related transcriptional activator (MRTF)-A
+T32	Gene_or_gene_product 980 984	CCN1
+T34	Cell 1056 1073	MRTF-A(-/-) cells
+T35	Gene_or_gene_product 1056 1062	MRTF-A
+T38	Gene_or_gene_product 1096 1154	CREB-binding protein (CBP) histone acetyltransferase (HAT)
+T44	Gene_or_gene_product 1220 1223	CBP
+T45	Gene_or_gene_product 1248 1258	histones 3
+T46	Gene_or_gene_product 1272 1275	SRF
+T47	Gene_or_gene_product 1304 1308	CCN1
+T49	Gene_or_gene_product 1343 1351	p38 SAPK
+T52	Gene_or_gene_product 1360 1367	CBP HAT
+T55	Gene_or_gene_product 1404 1407	SRF
+T56	Gene_or_gene_product 1408 1414	MRTF-A
+T58	Gene_or_gene_product 1454 1457	p38
+T59	Gene_or_gene_product 1487 1491	MKK3
+T60	Gene_or_gene_product 1496 1500	MKK6
+T62	Gene_or_gene_product 1516 1523	CBP HAT
+T64	Gene_or_gene_product 1528 1532	CCN1
+T67	Gene_or_gene_product 1593 1597	CCN1
+T69	Gene_or_gene_product 1666 1672	MRTF-A
+T70	Gene_or_gene_product 1695 1699	CCN1
+T71	Gene_or_gene_product 1719 1725	MRTF-A
+T73	Gene_or_gene_product 1741 1751	histone H3
+T75	Gene_or_gene_product 1825 1828	SRF
+T76	Gene_or_gene_product 1830 1836	MRTF-A
+T77	Gene_or_gene_product 1842 1845	CBP
+T30	Gene_or_gene_product 1263 1264	4
+T1000	Organism 1050 1055	mouse
+T37	Tissue 162 188	Smooth muscle-rich tissues
+T61	Multi-tissue_structure 543 551	vascular
+T84	DNA_domain_or_region 985 993	promoter
+T40	DNA_domain_or_region 1533 1541	promoter
+T2	Blood_vessel_development 32 42	angiogenic
+T9	Blood_vessel_development 283 295	angiogenesis
+T10	Blood_vessel_development 363 381	Neovascularization
+T12	Blood_vessel_development 442 452	angiogenic
+T24	Pathway 787 796	signaling
+T79	Blood_vessel_development 1905 1915	angiogenic
+T1	Regulation 11 21	regulation
+E1	Regulation:T1 Theme:T3
+E2	Binding:T5 Theme:T28 Theme:T29
+E3	Negative_regulation:T11 Cause:E48 Theme:T52
+E4	Binding:T14 Theme:T55 Theme:T56
+T5	Binding 851 862	interaction
+E5	Positive_regulation:T78 Site:T40 Theme:T62 Cause:E57
+E6	Positive_regulation:T74 Theme:T76
+E7	Positive_regulation:T74 Theme:T77
+T8	Positive_regulation 269 279	activation
+E8	Positive_regulation:T8 Theme:E39
+T11	Negative_regulation 1352 1359	reduced
+T14	Binding 1385 1396	recruitment
+T17	Positive_regulation 635 644	induction
+E17	Positive_regulation:T17 Theme:T18
+T19	Regulation 703 711	mediated
+E19	Regulation:T19 Cause:T20 Theme:T21
+T33	Positive_regulation 1039 1049	stimulated
+E33	Positive_regulation:T33 Theme:T34
+T36	Negative_regulation 1082 1092	inhibition
+E36	Negative_regulation:T36 Theme:T38
+T42	Positive_regulation 1212 1219	induced
+E42	Positive_regulation:T42 Theme:E43
+T43	Acetylation 1233 1244	acetylation
+E43	Acetylation:T43 Theme:T45
+T48	Negative_regulation 1329 1339	Inhibition
+E48	Negative_regulation:T48 Theme:T49
+T57	Positive_regulation 1441 1450	induction
+E57	Positive_regulation:T57 Theme:T58 Cause:T59
+T65	Positive_regulation 1585 1592	induced
+E65	Positive_regulation:T65 Theme:E66
+T66	Gene_expression 1603 1613	expression
+E66	Gene_expression:T66 Theme:T67
+T68	Localization 1650 1662	localization
+E68	Localization:T68 Theme:T69
+T72	Acetylation 1730 1740	acetylated
+E72	Acetylation:T72 Theme:T73
+T74	Positive_regulation 1811 1821	activation
+E74	Positive_regulation:T74 Theme:T75
+T78	Positive_regulation 1502 1510	enhanced
+*	Equiv T22 T23
+*	Equiv T27 T26
+R1	frag Arg1:T30 Arg2:T45	
+*	Equiv T3 T4
+T31	Positive_regulation 66 74	requires
+E9	Positive_regulation:T31 Theme:E1 Cause:T6
+T50	Regulation 189 196	respond
+E10	Regulation:T50 Theme:T37 Cause:E8
+T51	Positive_regulation 429 438	induction
+E11	Positive_regulation:T51 Theme:T13
+T54	Development 552 563	development
+E12	Development:T54 Theme:T61
+T82	Development 568 574	repair
+E13	Development:T82 Theme:T61
+E14	Regulation:T19 Cause:T20 Theme:T22
+T83	Regulation 797 805	controls
+E18	Regulation:T83 Theme:E21 Cause:E45
+T85	Positive_regulation 843 846	via
+E20	Positive_regulation:T85 Cause:E2 Theme:T26
+E21	Positive_regulation:T85 Cause:T32 CSite:T84 Theme:T26
+E22	Regulation:T83 Theme:E20 Cause:E45
+T39	Positive_regulation 1224 1232	mediated
+E23	Positive_regulation:T39 Cause:T44 Theme:E43
+E24	Acetylation:T43 Theme:T30
+E25	Positive_regulation:T39 Cause:T44 Theme:E24
+E26	Positive_regulation:T42 Theme:E24
+E27	Negative_regulation:T11 Cause:E48 Theme:E4
+E28	Positive_regulation:T78 Site:T40 Theme:T64 Cause:E57
+E29	Positive_regulation:T57 Theme:T58 Cause:T60
+E30	Positive_regulation:T78 Site:T40 Theme:T64 Cause:E29
+E31	Positive_regulation:T78 Site:T40 Theme:T62 Cause:E29
+T41	Regulation 1626 1636	associated
+E32	Regulation:T41 Theme:E68 Cause:E66
+T53	Regulation 1800 1810	controlled
+E34	Regulation:T53 Theme:E7
+E35	Regulation:T53 Theme:E74
+E37	Regulation:T53 Theme:E6
+E38	Blood_vessel_development:T2 
+E39	Blood_vessel_development:T9 
+E40	Blood_vessel_development:T10 
+E41	Blood_vessel_development:T12 
+E44	Blood_vessel_development:T79 
+E45	Pathway:T24 Participant:T25
+T15	Positive_regulation 530 538	critical
+E15	Positive_regulation:T15 Cause:T13 Theme:E12
+E16	Positive_regulation:T15 Cause:T13 Theme:E13
+E46	Positive_regulation:T31 Theme:E1 Cause:T7

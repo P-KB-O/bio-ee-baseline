@@ -1,0 +1,108 @@
+T5	Gene_or_gene_product 43 47	VEGF
+T10	Gene_or_gene_product 125 159	vascular endothelial growth factor
+T11	Gene_or_gene_product 161 165	VEGF
+T13	Anatomical_system 228 242	cardiovascular
+T16	Gene_or_gene_product 329 333	VEGF
+T22	Cell 520 537	endothelial cells
+T24	Cell 621 638	endothelial cells
+T25	Organism_subdivision 663 671	hindlimb
+T26	Cell 716 733	endothelial cells
+T27	Drug_or_compound 739 743	DAPT
+T29	Gene_or_gene_product 747 762	gamma secretase
+T32	Tissue 803 809	sprout
+T34	Gene_or_gene_product 835 839	VEGF
+T35	Drug_or_compound 882 886	DAPT
+T36	Drug_or_compound 953 957	DAPT
+T37	Gene_or_gene_product 962 966	VEGF
+T38	Organism_subdivision 1025 1034	hindlimbs
+T39	Organism_substance 1063 1068	blood
+T40	Gene_or_gene_product 1079 1083	VEGF
+T41	Drug_or_compound 1087 1091	DAPT
+T42	Drug_or_compound 1172 1176	DAPT
+T43	Gene_or_gene_product 1181 1185	VEGF
+T45	Drug_or_compound 1249 1253	DAPT
+T46	Drug_or_compound 1347 1351	DAPT
+T47	Drug_or_compound 1398 1402	DAPT
+T48	Drug_or_compound 1518 1522	DAPT
+T1000	Organism 615 620	human
+T1001	Organism 710 715	human
+T1002	Organism 1666 1674	patients
+T63	Tissue 278 284	tissue
+T65	Cell 784 788	cell
+T28	Gene_or_gene_product 68 73	notch
+T31	Gene_or_gene_product 364 369	Notch
+T66	Gene_or_gene_product 423 428	Notch
+T67	Gene_or_gene_product 1612 1617	Notch
+T2	Blood_vessel_development 10 22	angiogenesis
+T6	Pathway 68 83	notch signaling
+T8	Blood_vessel_development 96 108	angiogenesis
+T12	Blood_vessel_development 177 187	angiogenic
+T15	Pathway 334 343	signaling
+T17	Pathway 364 387	Notch signaling pathway
+T19	Pathway 423 438	Notch signaling
+T21	Blood_vessel_development 460 478	neovascularization
+T23	Blood_vessel_development 541 551	angiogenic
+T50	Blood_vessel_development 1584 1596	angiogenesis
+T52	Pathway 1612 1627	Notch signaling
+T53	Blood_vessel_development 1703 1713	angiogenic
+T3	Regulation 27 39	manipulation
+E3	Regulation:T3 Theme:T5 Cause:E30
+T9	Localization 113 121	delivery
+E9	Localization:T9 Theme:T10
+T14	Regulation 347 356	modulated
+E14	Regulation:T14 Cause:E34 Theme:E32
+T18	Negative_regulation 412 422	inhibiting
+E18	Negative_regulation:T18 Theme:E35
+T33	Positive_regulation 840 851	stimulation
+E33	Positive_regulation:T33 Theme:T34 Cause:E6
+T44	Planned_process 1236 1245	injection
+E44	Planned_process:T44 Instrument:T45
+T51	Regulation 1600 1611	controlling
+E51	Regulation:T51 Theme:E36
+*	Equiv T10 T11
+T1	Positive_regulation 0 9	Promoting
+E1	Positive_regulation:T1 Theme:E23 Cause:E3
+T4	Positive_regulation 86 95	Promoting
+E2	Positive_regulation:T4 Theme:E24 Cause:E9
+T7	Positive_regulation 443 450	enhance
+E4	Positive_regulation:T7 Theme:E26 Cause:E18
+T20	Regulation 496 510	responsiveness
+E5	Regulation:T20 Theme:T22
+T30	Planned_process 688 697	Treatment
+E6	Planned_process:T30 Theme:T26 Instrument:T27
+T49	Planned_process 701 709	cultured
+E7	Planned_process:T49 Instrument:T26
+T54	Localization 789 798	migration
+E8	Localization:T54 Theme:T65
+T55	Positive_regulation 774 783	increased
+E10	Positive_regulation:T55 Theme:E8 Cause:E33
+T56	Development 810 819	formation
+E11	Development:T56 Theme:T32
+E12	Positive_regulation:T55 Theme:E11 Cause:E33
+T57	Localization 1186 1194	delivery
+E13	Localization:T57 Theme:T43
+E15	Localization:T57 Theme:T42
+T58	Localization 1403 1411	delivery
+E16	Localization:T58 Theme:T47
+T59	Positive_regulation 1502 1514	introduction
+E17	Positive_regulation:T59 Theme:T48
+T60	Positive_regulation 1576 1583	promote
+E19	Positive_regulation:T60 Theme:E28 Cause:E51
+T61	Planned_process 1660 1665	treat
+E20	Planned_process:T61 Theme:T1002
+T62	Negative_regulation 1694 1702	diminish
+E21	Negative_regulation:T62 Theme:E29
+T64	Development 285 297	regeneration
+E22	Development:T64 Theme:T63
+E23	Blood_vessel_development:T2 
+E24	Blood_vessel_development:T8 
+E25	Blood_vessel_development:T12 
+E26	Blood_vessel_development:T21 
+E27	Blood_vessel_development:T23 
+E28	Blood_vessel_development:T50 
+E29	Blood_vessel_development:T53 
+E30	Pathway:T6 
+E32	Pathway:T15 Participant:T16
+E34	Pathway:T17 
+E35	Pathway:T19 
+E36	Pathway:T52 

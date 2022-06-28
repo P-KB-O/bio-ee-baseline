@@ -1,0 +1,13 @@
+T1	Gene_or_gene_product 29 34	Flt-1
+T2	Gene_or_gene_product 36 43	VEGFR-1
+T5	Gene_or_gene_product 84 118	Vascular endothelial growth factor
+T6	Gene_or_gene_product 120 124	VEGF
+T9	Gene_or_gene_product 230 235	Flt-1
+T10	Gene_or_gene_product 240 245	Flk-1
+T12	Gene_or_gene_product 353 358	Flt-1
+T16	Multi-tissue_structure 405 429	chorioallantoic membrane
+T17	Gene_or_gene_product 444 448	VEGF
+T18	Gene_or_gene_product 514 518	VEGF
+T21	Gene_or_gene_product 829 833	VEGF
+T22	Gene_or_gene_product 857 861	VEGF
+T1000	Organism 399 404	chick

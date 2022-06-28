@@ -1,0 +1,33 @@
+T3	Pathological_formation 24 38	ovarian cancer
+T5	Gene_or_gene_product 118 125	hPNAS-4
+T6	Cell 202 222	ovarian cancer cells
+T8	Gene_or_gene_product 269 276	hPNAS-4
+T9	Pathological_formation 298 312	ovarian cancer
+T10	Gene_or_gene_product 347 354	hPNAS-4
+T11	Pathological_formation 363 377	ovarian cancer
+T13	Cell 409 435	Ovarian cancer SKOV3 cells
+T15	Pathological_formation 632 647	ovarian cancers
+T18	Pathological_formation 686 691	Tumor
+T19	Tissue 757 768	microvessel
+T23	Cell 938 949	SKOV3 cells
+T24	Gene_or_gene_product 967 974	hPNAS-4
+T25	Gene_or_gene_product 990 997	hPNAS-4
+T26	Cell 1008 1019	tumor cells
+T30	Pathological_formation 1029 1034	tumor
+T31	Pathological_formation 1094 1099	tumor
+T34	Cell 1191 1202	tumor cells
+T37	Tissue 1233 1245	tumor tissue
+T39	Gene_or_gene_product 1339 1346	hPNAS-4
+T40	Pathological_formation 1350 1364	ovarian cancer
+T43	Gene_or_gene_product 1489 1496	hPNAS-4
+T44	Pathological_formation 1543 1557	ovarian cancer
+T1000	Organism 132 137	mouse
+T1001	Organism 280 289	nude mice
+T1002	Organism 614 623	Nude mice
+T1003	Organism 1108 1112	mice
+T1004	Organism 1537 1542	human
+T46	Gene_or_gene_product 666 673	hPNAS-4
+T47	Gene_or_gene_product 458 465	hPNAS-4
+T48	Drug_or_compound 676 684	liposome
+T64	Cell 479 483	cell
+T65	Pathological_formation 1322 1327	tumor

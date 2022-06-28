@@ -1,0 +1,26 @@
+T2	Drug_or_compound 78 89	swainsonine
+T3	Multi-tissue_structure 462 473	vasculature
+T4	Organ 928 936	placenta
+T6	Pathological_formation 1342 1347	tumor
+T7	Drug_or_compound 1363 1374	swainsonine
+T9	Multi-tissue_structure 1440 1448	vascular
+T11	Tissue 1537 1546	capillary
+T12	Drug_or_compound 1566 1577	Swainsonine
+T15	Multi-tissue_structure 1611 1622	vasculature
+T17	Multi-tissue_structure 1672 1680	vascular
+T13	Multi-tissue_structure 355 371	capillary meshes
+T18	Multi-tissue_structure 586 601	radial arteries
+T19	Tissue 692 701	Capillary
+T20	Organ 1184 1193	placental
+T21	Tissue 656 667	capillaries
+T1000	Organism 183 188	goats
+T22	Organism 20 27	caprine
+T23	Organism_subdivision 28 37	caruncles
+T25	Organism_subdivision 138 147	caruncles
+T26	Organism_subdivision 307 316	caruncles
+T28	Organism 920 927	caprine
+T29	Tissue 1111 1120	sinusoids
+T37	Organism 333 337	does
+T38	Organism 1395 1403	locoweed
+T39	Organism 98 102	does
+T40	Organ 1208 1217	Placental

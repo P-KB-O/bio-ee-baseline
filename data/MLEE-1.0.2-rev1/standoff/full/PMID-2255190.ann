@@ -1,0 +1,90 @@
+T2	Gene_or_gene_product 14 44	basic fibroblast growth factor
+T3	Tissue 61 68	tissues
+T5	Gene_or_gene_product 91 121	basic fibroblast growth factor
+T6	Gene_or_gene_product 123 127	bFGF
+T7	Tissue 204 211	tissues
+T9	Gene_or_gene_product 264 268	bFGF
+T10	Gene_or_gene_product 342 346	bFGF
+T12	Gene_or_gene_product 430 434	bFGF
+T13	Cell 445 471	vascular endothelial cells
+T15	Gene_or_gene_product 487 491	bFGF
+T17	Tissue 508 515	tissues
+T18	Cellular_component 549 567	basement membranes
+T19	Multi-tissue_structure 580 593	blood vessels
+T20	Cellular_component 616 625	epidermal
+T21	Cellular_component 629 658	epithelial basement membranes
+T23	Multi-tissue_structure 733 746	blood vessels
+T24	Multi-tissue_structure 824 836	vascular bed
+T25	Multi-tissue_structure 932 945	blood vessels
+T26	Tissue 988 999	capillaries
+T29	Tissue 1061 1072	capillaries
+T31	Cell 1074 1090	Endothelial cell
+T42	Gene_or_gene_product 1171 1175	bFGF
+T43	Cell 1194 1215	cardiac muscle fibers
+T44	Multi-tissue_structure 1249 1262	blood vessels
+T45	Multi-tissue_structure 1268 1271	gut
+T46	Multi-tissue_structure 1280 1290	myometrium
+T47	Cell 1295 1325	central nervous system neurons
+T49	Cell 1330 1355	cerebellar Purkinje cells
+T50	Cell 1364 1380	epithelial cells
+T51	Multi-tissue_structure 1388 1395	bronchi
+T52	Multi-tissue_structure 1397 1402	colon
+T53	Multi-tissue_structure 1404 1415	endometrium
+T54	Multi-tissue_structure 1421 1438	sweat gland ducts
+T55	Organ 1446 1450	skin
+T57	Gene_or_gene_product 1468 1472	bFGF
+T58	Immaterial_anatomical_entity 1480 1505	extracellular compartment
+T61	Gene_or_gene_product 1595 1599	bFGF
+T62	Cell 1603 1620	parenchymal cells
+T1000	Organism 55 60	human
+T1001	Organism 198 203	human
+T1002	Organism 269 274	mouse
+T1003	Organism 336 341	human
+T1004	Organism 438 444	bovine
+T1005	Organism 502 507	human
+T8	Gene_or_gene_product 259 294	anti-bFGF mouse monoclonal antibody
+T30	Cell 1217 1236	smooth muscle cells
+T33	Organ 1530 1536	organs
+T34	Tissue 675 682	tissues
+T35	Tissue 773 780	tissues
+T60	Blood_vessel_development 1556 1568	angiogenesis
+T1	Gene_expression 0 10	Expression
+E1	Gene_expression:T1 Theme:T2
+T4	Localization 75 87	distribution
+E4	Localization:T4 Theme:T5
+T11	Negative_regulation 393 403	neutralize
+E11	Negative_regulation:T11 Theme:T12 Cause:T8
+T14	Gene_expression 473 483	Expression
+E14	Gene_expression:T14 Theme:T15
+T16	Localization 520 541	ubiquitously detected
+E16	Localization:T16 Theme:T15 AtLoc:T18
+T22	Localization 717 729	localization
+E22	Localization:T22 Theme:T15 AtLoc:T23
+T27	Development 1051 1060	branching
+E27	Development:T27 Theme:T29
+T41	Localization 1185 1190	found
+E41	Localization:T41 Theme:T42 AtLoc:T43
+T56	Localization 1456 1464	presence
+E56	Localization:T56 Theme:T57 AtLoc:T58
+R1	frag Arg1:T20 Arg2:T21
+*	Equiv T5 T6
+T59	Planned_process 213 228	Immunodetection
+E2	Planned_process:T59 Theme:T9 Instrument:T8
+E3	Localization:T16 Theme:T15 AtLoc:T19
+E7	Localization:T22 Theme:T15 AtLoc:T24
+T64	Gene_expression 964 974	expression
+E8	Gene_expression:T64 Theme:T15
+E9	Localization:T41 Theme:T42 AtLoc:T30
+E10	Localization:T41 Theme:T42 AtLoc:T45
+E12	Localization:T41 Theme:T42 AtLoc:T46
+E13	Localization:T41 Theme:T42 AtLoc:T47
+E15	Localization:T41 Theme:T42 AtLoc:T49
+E17	Localization:T41 Theme:T42 AtLoc:T51
+E18	Localization:T41 Theme:T42 AtLoc:T52
+E19	Localization:T41 Theme:T42 AtLoc:T53
+E20	Localization:T41 Theme:T42 AtLoc:T54
+E21	Localization:T41 Theme:T42 AtLoc:T55
+T32	Regulation 1541 1552	play a role
+E23	Regulation:T32 Cause:T57 Theme:E24
+A3	Speculation E23
+E24	Blood_vessel_development:T60 

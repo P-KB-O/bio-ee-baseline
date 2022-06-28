@@ -1,0 +1,49 @@
+T2	Gene_or_gene_product 14 44	basic fibroblast growth factor
+T3	Tissue 61 68	tissues
+T5	Gene_or_gene_product 91 121	basic fibroblast growth factor
+T6	Gene_or_gene_product 123 127	bFGF
+T7	Tissue 204 211	tissues
+T9	Gene_or_gene_product 264 268	bFGF
+T10	Gene_or_gene_product 342 346	bFGF
+T12	Gene_or_gene_product 430 434	bFGF
+T13	Cell 445 471	vascular endothelial cells
+T15	Gene_or_gene_product 487 491	bFGF
+T17	Tissue 508 515	tissues
+T18	Cellular_component 549 567	basement membranes
+T19	Multi-tissue_structure 580 593	blood vessels
+T20	Cellular_component 616 625	epidermal
+T21	Cellular_component 629 658	epithelial basement membranes
+T23	Multi-tissue_structure 733 746	blood vessels
+T24	Multi-tissue_structure 824 836	vascular bed
+T25	Multi-tissue_structure 932 945	blood vessels
+T26	Tissue 988 999	capillaries
+T29	Tissue 1061 1072	capillaries
+T31	Cell 1074 1090	Endothelial cell
+T42	Gene_or_gene_product 1171 1175	bFGF
+T43	Cell 1194 1215	cardiac muscle fibers
+T44	Multi-tissue_structure 1249 1262	blood vessels
+T45	Multi-tissue_structure 1268 1271	gut
+T46	Multi-tissue_structure 1280 1290	myometrium
+T47	Cell 1295 1325	central nervous system neurons
+T49	Cell 1330 1355	cerebellar Purkinje cells
+T50	Cell 1364 1380	epithelial cells
+T51	Multi-tissue_structure 1388 1395	bronchi
+T52	Multi-tissue_structure 1397 1402	colon
+T53	Multi-tissue_structure 1404 1415	endometrium
+T54	Multi-tissue_structure 1421 1438	sweat gland ducts
+T55	Organ 1446 1450	skin
+T57	Gene_or_gene_product 1468 1472	bFGF
+T58	Immaterial_anatomical_entity 1480 1505	extracellular compartment
+T61	Gene_or_gene_product 1595 1599	bFGF
+T62	Cell 1603 1620	parenchymal cells
+T1000	Organism 55 60	human
+T1001	Organism 198 203	human
+T1002	Organism 269 274	mouse
+T1003	Organism 336 341	human
+T1004	Organism 438 444	bovine
+T1005	Organism 502 507	human
+T8	Gene_or_gene_product 259 294	anti-bFGF mouse monoclonal antibody
+T30	Cell 1217 1236	smooth muscle cells
+T33	Organ 1530 1536	organs
+T34	Tissue 675 682	tissues
+T35	Tissue 773 780	tissues

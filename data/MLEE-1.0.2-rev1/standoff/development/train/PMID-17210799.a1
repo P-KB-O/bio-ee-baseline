@@ -1,0 +1,60 @@
+T2	Gene_or_gene_product 14 48	vascular endothelial growth factor
+T4	Drug_or_compound 90 121	20-hydroxyeicosatetraenoic acid
+T7	Cell 130 146	endothelial cell
+T8	Drug_or_compound 163 194	20-Hydroxyeicosatetraenoic acid
+T9	Drug_or_compound 196 203	20-HETE
+T10	Drug_or_compound 245 261	arachidonic acid
+T11	Gene_or_gene_product 288 290	4F
+T12	Gene_or_gene_product 265 283	cytochrome P450 4A
+T15	Drug_or_compound 373 380	20-HETE
+T19	Cell 391 407	endothelial cell
+T20	Cell 409 411	EC
+T21	Gene_or_gene_product 431 465	vascular endothelial growth factor
+T22	Gene_or_gene_product 467 471	VEGF
+T23	Drug_or_compound 500 506	WIT003
+T24	Drug_or_compound 508 548	20-hydroxyeicosa-5(Z),14(Z)-dienoic acid
+T25	Drug_or_compound 553 560	20-HETE
+T26	Cell 594 610	microvascular EC
+T27	Drug_or_compound 612 618	WIT003
+T28	Drug_or_compound 636 643	20-HETE
+T32	Cell 656 658	EC
+T37	Gene_or_gene_product 753 757	VEGF
+T39	Drug_or_compound 822 829	20-HETE
+T41	Gene_or_gene_product 905 920	VEGF receptor 2
+T42	Drug_or_compound 951 958	20-HETE
+T45	Gene_or_gene_product 988 992	VEGF
+T46	Drug_or_compound 1016 1056	Polyethylene glycol-superoxide dismutase
+T47	Drug_or_compound 1058 1065	PEG-SOD
+T51	Gene_or_gene_product 1108 1112	VEGF
+T52	Drug_or_compound 1157 1164	20-HETE
+T54	Gene_or_gene_product 1201 1216	NAD(P)H oxidase
+T55	Drug_or_compound 1227 1235	apocynin
+T57	Drug_or_compound 1283 1290	20-HETE
+T59	Drug_or_compound 1296 1303	20-HETE
+T60	Cell 1411 1413	EC
+T61	Drug_or_compound 1450 1457	PEG-SOD
+T62	Drug_or_compound 1469 1477	apocynin
+T63	Drug_or_compound 1479 1486	20-HETE
+T66	Gene_or_gene_product 1525 1565	p42/p44 mitogen-activated protein kinase
+T67	Gene_or_gene_product 1567 1571	MAPK
+T68	Cell 1576 1578	EC
+T69	Gene_or_gene_product 1604 1608	MAPK
+T70	Drug_or_compound 1610 1615	U0126
+T71	Drug_or_compound 1617 1676	1,4-diamino-2,3-dicyano-1,4-bis(2-aminophenylthio)butadiene
+T73	Gene_or_gene_product 1715 1719	VEGF
+T74	Drug_or_compound 1763 1770	20-HETE
+T75	Drug_or_compound 1796 1803	20-HETE
+T76	Drug_or_compound 1859 1867	apocynin
+T77	Gene_or_gene_product 1878 1893	NAD(P)H oxidase
+T79	Gene_or_gene_product 1914 1918	MAPK
+T82	Gene_or_gene_product 1938 1942	VEGF
+T86	Cell 1965 1967	EC
+T87	Drug_or_compound 1989 1996	20-HETE
+T91	Cell 2034 2036	EC
+T1000	Organism 571 576	human
+T44	Gene_or_gene_product 988 1014	VEGF-neutralizing antibody
+T33	Drug_or_compound 66 72	oxygen
+T83	Cell 577 590	macrovascular
+T97	Drug_or_compound 1331 1341	superoxide
+T100	Drug_or_compound 1383 1398	dihydroethidium
+T103	Drug_or_compound 1815 1825	superoxide

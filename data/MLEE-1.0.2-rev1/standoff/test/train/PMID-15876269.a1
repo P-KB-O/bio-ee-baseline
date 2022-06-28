@@ -1,0 +1,20 @@
+T1	Drug_or_compound 0 9	Rofecoxib
+T2	Multi-tissue_structure 62 67	Joint
+T5	Gene_or_gene_product 225 241	Cyclooxygenase-2
+T6	Gene_or_gene_product 243 248	COX-2
+T9	Cell 387 395	platelet
+T10	Drug_or_compound 434 471	non-steroidal anti-inflammatory drugs
+T11	Drug_or_compound 606 615	rofecoxib
+T12	Drug_or_compound 719 728	rofecoxib
+T13	Multi-tissue_structure 788 794	joints
+T14	Drug_or_compound 881 890	rofecoxib
+T15	Drug_or_compound 984 993	rofecoxib
+T16	Drug_or_compound 1209 1218	rofecoxib
+T17	Drug_or_compound 1289 1298	Rofecoxib
+T18	Multi-tissue_structure 1351 1357	joints
+T20	Gene_or_gene_product 1564 1569	COX-2
+T1000	Organism 650 657	patient
+T1001	Organism 859 867	patients
+T1002	Organism 1040 1047	patient
+T1003	Organism 1128 1136	patients
+T24	Multi-tissue_structure 942 947	joint

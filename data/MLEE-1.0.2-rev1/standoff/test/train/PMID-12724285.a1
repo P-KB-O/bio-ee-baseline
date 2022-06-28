@@ -1,0 +1,43 @@
+T1	Gene_or_gene_product 17 34	cyclooxygenase II
+T2	Multi-tissue_structure 57 71	ovarian luteal
+T4	Multi-tissue_structure 117 130	corpus luteum
+T5	Multi-tissue_structure 132 134	CL
+T8	Gene_or_gene_product 278 300	cyclooxygenase (COX) I
+T9	Gene_or_gene_product 305 311	COX-II
+T12	Drug_or_compound 332 344	progesterone
+T13	Multi-tissue_structure 376 378	CL
+T14	Gene_or_gene_product 404 415	COX enzymes
+T15	Gene_or_gene_product 424 436	gonadotropin
+T17	Drug_or_compound 489 501	indomethacin
+T18	Gene_or_gene_product 518 521	COX
+T20	Organism_substance 589 594	serum
+T21	Drug_or_compound 605 617	progesterone
+T23	Gene_or_gene_product 653 659	COX-II
+T24	Drug_or_compound 670 676	NS-398
+T25	Gene_or_gene_product 703 708	COX-I
+T26	Drug_or_compound 720 726	SC-560
+T27	Organism_substance 745 750	serum
+T28	Drug_or_compound 751 763	progesterone
+T29	Organ 839 860	superovulated ovaries
+T32	Drug_or_compound 884 896	progesterone
+T33	Cell 900 921	cultured luteal cells
+T38	Drug_or_compound 1004 1016	progesterone
+T39	Gene_or_gene_product 1040 1050	hemoglobin
+T40	Gene_or_gene_product 1055 1059	CD34
+T42	Organ 1081 1088	ovaries
+T45	Gene_or_gene_product 1112 1115	COX
+T47	Gene_or_gene_product 1185 1228	platelet-endothelial cell adhesion molecule
+T48	Cell 1254 1271	endothelial cells
+T50	Gene_or_gene_product 1317 1323	COX-II
+T52	Multi-tissue_structure 1367 1378	vasculature
+T54	Organism_substance 1415 1420	serum
+T55	Drug_or_compound 1421 1433	progesterone
+T56	Organ 1463 1470	ovarian
+T58	Drug_or_compound 1502 1508	NS-398
+T62	Multi-tissue_structure 1540 1564	luteal capillary vessels
+T64	Gene_or_gene_product 1592 1595	hCG
+T66	Gene_or_gene_product 1665 1671	COX-II
+T68	Multi-tissue_structure 1719 1721	CL
+T1000	Organism 460 463	rat
+T6	Drug_or_compound 254 267	prostaglandin
+T76	Cell 1166 1171	cells

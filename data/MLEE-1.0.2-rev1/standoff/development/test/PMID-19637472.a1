@@ -1,0 +1,22 @@
+T2	Multi-tissue_structure 59 80	autogenous bone graft
+T4	Multi-tissue_structure 86 101	vascular bundle
+T6	Multi-tissue_structure 157 172	vascular bundle
+T9	Organ 317 339	bilateral radial bones
+T10	Multi-tissue_structure 373 384	bone grafts
+T11	Tissue 392 401	periostea
+T12	Multi-tissue_structure 438 470	external maxillary artery bundle
+T14	Immaterial_anatomical_entity 494 507	marrow cavity
+T15	Organ 515 519	bone
+T17	Multi-tissue_structure 552 567	vascular bundle
+T18	Organ 587 591	bone
+T19	Organ 606 621	masseter muscle
+T20	Gene_or_gene_product 798 802	CD34
+T21	Tissue 825 836	Microvessel
+T24	Multi-tissue_structure 938 949	bone grafts
+T28	Multi-tissue_structure 1283 1298	Vascular bundle
+T1000	Organism 248 273	New Zealand white rabbits
+T1001	Organism 345 351	rabbit
+T1002	Organism 638 645	rabbits
+T5	Multi-tissue_structure 1354 1375	autogenous bone graft
+T23	Multi-tissue_structure 901 923	autogenous bone grafts
+T31	Multi-tissue_structure 189 210	autogenous bone graft

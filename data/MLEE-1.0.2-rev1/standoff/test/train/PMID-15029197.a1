@@ -1,0 +1,32 @@
+T1	Pathological_formation 14 20	tumour
+T2	Gene_or_gene_product 40 44	ING4
+T6	Pathological_formation 55 67	brain tumour
+T9	Pathological_formation 94 101	Gliomas
+T10	Pathological_formation 130 137	tumours
+T11	Anatomical_system 145 167	central nervous system
+T12	Pathological_formation 285 297	glioblastoma
+T14	Pathological_formation 349 362	glioblastomas
+T16	Pathological_formation 497 509	brain tumour
+T19	Pathological_formation 585 591	tumour
+T20	Gene_or_gene_product 609 613	ING4
+T23	Pathological_formation 641 653	brain tumour
+T27	Gene_or_gene_product 693 697	ING4
+T28	Pathological_formation 726 733	gliomas
+T29	Tissue 764 776	brain tissue
+T30	Pathological_formation 869 876	tumours
+T32	Pathological_formation 907 925	glioblastoma U87MG
+T35	Gene_or_gene_product 961 965	ING4
+T36	Multi-tissue_structure 1009 1017	vascular
+T37	Pathological_formation 1048 1055	tumours
+T39	Gene_or_gene_product 1070 1074	ING4
+T40	Gene_or_gene_product 1101 1104	p65
+T41	Gene_or_gene_product 1106 1110	RelA
+T42	Gene_or_gene_product 1138 1147	NF-kappaB
+T43	Gene_or_gene_product 1158 1162	ING4
+T45	Pathological_formation 1173 1185	brain tumour
+T50	Gene_or_gene_product 1293 1297	ING4
+T51	Pathological_formation 1323 1335	brain tumour
+T1000	Organism 758 763	human
+T1001	Organism 881 885	mice
+T1002	Organism 901 906	human
+T4	Gene_or_gene_product 1237 1246	NF-kappaB

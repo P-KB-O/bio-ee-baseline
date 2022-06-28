@@ -1,0 +1,24 @@
+T1	Drug_or_compound 26 32	STX243
+T4	Pathological_formation 69 82	breast cancer
+T5	Drug_or_compound 110 151	2-ethyloestradiol-3,17-O,O-bis-sulphamate
+T6	Drug_or_compound 153 159	STX243
+T9	Drug_or_compound 285 291	STX243
+T10	Drug_or_compound 349 368	2-methoxyoestradiol
+T11	Drug_or_compound 370 377	2-MeOE2
+T12	Drug_or_compound 417 448	2-MeOE2-3,17-O,O-bis-sulphamate
+T13	Drug_or_compound 450 456	STX140
+T16	Pathological_formation 463 469	tumour
+T18	Drug_or_compound 547 553	STX243
+T19	Drug_or_compound 600 606	STX243
+T20	Drug_or_compound 611 617	STX140
+T23	Pathological_formation 658 686	MDA-MB-231 xenograft tumours
+T24	Drug_or_compound 775 782	2-MeOE2
+T26	Pathological_formation 792 798	tumour
+T27	Drug_or_compound 830 836	STX243
+T28	Pathological_formation 861 895	MCF-7 paclitaxel-resistant tumours
+T33	Drug_or_compound 973 979	STX243
+T34	Drug_or_compound 984 990	STX140
+T37	Drug_or_compound 1138 1144	STX243
+T38	Drug_or_compound 1336 1342	STX243
+T1000	Organism 1201 1205	rats
+T30	Drug_or_compound 867 877	paclitaxel

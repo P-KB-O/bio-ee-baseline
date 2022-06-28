@@ -1,0 +1,83 @@
+T3	Gene_or_gene_product 24 29	CYR61
+T4	Gene_or_gene_product 34 38	CTGF
+T6	Pathological_formation 58 63	tumor
+T7	Pathological_formation 109 116	gliomas
+T8	Gene_or_gene_product 148 151	CCN
+T11	Gene_or_gene_product 286 291	CYR61
+T13	Gene_or_gene_product 293 297	CTGF
+T15	Gene_or_gene_product 299 305	WISP-1
+T17	Gene_or_gene_product 311 314	NOV
+T18	Pathological_formation 372 379	gliomas
+T19	Multi-tissue_structure 396 409	brain samples
+T21	Gene_or_gene_product 532 535	CCN
+T26	Gene_or_gene_product 602 607	CYR61
+T27	Gene_or_gene_product 609 613	CTGF
+T28	Gene_or_gene_product 615 621	WISP-1
+T29	Gene_or_gene_product 627 630	NOV
+T30	Pathological_formation 721 728	gliomas
+T32	Gene_or_gene_product 803 808	CYR61
+T33	Pathological_formation 827 832	tumor
+T34	Gene_or_gene_product 929 933	CTGF
+T35	Pathological_formation 953 958	tumor
+T36	Gene_or_gene_product 1004 1009	CYR61
+T37	Gene_or_gene_product 1014 1018	CTGF
+T40	Gene_or_gene_product 1086 1092	WISP-1
+T41	Gene_or_gene_product 1096 1099	NOV
+T43	Gene_or_gene_product 1190 1195	CYR61
+T45	Gene_or_gene_product 1200 1204	CTGF
+T46	Gene_or_gene_product 1296 1301	CYR61
+T47	Gene_or_gene_product 1306 1310	CTGF
+T49	Pathological_formation 1349 1356	gliomas
+T1000	Organism 1251 1258	patient
+T14	Organism 92 103	individuals
+T22	Cell 184 188	cell
+T2	Gene_expression 10 20	expression
+E2	Gene_expression:T2 Theme:T3
+T5	Development 64 75	progression
+E5	Development:T5 Theme:T6
+T16	Transcription 320 330	expression
+E16	Transcription:T16 Theme:T17
+T20	Gene_expression 514 524	expression
+E20	Gene_expression:T20 Theme:T21
+T25	Gene_expression 584 598	Overexpression
+E25	Gene_expression:T25 Theme:T26
+T31	Gene_expression 809 819	expression
+E31	Gene_expression:T31 Theme:T32
+T39	Gene_expression 1065 1075	expression
+E39	Gene_expression:T39 Theme:T40
+T44	Gene_expression 1205 1215	expression
+E44	Gene_expression:T44 Theme:T45 Theme:T43
+T48	Development 1334 1345	progression
+E48	Development:T48 Theme:T49
+E1	Gene_expression:T2 Theme:T4
+E3	Transcription:T16 Theme:T15
+E4	Transcription:T16 Theme:T13
+E6	Transcription:T16 Theme:T11
+E7	Gene_expression:T25 Theme:T27
+E8	Gene_expression:T25 Theme:T28
+E9	Gene_expression:T25 Theme:T29
+E10	Gene_expression:T39 Theme:T41
+T1	Death 1259 1267	survival
+E11	Death:T1 Theme:T1000
+A1	Negation E11
+T9	Regulation 1315 1326	play a role
+E12	Regulation:T9 Theme:E48 Cause:T47
+A2	Speculation E12
+E13	Regulation:T9 Theme:E48 Cause:T46
+A3	Speculation E13
+T10	Blood_vessel_development 240 252	angiogenesis
+T12	Positive_regulation 169 180	stimulation
+E14	Positive_regulation:T12 Cause:T8 Theme:E23
+T23	Cell_proliferation 189 202	proliferation
+E15	Cell_proliferation:T23 Theme:T22
+T24	Localization 204 213	migration
+E17	Localization:T24 Theme:T22
+T38	Binding 219 227	adhesion
+E18	Binding:T38 Theme:T22
+E19	Positive_regulation:T12 Cause:T8 Theme:E18
+E21	Positive_regulation:T12 Cause:T8 Theme:E17
+E22	Positive_regulation:T12 Cause:T8 Theme:E15
+E23	Blood_vessel_development:T10 
+T42	Death 80 88	survival
+E24	Death:T42 Theme:T14
+A4	Negation E24

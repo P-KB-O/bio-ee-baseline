@@ -1,0 +1,43 @@
+T1	Organ 261 269	placenta
+T2	Organ 304 312	placenta
+T3	Developing_anatomical_structure 649 654	fetus
+T4	Cell 735 746	trophoblast
+T7	Organism_substance 807 827	uteroplacental blood
+T8	Developing_anatomical_structure 1015 1022	fetuses
+T11	Gene_or_gene_product 1076 1083	insulin
+T12	Gene_or_gene_product 1088 1116	insulin-like growth factor-1
+T13	Gene_or_gene_product 1118 1123	IGF-1
+T15	Drug_or_compound 1157 1164	lactate
+T16	Drug_or_compound 1196 1202	oxygen
+T17	Drug_or_compound 1207 1214	glucose
+T18	Organ 591 600	placental
+T6	Organ 950 959	placental
+T1000	Organism 157 163	infant
+T1001	Organism 255 260	sheep
+T1002	Organism 298 303	human
+T1003	Organism 339 344	sheep
+T28	Organ 780 789	placental
+T5	Blood_vessel_development 790 802	angiogenesis
+T10	Negative_regulation 1068 1075	reduced
+E10	Negative_regulation:T10 Theme:T11
+*	Equiv T12 T13
+T14	Negative_regulation 583 590	reduced
+E1	Negative_regulation:T14 Theme:T18
+T19	Growth 631 637	growth
+E2	Growth:T19 Theme:T3
+T20	Negative_regulation 638 648	restricted
+E3	Negative_regulation:T20 Theme:E2
+T21	Negative_regulation 726 734	impaired
+E4	Negative_regulation:T21 Theme:T4
+T22	Negative_regulation 771 779	impaired
+E5	Negative_regulation:T22 Theme:E16
+T24	Development 971 982	development
+E8	Development:T24 Theme:T6
+T25	Regulation 935 946	alterations
+E11	Regulation:T25 Theme:E8
+T26	Regulation 918 925	effects
+E12	Regulation:T26 Theme:E11
+E9	Negative_regulation:T10 Theme:T12
+T9	Positive_regulation 1130 1138	elevated
+E13	Positive_regulation:T9 Theme:T15
+E16	Blood_vessel_development:T5 AtLoc:T28

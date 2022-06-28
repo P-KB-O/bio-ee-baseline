@@ -1,0 +1,29 @@
+T1	Drug_or_compound 59 74	zoledronic acid
+T3	Pathological_formation 139 151	solid tumors
+T4	Pathological_formation 178 193	bone metastases
+T5	Drug_or_compound 220 235	Bisphosphonates
+T6	Anatomical_system 312 320	skeletal
+T7	Pathological_formation 346 361	bone metastases
+T8	Cell 525 541	tumor cell lines
+T13	Pathological_formation 597 602	tumor
+T14	Drug_or_compound 744 759	zoledronic acid
+T15	Pathological_formation 792 807	bone metastases
+T16	Pathological_formation 835 847	solid tumors
+T17	Pathological_formation 857 872	bone metastases
+T18	Pathological_formation 981 996	bone metastases
+T19	Drug_or_compound 1047 1062	zoledronic acid
+T20	Pathological_formation 1112 1127	bone metastases
+T21	Pathological_formation 1188 1203	bone metastases
+T22	Drug_or_compound 1233 1248	zoledronic acid
+T23	Drug_or_compound 1413 1428	bisphosphonates
+T24	Pathological_formation 1489 1504	bone metastases
+T25	Drug_or_compound 1635 1650	bisphosphonates
+T26	Pathological_formation 1675 1690	bone metastases
+T1000	Organism 115 123	patients
+T1001	Organism 811 819	patients
+T1002	Organism 918 926	patients
+T1003	Organism 1080 1088	Patients
+T1004	Organism 1173 1181	patients
+T1005	Organism 1654 1662	patients
+T2	Pathological_formation 96 111	bone metastases
+T28	Cell 636 651	accessory cells

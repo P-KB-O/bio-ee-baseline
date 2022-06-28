@@ -1,0 +1,110 @@
+This package contains the data of the MLEE (Multi-Level Event Extraction)
+corpus, version 1.0.2 (revision 1).
+
+This README provides a brief overview of the package contents. See the
+LICENSE file included in the package for the data license, the
+manuscript referenced at the bottom of this file for an introduction
+of the corpus, and the project homepage
+
+    http://www.nactem.ac.uk/MLEE/
+
+for data visualizations, supplementary data and more information.
+
+
+CONTENTS
+
+
+This package contains the following:
+
+* README:       this file
+* LICENSE:      licenses of the texts and annotations
+* standoff:     corpus data in standoff format (all annotations)
+* conll:        corpus data in CoNLL format (entity annotations only)
+
+Both of the standoff/ and conll/ directories contain the following
+subdirectories:
+
+* development:  development split of data, excluding test set
+* test:         test split of the data, including all data
+* full:         full corpus data
+
+Each of the development/ and test/ directories further contain the
+following:
+
+* train:        training data for development/final test
+* test:         test data for development/final test
+
+The format and suggested use of the files contained in these
+directories is explained below.
+
+
+FORMAT
+
+The corpus data is provided in two formats: BioNLP Shared Task-style
+standoff format, and CoNLL shared task-style BIO-format.
+
+
+Standoff format
+
+The data in the standoff/ directory are provided in the standoff
+format used by the brat annotation tool (http://brat.nlplab.org/). For
+details of the format, see the documentation page
+http://brat.nlplab.org/standoff.html
+
+For the full corpus data in standoff/full/, all standoff annotations
+for a single text file are provided in a single file (.ann). For the
+data in standoff/development/ and standoff/test/, the annotations are
+split into entity annotations (.a1) and event annotations (.a2). This
+is intended to faciliate event extraction experiments where entity
+annotations are provided as part of the input.
+
+
+CoNLL format
+
+The data in the conll/ directory is provided in the column-formatted
+BIO representation used in many reference resources for mention
+detection such as that of the CoNLL shared tasks (see
+e.g. http://www.cnts.ua.ac.be/conll2002/ner/). 
+
+Each line contains four TAB-separated columns: token text, start
+offset, end offset, and tag. Each tag consist of one of the letters B,
+I or O (for "begin", "in", and "out"), and the type of the entity for
+the B and I tags. (The offsets into the source text are provided for
+reference and can be ignored for most applications.)
+
+The entity mention detection task is to learn to predict the tags
+(last column) given the token texts (first column).
+
+
+EVALUATION
+
+The corpus is intended to serve as an evaluation standard. The
+proposed approach to method development and evaluation is to use the
+test/ data only for final evaluation after completing method
+development and parameter selection.
+
+PLEASE NOTE: the data in the development/ and test/ directories are
+not separate: the development/ data is a split of the test/train/
+data.
+
+
+CONTACT
+
+For any queries relating to the corpus, please contact Sampo Pyysalo
+<sampo.pyysalo@gmail.com>
+
+
+CHANGELOG
+
+* 1.0.2 (11.09.2012): first public release 
+
+
+REFERENCES
+
+The corpus is presented in the following manuscript.
+
+* Sampo Pyysalo, Tomoko Ohta, Makoto Miwa, Han-Cheol Cho, Jun'ichi
+  Tsujii and Sophia Ananiadou (2012). Event extraction across multiple
+  levels of biological organization. Bioinformatics 28(18):i575-i581.
+
+The project page is located at http://www.nactem.ac.uk/MLEE/

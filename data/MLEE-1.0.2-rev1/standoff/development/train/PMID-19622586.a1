@@ -1,0 +1,46 @@
+T1	Drug_or_compound 0 4	EPOX
+T5	Gene_or_gene_product 45 50	Mcl-1
+T7	Gene_or_gene_product 59 62	ERK
+T12	Pathological_formation 194 200	tumors
+T13	Drug_or_compound 256 276	xanthone derivatives
+T15	Drug_or_compound 446 478	3,6-di(2,3-epoxypropoxy)xanthone
+T16	Drug_or_compound 480 484	EPOX
+T17	Gene_or_gene_product 495 500	Mcl-1
+T19	Drug_or_compound 581 585	EPOX
+T20	Tissue 622 626	tube
+T21	Drug_or_compound 712 716	EPOX
+T23	Drug_or_compound 846 857	glutathione
+T24	Drug_or_compound 897 913	monochlorobimane
+T25	Drug_or_compound 917 928	glutathione
+T26	Drug_or_compound 954 958	EPOX
+T30	Cell 967 983	endothelial cell
+T32	Gene_or_gene_product 1035 1040	Mcl-1
+T34	Gene_or_gene_product 1073 1078	Mcl-1
+T36	Gene_or_gene_product 1106 1111	Mcl-1
+T37	Gene_or_gene_product 1117 1120	Bim
+T39	Gene_or_gene_product 1136 1139	Bax
+T41	Drug_or_compound 1210 1221	glutathione
+T43	Gene_or_gene_product 1236 1273	extracellular signal-regulated kinase
+T44	Gene_or_gene_product 1275 1278	ERK
+T45	Drug_or_compound 1309 1313	EPOX
+T48	Drug_or_compound 1329 1340	Glutathione
+T50	Drug_or_compound 1392 1396	EPOX
+T51	Gene_or_gene_product 1400 1403	ERK
+T54	Gene_or_gene_product 1444 1449	Mcl-1
+T57	Gene_or_gene_product 1479 1515	mitogen-activated protein/ERK kinase
+T58	Gene_or_gene_product 1517 1520	MEK
+T59	Drug_or_compound 1555 1559	EPOX
+T61	Gene_or_gene_product 1563 1568	Mcl-1
+T62	Gene_or_gene_product 1641 1644	ERK
+T64	Gene_or_gene_product 1666 1671	Mcl-1
+T65	Drug_or_compound 1730 1734	EPOX
+T67	Drug_or_compound 1743 1754	glutathione
+T69	Gene_or_gene_product 1766 1769	ERK
+T71	Gene_or_gene_product 1788 1793	Mcl-1
+T72	Cell 1809 1826	endothelial cells
+T76	Drug_or_compound 1896 1900	EPOX
+T86	Protein_domain_or_region 1453 1458	T(163
+T92	Pathological_formation 286 292	cancer
+T95	Cell 594 598	cell
+T96	Cell 610 614	cell
+T97	Cell 1322 1327	cells

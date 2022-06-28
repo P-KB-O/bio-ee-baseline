@@ -1,0 +1,50 @@
+T1	Gene_or_gene_product 13 27	angiopoietin-2
+T4	Pathological_formation 52 57	tumor
+T6	Multi-tissue_structure 74 80	vessel
+T8	Pathological_formation 131 136	tumor
+T10	Gene_or_gene_product 150 162	angiopoietin
+T11	Gene_or_gene_product 163 167	Tie2
+T12	Multi-tissue_structure 209 217	vascular
+T16	Multi-tissue_structure 271 277	vessel
+T18	Gene_or_gene_product 316 330	Angiopoietin-2
+T19	Gene_or_gene_product 332 337	Ang-2
+T20	Multi-tissue_structure 387 398	vasculature
+T21	Pathological_formation 407 413	tumors
+T23	Gene_or_gene_product 506 511	Ang-2
+T24	Pathological_formation 525 530	tumor
+T26	Gene_or_gene_product 630 635	Ang-2
+T27	Gene_or_gene_product 758 763	Ang-2
+T30	Pathological_formation 785 790	tumor
+T32	Pathological_formation 920 926	tumors
+T33	Gene_or_gene_product 944 949	Ang-2
+T34	Pathological_formation 966 987	Lewis lung carcinomas
+T35	Pathological_formation 989 1005	MT-ret melanomas
+T36	Pathological_formation 1011 1027	B16F10 melanomas
+T37	Gene_or_gene_product 1047 1052	Ang-2
+T39	Pathological_formation 1074 1079	tumor
+T40	Gene_or_gene_product 1104 1109	Ang-2
+T42	Pathological_formation 1160 1165	tumor
+T44	Pathological_formation 1187 1192	tumor
+T46	Pathological_formation 1237 1242	tumor
+T47	Multi-tissue_structure 1285 1319	intratumoral vascular architecture
+T48	Tissue 1353 1364	microvessel
+T49	Tissue 1426 1451	intratumoral microvessels
+T50	Pathological_formation 1468 1474	tumors
+T51	Gene_or_gene_product 1484 1489	Ang-2
+T52	Multi-tissue_structure 1514 1525	vasculature
+T56	Cell 1552 1560	pericyte
+T57	Gene_or_gene_product 1589 1594	Ang-2
+T58	Tissue 1589 1618	Ang-2-deficient tumor vessels
+T59	Cell 1630 1638	pericyte
+T62	Cell 1667 1676	pericytes
+T63	Gene_or_gene_product 1682 1688	desmin
+T64	Gene_or_gene_product 1693 1696	NG2
+T65	Gene_or_gene_product 1724 1749	alpha-smooth muscle actin
+T66	Cell 1788 1796	pericyte
+T68	Gene_or_gene_product 1857 1862	Ang-2
+T69	Pathological_formation 1870 1875	tumor
+T71	Gene_or_gene_product 1958 1963	Ang-2
+T1000	Organism 944 964	Ang-2-deficient mice
+T1001	Organism 1047 1067	Ang-2-deficient mice
+T1002	Organism 1104 1124	Ang-2-deficient mice
+T1003	Organism 1484 1504	Ang-2-deficient mice

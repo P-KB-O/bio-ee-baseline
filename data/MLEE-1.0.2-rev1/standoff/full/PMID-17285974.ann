@@ -1,0 +1,48 @@
+T3	Pathological_formation 90 123	laryngeal squamous cell carcinoma
+T6	Pathological_formation 249 282	laryngeal squamous cell carcinoma
+T7	Pathological_formation 284 288	LSCC
+T9	Gene_or_gene_product 367 401	vascular endothelial growth factor
+T10	Gene_or_gene_product 403 407	VEGF
+T11	Pathological_formation 560 564	LSCC
+T13	Pathological_formation 692 721	cervical lymphatic metastasis
+T15	Pathological_formation 805 832	lymphatic metastasis tumors
+T18	Pathological_formation 895 931	cervical lymphatic metastasis tumors
+T21	Gene_or_gene_product 1163 1167	VEGF
+T22	Pathological_formation 1432 1437	tumor
+T23	Pathological_formation 1449 1453	LSCC
+T25	Pathological_formation 1513 1542	cervical lymphatic metastasis
+T26	Pathological_formation 1546 1550	LSCC
+T27	Gene_or_gene_product 1552 1556	VEGF
+T30	Pathological_formation 1616 1621	tumor
+T32	Pathological_formation 1638 1642	LSCC
+T33	Pathological_formation 1644 1649	Tumor
+T35	Pathological_formation 1683 1688	tumor
+T36	Pathological_formation 1750 1754	LSCC
+T2	Tissue 314 325	microvessel
+T1000	Organism 565 573	patients
+T1	Blood_vessel_development 28 40	angiogenesis
+T4	Blood_vessel_development 175 187	angiogenesis
+T28	Blood_vessel_development 1579 1589	angiogenic
+T31	Blood_vessel_development 1622 1634	angiogenesis
+T34	Blood_vessel_development 1650 1662	angiogenesis
+T8	Gene_expression 409 419	expression
+E8	Gene_expression:T8 Theme:T9
+T20	Gene_expression 1149 1159	Expression
+E20	Gene_expression:T20 Theme:T21
+*	Equiv T6 T7
+*	Equiv T9 T10
+T5	Positive_regulation 1608 1615	promote
+E1	Positive_regulation:T5 Theme:E10
+T12	Development 1699 1710	progression
+E2	Development:T12 Theme:T35
+T14	Death 1737 1746	apoptosis
+E3	Death:T14 Theme:T36
+T16	Negative_regulation 1714 1724	inhibiting
+E4	Negative_regulation:T16 Cause:E11 Theme:E3
+T17	Regulation 1669 1679	contribute
+E5	Regulation:T17 Cause:E4 Theme:E2
+E6	Blood_vessel_development:T1 AtLoc:T3
+E7	Blood_vessel_development:T4 AtLoc:T6
+E9	Blood_vessel_development:T28 
+E10	Blood_vessel_development:T31 AtLoc:T32
+E11	Blood_vessel_development:T34 AtLoc:T33

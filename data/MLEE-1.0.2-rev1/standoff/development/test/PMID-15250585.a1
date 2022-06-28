@@ -1,0 +1,29 @@
+T1	Gene_or_gene_product 0 34	Vascular endothelial growth factor
+T2	Gene_or_gene_product 36 40	VEGF
+T3	Gene_or_gene_product 78 112	Vascular endothelial growth factor
+T4	Gene_or_gene_product 114 118	VEGF
+T8	Multi-tissue_structure 199 212	blood vessels
+T9	Organ 259 264	brain
+T13	Gene_or_gene_product 280 284	VEGF
+T14	Tissue 308 328	vascular endothelium
+T15	Cell 330 337	neurons
+T16	Cell 343 347	glia
+T18	Gene_or_gene_product 349 353	VEGF
+T19	Organ 397 402	brain
+T20	Multi-tissue_structure 500 519	blood-brain barrier
+T21	Gene_or_gene_product 627 631	VEGF
+T22	Multi-tissue_structure 731 750	blood-brain barrier
+T23	Organ 798 803	brain
+T25	Gene_or_gene_product 978 982	VEGF
+T26	Cell 999 1006	neurons
+T27	Cell 1011 1015	glia
+T28	Drug_or_compound 1022 1033	pilocarpine
+T29	Organ 1068 1073	brain
+T31	Gene_or_gene_product 1088 1092	VEGF
+T33	Multi-tissue_structure 1117 1136	blood-brain barrier
+T34	Gene_or_gene_product 1198 1202	VEGF
+T37	Gene_or_gene_product 1398 1402	VEGF
+T38	Gene_or_gene_product 1527 1531	VEGF
+T39	Gene_or_gene_product 1586 1590	VEGF
+T10	Pathological_formation 462 467	edema
+T44	Cell 1331 1336	cells

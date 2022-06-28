@@ -1,0 +1,63 @@
+T1	Gene_or_gene_product 0 5	M-CSF
+T3	Gene_or_gene_product 26 30	MAPK
+T4	Gene_or_gene_product 31 34	ERK
+T5	Gene_or_gene_product 47 50	Sp1
+T7	Gene_or_gene_product 61 65	VEGF
+T10	Gene_or_gene_product 124 129	M-CSF
+T11	Cell 139 161	mononuclear phagocytes
+T14	Pathological_formation 226 232	tumors
+T15	Gene_or_gene_product 234 238	VEGF
+T21	Cell 292 308	endothelial cell
+T23	Multi-tissue_structure 331 343	blood vessel
+T24	Gene_or_gene_product 393 398	M-CSF
+T25	Gene_or_gene_product 445 449	VEGF
+T26	Cell 461 470	monocytes
+T28	Gene_or_gene_product 554 559	M-CSF
+T29	Gene_or_gene_product 568 572	VEGF
+T30	Gene_or_gene_product 618 622	VEGF
+T31	Gene_or_gene_product 644 654	luciferase
+T34	Gene_or_gene_product 699 702	HIF
+T35	Gene_or_gene_product 718 722	VEGF
+T37	Gene_or_gene_product 761 771	luciferase
+T39	Gene_or_gene_product 794 799	M-CSF
+T40	Gene_or_gene_product 844 849	M-CSF
+T41	Gene_or_gene_product 858 862	VEGF
+T43	Gene_or_gene_product 875 879	MAPK
+T44	Gene_or_gene_product 880 883	ERK
+T45	Gene_or_gene_product 932 935	Sp1
+T49	Gene_or_gene_product 964 967	ERK
+T50	Gene_or_gene_product 971 974	Sp1
+T52	Gene_or_gene_product 986 991	M-CSF
+T53	Gene_or_gene_product 1000 1004	VEGF
+T54	Gene_or_gene_product 1036 1041	M-CSF
+T57	Gene_or_gene_product 1083 1086	Sp1
+T59	Gene_or_gene_product 1109 1112	ERK
+T61	Gene_or_gene_product 1147 1150	Sp1
+T62	Gene_or_gene_product 1176 1180	VEGF
+T64	Gene_or_gene_product 1204 1207	ERK
+T66	Gene_or_gene_product 1218 1222	VEGF
+T67	Gene_or_gene_product 1244 1249	M-CSF
+T68	Cell 1264 1273	monocytes
+T70	Gene_or_gene_product 1318 1323	M-CSF
+T71	Gene_or_gene_product 1332 1336	VEGF
+T73	Gene_or_gene_product 1416 1421	M-CSF
+T74	Cell 1433 1455	mononuclear phagocytes
+T76	Gene_or_gene_product 1466 1470	VEGF
+T80	Gene_or_gene_product 1549 1553	VEGF
+T82	Gene_or_gene_product 1573 1578	M-CSF
+T83	Multi-tissue_structure 1587 1599	blood vessel
+T84	Gene_or_gene_product 1647 1650	ERK
+T85	Gene_or_gene_product 1656 1659	Sp1
+T87	Gene_or_gene_product 1683 1688	M-CSF
+T88	Gene_or_gene_product 1697 1701	VEGF
+T89	Gene_or_gene_product 1763 1768	M-CSF
+T92	Gene_or_gene_product 1796 1800	VEGF
+T1000	Organism 455 460	human
+T1001	Organism 1258 1263	human
+T8	Gene_or_gene_product 1549 1562	VEGF antibody
+T97	DNA_domain_or_region 623 631	promoter
+T99	DNA_domain_or_region 723 731	promoter
+T48	Cellular_component 1059 1066	nuclear
+T105	DNA_domain_or_region 1181 1189	promoter
+T106	DNA_domain_or_region 1151 1164	binding sites
+T107	DNA_domain_or_region 1223 1231	promoter

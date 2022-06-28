@@ -1,0 +1,51 @@
+T2	Tissue 0 17	Islet endothelial
+T3	Drug_or_compound 80 86	IL-1Ra
+T5	Multi-tissue_structure 193 198	islet
+T7	Multi-tissue_structure 261 266	islet
+T8	Cell 299 316	endothelial cells
+T11	Cell 375 391	endothelial cell
+T12	Multi-tissue_structure 406 412	islets
+T13	Multi-tissue_structure 582 587	islet
+T15	Drug_or_compound 642 682	interleukin-1 (IL-1) receptor antagonist
+T18	Drug_or_compound 684 690	IL-1Ra
+T19	Multi-tissue_structure 780 786	islets
+T20	Drug_or_compound 905 911	IL-1Ra
+T21	Drug_or_compound 913 920	Kineret
+T22	Multi-tissue_structure 1022 1027	islet
+T23	Organ 1046 1054	pancreas
+T26	Cell 1149 1165	endothelial cell
+T28	Gene_or_gene_product 1292 1307	angiotensinogen
+T29	Gene_or_gene_product 1312 1329	epoxide hydrolase
+T30	Gene_or_gene_product 1357 1372	12-lipoxygenase
+T31	Gene_or_gene_product 1377 1411	vascular endothelial growth factor
+T32	Drug_or_compound 1489 1495	IL-1Ra
+T33	Tissue 1557 1568	endothelium
+T34	Cell 1572 1584	immune cells
+T35	Drug_or_compound 1629 1635	IL-1Ra
+T37	Multi-tissue_structure 1650 1655	islet
+T39	Multi-tissue_structure 1749 1755	islets
+T43	Cell 1807 1829	islet endothelial cell
+T44	Drug_or_compound 1950 1956	IL-1Ra
+T46	Cell 1986 1998	immune cells
+T48	Gene_or_gene_product 2076 2080	IL-1
+T50	Multi-tissue_structure 2087 2092	islet
+T51	Tissue 2134 2151	islet endothelium
+T52	Cell 2169 2178	beta-cell
+T54	Cell 2242 2251	beta-cell
+T56	Cell 2290 2312	islet endothelial cell
+T58	Cell 2365 2374	beta-cell
+T16	Cell 1965 1982	islet endothelial
+T17	Tissue 503 521	islet endotheliuml
+T36	Multi-tissue_structure 1475 1481	islets
+T1000	Organism 120 126	GK rat
+T1001	Organism 230 235	human
+T1002	Organism 462 484	Goto-Kakizaki (GK) rat
+T1003	Organism 837 848	Wistar rats
+T1004	Organism 863 870	GK rats
+T1005	Organism 1509 1516	GK rats
+T1006	Organism 1742 1748	GK rat
+T1007	Organism 2267 2274	GK rats
+T62	Drug_or_compound 947 953	saline
+T71	Organism 822 824	GK
+T72	Organism 1472 1474	GK
+T73	Organism 2084 2086	GK

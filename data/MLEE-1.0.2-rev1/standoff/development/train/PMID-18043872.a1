@@ -1,0 +1,10 @@
+T1	Pathological_formation 0 5	Tumor
+T2	Cell 269 279	host cells
+T4	Cell 483 493	tumor cell
+T6	Cell 631 642	tumor cells
+T1000	Pathological_formation 118 124	Cancer
+T5	Pathological_formation 55 61	cancer
+T7	Pathological_formation 258 264	cancer
+T11	Pathological_formation 367 373	cancer
+T16	Cell 478 482	host
+T18	Cell 188 193	cells

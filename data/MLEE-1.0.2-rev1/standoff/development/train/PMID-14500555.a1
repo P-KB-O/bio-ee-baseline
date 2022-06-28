@@ -1,0 +1,25 @@
+T2	Gene_or_gene_product 55 68	Tie1 receptor
+T3	Cell 102 128	vascular endothelial cells
+T5	Tissue 159 179	vascular endothelium
+T6	Organism_substance 271 276	blood
+T10	Multi-tissue_structure 300 308	vascular
+T13	Multi-tissue_structure 331 344	blood vessels
+T15	Gene_or_gene_product 392 396	Tie1
+T16	Cell 467 484	endothelial cells
+T22	Multi-tissue_structure 512 520	vascular
+T25	Gene_or_gene_product 586 590	Tie1
+T26	Cell 631 648	endothelial cells
+T28	Gene_or_gene_product 770 774	Tie1
+T30	Gene_or_gene_product 802 806	Tie1
+T31	Gene_or_gene_product 828 832	Tie2
+T33	Gene_or_gene_product 856 860	Tie1
+T35	Gene_or_gene_product 959 963	Tie1
+T36	Gene_or_gene_product 1010 1037	tumor necrosis factor alpha
+T38	Gene_or_gene_product 1091 1095	Tie1
+T40	Gene_or_gene_product 1235 1239	Tie1
+T42	Gene_or_gene_product 1289 1293	Tie2
+T46	Cell 1333 1350	endothelial cells
+T50	Multi-tissue_structure 1387 1395	vascular
+T55	Protein_domain_or_region 807 824	45 kDa endodomain
+T59	DNA_domain_or_region 964 972	promoter
+T63	DNA_domain_or_region 1113 1151	negative shear stress response element

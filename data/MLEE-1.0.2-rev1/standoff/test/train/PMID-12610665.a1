@@ -1,0 +1,18 @@
+T2	Multi-tissue_structure 46 65	collateral arteries
+T3	Multi-tissue_structure 120 138	collateral vessels
+T5	Multi-tissue_structure 364 383	collateral arteries
+T7	Multi-tissue_structure 571 589	collateral vessels
+T8	Multi-tissue_structure 610 627	collateral artery
+T11	Cell 709 725	endothelial cell
+T12	Cellular_component 738 752	basal membrane
+T13	Cell 766 775	leukocyte
+T16	Cell 803 817	vascular cells
+T20	Tissue 819 828	neointima
+T21	Cellular_component 885 905	extracellular matrix
+T25	Multi-tissue_structure 1081 1100	collateral arteries
+T1000	Organism 71 79	patients
+T1001	Organism 234 242	patients
+T1002	Organism 521 527	humans
+T1003	Organism 1292 1300	patients
+T35	Tissue 466 472	tissue
+T9	Pathological_formation 155 176	arterial obstructions

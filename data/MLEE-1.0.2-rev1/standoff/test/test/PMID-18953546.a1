@@ -1,0 +1,8 @@
+T1	Gene_or_gene_product 45 49	VEGF
+T2	Organ 135 138	eye
+T4	Drug_or_compound 179 190	bevacizumab
+T8	Drug_or_compound 420 431	bevacizumab
+T9	Drug_or_compound 480 488	Ultralan
+T5	Tissue 258 265	macular
+T1000	Organism 76 79	man
+T1001	Organism 437 444	patient

@@ -1,0 +1,77 @@
+T2	Cell 46 62	skin fibroblasts
+T3	Multi-tissue_structure 76 84	striatum
+T4	Anatomical_system 217 239	central nervous system
+T5	Cell 249 260	fibroblasts
+T6	Multi-tissue_structure 275 288	skin biopsies
+T7	Multi-tissue_structure 396 404	striatum
+T9	Cell 474 490	skin fibroblasts
+T10	Multi-tissue_structure 623 631	striatum
+T11	Tissue 659 676	fibroblast grafts
+T12	Gene_or_gene_product 712 723	fibronectin
+T13	Gene_or_gene_product 1075 1083	collagen
+T14	Cell 1088 1099	fibroblasts
+T15	Cellular_component 1156 1176	astrocytic processes
+T16	Cell 1181 1197	phagocytic cells
+T17	Tissue 1275 1286	capillaries
+T18	Tissue 1314 1325	endothelium
+T19	Cell 1394 1411	endothelial cells
+T21	Cell 1442 1458	skin fibroblasts
+T22	Gene_or_gene_product 1564 1572	collagen
+T23	Gene_or_gene_product 1577 1588	fibronectin
+T25	Cell 1697 1713	skin fibroblasts
+T26	Pathological_formation 1729 1735	tumors
+T29	Cell 1958 1974	skin fibroblasts
+T30	Anatomical_system 2004 2026	central nervous system
+T1	Tissue 103 108	graft
+T8	Tissue 777 782	graft
+T1000	Organism 72 75	rat
+T1001	Organism 392 395	rat
+T1002	Organism 2000 2003	rat
+T35	Tissue 1042 1048	grafts
+T36	Tissue 1222 1228	grafts
+T37	Tissue 1234 1240	grafts
+T40	Tissue 1608 1614	grafts
+T42	Tissue 1762 1767	graft
+T43	Tissue 1865 1871	grafts
+T45	Cellular_component 1111 1132	endoplasmic reticulum
+T46	Cellular_component 1137 1145	vesicles
+T28	Cell 164 168	cell
+T47	Cell 823 827	cell
+T48	Cell 342 347	cells
+T49	Cell 546 551	cells
+T52	Cell 895 900	cells
+T27	Blood_vessel_development 1877 1889	angiogenesis
+T20	Planned_process 0 22	Intracerebral grafting
+E1	Planned_process:T20 Instrument:T2 Theme:T3
+T24	Planned_process 352 374	intracerebral grafting
+E2	Planned_process:T24 Theme:T7 Instrument:T48
+T31	Planned_process 261 269	isolated
+E4	Planned_process:T31 Theme:T5
+T32	Planned_process 457 465	cultured
+E5	Planned_process:T32 Theme:T9
+T33	Cell_proliferation 500 511	proliferate
+E6	Cell_proliferation:T33 Theme:T9
+T34	Planned_process 599 611	implantation
+E7	Planned_process:T34 Theme:T10 Instrument:T11
+T38	Death 1471 1478	survive
+E8	Death:T38 Theme:T21
+A1	Negation E8
+T39	Gene_expression 1553 1563	synthesize
+E9	Gene_expression:T39 Theme:T22
+E10	Gene_expression:T39 Theme:T23
+T41	Development 1721 1728	produce
+E11	Development:T41 Theme:T26
+A2	Negation E11
+T44	Planned_process 1975 1982	grafted
+E12	Planned_process:T44 Instrument:T29 Theme:T30
+T50	Binding 561 568	contact
+E3	Binding:T50 Theme:T49
+T51	Negative_regulation 569 578	inhibited
+E13	Negative_regulation:T51 Theme:E3
+T53	Planned_process 882 890	passages
+E14	Planned_process:T53 Theme:T52
+T54	Planned_process 922 929	culture
+E15	Planned_process:T54 Theme:T52
+T55	Planned_process 939 947	grafting
+E16	Planned_process:T55 Instrument:T52
+E17	Blood_vessel_development:T27 

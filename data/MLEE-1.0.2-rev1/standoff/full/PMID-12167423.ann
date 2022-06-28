@@ -1,0 +1,60 @@
+T2	Cell 61 95	oral squamous cell carcinoma cells
+T4	Cell 164 181	oral cancer cells
+T11	Cell 265 303	human umbilical vein endothelial cells
+T13	Cell 305 310	HUVEC
+T15	Cell 355 372	oral cancer cells
+T17	Cell 381 406	normal oral keratinocytes
+T18	Cell 408 411	NOK
+T19	Gene_or_gene_product 442 477	vascular endothelial growth factors
+T20	Gene_or_gene_product 479 483	VEGF
+T21	Cell 504 521	oral cancer cells
+T23	Cell 526 529	NOK
+T27	Gene_or_gene_product 588 592	VEGF
+T28	Gene_or_gene_product 613 617	VEGF
+T31	Cell 684 701	oral cancer cells
+T33	Gene_or_gene_product 723 726	p53
+T34	Gene_or_gene_product 731 753	murine double mutant 2
+T35	Gene_or_gene_product 755 759	Mdm2
+T36	Gene_or_gene_product 775 778	p53
+T38	Gene_or_gene_product 817 820	p53
+T40	Gene_or_gene_product 868 872	Mdm2
+T41	Cell 896 913	oral cancer cells
+T45	Cell 983 1000	oral cancer cells
+T48	Gene_or_gene_product 1044 1048	VEGF
+T49	Gene_or_gene_product 1078 1081	p53
+T1000	Organism 55 60	human
+T26	Gene_or_gene_product 575 603	neutralizing VEGF antibodies
+T1	Blood_vessel_development 30 40	angiogenic
+T14	Blood_vessel_development 330 340	angiogenic
+T25	Blood_vessel_development 553 563	angiogenic
+T30	Blood_vessel_development 660 670	angiogenic
+T43	Blood_vessel_development 960 970	angiogenic
+T8	Cell_proliferation 234 247	proliferation
+E8	Cell_proliferation:T8 Theme:T11
+T10	Localization 252 261	migration
+E10	Localization:T10 Theme:T11
+T39	Gene_expression 850 864	overexpression
+E39	Gene_expression:T39 Theme:T40
+*	Equiv T34 T35
+*	Equiv T19 T20
+*	Equiv T11 T13
+*	Equiv T17 T18
+T3	Positive_regulation 211 230	Stimulatory effects
+E1	Positive_regulation:T3 Theme:E8
+E2	Positive_regulation:T3 Theme:E10
+T5	Blood_vessel_development 139 149	angiogenic
+T6	Negative_regulation 531 542	Attenuation
+E3	Negative_regulation:T6 Theme:E15 Cause:T26
+T16	Regulation 618 633	play a key role
+E5	Regulation:T16 Cause:T28 Theme:E16
+T22	Negative_regulation 821 834	function loss
+E6	Negative_regulation:T22 Cause:E39 Theme:T38
+T24	Regulation 1004 1012	mediated
+E11	Regulation:T24 Theme:E17 Cause:T48
+E12	Regulation:T24 Theme:E17 Cause:T49
+E13	Blood_vessel_development:T1 
+E14	Blood_vessel_development:T14 
+E15	Blood_vessel_development:T25 
+E16	Blood_vessel_development:T30 
+E17	Blood_vessel_development:T43 
+E18	Blood_vessel_development:T5 

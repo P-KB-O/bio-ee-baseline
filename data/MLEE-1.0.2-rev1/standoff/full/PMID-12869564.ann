@@ -1,0 +1,91 @@
+T2	Drug_or_compound 38 46	lipoplex
+T3	Organism_substance 47 52	serum
+T4	Drug_or_compound 175 185	lipoplexes
+T5	Organ 253 258	lungs
+T7	Drug_or_compound 302 312	lipoplexes
+T8	Multi-tissue_structure 329 347	lung vascular tree
+T13	Organ 531 536	liver
+T14	Multi-tissue_structure 538 547	Tail vein
+T16	Drug_or_compound 561 654	N-(1-(2,3-dioleoyloxy)propyl)-N,N,N-trimethylammonium chloride (DOTAP)/cholesterol lipoplexes
+T19	Drug_or_compound 677 685	lipoplex
+T20	Organ 718 723	liver
+T21	Drug_or_compound 781 789	lipoplex
+T22	Drug_or_compound 897 907	lipoplexes
+T23	Organ 935 940	lungs
+T24	Organism_substance 999 1004	serum
+T25	Organ 1020 1024	lung
+T26	Drug_or_compound 1061 1066	DOTAP
+T28	Drug_or_compound 1145 1153	lipoplex
+T29	Organism_substance 1154 1159	serum
+T30	Drug_or_compound 1231 1241	lipoplexes
+T31	Drug_or_compound 1269 1279	lipoplexes
+T32	Drug_or_compound 1314 1325	cholesterol
+T33	Cell 1457 1467	lung cells
+T35	Drug_or_compound 1481 1491	lipoplexes
+T36	Organism_substance 1563 1568	serum
+T37	Drug_or_compound 1587 1615	cholesterol-based lipoplexes
+T38	Drug_or_compound 1617 1667	Dioleoyl phosphatidylethanolamine-based lipoplexes
+T39	Organism_substance 1759 1764	serum
+T40	Drug_or_compound 1888 1896	lipoplex
+T41	Organism_substance 1927 1932	serum
+T9	Gene_or_gene_product 742 752	luciferase
+T10	Drug_or_compound 1205 1210	lipid
+T1000	Organism 84 90	murine
+T1001	Organism 192 196	mice
+T1002	Organism 482 487	mouse
+T27	Organ 391 397	organs
+T56	Organ 12 17	organ
+T57	Organ 843 848	organ
+T60	Tissue 499 505	tissue
+T61	Tissue 1959 1965	tissue
+T1	Blood_vessel_development 18 33	vascularization
+T11	Blood_vessel_development 444 459	vascularization
+T12	Blood_vessel_development 515 527	angiogenesis
+T6	Localization 288 298	entrapment
+E6	Localization:T6 Theme:T7 AtLoc:T8
+T15	Planned_process 548 557	injection
+E15	Planned_process:T15 Instrument:T16 Theme:T14
+T18	Localization 686 696	entrapment
+E18	Localization:T18 Theme:T19 AtLoc:T20
+T17	Planned_process 91 102	lipofection
+E1	Planned_process:T17 Theme:T1000 Instrument:T2
+T34	Planned_process 127 141	administration
+E2	Planned_process:T34 Instrument:T4 Theme:T1001
+T42	Positive_regulation 419 429	increasing
+E3	Positive_regulation:T42 Theme:E23
+T43	Positive_regulation 655 663	resulted
+E4	Positive_regulation:T43 Cause:E15 Theme:E5
+T44	Positive_regulation 667 676	increased
+E5	Positive_regulation:T44 Theme:E18
+T45	Positive_regulation 736 741	boost
+E7	Positive_regulation:T45 Theme:E8 Cause:E15
+A1	Negation E7
+T46	Gene_expression 753 763	expression
+E8	Gene_expression:T46 Theme:T9
+T47	Localization 790 798	delivery
+E9	Localization:T47 Theme:T21
+T48	Planned_process 888 896	injected
+E10	Planned_process:T48 Instrument:T22
+T49	Localization 908 916	migrated
+E11	Localization:T49 Theme:T22 ToLoc:T23
+T50	Planned_process 1025 1036	lipofection
+E12	Planned_process:T50 Theme:T25 Instrument:T26
+T52	Binding 1340 1349	aggregate
+E14	Binding:T52 Theme:T32 Theme:T31
+T53	Binding 1368 1379	aggregation
+E16	Binding:T53 Theme:T31 Theme:T32
+T54	Planned_process 1519 1530	lipofection
+E17	Planned_process:T54 Instrument:T35 Theme:T33
+T51	Planned_process 370 381	lipofection
+E13	Planned_process:T51 Theme:T27
+T55	Positive_regulation 407 415	enhanced
+E19	Positive_regulation:T55 Theme:E13 Cause:E3
+A2	Speculation E19
+T58	Planned_process 849 860	lipofection
+E20	Planned_process:T58 Theme:T57
+T59	Positive_regulation 808 818	sufficient
+E21	Positive_regulation:T59 Cause:E9 Theme:E20
+A3	Negation E21
+E22	Blood_vessel_development:T1 AtLoc:T56
+E23	Blood_vessel_development:T11 
+E24	Blood_vessel_development:T12 AtLoc:T13

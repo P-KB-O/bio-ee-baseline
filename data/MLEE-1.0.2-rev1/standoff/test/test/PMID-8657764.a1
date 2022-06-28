@@ -1,0 +1,10 @@
+T4	Organism_subdivision 716 727	right groin
+T5	Organism_subdivision 754 764	left groin
+T12	Multi-tissue_structure 474 502	epigastric vascular pedicles
+T1000	Organism 52 55	rat
+T1001	Organism 509 513	rats
+T1002	Organism 880 884	Rats
+T15	Drug_or_compound 392 415	polytetrafluoroethylene
+T16	Drug_or_compound 417 421	PTFE
+T24	Tissue 1860 1866	tissue
+T26	Tissue 151 164	graft tissues

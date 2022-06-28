@@ -1,0 +1,42 @@
+T2	Cell 46 62	skin fibroblasts
+T3	Multi-tissue_structure 76 84	striatum
+T4	Anatomical_system 217 239	central nervous system
+T5	Cell 249 260	fibroblasts
+T6	Multi-tissue_structure 275 288	skin biopsies
+T7	Multi-tissue_structure 396 404	striatum
+T9	Cell 474 490	skin fibroblasts
+T10	Multi-tissue_structure 623 631	striatum
+T11	Tissue 659 676	fibroblast grafts
+T12	Gene_or_gene_product 712 723	fibronectin
+T13	Gene_or_gene_product 1075 1083	collagen
+T14	Cell 1088 1099	fibroblasts
+T15	Cellular_component 1156 1176	astrocytic processes
+T16	Cell 1181 1197	phagocytic cells
+T17	Tissue 1275 1286	capillaries
+T18	Tissue 1314 1325	endothelium
+T19	Cell 1394 1411	endothelial cells
+T21	Cell 1442 1458	skin fibroblasts
+T22	Gene_or_gene_product 1564 1572	collagen
+T23	Gene_or_gene_product 1577 1588	fibronectin
+T25	Cell 1697 1713	skin fibroblasts
+T26	Pathological_formation 1729 1735	tumors
+T29	Cell 1958 1974	skin fibroblasts
+T30	Anatomical_system 2004 2026	central nervous system
+T1	Tissue 103 108	graft
+T8	Tissue 777 782	graft
+T1000	Organism 72 75	rat
+T1001	Organism 392 395	rat
+T1002	Organism 2000 2003	rat
+T35	Tissue 1042 1048	grafts
+T36	Tissue 1222 1228	grafts
+T37	Tissue 1234 1240	grafts
+T40	Tissue 1608 1614	grafts
+T42	Tissue 1762 1767	graft
+T43	Tissue 1865 1871	grafts
+T45	Cellular_component 1111 1132	endoplasmic reticulum
+T46	Cellular_component 1137 1145	vesicles
+T28	Cell 164 168	cell
+T47	Cell 823 827	cell
+T48	Cell 342 347	cells
+T49	Cell 546 551	cells
+T52	Cell 895 900	cells

@@ -1,0 +1,50 @@
+T2	Drug_or_compound 30 39	cediranib
+T4	Gene_or_gene_product 62 107	vascular endothelial growth factor receptor-3
+T6	Pathological_formation 141 153	Solid tumors
+T7	Gene_or_gene_product 263 299	vascular endothelial growth factor-A
+T8	Gene_or_gene_product 301 307	VEGF-A
+T11	Gene_or_gene_product 344 350	VEGF-C
+T16	Pathological_formation 498 503	tumor
+T17	Drug_or_compound 594 603	Cediranib
+T18	Drug_or_compound 605 613	RECENTIN
+T19	Drug_or_compound 615 622	AZD2171
+T21	Gene_or_gene_product 643 647	VEGF
+T23	Gene_or_gene_product 712 718	VEGF-A
+T26	Pathological_formation 752 757	tumor
+T27	Drug_or_compound 785 794	cediranib
+T28	Gene_or_gene_product 798 821	VEGF receptor (VEGFR)-3
+T31	Cell 831 847	endothelial cell
+T33	Drug_or_compound 929 938	cediranib
+T34	Gene_or_gene_product 947 954	VEGFR-3
+T35	Gene_or_gene_product 1026 1033	VEGFR-2
+T36	Gene_or_gene_product 1073 1079	VEGF-E
+T37	Gene_or_gene_product 1084 1094	VEGF-C156S
+T38	Cell 1105 1122	endothelial cells
+T41	Drug_or_compound 1124 1133	cediranib
+T43	Gene_or_gene_product 1144 1150	VEGF-E
+T44	Gene_or_gene_product 1178 1185	VEGFR-2
+T46	Gene_or_gene_product 1228 1235	VEGFR-3
+T47	Drug_or_compound 1352 1361	cediranib
+T49	Gene_or_gene_product 1370 1380	VEGF-C156S
+T50	Gene_or_gene_product 1393 1399	VEGF-E
+T52	Cell 1450 1459	lymphatic
+T53	Cell 1464 1496	blood vascular endothelial cells
+T54	Drug_or_compound 1507 1516	cediranib
+T60	Gene_or_gene_product 1585 1591	VEGF-E
+T62	Gene_or_gene_product 1607 1617	VEGF-C156S
+T63	Drug_or_compound 1657 1666	Cediranib
+T69	Gene_or_gene_product 1764 1770	VEGF-A
+T70	Gene_or_gene_product 1774 1780	VEGF-C
+T71	Organism_substance 1801 1806	blood
+T72	Multi-tissue_structure 1811 1833	lymphatic vasculatures
+T73	Pathological_formation 1855 1861	tumors
+T75	Gene_or_gene_product 1837 1843	VEGF-C
+T77	Drug_or_compound 1863 1872	Cediranib
+T80	Pathological_formation 1925 1930	tumor
+T83	Gene_or_gene_product 1967 1974	VEGFR-2
+T86	Gene_or_gene_product 2039 2046	VEGFR-3
+T1	Drug_or_compound 408 434	tyrosine kinase inhibitors
+T1000	Organism 1099 1104	human
+T30	Gene_or_gene_product 1190 1200	VEGF-C156S
+T82	Organism 1629 1641	adenoviruses
+T89	Organism 1740 1752	adenoviruses

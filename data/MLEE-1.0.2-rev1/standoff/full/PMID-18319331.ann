@@ -1,0 +1,129 @@
+T2	Gene_or_gene_product 0 39	Mitogen-activated protein kinase kinase
+T6	Pathological_formation 89 101	fibrosarcoma
+T8	Gene_or_gene_product 152 198	mitogen-activated protein kinase (MAPK) kinase
+T11	Gene_or_gene_product 200 203	MKK
+T15	Pathological_formation 265 285	soft-tissue sarcomas
+T16	Pathological_formation 307 313	tumors
+T17	Tissue 327 346	mesenchymal tissues
+T22	Drug_or_compound 436 448	lethal toxin
+T23	Drug_or_compound 450 454	LeTx
+T25	Gene_or_gene_product 492 496	MKKs
+T26	Drug_or_compound 527 531	LeTx
+T31	Gene_or_gene_product 579 616	extracellular signal-regulated kinase
+T32	Gene_or_gene_product 621 629	p38 MAPK
+T33	Drug_or_compound 671 675	LeTx
+T34	Drug_or_compound 770 774	LeTx
+T40	Gene_or_gene_product 870 904	vascular endothelial growth factor
+T41	Gene_or_gene_product 906 919	interleukin-8
+T42	Gene_or_gene_product 925 955	basic fibroblast growth factor
+T43	Pathological_formation 1016 1047	malignant fibrous histiocytomas
+T44	Pathological_formation 1049 1064	leiomyosarcomas
+T45	Pathological_formation 1070 1082	liposarcomas
+T46	Drug_or_compound 1093 1097	LeTx
+T48	Gene_or_gene_product 1108 1112	MAPK
+T51	Pathological_formation 1134 1146	fibrosarcoma
+T54	Multi-tissue_structure 1297 1303	vessel
+T56	Organism_substance 1338 1343	serum
+T62	Drug_or_compound 1500 1504	LeTx
+T64	Pathological_formation 1508 1513	tumor
+T68	Pathological_formation 1623 1628	tumor
+T69	Tissue 1640 1656	nontumor tissues
+T71	Gene_or_gene_product 1743 1746	MKK
+T72	Drug_or_compound 1761 1765	LeTx
+T75	Pathological_formation 1834 1847	fibrosarcomas
+T1000	Organism 428 435	anthrax
+T3	Cell 387 423	Shac fibrosarcoma-derived cell lines
+T9	Cell 378 381	NCI
+T10	Cell 369 376	HT-1080
+T61	Pathological_formation 1866 1887	proliferative lesions
+T66	Pathological_formation 1286 1291	tumor
+T73	Cell 699 703	cell
+T78	Cell 756 760	cell
+T79	Cell 992 996	cell
+T52	Cell 1199 1207	cellular
+T1	Pathway 40 49	signaling
+T5	Blood_vessel_development 70 85	vascularization
+T7	Pathway 205 213	pathways
+T14	Blood_vessel_development 246 261	vascularization
+T39	Blood_vessel_development 833 851	angioproliferative
+T59	Blood_vessel_development 1358 1376	angioproliferative
+T24	Negative_regulation 480 491	inactivates
+E24	Negative_regulation:T24 Cause:T22 Theme:T25
+T27	Negative_regulation 542 549	reduced
+E27	Negative_regulation:T27 Cause:E7 Theme:E30
+T30	Phosphorylation 564 578	phosphorylated
+E30	Phosphorylation:T30 Theme:T31
+T35	Negative_regulation 794 803	inhibited
+E35	Negative_regulation:T35 Cause:T34 Theme:E37
+T37	Localization 822 829	release
+E37	Localization:T37 Theme:T40
+T47	Negative_regulation 1098 1107	decreased
+E47	Negative_regulation:T47 Cause:T46 Theme:T48
+T49	Negative_regulation 1126 1133	blocked
+E49	Negative_regulation:T49 Cause:T46 Theme:E50
+T50	Growth 1147 1153	growth
+E50	Growth:T50 Theme:T51
+T53	Negative_regulation 1274 1282	decrease
+E53	Negative_regulation:T53 Theme:T54
+T55	Negative_regulation 1325 1334	reduction
+E55	Negative_regulation:T55 Theme:T56
+T65	Negative_regulation 1589 1598	reduction
+E65	Negative_regulation:T65 Theme:E33
+T70	Negative_regulation 1747 1757	inhibition
+E70	Negative_regulation:T70 Cause:T72 Theme:T71
+*	Equiv T8 T11
+R1	frag Arg1:T9 Arg2:T3	
+R2	frag Arg1:T10 Arg2:T3	
+*	Equiv T22 T23
+T12	Positive_regulation 50 58	promotes
+E1	Positive_regulation:T12 Cause:E29 Theme:E2
+T21	Growth 59 65	growth
+E2	Growth:T21 Theme:T6
+E3	Positive_regulation:T12 Cause:E29 Theme:E20
+T4	Positive_regulation 217 226	essential
+E4	Positive_regulation:T4 Cause:E31 Theme:E5
+A1	Speculation E4
+T36	Growth 235 241	growth
+E5	Growth:T36 Theme:T15
+E6	Positive_regulation:T4 Cause:E31 Theme:E21
+A2	Speculation E6
+T13	Planned_process 532 541	treatment
+E7	Planned_process:T13 Instrument:T26
+E8	Phosphorylation:T30 Theme:T32
+E9	Negative_regulation:T27 Cause:E7 Theme:E8
+T28	Planned_process 655 665	treatments
+E10	Planned_process:T28 Instrument:T33
+E11	Localization:T37 Theme:T41
+E12	Localization:T37 Theme:T42
+E13	Negative_regulation:T35 Cause:T34 Theme:E11
+E14	Negative_regulation:T35 Cause:T34 Theme:E12
+T29	Regulation 1489 1496	effects
+E15	Regulation:T29 Cause:T62 Theme:E32
+T57	Positive_regulation 1568 1576	resulted
+E16	Positive_regulation:T57 Theme:E65
+E17	Regulation:T19 Cause:E70 Theme:E25
+T76	Regulation 690 698	affected
+E18	Regulation:T76 Cause:E10 Theme:E19
+T77	Cell_proliferation 704 717	proliferation
+E19	Cell_proliferation:T77 Theme:T73
+E20	Blood_vessel_development:T5 AtLoc:T6
+E21	Blood_vessel_development:T14 AtLoc:T15
+E22	Blood_vessel_development:T39 
+E23	Blood_vessel_development:T59 
+E25	Blood_vessel_development:T18 AtLoc:T75
+T18	Blood_vessel_development 1812 1830	neovascularization
+E26	Blood_vessel_development:T18 AtLoc:T61
+T19	Regulation 1802 1811	targeting
+E28	Regulation:T19 Cause:E70 Theme:E26
+E29	Pathway:T1 Participant:T2
+E31	Pathway:T7 Participant:T8
+T20	Development 1514 1523	perfusion
+E32	Development:T20 Theme:T64
+T60	Development 1602 1611	perfusion
+E33	Development:T60 Theme:T68
+T63	Cell_proliferation 1208 1221	proliferation
+E34	Cell_proliferation:T63 Theme:T52
+T67	Growth 1155 1161	Growth
+E36	Growth:T67 Theme:T51
+T80	Negative_regulation 1162 1172	inhibition
+E38	Negative_regulation:T80 Theme:E36

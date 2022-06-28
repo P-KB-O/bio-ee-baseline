@@ -1,0 +1,24 @@
+T2	Gene_or_gene_product 37 71	vascular endothelial growth factor
+T3	Gene_or_gene_product 73 77	VEGF
+T7	Multi-tissue_structure 175 186	bone marrow
+T8	Gene_or_gene_product 333 367	Vascular endothelial growth factor
+T9	Gene_or_gene_product 369 373	VEGF
+T14	Cell 468 485	endothelial cells
+T18	Gene_or_gene_product 602 606	VEGF
+T20	Gene_or_gene_product 727 731	VEGF
+T22	Gene_or_gene_product 789 793	VEGF
+T24	Gene_or_gene_product 1078 1082	VEGF
+T26	Gene_or_gene_product 1425 1429	VEGF
+T28	Gene_or_gene_product 1495 1499	VEGF
+T30	Gene_or_gene_product 1613 1617	VEGF
+T32	Gene_or_gene_product 1760 1764	VEGF
+T33	Gene_or_gene_product 1887 1891	VEGF
+T5	Gene_or_gene_product 1936 1940	VEGF
+T10	Gene_or_gene_product 1249 1251	Hb
+T11	Cell 1253 1256	WBC
+T15	Cell 1261 1269	platelet
+T1000	Organism 815 823	patients
+T1001	Organism 903 911	patients
+T34	Gene_or_gene_product 316 319	bcr
+T35	Gene_or_gene_product 320 323	abl
+T37	Cell 1071 1076	cells

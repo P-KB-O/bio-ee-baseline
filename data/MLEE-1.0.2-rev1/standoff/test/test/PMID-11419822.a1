@@ -1,0 +1,53 @@
+T2	Gene_or_gene_product 16 50	vascular endothelial growth factor
+T3	Gene_or_gene_product 55 58	p53
+T4	Pathological_formation 70 93	squamous cell carcinoma
+T5	Organ 101 110	esophagus
+T6	Gene_or_gene_product 124 127	p53
+T7	Pathological_formation 144 149	tumor
+T9	Gene_or_gene_product 168 202	vascular endothelial growth factor
+T10	Gene_or_gene_product 204 208	VEGF
+T12	Pathological_formation 230 235	tumor
+T15	Gene_or_gene_product 312 315	p53
+T19	Gene_or_gene_product 386 390	VEGF
+T20	Gene_or_gene_product 395 398	p53
+T22	Pathological_formation 483 517	esophageal squamous cell carcinoma
+T23	Pathological_formation 519 522	SCC
+T24	Pathological_formation 583 597	esophageal SCC
+T27	Gene_or_gene_product 631 635	VEGF
+T28	Gene_or_gene_product 640 643	p53
+T29	Pathological_formation 661 664	SCC
+T31	Tissue 701 712	Microvessel
+T32	Tissue 754 766	microvessels
+T33	Pathological_formation 770 775	tumor
+T34	Gene_or_gene_product 797 824	Factor VIII-related antigen
+T35	Gene_or_gene_product 826 831	Ki-67
+T36	Gene_or_gene_product 877 882	Ki-67
+T37	Gene_or_gene_product 984 1021	terminal deoxynucleotidyl transferase
+T38	Drug_or_compound 1031 1063	deoxyuridine triphosphate biotin
+T40	Gene_or_gene_product 1115 1119	VEGF
+T42	Gene_or_gene_product 1158 1161	p53
+T44	Gene_or_gene_product 1223 1227	VEGF
+T45	Gene_or_gene_product 1232 1235	p53
+T48	Multi-tissue_structure 1303 1309	venous
+T51	Gene_or_gene_product 1419 1422	p53
+T52	Pathological_formation 1499 1502	SCC
+T54	Gene_or_gene_product 1508 1512	VEGF
+T55	Gene_or_gene_product 1513 1516	p53
+T56	Gene_or_gene_product 1582 1587	Ki-67
+T57	Pathological_formation 1727 1730	SCC
+T59	Gene_or_gene_product 1736 1739	p53
+T60	Pathological_formation 1771 1774	SCC
+T61	Gene_or_gene_product 1799 1804	Ki-67
+T62	Pathological_formation 1849 1852	SCC
+T64	Gene_or_gene_product 1858 1862	VEGF
+T65	Gene_or_gene_product 1863 1866	p53
+T67	Gene_or_gene_product 2062 2065	p53
+T70	Pathological_formation 2135 2149	esophageal SCC
+T72	Gene_or_gene_product 2180 2183	p53
+T73	Gene_or_gene_product 2188 2192	VEGF
+T16	Pathological_formation 2121 2131	metastasis
+T1000	Organism 569 577	patients
+T1002	Organism 1213 1221	patients
+T1005	Organism 1946 1954	patients
+T1006	Organism 2006 2014	patients
+T81	Tissue 534 549	Tissues samples

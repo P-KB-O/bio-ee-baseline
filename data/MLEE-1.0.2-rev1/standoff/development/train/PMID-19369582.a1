@@ -1,0 +1,30 @@
+T3	Cell 260 277	endothelial cells
+T6	Tissue 370 387	endothelial tubes
+T7	Tissue 392 417	capillary-like structures
+T8	Cell 469 486	endothelial cells
+T10	Cell 554 570	endothelial cell
+T11	Cell 606 644	human umbilical vein endothelial cells
+T12	Cell 646 652	HUVECs
+T13	Drug_or_compound 655 677	[1,2-(13)C(2)]-glucose
+T15	Drug_or_compound 739 761	[1,2-(13)C(2)]-glucose
+T16	Cell 765 770	HUVEC
+T17	Drug_or_compound 807 814	glucose
+T23	Cell 966 982	endothelial cell
+T25	Gene_or_gene_product 1003 1037	vascular endothelial growth factor
+T26	Gene_or_gene_product 1039 1043	VEGF
+T28	Gene_or_gene_product 1049 1073	fibroblast growth factor
+T29	Gene_or_gene_product 1075 1078	FGF
+T30	Gene_or_gene_product 1104 1119	VEGF receptor-2
+T33	Drug_or_compound 1267 1274	glucose
+T37	Cell 1448 1453	HUVEC
+T38	Cell 1726 1736	tumor cell
+T40	Pathological_formation 1755 1760	tumor
+T50	Drug_or_compound 845 853	glycogen
+T52	Drug_or_compound 869 876	pentose
+T27	Drug_or_compound 1236 1244	glycogen
+T55	Drug_or_compound 1389 1397	glycogen
+T57	Drug_or_compound 1413 1420	pentose
+T63	Tissue 205 211	tissue
+T66	Cell 313 318	cells
+T18	Drug_or_compound 1161 1169	glycogen
+T53	Drug_or_compound 1185 1192	pentose

@@ -1,0 +1,34 @@
+T1	Drug_or_compound 0 3	UFT
+T2	Pathological_formation 67 87	renal cell carcinoma
+T4	Drug_or_compound 139 142	UFT
+T5	Drug_or_compound 184 191	tegafur
+T6	Drug_or_compound 193 195	FT
+T7	Drug_or_compound 201 207	uracil
+T8	Drug_or_compound 1371 1394	fluorinated pyrimidines
+T9	Drug_or_compound 449 452	UFT
+T10	Cell 461 471	RENCA cell
+T13	Cell 591 602	RENCA cells
+T14	Drug_or_compound 629 632	UFT
+T17	Drug_or_compound 689 703	5-fluorouracil
+T18	Drug_or_compound 705 709	5-FU
+T19	Drug_or_compound 715 728	doxifluridine
+T20	Drug_or_compound 782 784	FT
+T21	Drug_or_compound 814 817	UFT
+T22	Drug_or_compound 819 825	uracil
+T24	Drug_or_compound 911 936	gamma-hydroxybutyric acid
+T25	Drug_or_compound 941 960	gamma-butyrolactone
+T26	Drug_or_compound 981 983	FT
+T29	Drug_or_compound 1222 1225	UFT
+T30	Drug_or_compound 1278 1282	5-FU
+T31	Drug_or_compound 1306 1309	UFT
+T35	Drug_or_compound 1513 1517	5-FU
+T36	Drug_or_compound 1569 1594	gamma-hydroxybutyric acid
+T37	Drug_or_compound 1599 1618	gamma-butyrolactone
+T38	Drug_or_compound 1620 1623	UFT
+T16	Pathological_formation 287 293	cancer
+T28	Organism_substance 1146 1151	blood
+T32	Organism_substance 1497 1502	blood
+T1000	Organism 60 66	murine
+T1001	Organism 132 136	mice
+T1002	Organism 294 302	patients
+T1003	Organism 608 612	mice

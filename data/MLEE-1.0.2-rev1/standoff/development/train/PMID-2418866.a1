@@ -1,0 +1,11 @@
+T2	Multi-tissue_structure 227 234	vessels
+T3	Tissue 283 292	capillary
+T4	Organ 342 345	eye
+T5	Multi-tissue_structure 370 377	vessels
+T7	Multi-tissue_structure 512 519	vessels
+T8	Multi-tissue_structure 544 550	retina
+T9	Multi-tissue_structure 589 596	vessels
+T10	Tissue 322 328	macula
+T11	Tissue 242 259	retinal periphery
+T1000	Organism 95 102	patient
+T13	Multi-tissue_structure 0 7	Retinal

@@ -1,0 +1,136 @@
+T1	Cell 0 28	Glioma tumor stem-like cells
+T4	Pathological_formation 37 42	tumor
+T7	Gene_or_gene_product 79 113	vascular endothelial growth factor
+T8	Gene_or_gene_product 118 142	stromal-derived factor 1
+T9	Cell 145 162	Cancer stem cells
+T10	Cell 164 167	CSC
+T12	Pathological_formation 209 214	tumor
+T13	Cell 344 347	CSC
+T15	Pathological_formation 365 370	tumor
+T16	Pathological_formation 396 401	tumor
+T19	Cell 435 438	CSC
+T24	Multi-tissue_structure 459 467	vascular
+T25	Pathological_formation 511 516	tumor
+T26	Cell 535 554	C6 glioma cell line
+T27	Cell 601 604	CSC
+T28	Pathological_formation 620 634	CSC-low tumors
+T30	Pathological_formation 636 651	CSC-high tumors
+T35	Tissue 672 683	microvessel
+T36	Organism_substance 696 701	blood
+T42	Pathological_formation 751 756	tumor
+T43	Multi-tissue_structure 772 783	bone marrow
+T45	Cell 792 820	endothelial progenitor cells
+T46	Cell 822 825	EPC
+T49	Cell 828 853	CSC-high C6 cell cultures
+T53	Cell 884 900	endothelial cell
+T58	Cell 962 978	CSC-low cultures
+T60	Pathological_formation 1002 1008	tumors
+T63	Gene_or_gene_product 1065 1099	vascular endothelial growth factor
+T64	Gene_or_gene_product 1104 1128	stromal-derived factor 1
+T67	Cell 1219 1236	CSC-high cultures
+T68	Pathological_formation 1241 1247	tumors
+T70	Tissue 1259 1270	microvessel
+T74	Cell 1291 1294	EPC
+T77	Cell 1340 1356	endothelial cell
+T79	Cell 1424 1440	CSC-low cultures
+T80	Pathological_formation 1441 1447	tumors
+T81	Cell 1476 1479	CSC
+T83	Pathological_formation 1494 1499	tumor
+T87	Cell 1537 1553	endothelial cell
+T90	Multi-tissue_structure 1607 1618	bone marrow
+T92	Cell 1627 1630	EPC
+T93	Gene_or_gene_product 1636 1670	vascular endothelial growth factor
+T94	Gene_or_gene_product 1685 1709	stromal-derived factor 1
+T2	Cell 980 997	CSC-high cultures
+T59	Tissue 919 925	tubule
+T22	Pathological_formation 453 458	tumor
+T5	Blood_vessel_development 43 55	angiogenesis
+T6	Blood_vessel_development 60 74	vasculogenesis
+T17	Blood_vessel_development 402 414	angiogenesis
+T62	Blood_vessel_development 1046 1056	angiogenic
+T65	Blood_vessel_development 1194 1206	angiogenesis
+T84	Blood_vessel_development 1500 1512	angiogenesis
+T88	Blood_vessel_development 1576 1586	angiogenic
+T11	Development 215 226	progression
+E11	Development:T11 Theme:T12
+T14	Development 371 382	progression
+E14	Development:T14 Theme:T15
+T23	Development 468 479	development
+E23	Development:T23 Theme:T24
+T41	Localization 757 768	recruitment
+E41	Localization:T41 Theme:T45 ToLoc:T42
+T52	Cell_proliferation 901 914	proliferation
+E52	Cell_proliferation:T52 Theme:T53
+T73	Localization 1295 1319	mobilization/recruitment
+E73	Localization:T73 Theme:T74
+T76	Positive_regulation 1325 1336	stimulation
+E76	Positive_regulation:T76 Theme:T77
+*	Equiv T45 T46
+*	Equiv T9 T10
+T18	Positive_regulation 29 36	promote
+E2	Positive_regulation:T18 Theme:E44 Cause:E3
+T20	Regulation 29 36	promote
+E3	Regulation:T20 Cause:T1 Theme:T7
+E4	Regulation:T20 Cause:T1 Theme:T8
+E5	Positive_regulation:T18 Theme:E45 Cause:E3
+E6	Positive_regulation:T18 Theme:E44 Cause:E4
+E7	Positive_regulation:T18 Theme:E45 Cause:E4
+T21	Cell_proliferation 276 289	proliferative
+E8	Cell_proliferation:T21 Theme:T9
+T29	Positive_regulation 386 395	promoting
+E9	Positive_regulation:T29 Theme:E46 Cause:T13
+T31	Positive_regulation 357 364	support
+E10	Positive_regulation:T31 Theme:E14 Cause:E9
+T32	Regulation 439 449	contribute
+E12	Regulation:T32 Cause:T19 Theme:E23
+A1	Speculation E12
+T33	Positive_regulation 662 671	increased
+E13	Positive_regulation:T33 Theme:T35 Cause:T30
+E15	Positive_regulation:T33 Theme:T35 Cause:T28
+T37	Positive_regulation 716 723	induced
+E16	Positive_regulation:T37 Cause:T30 Theme:E41
+E17	Positive_regulation:T37 Cause:T28 Theme:E41
+T39	Gene_expression 1009 1018	expressed
+E18	Gene_expression:T39 Theme:T63
+T44	Positive_regulation 1019 1028	increased
+E19	Positive_regulation:T44 Theme:E18
+E1	Gene_expression:T39 Theme:T64
+E20	Positive_regulation:T44 Theme:E1
+T3	Negative_regulation 1170 1177	blocked
+E21	Negative_regulation:T3 Theme:T64
+E24	Negative_regulation:T3 Theme:T63
+T47	Negative_regulation 1372 1379	reduced
+E25	Negative_regulation:T47 Cause:E21 Theme:E76
+E26	Negative_regulation:T47 Cause:E24 Theme:E76
+E27	Negative_regulation:T47 Cause:E21 Theme:E73
+E28	Negative_regulation:T47 Cause:E24 Theme:E73
+E29	Negative_regulation:T47 Cause:E21 Theme:T70
+E30	Negative_regulation:T47 Cause:E24 Theme:T70
+T48	Regulation 1480 1490	contribute
+E31	Regulation:T48 Theme:E49 Cause:E32
+T50	Positive_regulation 1516 1525	promoting
+E32	Positive_regulation:T50 Cause:T81 Theme:T87
+E33	Positive_regulation:T50 Cause:T81 Theme:E50
+E35	Regulation:T48 Theme:E49 Cause:E33
+T56	Positive_regulation 1671 1680	dependent
+E36	Positive_regulation:T56 Cause:T93 Theme:E35
+T57	Positive_regulation 1710 1719	dependent
+E37	Positive_regulation:T57 Cause:T94 Theme:E35
+E39	Positive_regulation:T56 Cause:T93 Theme:E31
+E42	Positive_regulation:T57 Cause:T94 Theme:E31
+T55	Development 926 938	organization
+E43	Development:T55 Theme:T59
+E44	Blood_vessel_development:T5 AtLoc:T4
+E45	Blood_vessel_development:T6 AtLoc:T4
+E46	Blood_vessel_development:T17 AtLoc:T16
+E47	Blood_vessel_development:T62 
+E48	Blood_vessel_development:T65 AtLoc:T68
+E49	Blood_vessel_development:T84 AtLoc:T83
+E50	Blood_vessel_development:T88 
+T34	Localization 734 746	mobilization
+E22	Localization:T34 Theme:T45
+E34	Positive_regulation:T37 Cause:T28 Theme:E22
+E38	Positive_regulation:T37 Cause:T30 Theme:E22
+T38	Positive_regulation 859 866	induced
+E40	Positive_regulation:T38 Cause:T49 Theme:E52
+E51	Positive_regulation:T38 Cause:T49 Theme:E43

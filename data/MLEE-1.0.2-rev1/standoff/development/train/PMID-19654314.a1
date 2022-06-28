@@ -1,0 +1,27 @@
+T3	Cell 0 16	Endothelial cell
+T5	Gene_or_gene_product 31 65	vascular endothelial growth factor
+T6	Tissue 103 116	breast tissue
+T9	Organism_substance 145 150	blood
+T11	Pathological_formation 185 190	tumor
+T12	Organism_subdivision 236 242	breast
+T13	Cell 299 322	breast epithelial cells
+T18	Gene_or_gene_product 466 500	vascular endothelial growth factor
+T19	Gene_or_gene_product 502 506	VEGF
+T20	Cell 521 536	malignant cells
+T23	Cell 561 578	endothelial cells
+T24	Cell 580 582	EC
+T26	Cell 650 665	malignant cells
+T28	Gene_or_gene_product 686 692	HoxD10
+T31	Gene_or_gene_product 759 763	VEGF
+T32	Gene_or_gene_product 780 811	hypoxia-inducible factor 1alpha
+T36	Cell 844 846	EC
+T38	Cell 939 957	nonmalignant cells
+T40	Gene_or_gene_product 973 977	VEGF
+T43	Cell 993 995	EC
+T45	Cellular_component 1117 1130	cytostructure
+T49	Gene_or_gene_product 1272 1276	VEGF
+T52	Cell 1292 1294	EC
+T53	Tissue 1348 1358	epithelium
+T58	Tissue 1397 1403	tissue
+T60	Cell 1074 1079	cells
+T2	Pathological_formation 1433 1442	malignant

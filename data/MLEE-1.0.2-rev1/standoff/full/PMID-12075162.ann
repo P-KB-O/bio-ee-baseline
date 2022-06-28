@@ -1,0 +1,18 @@
+T1	Organism_subdivision 39 45	breast
+T2	Pathological_formation 145 159	breast lesions
+T3	Pathological_formation 282 292	carcinomas
+T5	Pathological_formation 477 487	carcinomas
+T6	Pathological_formation 541 547	tumors
+T7	Pathological_formation 831 841	carcinomas
+T8	Organism_subdivision 967 973	breast
+T9	Pathological_formation 1034 1048	breast lesions
+T14	Pathological_formation 780 787	lesions
+T15	Pathological_formation 850 854	scar
+T4	Blood_vessel_development 406 421	neoangiogenesis
+T11	Localization 269 281	infiltrating
+E1	Localization:T11 Theme:T3
+T12	Localization 468 476	Invasive
+E2	Localization:T12 Theme:T5
+T13	Development 526 540	differentiated
+E3	Development:T13 Theme:T6
+E4	Blood_vessel_development:T4 

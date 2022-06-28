@@ -1,0 +1,93 @@
+T2	Gene_or_gene_product 14 30	thrombospondin-1
+T3	Drug_or_compound 56 66	progestins
+T4	Cell 76 95	breast cancer cells
+T6	Drug_or_compound 127 137	progestins
+T7	Gene_or_gene_product 145 179	vascular endothelial growth factor
+T8	Gene_or_gene_product 181 185	VEGF
+T9	Cell 190 209	breast cancer cells
+T11	Gene_or_gene_product 230 233	p53
+T13	Drug_or_compound 284 294	progestins
+T14	Gene_or_gene_product 307 323	thrombospondin-1
+T15	Gene_or_gene_product 325 330	TSP-1
+T16	Cell 352 357	T47-D
+T17	Cell 362 388	BT-474 breast cancer cells
+T19	Drug_or_compound 390 410	Antiprogestin RU-486
+T21	Gene_or_gene_product 437 441	VEGF
+T22	Gene_or_gene_product 446 451	TSP-1
+T23	Drug_or_compound 455 465	progestins
+T24	Drug_or_compound 498 507	progestin
+T25	Gene_or_gene_product 527 548	progesterone receptor
+T26	Gene_or_gene_product 550 552	PR
+T28	Drug_or_compound 555 568	Actinomycin-D
+T29	Drug_or_compound 578 587	puromycin
+T31	Gene_or_gene_product 634 639	TSP-1
+T32	Drug_or_compound 652 661	progestin
+T34	Gene_or_gene_product 707 712	TSP-1
+T38	Drug_or_compound 770 779	progestin
+T39	Gene_or_gene_product 780 782	PR
+T41	Gene_or_gene_product 836 841	TSP-1
+T42	Drug_or_compound 887 896	progestin
+T43	Cell 905 924	breast cancer cells
+T47	Cell 936 952	endothelial cell
+T49	Gene_or_gene_product 1024 1029	TSP-1
+T51	Gene_or_gene_product 1047 1052	TSP-1
+T52	Cell 1065 1084	breast cancer cells
+T56	Cell 1116 1126	tumor cell
+T57	Gene_or_gene_product 1135 1140	TSP-1
+T60	Pathological_formation 1190 1195	tumor
+T61	Pathological_formation 1249 1262	breast cancer
+T1000	Organism 70 75	human
+T1001	Organism 701 706	human
+T1002	Organism 850 855	human
+T48	Gene_or_gene_product 1012 1029	antibody to TSP-1
+T37	Drug_or_compound 601 610	progestin
+T64	Cell 856 861	cells
+T55	Blood_vessel_development 1098 1108	angiogenic
+T59	Blood_vessel_development 1170 1182	angiogenesis
+T1	Regulation 0 10	Regulation
+E1	Regulation:T1 Theme:T2 Cause:T3
+T12	Positive_regulation 300 306	induce
+E12	Positive_regulation:T12 Cause:T13 Theme:T14
+T18	Negative_regulation 411 419	inhibits
+E18	Negative_regulation:T18 Cause:T19 Theme:E20
+T20	Positive_regulation 424 433	induction
+E20	Positive_regulation:T20 Cause:T23 Theme:T21
+T27	Negative_regulation 594 600	blocks
+E27	Negative_regulation:T27 Theme:E30 Cause:T29
+T30	Positive_regulation 621 630	induction
+E30	Positive_regulation:T30 Theme:T31
+T35	Regulation 806 814	regulate
+E35	Regulation:T35 Theme:E40 Cause:T38
+T40	Transcription 815 828	transcription
+E40	Transcription:T40 Theme:T41
+T45	Cell_proliferation 953 966	proliferation
+E45	Cell_proliferation:T45 Theme:T47
+T50	Localization 1053 1061	secreted
+E50	Localization:T50 Theme:T51 FromLoc:T52
+R1	frag Arg1:T16 Arg2:T17
+*	Equiv T7 T8
+*	Equiv T14 T15
+*	Equiv T25 T26
+T10	Positive_regulation 138 144	induce
+E3	Positive_regulation:T10 Cause:T6 Theme:T7
+T33	Gene_expression 215 222	express
+E4	Gene_expression:T33 Theme:T11
+E2	Positive_regulation:T20 Cause:T23 Theme:T22
+E5	Negative_regulation:T18 Cause:T19 Theme:E2
+T5	Regulation 511 519	mediated
+E6	Regulation:T5 Theme:T24 Cause:T25
+T44	Positive_regulation 611 620	dependent
+E7	Positive_regulation:T44 Theme:E30 Cause:T37
+E8	Negative_regulation:T27 Theme:E30 Cause:T28
+A1	Negation E27
+T54	Planned_process 897 904	treated
+E9	Planned_process:T54 Instrument:T42 Theme:T43
+T58	Positive_regulation 925 935	stimulates
+E10	Positive_regulation:T58 Theme:E45 Cause:T43
+T62	Positive_regulation 1162 1169	promote
+E11	Positive_regulation:T62 Cause:T57 Theme:E15
+T63	Planned_process 1263 1270	therapy
+E13	Planned_process:T63 Theme:T61
+E14	Blood_vessel_development:T55 
+E15	Blood_vessel_development:T59 AtLoc:T60
+E16	Regulation:T35 Theme:E40 Cause:T39

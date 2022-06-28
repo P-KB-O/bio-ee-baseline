@@ -1,0 +1,23 @@
+T1	Gene_or_gene_product 21 31	endostatin
+T2	Gene_or_gene_product 67 77	Endostatin
+T3	Gene_or_gene_product 106 120	collagen XVIII
+T6	Gene_or_gene_product 217 227	endostatin
+T7	Gene_or_gene_product 262 272	endostatin
+T10	Gene_or_gene_product 571 581	endostatin
+T11	Gene_or_gene_product 666 676	endostatin
+T15	Gene_or_gene_product 744 754	endostatin
+T18	Gene_or_gene_product 879 889	endostatin
+T19	Gene_or_gene_product 908 918	endostatin
+T20	Gene_or_gene_product 1004 1014	endostatin
+T4	Blood_vessel_development 134 146	angiogenesis
+T8	Blood_vessel_development 549 559	angiogenic
+T13	Blood_vessel_development 691 707	angiosuppressive
+T14	Blood_vessel_development 712 728	angiostimulatory
+T16	Blood_vessel_development 791 803	angiogenesis
+E1	Blood_vessel_development:T4 
+E2	Blood_vessel_development:T8 
+E3	Blood_vessel_development:T13 
+E4	Blood_vessel_development:T14 
+E5	Blood_vessel_development:T16 
+T5	Negative_regulation 560 567	effects
+E6	Negative_regulation:T5 Theme:E2

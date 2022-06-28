@@ -1,0 +1,23 @@
+T2	Organism_substance 81 86	Blood
+T4	Organism_substance 243 248	blood
+T5	Multi-tissue_structure 299 305	vessel
+T6	Drug_or_compound 349 355	oxygen
+T7	Tissue 864 872	skeletal
+T8	Tissue 877 891	cardiac muscle
+T9	Cell 1002 1009	myocyte
+T10	Tissue 1049 1063	cardiac muscle
+T12	Drug_or_compound 1501 1508	aspirin
+T13	Multi-tissue_structure 1551 1557	vessel
+T19	Organ 2132 2138	muscle
+T20	Multi-tissue_structure 2332 2347	coronary artery
+T3	Multi-tissue_structure 2317 2327	peripheral
+T1000	Organism 197 202	human
+T23	Drug_or_compound 1433 1438	Lipid
+T24	Drug_or_compound 1439 1450	cholesterol
+T28	Multi-tissue_structure 91 99	vascular
+T29	Organ 1024 1029	organ
+T30	Tissue 1856 1862	tissue
+T31	Tissue 257 264	tissues
+T32	Tissue 808 815	tissues
+T33	Cell 658 663	cells
+T35	Cell 421 426	Cells

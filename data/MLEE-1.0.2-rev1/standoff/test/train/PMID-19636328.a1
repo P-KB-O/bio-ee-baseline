@@ -1,0 +1,14 @@
+T2	Gene_or_gene_product 43 47	VEGF
+T5	Gene_or_gene_product 186 190	VEGF
+T7	Pathological_formation 227 232	tumor
+T10	Gene_or_gene_product 351 355	VEGF
+T13	Gene_or_gene_product 699 703	VEGF
+T14	Drug_or_compound 729 740	bevacizumab
+T15	Gene_or_gene_product 793 797	VEGF
+T16	Drug_or_compound 876 887	bevacizumab
+T17	Drug_or_compound 1008 1019	bevacizumab
+T18	Pathological_formation 1055 1067	colon cancer
+T19	Gene_or_gene_product 1087 1091	VEGF
+T1000	Organism 1032 1040	patients
+T21	Pathological_formation 396 401	tumor
+T24	Gene_or_gene_product 346 355	anti-VEGF

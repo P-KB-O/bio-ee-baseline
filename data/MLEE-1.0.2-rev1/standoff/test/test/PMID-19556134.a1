@@ -1,0 +1,10 @@
+T5	Tissue 172 185	microvascular
+T11	Cell 331 347	endothelial cell
+T13	Tissue 417 421	tube
+T22	Pathological_formation 77 84	gliomas
+T23	Pathological_formation 147 154	gliomas
+T24	Pathological_formation 836 843	gliomas
+T25	Pathological_formation 264 270	Tumour
+T26	Pathological_formation 0 6	Tumour
+T27	Pathological_formation 239 262	glioblastoma multiforme
+T28	Cellular_component 392 412	extracellular matrix

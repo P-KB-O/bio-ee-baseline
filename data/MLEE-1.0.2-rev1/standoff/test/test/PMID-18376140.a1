@@ -1,0 +1,29 @@
+T1	Gene_or_gene_product 27 33	VEGF-a
+T2	Pathological_formation 43 60	ovarian carcinoma
+T6	Pathological_formation 154 159	tumor
+T8	Multi-tissue_structure 173 183	peritoneal
+T10	Pathological_formation 225 231	tumors
+T12	Multi-tissue_structure 269 276	vessels
+T15	Tissue 294 307	microvascular
+T22	Pathological_formation 419 424	tumor
+T23	Organism_substance 425 430	blood
+T24	Cell 555 578	ovarian carcinoma cells
+T28	Gene_or_gene_product 678 684	VEGF-a
+T29	Tissue 790 810	tumor tissue samples
+T31	Gene_or_gene_product 843 849	VEGF-a
+T32	Gene_or_gene_product 865 870	EphA2
+T38	Gene_or_gene_product 950 956	VEGF-a
+T45	Gene_or_gene_product 1142 1148	VEGF-a
+T47	Gene_or_gene_product 1178 1183	EphA2
+T49	Pathological_formation 1236 1241	tumor
+T51	Pathological_formation 1350 1355	tumor
+T3	Pathological_formation 1114 1128	ovarian cancer
+T1000	Organism 37 42	human
+T1001	Organism 549 554	human
+T1002	Organism 766 771	human
+T1003	Organism 1218 1223	human
+T33	Gene_or_gene_product 886 890	MMPs
+T48	Gene_or_gene_product 1224 1228	MMPs
+T44	Gene_or_gene_product 1137 1148	anti-VEGF-a
+T11	Pathological_formation 93 107	Ovarian cancer
+T13	Gene_or_gene_product 1199 1228	antibodies against human MMPs

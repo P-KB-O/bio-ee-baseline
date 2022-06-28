@@ -1,0 +1,31 @@
+T1	Drug_or_compound 0 7	AVE8062
+T2	Multi-tissue_structure 41 49	vascular
+T8	Pathological_formation 132 137	tumor
+T10	Multi-tissue_structure 192 214	tumor vascular network
+T13	Cell 308 325	endothelial cells
+T14	Cellular_component 330 350	extracellular matrix
+T17	Pathological_formation 421 426	tumor
+T19	Drug_or_compound 443 468	vascular-targeting agents
+T21	Drug_or_compound 470 473	VTA
+T22	Drug_or_compound 476 480	VTAs
+T23	Drug_or_compound 513 534	antiangiogenic agents
+T25	Drug_or_compound 539 565	vascular-disrupting agents
+T28	Drug_or_compound 567 571	VDAs
+T29	Drug_or_compound 574 578	VTAs
+T33	Pathological_formation 692 704	tumor masses
+T34	Tissue 716 731	tumor periphery
+T37	Gene_or_gene_product 836 849	VEGF receptor
+T39	Drug_or_compound 851 855	VDAs
+T41	Multi-tissue_structure 905 918	tumor vessels
+T43	Pathological_formation 958 964	masses
+T45	Pathological_formation 1022 1044	peripheral tumor layer
+T46	Drug_or_compound 1046 1050	VDAs
+T48	Drug_or_compound 1158 1177	small-molecule VDAs
+T49	Drug_or_compound 1183 1193	flavonoids
+T50	Drug_or_compound 1203 1239	5,6-dimethylxanthenone-4-acetic acid
+T51	Drug_or_compound 1241 1246	DMXAA
+T52	Drug_or_compound 1253 1285	microtubule-destabilizing agents
+T53	Drug_or_compound 1421 1439	antitubulin agents
+T54	Drug_or_compound 1445 1483	combretastatin A4-phosphate derivative
+T55	Drug_or_compound 1485 1493	AVE8062A
+T4	Drug_or_compound 15 29	combretastatin

@@ -1,0 +1,82 @@
+T3	Multi-tissue_structure 0 8	Vascular
+T5	Gene_or_gene_product 50 83	endothelial nitric oxide synthase
+T6	Multi-tissue_structure 93 103	peritoneum
+T8	Gene_or_gene_product 470 491	nitric oxide synthase
+T9	Gene_or_gene_product 493 496	NOS
+T11	Drug_or_compound 582 594	nitric oxide
+T12	Gene_or_gene_product 622 625	NOS
+T14	Gene_or_gene_product 906 909	NOS
+T15	Gene_or_gene_product 1018 1021	NOS
+T17	Gene_or_gene_product 1091 1094	NOS
+T18	Gene_or_gene_product 1143 1146	NOS
+T20	Gene_or_gene_product 1199 1214	endothelial NOS
+T23	Gene_or_gene_product 1252 1255	NOS
+T28	Multi-tissue_structure 1407 1417	peritoneum
+T30	Gene_or_gene_product 1493 1527	vascular endothelial growth factor
+T31	Gene_or_gene_product 1529 1533	VEGF
+T32	Tissue 1552 1563	endothelium
+T33	Multi-tissue_structure 1571 1595	peritoneal blood vessels
+T34	Gene_or_gene_product 1637 1641	VEGF
+T35	Drug_or_compound 1694 1705	pentosidine
+T38	Tissue 1777 1793	endothelial area
+T40	Gene_or_gene_product 1819 1822	NOS
+T42	Gene_or_gene_product 1836 1851	endothelial NOS
+T45	Gene_or_gene_product 2039 2043	VEGF
+T43	Immaterial_anatomical_entity 308 331	peritoneal surface area
+T21	Drug_or_compound 1301 1314	nitrotyrosine
+T46	Tissue 1383 1399	endothelial area
+T1000	Organism 87 92	human
+T1001	Organism 742 750	patients
+T1002	Organism 801 809	patients
+T1003	Organism 957 965	patients
+T1004	Organism 1008 1016	patients
+T1005	Organism 1612 1620	patients
+T1	Multi-tissue_structure 1362 1370	vascular
+T36	Blood_vessel_development 1750 1762	angiogenesis
+T2	Development 9 22	proliferation
+E2	Development:T2 Theme:T3
+T4	Gene_expression 36 46	expression
+E4	Gene_expression:T4 Theme:T5
+T7	Gene_expression 456 466	expression
+E7	Gene_expression:T7 Theme:T8
+T10	Positive_regulation 553 561	enhanced
+E10	Positive_regulation:T10 Theme:E6
+T13	Positive_regulation 922 931	increased
+E13	Positive_regulation:T13 Theme:T14
+T16	Positive_regulation 1081 1090	Increased
+E16	Positive_regulation:T16 Theme:T17
+T19	Positive_regulation 1183 1195	upregulation
+E19	Positive_regulation:T19 Theme:T20
+T22	Positive_regulation 1242 1251	increased
+E22	Positive_regulation:T22 Theme:T23
+T29	Positive_regulation 1477 1489	upregulation
+E29	Positive_regulation:T29 Theme:T30
+T37	Positive_regulation 1767 1776	increased
+E37	Positive_regulation:T37 Theme:T38
+T39	Positive_regulation 1810 1818	enhanced
+E39	Positive_regulation:T39 Theme:T40
+T41	Positive_regulation 1852 1864	upregulation
+E41	Positive_regulation:T41 Theme:T42
+T44	Localization 2025 2035	liberation
+E44	Localization:T44 Theme:T45
+*	Equiv T9 T8
+*	Equiv T30 T31
+T24	Positive_regulation 27 35	enhanced
+E3	Positive_regulation:T24 Theme:E4
+T47	Positive_regulation 298 307	increased
+E5	Positive_regulation:T47 Theme:T43
+T48	Synthesis 568 578	production
+E6	Synthesis:T48 Theme:T11
+T49	Regulation 513 524	play a role
+E8	Regulation:T49 Theme:E10
+A1	Speculation E8
+T50	Regulation 1107 1115	mediated
+E9	Regulation:T50 Theme:T17 Cause:T18
+T51	Positive_regulation 1292 1300	enhanced
+E11	Positive_regulation:T51 Theme:T21
+T25	Localization 1642 1653	colocalized
+E12	Localization:T25 Theme:T34 Theme:T35
+E14	Blood_vessel_development:T36 
+T27	Positive_regulation 1350 1358	increase
+E1	Positive_regulation:T27 Theme:T1
+E15	Positive_regulation:T27 Theme:T46

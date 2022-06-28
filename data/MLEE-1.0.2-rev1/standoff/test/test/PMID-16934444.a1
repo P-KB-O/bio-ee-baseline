@@ -1,0 +1,26 @@
+T6	Pathological_formation 319 326	cancers
+T8	Pathological_formation 398 405	cancers
+T12	Cell 454 464	tumor cell
+T15	Pathological_formation 556 561	tumor
+T20	Cell 1045 1055	fibroblast
+T23	Cell 1060 1071	endothelial
+T26	Cellular_component 1120 1140	extracellular matrix
+T4	Drug_or_compound 616 649	heparan sulfate glycosaminoglycan
+T1000	Organism 313 318	human
+T1001	Organism 578 585	patient
+T1002	Organism 1346 1351	human
+T1	Gene_or_gene_product 12 21	syndecans
+T2	Gene_or_gene_product 53 62	Syndecans
+T5	Gene_or_gene_product 300 309	syndecans
+T10	Gene_or_gene_product 407 415	syndecan
+T16	Gene_or_gene_product 660 669	syndecans
+T17	Gene_or_gene_product 783 792	syndecans
+T19	Gene_or_gene_product 983 992	syndecans
+T27	Gene_or_gene_product 1198 1207	syndecans
+T28	Gene_or_gene_product 1267 1275	syndecan
+T33	Tissue 936 942	tissue
+T35	Tissue 1223 1229	tissue
+T37	Tissue 148 158	developing
+T38	Tissue 163 176	adult tissues
+T39	Cell 1087 1091	cell
+T41	Pathological_formation 358 363	wound

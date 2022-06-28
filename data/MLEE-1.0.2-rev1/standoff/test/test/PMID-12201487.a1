@@ -1,0 +1,53 @@
+T3	Gene_or_gene_product 42 62	protein kinase Cbeta
+T4	Pathological_formation 82 95	breast cancer
+T5	Pathological_formation 100 125	ovarian cancer xenografts
+T6	Drug_or_compound 158 169	317615 2HCl
+T10	Gene_or_gene_product 193 197	VEGF
+T11	Cell 209 214	HUVEC
+T12	Cell 261 285	MX-1 breast cancer cells
+T14	Cell 308 338	SKOV-3 ovarian carcinoma cells
+T16	Drug_or_compound 388 398	paclitaxel
+T17	Drug_or_compound 402 413	carboplatin
+T18	Drug_or_compound 418 431	317615 x 2HCl
+T19	Cell 437 447	MX-1 cells
+T20	Cell 552 564	SKOV-3 cells
+T21	Drug_or_compound 568 578	paclitaxel
+T22	Drug_or_compound 582 593	carboplatin
+T23	Drug_or_compound 605 616	317615 2HCl
+T24	Drug_or_compound 673 686	317615 x 2HCl
+T25	Drug_or_compound 692 702	paclitaxel
+T26	Drug_or_compound 747 758	carboplatin
+T27	Drug_or_compound 778 791	317615 x 2HCI
+T28	Pathological_formation 845 856	MX-1 tumors
+T29	Pathological_formation 860 873	SKOV-3 tumors
+T33	Multi-tissue_structure 908 928	intratumoral vessels
+T34	Gene_or_gene_product 946 950	CD31
+T35	Gene_or_gene_product 955 960	CD105
+T36	Pathological_formation 1003 1014	MX-1 tumors
+T37	Pathological_formation 1034 1047	SKOV-3 tumors
+T38	Drug_or_compound 1063 1076	317615 x 2HCl
+T39	Pathological_formation 1119 1133	MX-1 xenograft
+T40	Pathological_formation 1152 1157	tumor
+T41	Drug_or_compound 1183 1193	paclitaxel
+T42	Pathological_formation 1214 1219	tumor
+T43	Drug_or_compound 1245 1256	carboplatin
+T44	Drug_or_compound 1288 1301	317615 x 2HCl
+T45	Pathological_formation 1321 1326	tumor
+T46	Pathological_formation 1390 1400	MX-1 tumor
+T47	Drug_or_compound 1417 1430	317615 x 2HCl
+T48	Pathological_formation 1495 1512	SKOV-3 xenografts
+T49	Drug_or_compound 1585 1595	paclitaxel
+T50	Drug_or_compound 1600 1613	317615 x 2HCl
+T51	Pathological_formation 1651 1657	SKOV-3
+T52	Drug_or_compound 1693 1706	317615 x 2HCl
+T53	Drug_or_compound 1718 1729	carboplatin
+T54	Pathological_formation 1753 1765	SKOV-3 tumor
+T55	Drug_or_compound 1821 1832	carboplatin
+T56	Drug_or_compound 1840 1853	317615 x 2HCl
+T1000	Organism 76 81	human
+T1001	Organism 814 823	nude mice
+T77	Cell 131 135	cell
+T79	Cell 471 475	cell
+T80	Cell 629 633	cell
+T82	Pathological_formation 23 28	tumor
+T84	Pathological_formation 1095 1100	tumor

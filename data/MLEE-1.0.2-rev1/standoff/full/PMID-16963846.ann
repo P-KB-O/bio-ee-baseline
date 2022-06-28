@@ -1,0 +1,43 @@
+T2	Drug_or_compound 26 37	verteporfin
+T5	Drug_or_compound 214 225	verteporfin
+T9	Organ 344 348	eyes
+T10	Drug_or_compound 407 418	Verteporfin
+T11	Organ 1221 1225	eyes
+T12	Organ 1343 1347	eyes
+T15	Organ 1534 1538	eyes
+T16	Drug_or_compound 1612 1623	verteporfin
+T1	Multi-tissue_structure 592 598	fundus
+T1001	Organism 331 339	patients
+T1002	Organism 624 632	Patients
+T1003	Organism 773 781	patients
+T1004	Organism 872 880	patients
+T1006	Organism 1475 1483	patients
+T1008	Organism 1521 1529	patients
+T20	Drug_or_compound 599 610	fluorescein
+T4	Blood_vessel_development 62 80	neovascularization
+T7	Blood_vessel_development 250 268	neovascularization
+T1005	Blood_vessel_development 1398 1401	CNV
+T1007	Blood_vessel_development 1489 1492	CNV
+T3	Blood_vessel_development 270 273	CNV
+T6	Planned_process 0 20	Photodynamic therapy
+E1	Planned_process:T6 Instrument:T2
+T8	Planned_process 182 202	photodynamic therapy
+E2	Planned_process:T8 Instrument:T5
+T13	Planned_process 422 442	Photodynamic Therapy
+E3	Planned_process:T13 Instrument:T10 Theme:T1001
+T14	Planned_process 611 622	angiography
+E4	Planned_process:T14 Theme:T1 Instrument:T20
+T17	Planned_process 680 689	treatment
+E5	Planned_process:T17 Theme:T1002
+T18	Planned_process 1451 1454	PDT
+E6	Planned_process:T18 Theme:T1006
+T19	Planned_process 1603 1606	PDT
+E7	Planned_process:T19 Instrument:T16 Theme:T1008
+E8	Planned_process:T19 Instrument:T16 Theme:T15
+T21	Planned_process 368 371	PDT
+E10	Planned_process:T21 Theme:T1001
+E11	Blood_vessel_development:T4 
+E12	Blood_vessel_development:T7 
+E13	Blood_vessel_development:T1005 
+E14	Blood_vessel_development:T1007 
+E15	Blood_vessel_development:T3 

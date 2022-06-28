@@ -1,0 +1,24 @@
+T1	Gene_or_gene_product 0 16	Thrombospondin-2
+T2	Pathological_formation 88 93	tumor
+T8	Gene_or_gene_product 331 347	thrombospondin-2
+T9	Gene_or_gene_product 349 354	TSP-2
+T11	Gene_or_gene_product 402 407	TSP-2
+T14	Gene_or_gene_product 494 499	TSP-2
+T15	Tissue 543 561	mesenchymal stroma
+T19	Gene_or_gene_product 664 698	vascular endothelial growth factor
+T20	Cell 729 740	tumor cells
+T23	Gene_or_gene_product 742 747	TSP-2
+T26	Pathological_formation 861 866	tumor
+T29	Pathological_formation 942 947	tumor
+T30	Pathological_formation 963 968	tumor
+T34	Gene_or_gene_product 1012 1017	TSP-2
+T36	Gene_or_gene_product 1040 1045	TSP-2
+T39	Pathological_formation 1072 1077	tumor
+T42	Cell 1112 1122	tumor cell
+T48	Gene_or_gene_product 1296 1301	TSP-2
+T49	Pathological_formation 1334 1339	tumor
+T7	Organ 451 455	skin
+T17	Organ 799 803	skin
+T1000	Organism 432 436	mice
+T1001	Organism 575 579	mice
+T1002	Organism 1028 1032	mice

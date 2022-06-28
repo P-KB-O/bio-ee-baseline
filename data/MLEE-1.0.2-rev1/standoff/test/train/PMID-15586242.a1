@@ -1,0 +1,28 @@
+T3	Gene_or_gene_product 44 48	Tie2
+T5	Gene_or_gene_product 128 154	Hypoxia-inducible factor-1
+T6	Gene_or_gene_product 156 161	HIF-1
+T8	Gene_or_gene_product 361 366	HIF-1
+T11	Gene_or_gene_product 462 466	VEGF
+T14	Pathological_formation 661 666	tumor
+T19	Gene_or_gene_product 833 837	VEGF
+T20	Gene_or_gene_product 856 860	Tie2
+T21	Gene_or_gene_product 862 867	sTie2
+T23	Gene_or_gene_product 887 891	SV40
+T25	Gene_or_gene_product 908 912	SV40
+T26	Gene_or_gene_product 913 918	sTie2
+T27	Gene_or_gene_product 969 974	sTie2
+T30	Tissue 997 1001	tube
+T33	Cell 1040 1057	endothelial cells
+T35	Gene_or_gene_product 1116 1120	SV40
+T36	Gene_or_gene_product 1121 1126	sTie2
+T38	Pathological_formation 1171 1176	tumor
+T12	Drug_or_compound 316 322	oxygen
+T1000	Organism 827 832	human
+T2	DNA_domain_or_region 0 26	Hypoxia-responsive element
+T9	DNA_domain_or_region 384 411	hypoxia-responsive elements
+T10	DNA_domain_or_region 413 416	HRE
+T16	DNA_domain_or_region 812 815	HRE
+T17	DNA_domain_or_region 819 822	HRE
+T22	DNA_domain_or_region 892 900	promoter
+T24	DNA_domain_or_region 904 907	HRE
+T34	DNA_domain_or_region 1112 1115	HRE

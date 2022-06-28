@@ -1,0 +1,12 @@
+T1	Gene_or_gene_product 0 4	VEGF
+T3	Anatomical_system 229 240	vasculature
+T4	Cell 280 297	endothelial cells
+T6	Pathological_formation 364 370	tumors
+T9	Multi-tissue_structure 389 397	vascular
+T10	Pathological_formation 433 445	solid tumors
+T11	Gene_or_gene_product 480 514	Vascular endothelial growth factor
+T12	Gene_or_gene_product 516 520	VEGF
+T15	Gene_or_gene_product 655 659	VEGF
+T17	Pathological_formation 859 865	breast
+T18	Pathological_formation 867 871	lung
+T19	Pathological_formation 877 895	colorectal cancers

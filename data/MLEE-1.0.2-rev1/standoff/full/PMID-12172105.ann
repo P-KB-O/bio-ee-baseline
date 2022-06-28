@@ -1,0 +1,45 @@
+T2	Tissue 36 54	pigment epithelial
+T4	Tissue 81 88	macular
+T5	Multi-tissue_structure 144 163	retinal vasculature
+T7	Tissue 174 192	pigment epithelial
+T9	Tissue 236 243	macular
+T10	Multi-tissue_structure 553 559	retina
+T12	Multi-tissue_structure 761 775	serous retinal
+T19	Multi-tissue_structure 1294 1310	retinal vascular
+T21	Multi-tissue_structure 1382 1388	retina
+T16	Multi-tissue_structure 523 531	Vascular
+T14	Drug_or_compound 292 303	fluorescein
+T17	Drug_or_compound 431 442	fluorescein
+T23	Drug_or_compound 447 464	indocyanine green
+T24	Drug_or_compound 270 287	indocyanine green
+T25	Drug_or_compound 1481 1498	indocyanine green
+T26	Drug_or_compound 1503 1514	fluorescein
+T1	Organ 349 353	eyes
+T22	Organ 1445 1449	eyes
+T13	Drug_or_compound 671 688	indocyanine green
+T1000	Organism 336 344	patients
+T1001	Organism 582 590	patients
+T1002	Organism 1022 1030	patients
+T1003	Organism 1050 1058	patients
+T15	Blood_vessel_development 1126 1145	neovascularizations
+T18	Blood_vessel_development 1229 1247	neovascularization
+T3	Breakdown 89 101	degeneration
+E3	Breakdown:T3 Theme:T4
+T6	Breakdown 193 204	detachments
+E6	Breakdown:T6 Theme:T7
+T8	Breakdown 244 256	degeneration
+E8	Breakdown:T8 Theme:T9
+T11	Breakdown 776 786	detachment
+E11	Breakdown:T11 Theme:T12
+T20	Positive_regulation 1365 1374	elevation
+E20	Positive_regulation:T20 Theme:T21
+T27	Remodeling 125 136	alterations
+E1	Remodeling:T27 Theme:T5
+T28	Planned_process 465 476	angiography
+E4	Planned_process:T28 Theme:T1 Instrument:T23 Instrument:T17
+T29	Planned_process 1515 1526	angiography
+E5	Planned_process:T29 Instrument:T26 Instrument:T25 Theme:T22
+T30	Breakdown 55 65	detachment
+E2	Breakdown:T30 Theme:T2
+E7	Blood_vessel_development:T15 
+E9	Blood_vessel_development:T18 

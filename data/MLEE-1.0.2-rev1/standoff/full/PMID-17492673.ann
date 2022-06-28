@@ -1,0 +1,46 @@
+T2	Drug_or_compound 78 89	swainsonine
+T3	Multi-tissue_structure 462 473	vasculature
+T4	Organ 928 936	placenta
+T6	Pathological_formation 1342 1347	tumor
+T7	Drug_or_compound 1363 1374	swainsonine
+T9	Multi-tissue_structure 1440 1448	vascular
+T11	Tissue 1537 1546	capillary
+T12	Drug_or_compound 1566 1577	Swainsonine
+T15	Multi-tissue_structure 1611 1622	vasculature
+T17	Multi-tissue_structure 1672 1680	vascular
+T13	Multi-tissue_structure 355 371	capillary meshes
+T18	Multi-tissue_structure 586 601	radial arteries
+T19	Tissue 692 701	Capillary
+T20	Organ 1184 1193	placental
+T21	Tissue 656 667	capillaries
+T1000	Organism 183 188	goats
+T22	Organism 20 27	caprine
+T23	Organism_subdivision 28 37	caruncles
+T25	Organism_subdivision 138 147	caruncles
+T26	Organism_subdivision 307 316	caruncles
+T28	Organism 920 927	caprine
+T29	Tissue 1111 1120	sinusoids
+T37	Organism 333 337	does
+T38	Organism 1395 1403	locoweed
+T39	Organism 98 102	does
+T40	Organ 1208 1217	Placental
+T1	Blood_vessel_development 0 12	Angiogenesis
+T5	Blood_vessel_development 1218 1230	angiogenesis
+T24	Planned_process 90 97	treated
+E1	Planned_process:T24 Instrument:T2 Theme:T39
+T27	Development 702 721	diameters increased
+E2	Development:T27 Theme:T19
+T30	Development 1096 1107	development
+E3	Development:T30 Theme:T29
+T31	Development 1449 1460	development
+E4	Development:T31 Theme:T9
+T32	Regulation 1353 1359	effect
+E5	Regulation:T32 Cause:T7 Theme:E4
+T33	Negative_regulation 1525 1533	decrease
+E6	Negative_regulation:T33 Theme:T11
+T35	Development 1681 1692	development
+E9	Development:T35 Theme:T17
+T36	Regulation 1640 1647	effects
+E11	Regulation:T36 Theme:E9 Cause:T12
+E12	Blood_vessel_development:T1 AtLoc:T23
+E13	Blood_vessel_development:T5 AtLoc:T40

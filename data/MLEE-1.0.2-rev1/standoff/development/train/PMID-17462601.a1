@@ -1,0 +1,39 @@
+T1	Gene_or_gene_product 29 47	PDGF receptor beta
+T6	Gene_or_gene_product 117 132	VEGF receptor 2
+T7	Gene_or_gene_product 144 174	Platelet-derived growth factor
+T8	Gene_or_gene_product 176 180	PDGF
+T9	Gene_or_gene_product 201 206	PDGFR
+T12	Pathological_formation 266 271	tumor
+T16	Cell 320 328	pericyte
+T18	Multi-tissue_structure 345 351	vessel
+T19	Drug_or_compound 406 409	1B3
+T20	Gene_or_gene_product 434 443	PDGFRbeta
+T22	Drug_or_compound 445 448	1B3
+T23	Gene_or_gene_product 458 467	PDGFRbeta
+T24	Gene_or_gene_product 511 518	PDGF-BB
+T26	Gene_or_gene_product 645 654	PDGFRbeta
+T27	Gene_or_gene_product 701 704	Akt
+T28	Gene_or_gene_product 709 720	MAPK p42/44
+T29	Cell 725 736	tumor cells
+T31	Drug_or_compound 757 760	1B3
+T34	Drug_or_compound 836 841	DC101
+T35	Gene_or_gene_product 878 923	vascular endothelial growth factor receptor 2
+T36	Pathological_formation 942 948	BxPC-3
+T39	Pathological_formation 956 1002	non-small cell lung (NCI-H460) tumor xenograft
+T40	Drug_or_compound 1045 1048	1B3
+T41	Drug_or_compound 1053 1058	DC101
+T42	Pathological_formation 1062 1078	BxPC-3 xenograft
+T44	Pathological_formation 1104 1109	tumor
+T45	Drug_or_compound 1181 1186	DC101
+T47	Gene_or_gene_product 1250 1259	PDGFRbeta
+T2	Pathological_formation 930 940	pancreatic
+T3	Pathological_formation 1372 1379	cancers
+T1000	Organism 428 433	mouse
+T1001	Organism 872 877	mouse
+T1002	Organism 1087 1091	mice
+T1003	Organism 1131 1135	mice
+T1004	Organism 1163 1167	mice
+T5	Gene_or_gene_product 112 141	anti-VEGF receptor 2 antibody
+T58	Pathological_formation 65 70	tumor
+T59	Pathological_formation 792 797	tumor
+T61	Pathological_formation 1303 1308	tumor

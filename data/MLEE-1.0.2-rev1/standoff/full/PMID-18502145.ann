@@ -1,0 +1,75 @@
+T1	Organism_substance 0 5	Serum
+T3	Gene_or_gene_product 26 39	interleukin-8
+T5	Gene_or_gene_product 144 157	Interleukin-8
+T6	Gene_or_gene_product 159 163	IL-8
+T10	Gene_or_gene_product 232 236	IL-8
+T12	Pathological_formation 277 282	tumor
+T13	Gene_or_gene_product 369 373	IL-8
+T14	Organism_substance 484 489	serum
+T16	Gene_or_gene_product 500 504	IL-8
+T17	Organism_substance 571 576	serum
+T19	Gene_or_gene_product 587 591	IL-8
+T20	Organism_substance 638 643	serum
+T21	Gene_or_gene_product 644 648	IL-8
+T23	Gene_or_gene_product 659 663	IL-8
+T24	Organism_substance 791 796	serum
+T25	Gene_or_gene_product 797 801	IL-8
+T27	Gene_or_gene_product 812 816	IL-8
+T28	Drug_or_compound 830 840	creatinine
+T29	Drug_or_compound 842 844	Cr
+T30	Drug_or_compound 887 889	Cr
+T32	Gene_or_gene_product 933 937	IL-8
+T33	Drug_or_compound 938 940	Cr
+T34	Drug_or_compound 1031 1033	Cr
+T35	Organism_substance 1105 1110	serum
+T36	Gene_or_gene_product 1111 1115	IL-8
+T38	Gene_or_gene_product 1307 1311	IL-8
+T39	Drug_or_compound 1312 1314	Cr
+T40	Organism_substance 1319 1324	serum
+T41	Gene_or_gene_product 1325 1329	IL-8
+T42	Organism_substance 1382 1387	serum
+T44	Gene_or_gene_product 1416 1420	IL-8
+T46	Gene_or_gene_product 1559 1563	IL-8
+T47	Drug_or_compound 1564 1566	Cr
+T49	Gene_or_gene_product 1616 1620	IL-8
+T50	Drug_or_compound 1621 1623	Cr
+T7	Pathological_formation 339 346	cancers
+T1000	Organism 43 51	patients
+T1001	Organism 515 523	patients
+T1002	Organism 674 682	patients
+T1003	Organism 970 978	patients
+T1004	Organism 1143 1151	patients
+T9	Pathological_formation 57 79	non-Hodgkin's lymphoma
+T51	Pathological_formation 136 142	cancer
+T54	Pathological_formation 377 399	non-Hodgkin's lymphoma
+T55	Pathological_formation 401 404	NHL
+T57	Pathological_formation 529 532	NHL
+T58	Pathological_formation 688 691	NHL
+T59	Pathological_formation 1139 1142	NHL
+T60	Pathological_formation 1673 1676	NHL
+T2	Organism_substance 10 15	urine
+T15	Organism_substance 494 499	urine
+T18	Organism_substance 581 586	urine
+T22	Organism_substance 653 658	urine
+T26	Organism_substance 806 811	urine
+T31	Organism_substance 927 932	urine
+T37	Organism_substance 1301 1306	urine
+T43	Organism_substance 1392 1397	urine
+T45	Organism_substance 1553 1558	urine
+T48	Organism_substance 1610 1615	urine
+T4	Blood_vessel_development 82 94	Angiogenesis
+T8	Blood_vessel_development 207 217	angiogenic
+T11	Development 283 294	progression
+E11	Development:T11 Theme:T12
+*	Equiv T5 T6
+T52	Regulation 95 118	plays an important role
+E1	Regulation:T52 Cause:E4 Theme:T51
+T53	Regulation 261 271	associated
+E2	Regulation:T53 Cause:T10 Theme:E11
+*	Equiv T54 T55
+T56	Regulation 361 365	role
+E3	Regulation:T56 Cause:T13 Theme:T54
+A1	Speculation E3
+*	Equiv T28 T29
+E4	Blood_vessel_development:T4 
+E5	Blood_vessel_development:T8 

@@ -1,0 +1,15 @@
+T1	Tissue 35 39	pulp
+T2	Tissue 217 221	pulp
+T3	Tissue 560 564	pulp
+T4	Organ 604 609	teeth
+T5	Tissue 620 624	pulp
+T6	Organ 683 688	teeth
+T7	Tissue 733 739	pulpal
+T9	Drug_or_compound 986 997	formocresol
+T10	Organ 1028 1033	tooth
+T11	Drug_or_compound 1056 1072	mineral trioxide
+T12	Organ 1132 1137	teeth
+T13	Tissue 1211 1215	pulp
+T14	Organ 1273 1278	teeth
+T15	Tissue 1305 1309	pulp
+T17	Tissue 1542 1546	pulp

@@ -1,0 +1,56 @@
+T2	Gene_or_gene_product 0 8	Hedgehog
+T3	Pathological_formation 33 41	melanoma
+T6	Gene_or_gene_product 65 73	Hedgehog
+T9	Multi-tissue_structure 251 263	blood vessel
+T11	Gene_or_gene_product 299 307	Hedgehog
+T12	Pathological_formation 321 326	tumor
+T15	Cell 387 425	human umbilical vein endothelial cells
+T17	Cell 430 435	B16F0
+T18	Pathological_formation 454 460	tumors
+T19	Gene_or_gene_product 486 500	Sonic hedgehog
+T20	Gene_or_gene_product 502 505	Shh
+T23	Drug_or_compound 539 543	BrdU
+T24	Cell 561 578	endothelial cells
+T26	Gene_or_gene_product 632 640	Hedgehog
+T28	Drug_or_compound 660 671	cyclopamine
+T29	Gene_or_gene_product 692 695	Shh
+T31	Gene_or_gene_product 746 754	Hedgehog
+T32	Pathological_formation 775 790	hind limb tumor
+T33	Cell 806 821	B16F0 cell line
+T34	Drug_or_compound 856 867	cyclopamine
+T37	Drug_or_compound 893 897	BrdU
+T38	Cell 915 926	tumor cells
+T40	Pathological_formation 963 968	tumor
+T41	Cell 977 994	endothelial cells
+T44	Pathological_formation 1030 1035	tumor
+T46	Gene_or_gene_product 1093 1101	Hedgehog
+T47	Gene_or_gene_product 1111 1118	Patched
+T48	Pathological_formation 1140 1152	tumor stroma
+T50	Cell 1162 1173	B16F0 cells
+T51	Gene_or_gene_product 1184 1187	Shh
+T53	Cell 1216 1237	embryonic fibroblasts
+T54	Cell 1263 1274	B16F0 cells
+T56	Gene_or_gene_product 1286 1293	Patched
+T59	Gene_or_gene_product 1352 1355	Shh
+T60	Cell 1376 1390	melanoma cells
+T62	Gene_or_gene_product 1399 1406	Patched
+T63	Cell 1421 1432	fibroblasts
+T64	Pathological_formation 1443 1448	tumor
+T66	Pathological_formation 1514 1519	tumor
+T67	Drug_or_compound 1548 1559	cyclopamine
+T70	Multi-tissue_structure 1585 1593	vascular
+T72	Multi-tissue_structure 1657 1665	vascular
+T74	Drug_or_compound 1691 1702	cyclopamine
+T78	Multi-tissue_structure 1711 1729	tumor blood vessel
+T80	Drug_or_compound 1746 1750	FITC
+T81	Drug_or_compound 1759 1766	dextran
+T82	Multi-tissue_structure 1800 1813	blood vessels
+T84	Gene_or_gene_product 1842 1850	Hedgehog
+T87	Multi-tissue_structure 1888 1896	vascular
+T13	Multi-tissue_structure 335 346	vasculature
+T1000	Organism 26 32	murine
+T1002	Organism 437 443	murine
+T1003	Organism 1210 1215	mouse
+T14	Pathological_formation 444 452	melanoma
+T88	Pathological_formation 1871 1879	melanoma
+T91	Cell 116 120	cell

@@ -1,0 +1,18 @@
+T1	Gene_or_gene_product 0 9	NF-kappaB
+T2	Gene_or_gene_product 14 17	IKK
+T3	Gene_or_gene_product 78 87	NF-kappaB
+T4	Gene_or_gene_product 133 140	IkappaB
+T5	Gene_or_gene_product 165 172	IkappaB
+T6	Gene_or_gene_product 187 192	Bcl-3
+T7	Pathological_formation 250 261	solid tumor
+T8	Gene_or_gene_product 287 296	NF-kappaB
+T11	Gene_or_gene_product 482 491	NF-kappaB
+T13	Gene_or_gene_product 543 552	NF-kappaB
+T17	Cell 608 618	tumor cell
+T19	Gene_or_gene_product 694 703	NF-kappaB
+T20	Pathological_formation 715 720	tumor
+T22	Gene_or_gene_product 897 906	NF-kappaB
+T23	Gene_or_gene_product 1098 1107	NF-kappaB
+T9	Cell 300 312	cancer cells
+T18	Pathological_formation 44 50	cancer
+T33	Pathological_formation 582 588	cancer

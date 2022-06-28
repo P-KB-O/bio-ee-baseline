@@ -1,0 +1,99 @@
+T2	Drug_or_compound 0 10	Hyperforin
+T4	Cell 18 28	neutrophil
+T5	Gene_or_gene_product 43 69	matrix metalloproteinase-9
+T9	Organ 151 155	lung
+T10	Drug_or_compound 167 177	Hyperforin
+T11	Drug_or_compound 179 182	Hyp
+T13	Cell 368 378	lymphocyte
+T14	Cell 383 393	tumor cell
+T15	Gene_or_gene_product 413 431	matrix proteinases
+T17	Gene_or_gene_product 473 491	leukocyte elastase
+T18	Gene_or_gene_product 493 495	LE
+T19	Drug_or_compound 507 510	Hyp
+T21	Cell 549 593	polymorphonuclear neutrophil (PMN) leukocyte
+T24	Cell 705 708	PMN
+T27	Drug_or_compound 754 757	Hyp
+T28	Drug_or_compound 769 794	dicyclohexylammonium salt
+T31	Gene_or_gene_product 982 987	CD11b
+T33	Drug_or_compound 991 1009	formyl-Met-Leu-Phe
+T34	Cell 1021 1032	neutrophils
+T37	Gene_or_gene_product 1046 1048	LE
+T38	Gene_or_gene_product 1077 1114	gelatinase matrix metalloproteinase-9
+T39	Cell 1116 1119	PMN
+T44	Drug_or_compound 1220 1223	Hyp
+T46	Gene_or_gene_product 1235 1248	interleukin-8
+T47	Drug_or_compound 1304 1307	Hyp
+T50	Cell 1322 1325	PMN
+T53	Drug_or_compound 1377 1386	bleomycin
+T54	Drug_or_compound 1487 1490	Hyp
+T1000	Organism 229 249	Hypericum perforatum
+T1001	Organism 699 704	human
+T1002	Organism 1257 1263	murine
+T58	Organism 216 227	John's wort
+T59	Tissue 631 637	tissue
+T7	Blood_vessel_development 134 146	angiogenesis
+T41	Blood_vessel_development 1130 1142	angiogenesis
+T1	Negative_regulation 11 17	blocks
+E1	Negative_regulation:T1 Cause:T2 Theme:E3
+T3	Positive_regulation 29 39	activation
+E3	Positive_regulation:T3 Theme:T5 Cause:T4
+T12	Cell_proliferation 394 407	proliferation
+E12	Cell_proliferation:T12 Theme:T14
+T16	Negative_regulation 462 472	inhibiting
+E16	Negative_regulation:T16 Cause:T19 Theme:T17
+T20	Localization 594 605	recruitment
+E20	Localization:T20 Theme:T21
+T29	Negative_regulation 938 945	reduced
+E29	Negative_regulation:T29 Theme:E30 Cause:T34
+T30	Gene_expression 946 956	expression
+E30	Gene_expression:T30 Theme:T31
+T32	Positive_regulation 1010 1020	stimulated
+E32	Positive_regulation:T32 Cause:T33 Theme:T34
+T35	Negative_regulation 1037 1042	block
+E35	Negative_regulation:T35 Theme:T38
+T36	Positive_regulation 1059 1069	activation
+E36	Positive_regulation:T36 Theme:T38
+T43	Planned_process 1173 1182	injection
+E43	Planned_process:T43 Instrument:T44 Theme:T1002
+T48	Negative_regulation 1308 1315	reduces
+E48	Negative_regulation:T48 Cause:E25 Theme:E49
+T49	Localization 1326 1337	recruitment
+E49	Localization:T49 Theme:T50
+*	Equiv T17 T18
+T6	Localization 71 79	motility
+E2	Localization:T6 Theme:T4
+T26	Localization 84 95	recruitment
+E4	Localization:T26 Theme:T4
+T40	Positive_regulation 124 133	triggered
+E5	Positive_regulation:T40 Theme:E8
+E6	Negative_regulation:T1 Cause:T2 Theme:E2
+E7	Negative_regulation:T1 Cause:T2 Theme:E4
+E9	Negative_regulation:T1 Cause:T2 Theme:E8
+E10	Cell_proliferation:T12 Theme:T13
+*	Equiv T10 T11
+T22	Regulation 520 529	effective
+E11	Regulation:T22 Cause:T19 Theme:E20
+A1	Speculation E11
+T23	Negative_regulation 808 815	inhibit
+E13	Negative_regulation:T23 Cause:T27 Theme:E14
+T25	Localization 849 859	chemotaxis
+E14	Localization:T25 Theme:T24
+T42	Localization 864 877	chemoinvasion
+E15	Localization:T42 Theme:T24
+E17	Negative_regulation:T23 Cause:T27 Theme:E15
+T45	Positive_regulation 1049 1058	triggered
+E18	Positive_regulation:T45 Cause:T37 Theme:E36
+T51	Positive_regulation 1120 1129	triggered
+E19	Positive_regulation:T51 Cause:T39 Theme:E26
+T52	Negative_regulation 1151 1158	blocked
+E21	Negative_regulation:T52 Theme:E26 Cause:E43
+T55	Planned_process 1198 1212	administration
+E22	Planned_process:T55 Instrument:T44 Theme:T1002
+T56	Positive_regulation 1249 1256	induced
+E23	Positive_regulation:T56 Cause:T46 Theme:T1002
+E24	Negative_regulation:T52 Theme:E26 Cause:E22
+T57	Planned_process 1289 1298	treatment
+E25	Planned_process:T57 Instrument:T47
+*	Equiv T58 T1000
+E8	Blood_vessel_development:T7 
+E26	Blood_vessel_development:T41 

@@ -1,0 +1,92 @@
+T1	Gene_or_gene_product 0 37	Vasodilator-stimulated phosphoprotein
+T3	Cellular_component 53 65	stress-fiber
+T4	Cellular_component 70 85	membrane ruffle
+T5	Cell 99 116	endothelial cells
+T6	Gene_or_gene_product 119 156	Vasodilator-stimulated phosphoprotein
+T7	Gene_or_gene_product 158 162	VASP
+T8	Cell 187 213	vascular endothelial cells
+T12	Multi-tissue_structure 344 350	vessel
+T13	Gene_or_gene_product 400 404	VASP
+T14	Gene_or_gene_product 483 487	VASP
+T15	Cell 491 508	endothelial cells
+T16	Gene_or_gene_product 614 618	VASP
+T19	Cellular_component 679 692	stress fibers
+T20	Cell 703 727	aortic endothelial cells
+T23	Gene_or_gene_product 768 772	VASP
+T26	Gene_or_gene_product 803 811	profilin
+T29	Cellular_component 844 856	stress fiber
+T31	Gene_or_gene_product 1040 1044	VASP
+T34	Gene_or_gene_product 1101 1106	zyxin
+T35	Gene_or_gene_product 1107 1115	vinculin
+T37	Gene_or_gene_product 1175 1179	VASP
+T38	Gene_or_gene_product 1217 1224	F-actin
+T40	Gene_or_gene_product 1320 1325	actin
+T45	Cellular_component 1360 1386	endothelial cell-substrate
+T46	Gene_or_gene_product 1450 1454	VASP
+T51	Cell 1469 1480	endothelial
+T54	Tissue 1515 1524	capillary
+T57	Multi-tissue_structure 1548 1556	vascular
+T58	Cell 1585 1601	endothelial cell
+T1000	Organism 696 702	bovine
+T22	Protein_domain_or_region 745 764	proline-rich domain
+T36	Protein_domain_or_region 1157 1167	subdomains
+T47	Cellular_component 634 642	membrane
+T41	Cellular_component 1391 1409	cell-cell contacts
+T11	Blood_vessel_development 278 290	angiogenesis
+T2	Development 86 95	formation
+E2	Development:T2 Theme:T4
+T17	Regulation 643 651	ruffling
+E17	Regulation:T17 Theme:T47
+T18	Development 656 665	formation
+E18	Development:T18 Theme:T19
+T24	Negative_regulation 773 782	abolishes
+E24	Negative_regulation:T24 Theme:E25
+T25	Binding 798 802	bind
+E25	Binding:T25 Theme:T26 Theme:T23
+T27	Development 857 866	formation
+E27	Development:T27 Theme:T29
+T30	Gene_expression 1017 1027	expression
+E30	Gene_expression:T30 Theme:T31
+T32	Binding 1096 1100	bind
+E32	Binding:T32 Theme:T34 Theme:T31 Theme2:T35
+T44	Development 1347 1356	formation
+E44	Development:T44 Theme:T45
+T49	Development 1495 1507	organization
+E49	Development:T49 Theme:T51
+T50	Localization 1481 1490	migration
+E50	Localization:T50 Theme:T51
+T53	Development 1525 1534	formation
+E53	Development:T53 Theme:T54
+T55	Regulation 1539 1547	modulate
+E55	Regulation:T55 Theme:T57 Cause:E22
+*	Equiv T6 T7
+T9	Regulation 41 49	involved
+E1	Regulation:T9 Cause:T1 Theme:E2
+E3	Development:T2 Theme:T3
+E4	Regulation:T9 Cause:T1 Theme:E3
+T10	Gene_expression 174 183	expressed
+E5	Gene_expression:T10 Theme:T6
+T21	Planned_process 443 452	expressed
+E6	Planned_process:T21 Theme:T14
+T33	Gene_expression 590 600	Expression
+E7	Gene_expression:T33 Theme:T16
+T39	Positive_regulation 619 626	induces
+E8	Positive_regulation:T39 Cause:E7 Theme:E17
+E9	Positive_regulation:T39 Cause:E7 Theme:E18
+T59	Regulation 825 831	affect
+E10	Regulation:T59 Theme:E27
+A1	Negation E10
+T61	Binding 1183 1187	bind
+E11	Binding:T61 Theme:T37 Site:T36
+T64	Positive_regulation 1210 1216	induce
+E14	Positive_regulation:T64 Cause:T37 Theme:T38
+T66	Negative_regulation 1459 1468	influence
+E20	Negative_regulation:T66 Cause:T46 Theme:E50
+E21	Negative_regulation:T66 Cause:T46 Theme:E49
+T67	Regulation 1574 1581	effects
+E22	Regulation:T67 Cause:T46 Theme:T58
+E23	Blood_vessel_development:T11 
+R1	frag Arg1:T45 Arg2:T41	
+E19	Development:T44 Theme:T41
+T28	Regulation 333 340	changes
+E26	Regulation:T28 Theme:T12

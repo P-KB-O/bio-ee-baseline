@@ -1,0 +1,48 @@
+T1	Cell 12 29	endothelial cells
+T5	Tissue 196 216	vascular endothelial
+T9	Tissue 258 278	vascular endothelial
+T11	Cell 327 356	circulating endothelial cells
+T12	Cell 358 361	CEC
+T14	Tissue 459 479	vascular endothelial
+T16	Cell 531 558	endothelial progenitor cell
+T17	Cell 560 563	EPC
+T21	Tissue 608 616	vascular
+T22	Cell 655 659	EPCs
+T23	Pathological_formation 686 691	tumor
+T26	Tissue 760 768	vascular
+T27	Cellular_component 805 830	endothelial microparticle
+T28	Cellular_component 832 835	EMP
+T29	Cell 844 848	CECs
+T30	Cell 850 854	EPCs
+T31	Cellular_component 859 863	EMPs
+T32	Cell 1010 1014	CECs
+T33	Cell 1016 1020	EPCs
+T34	Cellular_component 1025 1029	EMPs
+T6	Pathological_formation 291 297	cancer
+T1000	Pathological_formation 53 59	Cancer
+T1001	Pathological_formation 111 117	Cancer
+T1002	Organism 949 957	patients
+T35	Pathological_formation 942 948	cancer
+T36	Cell 514 518	cell
+T37	Cell 1033 1037	cell
+T2	Blood_vessel_development 94 109	neoangiogenesis
+T3	Blood_vessel_development 118 133	neoangiogenesis
+T24	Blood_vessel_development 692 706	vasculogenesis
+T19	Breakdown 617 623	damage
+E19	Breakdown:T19 Theme:T21
+*	Equiv T16 T17
+T7	Breakdown 217 228	dysfunction
+E1	Breakdown:T7 Theme:T5
+T10	Positive_regulation 580 588	increase
+E2	Positive_regulation:T10 Theme:T16
+T15	Regulation 660 682	have an important role
+E3	Regulation:T15 Cause:T22 Theme:E9
+T18	Breakdown 769 780	dysfunction
+E5	Breakdown:T18 Theme:T26
+*	Equiv T11 T12
+*	Equiv T27 T28
+E6	Blood_vessel_development:T2 
+E7	Blood_vessel_development:T3 AtLoc:T1001
+E9	Blood_vessel_development:T24 AtLoc:T23
+T38	Positive_regulation 81 90	dependent
+E10	Positive_regulation:T38 Cause:E6 Theme:T1000

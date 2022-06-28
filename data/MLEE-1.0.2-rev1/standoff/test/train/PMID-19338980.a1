@@ -1,0 +1,27 @@
+T1	Gene_or_gene_product 12 22	interferon
+T2	Gene_or_gene_product 33 38	IFI16
+T4	Gene_or_gene_product 64 70	ICAM-1
+T5	Gene_or_gene_product 74 83	TNF-alpha
+T6	Gene_or_gene_product 90 100	Interferon
+T7	Gene_or_gene_product 116 121	IFI16
+T8	Gene_or_gene_product 139 145	HIN200
+T9	Gene_or_gene_product 220 231	Interferons
+T13	Cell 275 291	endothelial cell
+T15	Multi-tissue_structure 310 316	vessel
+T16	Gene_or_gene_product 367 372	IFI16
+T17	Gene_or_gene_product 425 434	IFN-gamma
+T18	Gene_or_gene_product 447 456	NF-kappaB
+T20	Gene_or_gene_product 485 490	IFI16
+T21	Gene_or_gene_product 562 595	tumor necrosis factor (TNF)-alpha
+T24	Gene_or_gene_product 656 661	IFI16
+T25	Gene_or_gene_product 704 713	TNF-alpha
+T28	Gene_or_gene_product 727 760	intercellular adhesion molecule-1
+T29	Gene_or_gene_product 762 768	ICAM-1
+T30	Gene_or_gene_product 772 776	CD54
+T31	Gene_or_gene_product 818 823	IFI16
+T33	Gene_or_gene_product 854 859	IFI16
+T35	Gene_or_gene_product 869 875	ICAM-1
+T36	Gene_or_gene_product 891 900	TNF-alpha
+T38	Gene_or_gene_product 913 922	NF-kappaB
+T39	Gene_or_gene_product 965 970	IFI16
+T46	Cell 191 195	cell

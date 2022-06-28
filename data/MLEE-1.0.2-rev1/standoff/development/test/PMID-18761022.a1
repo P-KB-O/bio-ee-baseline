@@ -1,0 +1,67 @@
+T1	Gene_or_gene_product 0 10	Endosialin
+T2	Gene_or_gene_product 11 16	TEM 1
+T3	Gene_or_gene_product 17 22	CD248
+T4	Cell 28 36	pericyte
+T6	Pathological_formation 61 66	tumor
+T9	Multi-tissue_structure 124 137	blood vessels
+T11	Cell 173 190	endothelial cells
+T12	Cell 195 204	pericytes
+T15	Multi-tissue_structure 254 265	vasculature
+T16	Gene_or_gene_product 323 333	Endosialin
+T17	Gene_or_gene_product 334 339	TEM 1
+T18	Cellular_component 345 358	cell membrane
+T19	Multi-tissue_structure 388 401	blood vessels
+T20	Multi-tissue_structure 459 473	mature vessels
+T21	Gene_or_gene_product 505 515	endosialin
+T23	Gene_or_gene_product 541 551	endosialin
+T24	Cell 585 609	prenatal brain pericytes
+T26	Cell 614 623	pericytes
+T27	Pathological_formation 636 642	tumors
+T32	Tissue 686 699	pericyte tube
+T33	Cell 746 761	Brain pericytes
+T34	Gene_or_gene_product 794 804	endosialin
+T35	Gene_or_gene_product 805 810	TEM 1
+T36	Gene_or_gene_product 844 846	-8
+T37	Gene_or_gene_product 836 838	-7
+T38	Gene_or_gene_product 832 834	-5
+T39	Gene_or_gene_product 828 830	-4
+T40	Gene_or_gene_product 824 826	-3
+T41	Gene_or_gene_product 816 822	TEMs-2
+T42	Gene_or_gene_product 882 892	endosialin
+T43	Cell 974 982	pericyte
+T44	Gene_or_gene_product 1037 1047	endosialin
+T46	Tissue 1116 1132	tumor xenografts
+T47	Pathological_formation 1143 1166	colon carcinoma Colo205
+T48	Pathological_formation 1171 1175	HT29
+T49	Gene_or_gene_product 1202 1212	endosialin
+T51	Gene_or_gene_product 1230 1240	endosialin
+T52	Gene_or_gene_product 1276 1279	NG2
+T53	Cell 1291 1309	perivascular cells
+T54	Gene_or_gene_product 1318 1322	CD31
+T55	Cell 1332 1349	endothelial cells
+T56	Pathological_formation 1384 1391	ovarian
+T57	Pathological_formation 1396 1408	colon tumors
+T59	Gene_or_gene_product 1419 1429	endosialin
+T60	Cell 1444 1453	pericytes
+T61	Gene_or_gene_product 1478 1488	endosialin
+T62	Cell 1514 1523	pericytes
+T65	Pathological_formation 1583 1588	tumor
+T67	Multi-tissue_structure 1659 1670	vasculature
+T68	Tissue 1674 1691	malignant tissues
+T70	Gene_or_gene_product 1731 1741	endosialin
+T74	Multi-tissue_structure 1761 1773	blood vessel
+T76	Pathological_formation 1788 1793	tumor
+T5	Gene_or_gene_product 649 659	endosialin
+T10	Gene_or_gene_product 1607 1617	endosialin
+T1000	Organism 499 504	human
+T1001	Organism 579 584	human
+T1002	Organism 1004 1008	mice
+T1003	Organism 1031 1036	human
+T1004	Organism 1110 1115	human
+T1005	Organism 1137 1142	human
+T1006	Organism 1196 1201	human
+T1007	Organism 1224 1228	mice
+T1008	Organism 1378 1383	human
+T28	Gene_or_gene_product 644 659	Anti-endosialin
+T66	Gene_or_gene_product 1602 1628	Anti-endosialin antibodies
+T88	Tissue 286 293	tissues

@@ -1,0 +1,40 @@
+T1	Organism 22 32	adenovirus
+T3	Gene_or_gene_product 42 52	endostatin
+T4	Pathological_formation 83 97	lung carcinoma
+T7	Gene_or_gene_product 168 178	endostatin
+T8	Pathological_formation 209 220	lung cancer
+T9	Pathological_formation 278 283	tumor
+T10	Cell 343 372	Lewis lung cancer (LLC) cells
+T13	Gene_or_gene_product 469 483	Ad-mEndostatin
+T15	Gene_or_gene_product 503 513	endostatin
+T16	Gene_or_gene_product 621 631	endostatin
+T19	Pathological_formation 691 696	tumor
+T20	Tissue 750 761	microvessel
+T21	Gene_or_gene_product 821 825	CD31
+T22	Gene_or_gene_product 830 835	CD105
+T24	Pathological_formation 852 857	tumor
+T26	Gene_or_gene_product 969 983	Ad-mEndostatin
+T30	Pathological_formation 1012 1017	tumor
+T32	Gene_or_gene_product 1133 1144	mEndostatin
+T33	Tissue 1161 1173	tumor tissue
+T35	Gene_or_gene_product 1193 1207	Ad-mEndostatin
+T36	Gene_or_gene_product 1248 1258	endostatin
+T37	Gene_or_gene_product 1355 1365	endostatin
+T40	Gene_or_gene_product 1459 1469	endostatin
+T42	Tissue 1500 1511	microvessel
+T43	Gene_or_gene_product 1616 1620	CD10
+T44	Gene_or_gene_product 1671 1675	CD31
+T45	Cell 1736 1747	tumor cells
+T46	Gene_or_gene_product 1814 1824	Endostatin
+T48	Gene_or_gene_product 1902 1912	endostatin
+T52	Pathological_formation 1964 1969	tumor
+T54	Multi-tissue_structure 2018 2038	tumor neovasculature
+T55	Pathological_formation 2074 2079	tumor
+T5	Organism_substance 641 646	serum
+T1000	Organism 101 105	mice
+T1001	Organism 224 228	mice
+T1002	Organism 398 402	mice
+T1003	Organism 408 412	mice
+T1004	Organism 1076 1080	mice
+T1005	Organism 1242 1247	mouse
+T58	Organism 148 158	adenovirus

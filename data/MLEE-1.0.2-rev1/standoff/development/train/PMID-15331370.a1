@@ -1,0 +1,40 @@
+T3	Gene_or_gene_product 9 14	IGF-1
+T4	Cell 35 53	smooth muscle cell
+T5	Gene_or_gene_product 208 213	IGF-1
+T7	Gene_or_gene_product 277 282	IGF-1
+T8	Cell 295 314	smooth muscle cells
+T9	Cell 316 320	SMCs
+T12	Gene_or_gene_product 406 411	IGF-1
+T13	Cell 443 447	SMCs
+T16	Cell 466 470	SMCs
+T17	Cell 541 545	SMCs
+T20	Gene_or_gene_product 562 567	IGF-1
+T22	Gene_or_gene_product 709 713	VEGF
+T25	Gene_or_gene_product 757 762	IGF-1
+T27	Gene_or_gene_product 775 780	IGF-1
+T31	Gene_or_gene_product 879 888	caspase-3
+T33	Gene_or_gene_product 1193 1198	IGF-1
+T34	Cell 1211 1215	SMCs
+T36	Gene_or_gene_product 1241 1246	IGF-1
+T37	Gene_or_gene_product 1251 1255	VEGF
+T39	Gene_or_gene_product 1274 1278	Bcl2
+T43	Multi-tissue_structure 1328 1334	vessel
+T44	Cell 1459 1463	SMCs
+T45	Gene_or_gene_product 1537 1542	IGF-1
+T48	Gene_or_gene_product 1620 1625	IGF-1
+T1000	Organism 1070 1074	rats
+T53	Cell 121 125	cell
+T55	Cell 195 199	cell
+T56	Cell 223 227	cell
+T60	Cell 336 340	cell
+T63	Cell 380 384	cell
+T65	Cell 547 551	cell
+T66	Cell 820 824	cell
+T68	Cell 997 1001	cell
+T69	Cell 1299 1303	cell
+T70	Cell 1583 1587	cell
+T71	Cell 1635 1645	donor cell
+T78	Cell 72 76	cell
+T80	Cell 1693 1697	cell
+T83	Cell 793 798	cells
+T84	Cell 1123 1128	cells

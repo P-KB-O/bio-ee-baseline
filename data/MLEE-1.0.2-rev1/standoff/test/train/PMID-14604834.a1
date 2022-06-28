@@ -1,0 +1,23 @@
+T1	Gene_or_gene_product 40 45	IGF-1
+T2	Gene_or_gene_product 47 53	IGF-1R
+T3	Gene_or_gene_product 59 81	IGF-1 binding proteins
+T4	Multi-tissue_structure 85 98	blood vessels
+T6	Gene_or_gene_product 114 148	insulin-like growth factor (IGF)-1
+T7	Gene_or_gene_product 169 173	IGFs
+T8	Gene_or_gene_product 179 193	IGF-1 receptor
+T9	Gene_or_gene_product 195 201	IGF-1R
+T10	Anatomical_system 304 315	vasculature
+T11	Gene_or_gene_product 390 395	IGF-1
+T12	Gene_or_gene_product 433 439	IGF-1R
+T13	Gene_or_gene_product 496 516	IGF binding proteins
+T14	Cellular_component 608 614	matrix
+T16	Drug_or_compound 858 864	oxygen
+T19	Gene_or_gene_product 1061 1066	IGF-1
+T25	Gene_or_gene_product 1256 1261	IGF-1
+T26	Gene_or_gene_product 1263 1269	IGF-1R
+T27	Gene_or_gene_product 1275 1295	IGF binding proteins
+T18	Anatomical_system 1303 1314	vasculature
+T28	Gene_or_gene_product 974 982	integrin
+T21	Cell 600 604	cell
+T23	Gene_or_gene_product 752 755	IGF
+T39	Gene_or_gene_product 934 937	IGF

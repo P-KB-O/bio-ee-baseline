@@ -1,0 +1,33 @@
+T2	Gene_or_gene_product 31 46	progelatinase a
+T5	Gene_or_gene_product 120 128	thrombin
+T8	Gene_or_gene_product 180 197	thrombin receptor
+T10	Gene_or_gene_product 240 245	SFLLR
+T11	Gene_or_gene_product 275 292	thrombin receptor
+T13	Cell 1024 1041	endothelial cells
+T15	Multi-tissue_structure 380 404	chorioallantoic membrane
+T16	Multi-tissue_structure 406 409	CAM
+T17	Gene_or_gene_product 448 462	tripeptide FPR
+T18	Drug_or_compound 479 519	1,4-disubstituted piperazine derivatives
+T19	Gene_or_gene_product 525 543	pentapeptide SFLLR
+T20	Gene_or_gene_product 550 558	thrombin
+T23	Multi-tissue_structure 611 614	CAM
+T24	Gene_or_gene_product 616 619	FPR
+T25	Drug_or_compound 628 650	piperazine derivatives
+T28	Gene_or_gene_product 710 718	thrombin
+T31	Gene_or_gene_product 754 762	Thrombin
+T32	Gene_or_gene_product 767 772	SFLLR
+T33	Gene_or_gene_product 783 798	progelatinase A
+T34	Gene_or_gene_product 800 805	MMP-2
+T35	Cell 832 870	human umbilical cord endothelial cells
+T36	Cell 872 878	HUVECs
+T37	Gene_or_gene_product 881 886	MMP-2
+T42	Gene_or_gene_product 966 992	basement membrane collagen
+T45	Gene_or_gene_product 1043 1046	FPR
+T46	Drug_or_compound 1055 1077	piperazine derivatives
+T48	Gene_or_gene_product 1161 1169	thrombin
+T49	Gene_or_gene_product 1174 1179	SFLLR
+T50	Gene_or_gene_product 1183 1188	MMP-2
+T51	Gene_or_gene_product 1286 1303	thrombin receptor
+T21	Gene_or_gene_product 50 67	thrombin receptor
+T29	Gene_or_gene_product 297 314	thrombin receptor
+T1000	Organism 374 379	chick

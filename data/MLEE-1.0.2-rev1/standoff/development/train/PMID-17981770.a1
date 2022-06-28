@@ -1,0 +1,10 @@
+T3	Cellular_component 128 139	chromosomes
+T5	Cellular_component 273 283	chromosome
+T8	Cell 417 430	vascular cell
+T12	Gene_or_gene_product 660 670	telomerase
+T17	Cell 807 817	leukocytes
+T9	Multi-tissue_structure 598 606	vascular
+T1000	Organism 472 477	human
+T1001	Organism 672 676	Mice
+T1002	Organism 821 829	patients
+T22	Pathological_formation 478 501	atherosclerotic lesions

@@ -1,0 +1,39 @@
+T2	Gene_or_gene_product 14 18	PDGF
+T4	Cellular_component 34 40	matrix
+T8	Cell 73 101	vascular smooth muscle cells
+T9	Gene_or_gene_product 105 110	SPARC
+T10	Drug_or_compound 154 188	cyclin-dependent kinase inhibitors
+T12	Cellular_component 237 257	extracellular matrix
+T15	Gene_or_gene_product 351 356	SPARC
+T16	Gene_or_gene_product 358 404	secreted protein, acidic, and rich in cysteine
+T17	Cellular_component 411 417	matrix
+T23	Cell 491 505	vascular cells
+T25	Gene_or_gene_product 542 547	SPARC
+T29	Cell 563 590	arterial smooth muscle cell
+T31	Gene_or_gene_product 619 649	platelet-derived growth factor
+T33	Gene_or_gene_product 668 693	monomeric type I collagen
+T34	Gene_or_gene_product 716 721	SPARC
+T35	Gene_or_gene_product 726 740	SPARC peptides
+T36	Cell 790 809	smooth muscle cells
+T37	Gene_or_gene_product 895 900	SPARC
+T41	Cell 938 956	smooth muscle cell
+T42	Drug_or_compound 1068 1102	cyclin-dependent kinase inhibitors
+T43	Gene_or_gene_product 1104 1129	Cyclin-dependent kinase-2
+T44	Gene_or_gene_product 1140 1144	p107
+T45	Gene_or_gene_product 1149 1157	cyclin A
+T47	Gene_or_gene_product 1170 1192	retinoblastoma protein
+T49	Gene_or_gene_product 1271 1276	SPARC
+T50	Gene_or_gene_product 1326 1331	SPARC
+T51	Gene_or_gene_product 1339 1344	SPARC
+T52	Gene_or_gene_product 1390 1420	platelet-derived growth factor
+T57	Cell 1463 1481	smooth muscle cell
+T58	Gene_or_gene_product 1543 1568	cyclin-dependent kinase-2
+T1000	Organism 67 72	human
+T1001	Organism 557 562	human
+T3	Protein_domain_or_region 828 858	C-terminal Ca2+-binding region
+T64	Gene_or_gene_product 1518 1526	collagen
+T65	Cell 140 144	cell
+T67	Cell 999 1003	cell
+T68	Cell 1041 1045	cell
+T69	Cell 226 231	cells
+T19	Gene_or_gene_product 919 927	collagen

@@ -1,0 +1,45 @@
+T2	Cell 10 20	tumor cell
+T3	Gene_or_gene_product 21 25	VEGF
+T4	Drug_or_compound 64 74	vandetanib
+T5	Drug_or_compound 76 83	ZACTIMA
+T6	Drug_or_compound 85 91	ZD6474
+T7	Gene_or_gene_product 95 99	VEGF
+T9	Pathological_formation 121 126	tumor
+T12	Gene_or_gene_product 177 181	VEGF
+T14	Pathological_formation 212 218	tumors
+T16	Gene_or_gene_product 226 232	VEGFR2
+T17	Drug_or_compound 270 280	vandetanib
+T19	Pathological_formation 325 340	colon carcinoma
+T20	Cell 342 346	HT29
+T22	Pathological_formation 359 377	squamous carcinoma
+T23	Cell 379 385	SCCVII
+T24	Gene_or_gene_product 434 438	VEGF
+T26	Drug_or_compound 478 488	vandetanib
+T27	Pathological_formation 527 539	solid tumors
+T29	Drug_or_compound 550 560	Vandetanib
+T30	Cell 588 598	tumor cell
+T34	Cell 675 691	endothelial cell
+T35	Pathological_formation 712 718	tumors
+T37	Gene_or_gene_product 770 774	VEGF
+T40	Multi-tissue_structure 852 863	intradermal
+T43	Drug_or_compound 935 945	vandetanib
+T47	Multi-tissue_structure 995 1007	blood vessel
+T49	Gene_or_gene_product 1049 1053	VEGF
+T50	Cell 1065 1075	tumor cell
+T52	Pathological_formation 1091 1101	HT29 tumor
+T53	Drug_or_compound 1131 1141	vandetanib
+T55	Gene_or_gene_product 1236 1240	VEGF
+T57	Pathological_formation 1298 1310	SCCVII tumor
+T59	Drug_or_compound 1353 1363	vandetanib
+T61	Pathological_formation 1423 1428	tumor
+T63	Gene_or_gene_product 1451 1455	VEGF
+T64	Cell 1472 1483	tumor cells
+T66	Pathological_formation 1506 1512	tumors
+T68	Gene_or_gene_product 1554 1558	VEGF
+T1000	Organism 319 324	Human
+T1001	Organism 352 358	murine
+T71	Tissue 505 511	tissue
+T72	Cell 394 404	cell lines
+T73	Cell 610 614	cell
+T74	Cell 732 743	cell clones
+T75	Cell 1252 1263	cell clones

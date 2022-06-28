@@ -1,0 +1,108 @@
+T2	Cell 10 20	tumor cell
+T3	Gene_or_gene_product 21 25	VEGF
+T4	Drug_or_compound 64 74	vandetanib
+T5	Drug_or_compound 76 83	ZACTIMA
+T6	Drug_or_compound 85 91	ZD6474
+T7	Gene_or_gene_product 95 99	VEGF
+T9	Pathological_formation 121 126	tumor
+T12	Gene_or_gene_product 177 181	VEGF
+T14	Pathological_formation 212 218	tumors
+T16	Gene_or_gene_product 226 232	VEGFR2
+T17	Drug_or_compound 270 280	vandetanib
+T19	Pathological_formation 325 340	colon carcinoma
+T20	Cell 342 346	HT29
+T22	Pathological_formation 359 377	squamous carcinoma
+T23	Cell 379 385	SCCVII
+T24	Gene_or_gene_product 434 438	VEGF
+T26	Drug_or_compound 478 488	vandetanib
+T27	Pathological_formation 527 539	solid tumors
+T29	Drug_or_compound 550 560	Vandetanib
+T30	Cell 588 598	tumor cell
+T34	Cell 675 691	endothelial cell
+T35	Pathological_formation 712 718	tumors
+T37	Gene_or_gene_product 770 774	VEGF
+T40	Multi-tissue_structure 852 863	intradermal
+T43	Drug_or_compound 935 945	vandetanib
+T47	Multi-tissue_structure 995 1007	blood vessel
+T49	Gene_or_gene_product 1049 1053	VEGF
+T50	Cell 1065 1075	tumor cell
+T52	Pathological_formation 1091 1101	HT29 tumor
+T53	Drug_or_compound 1131 1141	vandetanib
+T55	Gene_or_gene_product 1236 1240	VEGF
+T57	Pathological_formation 1298 1310	SCCVII tumor
+T59	Drug_or_compound 1353 1363	vandetanib
+T61	Pathological_formation 1423 1428	tumor
+T63	Gene_or_gene_product 1451 1455	VEGF
+T64	Cell 1472 1483	tumor cells
+T66	Pathological_formation 1506 1512	tumors
+T68	Gene_or_gene_product 1554 1558	VEGF
+T1000	Organism 319 324	Human
+T1001	Organism 352 358	murine
+T71	Tissue 505 511	tissue
+T72	Cell 394 404	cell lines
+T73	Cell 610 614	cell
+T74	Cell 732 743	cell clones
+T75	Cell 1252 1263	cell clones
+T10	Blood_vessel_development 127 139	angiogenesis
+T39	Blood_vessel_development 808 820	angiogenesis
+T41	Blood_vessel_development 864 876	angiogenesis
+T1	Gene_expression 26 36	expression
+E1	Gene_expression:T1 Theme:T3
+T11	Gene_expression 182 192	expression
+E11	Gene_expression:T11 Theme:T12
+T13	Regulation 200 208	response
+E13	Regulation:T13 Theme:T14 Cause:T17
+T21	Gene_expression 405 415	expressing
+E21	Gene_expression:T21 Theme:T24
+T25	Regulation 466 474	response
+E25	Regulation:T25 Cause:T26 Theme:E21
+T28	Planned_process 561 570	treatment
+E28	Planned_process:T28 Instrument:T29 Theme:T30
+T33	Localization 692 701	migration
+E33	Localization:T33 Theme:T34
+T36	Gene_expression 744 754	expressing
+E36	Gene_expression:T36 Theme:T37
+T42	Planned_process 920 929	treatment
+E42	Planned_process:T42 Instrument:T43
+T46	Growth 1008 1014	growth
+E46	Growth:T46 Theme:T47
+T48	Gene_expression 1054 1064	expressing
+E48	Gene_expression:T48 Theme:T49
+T54	Gene_expression 1241 1251	expressing
+E54	Gene_expression:T54 Theme:T55
+T58	Planned_process 1364 1371	therapy
+E58	Planned_process:T58 Instrument:T59
+T60	Growth 1429 1435	growth
+E60	Growth:T60 Theme:T61
+T62	Gene_expression 1456 1471	over-expressing
+E62	Gene_expression:T62 Theme:T63
+T67	Negative_regulation 1559 1572	interventions
+E67	Negative_regulation:T67 Theme:T68
+T8	Binding 233 243	associated
+E2	Binding:T8 Theme:T16 Theme:T17
+T15	Regulation 578 584	effect
+E3	Regulation:T15 Cause:E28 Theme:E4
+A1	Negation E3
+T18	Death 615 623	survival
+E4	Death:T18 Theme:T73
+A2	Negation E4
+T31	Negative_regulation 667 674	reduced
+E5	Negative_regulation:T31 Theme:E33 Cause:E28
+T38	Positive_regulation 799 807	enhanced
+E6	Positive_regulation:T38 Cause:T35 Theme:E17
+T44	Growth 841 847	growth
+E7	Growth:T44 Theme:T35
+E8	Positive_regulation:T38 Cause:T35 Theme:E7
+T65	Negative_regulation 987 994	inhibit
+E9	Negative_regulation:T65 Theme:E46 Cause:E42
+T69	Positive_regulation 1015 1022	induced
+E10	Positive_regulation:T69 Cause:T50 Theme:E46
+T51	Regulation 1119 1127	response
+E12	Regulation:T51 Cause:T53 Theme:T52
+T70	Planned_process 1109 1118	treatment
+E14	Planned_process:T70 Theme:T52
+T56	Negative_regulation 1384 1396	counteracted
+E15	Negative_regulation:T56 Theme:E60 Cause:E58
+E16	Blood_vessel_development:T10 AtLoc:T9
+E17	Blood_vessel_development:T39 AtLoc:T35
+E18	Blood_vessel_development:T41 AtLoc:T40

@@ -1,0 +1,84 @@
+T1	Cell 0 56	Fibroblast growth factor receptor 2-positive fibroblasts
+T2	Gene_or_gene_product 0 35	Fibroblast growth factor receptor 2
+T5	Pathological_formation 97 102	tumor
+T6	Pathological_formation 134 154	esophageal carcinoma
+T7	Cell 166 183	Tumor fibroblasts
+T9	Cell 185 187	TF
+T10	Pathological_formation 261 266	tumor
+T11	Tissue 267 273	stroma
+T12	Cell 375 377	TF
+T13	Cell 544 547	TFs
+T14	Cell 559 570	fibroblasts
+T15	Pathological_formation 576 610	esophageal squamous cell carcinoma
+T16	Pathological_formation 612 616	ESCC
+T17	Cell 812 815	TFs
+T18	Cellular_component 857 877	extracellular matrix
+T20	Gene_or_gene_product 928 963	fibroblast growth factor receptor 2
+T21	Gene_or_gene_product 965 970	FGFR2
+T22	Cell 1046 1049	TFs
+T23	Cell 1084 1095	fibroblasts
+T24	Cell 1124 1150	FGFR2-positive fibroblasts
+T25	Gene_or_gene_product 1124 1129	FGFR2
+T26	Tissue 1181 1194	tumor tissues
+T27	Tissue 1206 1239	tumor-surrounding stromal tissues
+T28	Gene_or_gene_product 1257 1262	FGFR2
+T29	Cell 1282 1284	TF
+T30	Pathological_formation 1304 1308	ESCC
+T31	Cell 1348 1351	TFs
+T36	Cell 1384 1399	ESCC tumor cell
+T38	Pathological_formation 1502 1519	esophageal cancer
+T39	Cell 1580 1592	FGFR2(+)-TFs
+T40	Gene_or_gene_product 1580 1585	FGFR2
+T41	Cell 1607 1619	cancer cells
+T44	Cell 1756 1767	cancer cell
+T47	Cell 1890 1900	epithelial
+T48	Cell 1901 1912	mesenchymal
+T49	Pathological_formation 385 402	esophageal cancer
+T56	Cell 837 841	cell
+T58	Cell 1824 1828	cell
+T59	Cell 1854 1858	cell
+T45	Blood_vessel_development 1796 1808	angiogenesis
+T3	Development 119 130	progression
+E3	Development:T3 Theme:T6
+T4	Development 103 114	development
+E4	Development:T4 Theme:T6
+T19	Positive_regulation 911 924	Up-regulation
+E19	Positive_regulation:T19 Theme:T20
+T32	Localization 1423 1431	invasion
+E32	Localization:T32 Theme:T36
+T33	Localization 1408 1417	migration
+E33	Localization:T33 Theme:T36
+T35	Cell_proliferation 1400 1406	growth
+E35	Cell_proliferation:T35 Theme:T36
+T42	Positive_regulation 1741 1752	stimulation
+E42	Positive_regulation:T42 Theme:E43
+T43	Cell_proliferation 1768 1781	proliferation
+E43	Cell_proliferation:T43 Theme:T44
+T46	Development 1913 1923	transition
+E46	Development:T46 Theme:T47
+*	Equiv T20 T21
+*	Equiv T7 T9
+*	Equiv T15 T16
+T8	Regulation 212 234	play an essential role
+E1	Regulation:T8 Cause:T7 Theme:E2
+T34	Binding 274 286	interactions
+E2	Binding:T34 Theme:T11 Theme:T10
+T37	Remodeling 878 888	remodeling
+E5	Remodeling:T37 Theme:T18
+T50	Positive_regulation 1783 1792	induction
+E6	Positive_regulation:T50 Theme:E13
+T51	Positive_regulation 1873 1882	promotion
+E7	Positive_regulation:T51 Theme:E46
+T52	Binding 1829 1837	adhesion
+E8	Binding:T52 Theme:T58
+T53	Negative_regulation 1810 1820	inhibition
+E9	Negative_regulation:T53 Theme:E8
+T54	Positive_regulation 1839 1850	enhancement
+E10	Positive_regulation:T54 Theme:E11
+T55	Localization 1859 1867	mobility
+E11	Localization:T55 Theme:T59
+T57	Cell_proliferation 842 855	proliferation
+E12	Cell_proliferation:T57 Theme:T56
+E13	Blood_vessel_development:T45 
+E14	Development:T46 Theme:T48
+E15	Positive_regulation:T51 Theme:E14

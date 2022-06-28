@@ -1,0 +1,28 @@
+T1	Organism_substance 690 695	juice
+T2	Tissue 701 705	peel
+T3	Organism_substance 808 813	Juice
+T4	Tissue 818 823	peels
+T5	Organism_substance 883 888	juice
+T6	Tissue 890 894	peel
+T7	Organism_substance 899 902	oil
+T8	Organism_substance 1026 1031	juice
+T9	Tissue 1033 1037	peel
+T10	Organism_substance 1042 1045	oil
+T12	Cell 1129 1139	tumor cell
+T11	Developing_anatomical_structure 680 684	seed
+T13	Organ 711 715	leaf
+T15	Organism_subdivision 721 727	flower
+T16	Tissue 733 737	bark
+T17	Organ 747 752	roots
+T1000	Organism 0 15	Punica granatum
+T1001	Organism 219 234	Punica granatum
+T1002	Organism 460 475	Punica granatum
+T1003	Organism 1316 1331	Punica granatum
+T18	Pathological_formation 97 103	cancer
+T19	Cell 1155 1159	cell
+T14	Blood_vessel_development 1180 1192	angiogenesis
+T20	Cell_proliferation 1140 1153	proliferation
+E1	Cell_proliferation:T20 Theme:T12
+T21	Localization 1167 1175	invasion
+E2	Localization:T21 Theme:T12
+E3	Blood_vessel_development:T14 

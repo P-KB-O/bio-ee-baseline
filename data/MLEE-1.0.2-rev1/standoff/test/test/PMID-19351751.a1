@@ -1,0 +1,35 @@
+T2	Multi-tissue_structure 4 12	vascular
+T3	Drug_or_compound 24 49	microtubule-binding drugs
+T5	Drug_or_compound 52 77	Microtubule-binding drugs
+T6	Drug_or_compound 79 82	MBD
+T10	Multi-tissue_structure 176 184	vascular
+T13	Cell 272 289	endothelial cells
+T14	Drug_or_compound 299 303	MBDs
+T15	Cellular_component 310 321	microtubule
+T16	Cellular_component 338 349	microtubule
+T22	Cell 373 389	endothelial cell
+T24	Tissue 420 424	tube
+T26	Drug_or_compound 540 572	microtubule-destabilizing agents
+T30	Cell 600 616	endothelial cell
+T32	Multi-tissue_structure 661 669	vascular
+T33	Cell 703 720	endothelial cells
+T34	Cellular_component 784 795	microtubule
+T36	Cellular_component 827 838	microtubule
+T38	Cellular_component 851 862	microtubule
+T39	Drug_or_compound 993 997	MBDs
+T40	Cellular_component 1029 1040	microtubule
+T41	Cellular_component 1107 1119	microtubules
+T44	Drug_or_compound 1445 1449	MBDs
+T45	Multi-tissue_structure 1568 1585	tumor vasculature
+T4	Cellular_component 1185 1200	focal adhesions
+T7	Cellular_component 1205 1223	adherens junctions
+T27	Cellular_component 1161 1183	subcellular assemblies
+T60	Multi-tissue_structure 218 226	vascular
+T62	Multi-tissue_structure 1421 1429	vascular
+T64	Cell 886 890	cell
+T66	Cell 919 923	cell
+T68	Cell 1066 1070	cell
+T69	Cell 1292 1293	e
+T72	Cell 1309 1313	cell
+T73	Cell 1314 1318	cell
+T1	Pathological_formation 103 109	cancer

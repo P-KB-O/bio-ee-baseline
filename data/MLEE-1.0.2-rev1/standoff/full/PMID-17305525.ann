@@ -1,0 +1,18 @@
+T8	Multi-tissue_structure 469 480	vein grafts
+T9	Drug_or_compound 611 624	AAV serotypes
+T12	Cell 832 848	progenitor cells
+T14	Multi-tissue_structure 890 903	blood vessels
+T15	Tissue 907 922	ischemic tissue
+T1000	Organism 140 143	men
+T1001	Organism 148 153	women
+T1002	Organism 371 379	patients
+T3	Blood_vessel_development 232 244	angiogenesis
+T7	Blood_vessel_development 419 436	revascularization
+T11	Blood_vessel_development 765 775	angiogenic
+T1	Negative_regulation 223 231	impaired
+E1	Negative_regulation:T1 Theme:E2
+E2	Blood_vessel_development:T3 
+E3	Blood_vessel_development:T7 
+E5	Blood_vessel_development:T11 
+T2	Development 861 867	obtain
+E4	Development:T2 Theme:T14

@@ -1,0 +1,36 @@
+T2	Gene_or_gene_product 45 79	vascular endothelial growth factor
+T3	Drug_or_compound 80 91	bevacizumab
+T4	Drug_or_compound 93 100	Avastin
+T5	Drug_or_compound 126 137	bevacizumab
+T6	Tissue 188 194	macula
+T8	Tissue 286 295	capillary
+T10	Drug_or_compound 433 444	bevacizumab
+T12	Drug_or_compound 713 724	Bevacizumab
+T15	Drug_or_compound 1118 1129	bevacizumab
+T16	Drug_or_compound 1192 1203	bevacizumab
+T17	Multi-tissue_structure 1302 1310	vascular
+T18	Gene_or_gene_product 1363 1397	vascular endothelial growth factor
+T1000	Organism 229 237	patients
+T1001	Organism 514 521	patient
+T1002	Organism 868 876	patients
+T1003	Organism 1038 1046	patients
+T1	Gene_or_gene_product 40 79	anti-vascular endothelial growth factor
+T19	Gene_or_gene_product 1358 1397	anti-vascular endothelial growth factor
+T14	Pathological_formation 266 271	edema
+T22	Pathological_formation 800 805	edema
+T23	Tissue 1418 1424	tissue
+T9	Blood_vessel_development 309 327	neovascularization
+*	Equiv T3 T4
+T11	Planned_process 138 147	treatment
+E1	Planned_process:T11 Instrument:T5
+T13	Regulation 174 183	affecting
+E2	Regulation:T13 Cause:E1 Theme:T6
+T20	Planned_process 407 429	intravitreal injection
+E3	Planned_process:T20 Instrument:T10
+T21	Planned_process 725 734	treatment
+E4	Planned_process:T21 Instrument:T12
+T24	Breakdown 1425 1431	damage
+E5	Breakdown:T24 Theme:T23
+T25	Negative_regulation 1411 1417	reduce
+E6	Negative_regulation:T25 Theme:E5
+E8	Blood_vessel_development:T9 

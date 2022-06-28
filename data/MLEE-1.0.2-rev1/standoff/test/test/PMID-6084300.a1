@@ -1,0 +1,11 @@
+T5	Multi-tissue_structure 325 338	blood vessels
+T6	Multi-tissue_structure 378 385	vessels
+T7	Multi-tissue_structure 418 435	vascular networks
+T8	Multi-tissue_structure 485 492	vessels
+T9	Multi-tissue_structure 498 505	venules
+T10	Tissue 510 521	capillaries
+T14	Multi-tissue_structure 566 573	vessels
+T15	Multi-tissue_structure 579 589	arterioles
+T16	Multi-tissue_structure 594 601	venules
+T17	Multi-tissue_structure 629 637	vascular
+T19	Organ 789 795	ocular

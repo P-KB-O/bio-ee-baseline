@@ -1,0 +1,16 @@
+T2	Drug_or_compound 26 37	verteporfin
+T5	Drug_or_compound 214 225	verteporfin
+T9	Organ 344 348	eyes
+T10	Drug_or_compound 407 418	Verteporfin
+T11	Organ 1221 1225	eyes
+T12	Organ 1343 1347	eyes
+T15	Organ 1534 1538	eyes
+T16	Drug_or_compound 1612 1623	verteporfin
+T1	Multi-tissue_structure 592 598	fundus
+T1001	Organism 331 339	patients
+T1002	Organism 624 632	Patients
+T1003	Organism 773 781	patients
+T1004	Organism 872 880	patients
+T1006	Organism 1475 1483	patients
+T1008	Organism 1521 1529	patients
+T20	Drug_or_compound 599 610	fluorescein

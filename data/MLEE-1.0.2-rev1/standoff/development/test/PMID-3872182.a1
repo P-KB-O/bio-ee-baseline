@@ -1,0 +1,17 @@
+T1	Gene_or_gene_product 17 40	epidermal growth factor
+T7	Cell 57 83	capillary endothelial cell
+T9	Cellular_component 98 104	matrix
+T10	Cell 168 203	retinal capillary endothelial cells
+T12	Gene_or_gene_product 207 210	EGF
+T13	Cellular_component 254 260	matrix
+T14	Gene_or_gene_product 264 275	fibronectin
+T15	Cell 284 311	capillary endothelial cells
+T17	Gene_or_gene_product 368 371	EGF
+T19	Gene_or_gene_product 455 458	EGF
+T24	Cell 468 482	Capillary cell
+T26	Gene_or_gene_product 601 604	EGF
+T27	Gene_or_gene_product 666 669	EGF
+T28	Drug_or_compound 712 716	CNBr
+T1000	Organism 161 167	bovine
+T1001	Organism 277 283	Bovine
+T36	Cell 243 248	cells

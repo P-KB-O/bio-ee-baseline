@@ -1,0 +1,19 @@
+T1	Pathological_formation 0 11	Solid tumor
+T2	Multi-tissue_structure 41 52	vasculature
+T3	Gene_or_gene_product 58 61	TNF
+T4	Pathological_formation 81 93	solid tumors
+T5	Pathological_formation 392 404	solid tumors
+T6	Pathological_formation 431 436	tumor
+T7	Multi-tissue_structure 448 459	vasculature
+T10	Multi-tissue_structure 510 524	tumor vascular
+T14	Pathological_formation 594 599	tumor
+T17	Multi-tissue_structure 628 639	vasculature
+T18	Cell 685 695	tumor cell
+T22	Multi-tissue_structure 711 729	tumor vascular bed
+T23	Pathological_formation 793 798	tumor
+T24	Gene_or_gene_product 874 901	tumor necrosis factor alpha
+T25	Gene_or_gene_product 903 906	TNF
+T26	Gene_or_gene_product 990 993	TNF
+T30	Multi-tissue_structure 1044 1062	tumor vascular bed
+T35	Pathological_formation 1088 1093	tumor
+T37	Cell 344 348	cell

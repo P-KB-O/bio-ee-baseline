@@ -1,0 +1,19 @@
+T1	Gene_or_gene_product 0 9	AngiomiRs
+T4	Multi-tissue_structure 65 78	blood vessels
+T10	Multi-tissue_structure 130 138	vascular
+T14	Cell 321 337	endothelial cell
+T15	Cell 339 341	EC
+T17	Cell 388 390	EC
+T18	Gene_or_gene_product 412 417	Dicer
+T22	Gene_or_gene_product 514 523	angiomiRs
+T25	Gene_or_gene_product 584 593	miRNA-126
+T26	Cell 598 600	EC
+T33	Gene_or_gene_product 680 687	miR-378
+T34	Gene_or_gene_product 689 696	miR-296
+T35	Gene_or_gene_product 706 713	miR-17-
+T39	Gene_or_gene_product 771 780	angiomiRs
+T13	Pathological_formation 738 743	tumor
+T1000	Organism 378 382	Mice
+T31	Pathological_formation 243 249	cancer
+T3	Multi-tissue_structure 629 637	vascular
+T6	Gene_or_gene_product 713 715	92

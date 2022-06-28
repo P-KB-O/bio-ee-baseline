@@ -1,0 +1,46 @@
+T2	Tissue 29 37	visceral
+T3	Tissue 42 69	subcutaneous adipose tissue
+T4	Tissue 124 138	adipose tissue
+T5	Multi-tissue_structure 175 186	vasculature
+T6	Tissue 215 229	adipose tissue
+T9	Tissue 343 370	subcutaneous adipose tissue
+T10	Tissue 372 375	SAT
+T11	Tissue 381 404	visceral adipose tissue
+T12	Tissue 406 409	VAT
+T13	Tissue 490 512	Adipose tissue samples
+T14	Tissue 528 531	VAT
+T15	Tissue 551 554	SAT
+T16	Multi-tissue_structure 667 691	chorioallantoic membrane
+T17	Multi-tissue_structure 693 696	CAM
+T19	Gene_or_gene_product 789 823	vascular endothelial growth factor
+T20	Gene_or_gene_product 825 829	VEGF
+T21	Multi-tissue_structure 869 872	CAM
+T24	Multi-tissue_structure 1069 1072	CAM
+T25	Tissue 1077 1099	adipose tissue vessels
+T26	Cell 1180 1197	endothelial cells
+T28	Tissue 1225 1239	adipose tissue
+T30	Tissue 1318 1329	SAT samples
+T31	Tissue 1341 1352	VAT samples
+T32	Cell 1360 1369	adipocyte
+T33	Multi-tissue_structure 1450 1453	CAM
+T35	Tissue 1486 1500	adipose tissue
+T37	Drug_or_compound 1525 1536	bevacizumab
+T38	Gene_or_gene_product 1571 1575	VEGF
+T40	Tissue 1667 1681	adipose tissue
+T42	Gene_or_gene_product 1718 1722	VEGF
+T44	Tissue 1747 1750	SAT
+T45	Tissue 1755 1758	VAT
+T41	Tissue 713 716	SAT
+T46	Tissue 721 724	VAT
+T47	Tissue 843 857	Adipose tissue
+T48	Tissue 1441 1446	graft
+T1000	Organism 80 85	human
+T1001	Organism 246 252	humans
+T1002	Organism 431 439	patients
+T1003	Organism 586 594	patients
+T1004	Organism 661 666	chick
+T1005	Organism 1174 1179	human
+T1006	Organism 1565 1570	human
+T1007	Organism 1661 1666	human
+T59	Organism 1164 1169	avian
+T62	Tissue 1414 1429	adipose samples

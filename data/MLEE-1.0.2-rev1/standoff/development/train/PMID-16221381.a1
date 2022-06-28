@@ -1,0 +1,12 @@
+T4	Pathological_formation 116 121	tumor
+T5	Multi-tissue_structure 151 164	Tumor vessels
+T10	Multi-tissue_structure 296 310	tumor vascular
+T11	Pathological_formation 378 383	tumor
+T14	Pathological_formation 412 417	tumor
+T17	Multi-tissue_structure 455 473	tumor blood vessel
+T19	Pathological_formation 505 510	tumor
+T20	Multi-tissue_structure 543 554	vasculature
+T23	Multi-tissue_structure 644 661	tumor vasculature
+T27	Multi-tissue_structure 885 903	tumor blood vessel
+T31	Cell 1018 1041	tumor endothelial cells
+T33	Multi-tissue_structure 1070 1087	tumor vasculature

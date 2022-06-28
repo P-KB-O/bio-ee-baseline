@@ -1,0 +1,27 @@
+T3	Gene_or_gene_product 58 92	vascular endothelial growth factor
+T6	Gene_or_gene_product 200 234	vascular endothelial growth factor
+T7	Gene_or_gene_product 236 240	VEGF
+T8	Cell 246 262	endothelial cell
+T12	Drug_or_compound 468 477	alinidine
+T15	Tissue 734 760	Left ventricular capillary
+T17	Drug_or_compound 812 821	alinidine
+T19	Drug_or_compound 903 912	alinidine
+T20	Multi-tissue_structure 940 956	Left ventricular
+T22	Drug_or_compound 1028 1037	alinidine
+T25	Tissue 1098 1107	capillary
+T27	Gene_or_gene_product 1124 1128	VEGF
+T28	Gene_or_gene_product 1229 1233	VEGF
+T30	Drug_or_compound 1256 1265	alinidine
+T32	Gene_or_gene_product 1373 1377	VEGF
+T34	Drug_or_compound 1442 1451	alinidine
+T37	Gene_or_gene_product 1490 1494	bFGF
+T39	Drug_or_compound 1519 1528	alinidine
+T40	Gene_or_gene_product 1564 1568	VEGF
+T43	Gene_or_gene_product 1681 1685	VEGF
+T2	Multi-tissue_structure 681 689	Arterial
+T9	Organ 344 349	heart
+T1000	Organism 425 429	rats
+T1001	Organism 1274 1278	rats
+T48	Gene_or_gene_product 1373 1401	VEGF-neutralizing antibodies
+T54	Multi-tissue_structure 20 28	coronary
+T55	Multi-tissue_structure 104 112	coronary

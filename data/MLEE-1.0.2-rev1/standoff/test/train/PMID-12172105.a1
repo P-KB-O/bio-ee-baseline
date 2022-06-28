@@ -1,0 +1,23 @@
+T2	Tissue 36 54	pigment epithelial
+T4	Tissue 81 88	macular
+T5	Multi-tissue_structure 144 163	retinal vasculature
+T7	Tissue 174 192	pigment epithelial
+T9	Tissue 236 243	macular
+T10	Multi-tissue_structure 553 559	retina
+T12	Multi-tissue_structure 761 775	serous retinal
+T19	Multi-tissue_structure 1294 1310	retinal vascular
+T21	Multi-tissue_structure 1382 1388	retina
+T16	Multi-tissue_structure 523 531	Vascular
+T14	Drug_or_compound 292 303	fluorescein
+T17	Drug_or_compound 431 442	fluorescein
+T23	Drug_or_compound 447 464	indocyanine green
+T24	Drug_or_compound 270 287	indocyanine green
+T25	Drug_or_compound 1481 1498	indocyanine green
+T26	Drug_or_compound 1503 1514	fluorescein
+T1	Organ 349 353	eyes
+T22	Organ 1445 1449	eyes
+T13	Drug_or_compound 671 688	indocyanine green
+T1000	Organism 336 344	patients
+T1001	Organism 582 590	patients
+T1002	Organism 1022 1030	patients
+T1003	Organism 1050 1058	patients

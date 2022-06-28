@@ -1,0 +1,39 @@
+T2	Gene_or_gene_product 1162 1181	alpha2 (I) collagen
+T3	Gene_or_gene_product 1183 1188	COL-I
+T5	Gene_or_gene_product 1191 1207	type IV collagen
+T6	Gene_or_gene_product 1209 1215	COL-IV
+T8	Gene_or_gene_product 1218 1237	alpha1 (V) collagen
+T9	Gene_or_gene_product 1239 1244	COL-V
+T11	Gene_or_gene_product 1251 1285	vascular endothelial growth factor
+T12	Gene_or_gene_product 1287 1291	VEGF
+T14	Gene_or_gene_product 1585 1589	VEGF
+T16	Gene_or_gene_product 1594 1600	COL-IV
+T19	Gene_or_gene_product 1878 1883	COL-I
+T21	Gene_or_gene_product 1888 1893	COL-V
+T23	Cellular_component 2052 2058	matrix
+T24	Organ 2127 2130	ear
+T25	Organism_substance 1099 1104	blood
+T1000	Organism 175 181	people
+T1001	Organism 873 880	rabbits
+T1002	Organism 2120 2126	rabbit
+T17	Blood_vessel_development 1795 1807	angiogenesis
+T10	Gene_expression 1293 1303	expression
+E10	Gene_expression:T10 Theme:T11
+T18	Positive_regulation 1958 1966	activity
+E18	Positive_regulation:T18 Theme:T21
+T22	Remodeling 2059 2069	remodeling
+E22	Remodeling:T22 Theme:T23
+*	Equiv T2 T3
+*	Equiv T5 T6
+*	Equiv T8 T9
+*	Equiv T11 T12
+E1	Gene_expression:T10 Theme:T8
+E2	Gene_expression:T10 Theme:T5
+E3	Gene_expression:T10 Theme:T2
+T1	Positive_regulation 1785 1794	promoting
+E4	Positive_regulation:T1 Theme:E8
+E5	Positive_regulation:T18 Theme:T19
+T4	Regulation 2042 2048	effect
+E6	Regulation:T4 Theme:E22 Cause:T21
+E7	Regulation:T4 Theme:E22 Cause:T19
+E8	Blood_vessel_development:T17 

@@ -1,0 +1,72 @@
+T2	Tissue 14 35	skin microvasculature
+T6	Gene_or_gene_product 110 118	PKCalpha
+T10	Gene_or_gene_product 135 151	protein kinase C
+T11	Gene_or_gene_product 153 156	PKC
+T13	Cell 206 237	microvascular endothelial cells
+T15	Tissue 273 289	microvasculature
+T19	Multi-tissue_structure 401 409	vascular
+T20	Gene_or_gene_product 451 454	PKC
+T21	Gene_or_gene_product 577 585	IL-1beta
+T22	Drug_or_compound 590 614	phorbol myristic acetate
+T25	Gene_or_gene_product 628 631	PKC
+T26	Gene_or_gene_product 668 676	PKCalpha
+T27	Drug_or_compound 678 684	Go6976
+T28	Gene_or_gene_product 690 697	PKCbeta
+T29	Drug_or_compound 699 707	hispidin
+T32	Gene_or_gene_product 842 850	PKCalpha
+T34	Gene_or_gene_product 920 927	PKCbeta
+T35	Drug_or_compound 979 985	Go6976
+T36	Gene_or_gene_product 1104 1112	PKCalpha
+T37	Cellular_component 1120 1133	cell membrane
+T38	Cellular_component 1138 1147	cytoplasm
+T40	Gene_or_gene_product 1177 1185	PKCalpha
+T41	Drug_or_compound 1200 1206	Go6976
+T42	Gene_or_gene_product 1281 1289	PKCalpha
+T43	Cell 1313 1329	endothelial cell
+T44	Tissue 1381 1394	microvascular
+T47	Cell 362 366	cell
+T49	Cell 50 54	cell
+T3	Blood_vessel_development 36 48	angiogenesis
+T16	Blood_vessel_development 348 360	angiogenesis
+T30	Blood_vessel_development 762 774	angiogenesis
+T8	Regulation 177 184	changes
+E8	Regulation:T8 Theme:T13
+T9	Positive_regulation 121 131	Activation
+E9	Positive_regulation:T9 Theme:T10
+T14	Regulation 243 249	affect
+E14	Regulation:T14 Cause:E8 Theme:T15
+T23	Positive_regulation 619 627	activate
+E23	Positive_regulation:T23 Cause:T22 Theme:T25
+T31	Negative_regulation 828 838	inhibition
+E31	Negative_regulation:T31 Theme:T32
+T33	Negative_regulation 906 916	inhibition
+E33	Negative_regulation:T33 Theme:T34
+T39	Negative_regulation 1186 1196	inhibition
+E39	Negative_regulation:T39 Theme:T40 Cause:T41
+*	Equiv T10 T11
+T1	Regulation 0 10	Regulation
+E1	Regulation:T1 Theme:E16
+E2	Regulation:T1 Theme:E21
+T5	Positive_regulation 158 165	induces
+E3	Positive_regulation:T5 Cause:E9 Theme:E8
+T7	Regulation 455 466	responsible
+E5	Regulation:T7 Theme:T20
+E6	Positive_regulation:T23 Cause:T21 Theme:T25
+T18	Regulation 753 761	controls
+E7	Regulation:T18 Theme:E19 Cause:T26
+E10	Regulation:T18 Theme:E19 Cause:T28
+T24	Phosphorylation 1058 1072	phosphorylated
+E11	Phosphorylation:T24 Theme:T36
+T45	Phosphorylation 1077 1094	nonphosphorylated
+E12	Phosphorylation:T45 Theme:T36
+A1	Negation E12
+T46	Regulation 1043 1050	changes
+E13	Regulation:T46 Cause:T35 Theme:E11
+E15	Regulation:T46 Cause:T35 Theme:E12
+E16	Blood_vessel_development:T3 Theme:T2
+E18	Blood_vessel_development:T16 
+E19	Blood_vessel_development:T30 
+T48	Localization 367 376	migration
+E20	Localization:T48 Theme:T47
+T50	Localization 55 64	migration
+E21	Localization:T50 Theme:T49

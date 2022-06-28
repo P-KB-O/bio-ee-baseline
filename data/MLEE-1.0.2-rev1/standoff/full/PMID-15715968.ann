@@ -1,0 +1,60 @@
+T2	Gene_or_gene_product 61 106	vascular endothelial growth factor receptor 2
+T3	Gene_or_gene_product 133 167	Vascular endothelial growth factor
+T4	Gene_or_gene_product 169 173	VEGF
+T5	Cell 179 195	endothelial cell
+T7	Pathological_formation 225 230	tumor
+T9	Cell 303 320	endothelial cells
+T10	Gene_or_gene_product 341 348	VEGFR-2
+T11	Gene_or_gene_product 349 352	KDR
+T12	Drug_or_compound 596 599	ATP
+T13	Gene_or_gene_product 374 378	VEGF
+T15	Gene_or_gene_product 444 451	VEGFR-2
+T16	Gene_or_gene_product 553 560	VEGFR-2
+T17	Gene_or_gene_product 833 840	VEGFR-2
+T19	Drug_or_compound 912 918	TKI-31
+T21	Gene_or_gene_product 944 951	VEGFR-2
+T23	Cell 1002 1018	NIH3T3/KDR cells
+T24	Drug_or_compound 1024 1030	TKI-31
+T26	Gene_or_gene_product 1039 1043	VEGF
+T27	Gene_or_gene_product 1071 1074	KDR
+T28	Drug_or_compound 1113 1119	TKI-31
+T32	Tissue 1148 1158	HUVEC tube
+T33	Gene_or_gene_product 1235 1242	VEGFR-2
+T34	Drug_or_compound 1280 1286	TKI-31
+T1000	Organism 55 60	human
+T8	Blood_vessel_development 239 251	angiogenesis
+T14	Blood_vessel_development 387 399	angiogenesis
+T36	Blood_vessel_development 1322 1334	angiogenesis
+T1	Gene_expression 0 10	Expression
+E1	Gene_expression:T1 Theme:T2
+E2	Gene_expression:T6 Theme:T15
+T6	Gene_expression 410 419	expressed
+T18	Negative_regulation 934 943	inhibited
+E18	Negative_regulation:T18 Cause:T19 Theme:T21
+T22	Negative_regulation 1031 1038	blocked
+E22	Negative_regulation:T22 Cause:E10 Theme:E25
+T25	Phosphorylation 1052 1067	phosphorylation
+E25	Phosphorylation:T25 Theme:T27
+*	Equiv T3 T4
+T29	Binding 255 262	binding
+E4	Binding:T29 Theme:T9 Theme:T3
+T35	Regulation 218 221	act
+E5	Regulation:T35 Cause:E4 Theme:E14
+T37	Regulation 354 370	plays a key role
+E6	Regulation:T37 Theme:E15 Cause:T11
+T38	Positive_regulation 379 386	induced
+E7	Positive_regulation:T38 Theme:E15 Cause:T13
+E8	Regulation:T37 Theme:E15 Cause:T10
+T40	Planned_process 989 998	Treatment
+E10	Planned_process:T40 Theme:T23 Instrument:T24
+T41	Positive_regulation 1044 1051	induced
+E11	Positive_regulation:T41 Cause:T26 Theme:E25
+T42	Negative_regulation 1137 1147	suppressed
+E12	Negative_regulation:T42 Theme:E13 Cause:T28
+T43	Development 1159 1168	formation
+E13	Development:T43 Theme:T32
+E14	Blood_vessel_development:T8 
+E15	Blood_vessel_development:T14 
+E16	Blood_vessel_development:T36 
+T20	Positive_regulation 231 238	induced
+E3	Positive_regulation:T20 Cause:T7 Theme:E14

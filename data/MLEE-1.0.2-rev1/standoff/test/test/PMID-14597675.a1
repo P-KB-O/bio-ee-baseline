@@ -1,0 +1,33 @@
+T2	Gene_or_gene_product 51 75	angiotensin II receptors
+T3	Gene_or_gene_product 78 92	Angiotensin II
+T4	Gene_or_gene_product 94 100	ANG II
+T5	Organism_substance 122 127	blood
+T6	Cell 193 210	endothelial cells
+T9	Gene_or_gene_product 243 249	ANG II
+T11	Multi-tissue_structure 309 331	vascular perfusion bed
+T14	Gene_or_gene_product 464 470	ANG II
+T16	Gene_or_gene_product 488 494	ANG II
+T18	Gene_or_gene_product 534 549	angiotensinogen
+T19	Gene_or_gene_product 551 556	AOGEN
+T21	Gene_or_gene_product 565 577	AT2 receptor
+T23	Gene_or_gene_product 654 660	ANG II
+T24	Gene_or_gene_product 668 697	angiotensin-converting enzyme
+T25	Gene_or_gene_product 699 702	ACE
+T26	Drug_or_compound 714 723	enalapril
+T27	Gene_or_gene_product 731 743	AT1 receptor
+T28	Drug_or_compound 755 763	losartan
+T31	Gene_or_gene_product 845 851	ANG II
+T32	Gene_or_gene_product 864 876	AT1 receptor
+T35	Gene_or_gene_product 926 931	AOGEN
+T36	Gene_or_gene_product 979 985	ANG II
+T37	Gene_or_gene_product 1054 1060	ANG II
+T39	Gene_or_gene_product 1114 1126	AT2 receptor
+T42	Gene_or_gene_product 1184 1196	AT2 receptor
+T43	Gene_or_gene_product 1263 1275	AT2 receptor
+T46	Gene_or_gene_product 1341 1347	ANG II
+T1000	Organism 447 451	mice
+T1001	Organism 588 592	mice
+T1002	Organism 943 947	mice
+T1003	Organism 962 966	mice
+T1004	Organism 1184 1210	AT2 receptor knockout mice
+T44	Drug_or_compound 408 416	alginate

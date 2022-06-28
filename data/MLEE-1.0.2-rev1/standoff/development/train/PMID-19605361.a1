@@ -1,0 +1,30 @@
+T2	Gene_or_gene_product 0 4	MEK5
+T3	Gene_or_gene_product 5 9	ERK5
+T6	Cell 30 46	endothelial cell
+T8	Multi-tissue_structure 107 120	blood vessels
+T9	Cell 189 206	endothelial cells
+T10	Cell 208 210	EC
+T13	Cell 263 265	EC
+T15	Gene_or_gene_product 448 452	ERK5
+T16	Cell 473 475	EC
+T19	Multi-tissue_structure 506 525	vessel architecture
+T21	Gene_or_gene_product 559 563	MEK5
+T22	Gene_or_gene_product 564 568	ERK5
+T25	Cell 590 592	EC
+T28	Gene_or_gene_product 688 692	MEK5
+T29	Gene_or_gene_product 693 697	ERK5
+T33	Cell 726 728	EC
+T34	Cell 812 814	EC
+T35	Gene_or_gene_product 915 920	actin
+T38	Gene_or_gene_product 1100 1107	p130Cas
+T40	Gene_or_gene_product 1189 1193	ERK5
+T43	Cell 1228 1230	EC
+T48	Cell 1306 1308	EC
+T17	Cellular_component 232 252	extracellular matrix
+T1000	Organism 467 472	mouse
+T58	Cell 1134 1138	cell
+T60	Cell 946 951	cells
+T18	Cellular_component 921 930	filaments
+T32	Cellular_component 872 886	focal contacts
+T42	Cellular_component 61 74	focal contact
+T46	Cellular_component 1045 1058	focal contact

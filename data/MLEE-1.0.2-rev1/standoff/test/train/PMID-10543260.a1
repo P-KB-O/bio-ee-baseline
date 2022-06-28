@@ -1,0 +1,42 @@
+T1	Organism_substance 10 15	serum
+T2	Gene_or_gene_product 26 60	vascular endothelial growth factor
+T3	Pathological_formation 78 98	renal cell carcinoma
+T8	Pathological_formation 158 170	solid tumors
+T10	Gene_or_gene_product 237 271	vascular endothelial growth factor
+T11	Gene_or_gene_product 273 277	VEGF
+T14	Organism_substance 427 432	serum
+T15	Gene_or_gene_product 433 437	VEGF
+T16	Gene_or_gene_product 447 451	VEGF
+T17	Pathological_formation 470 490	renal cell carcinoma
+T19	Gene_or_gene_product 500 504	VEGF
+T20	Organism_substance 508 532	peripheral blood samples
+T21	Organism_substance 671 684	serum samples
+T22	Multi-tissue_structure 719 740	bilateral renal veins
+T23	Gene_or_gene_product 744 748	VEGF
+T24	Gene_or_gene_product 863 867	VEGF
+T25	Pathological_formation 990 995	tumor
+T26	Multi-tissue_structure 1004 1015	renal veins
+T27	Pathological_formation 1167 1172	tumor
+T28	Pathological_formation 1188 1193	tumor
+T29	Pathological_formation 1238 1248	metastasis
+T30	Gene_or_gene_product 1272 1276	VEGF
+T31	Pathological_formation 1311 1316	tumor
+T32	Gene_or_gene_product 1436 1440	VEGF
+T33	Tissue 1601 1613	tumor tissue
+T35	Gene_or_gene_product 1631 1635	VEGF
+T36	Organism_substance 1654 1659	blood
+T37	Gene_or_gene_product 1676 1680	VEGF
+T4	Pathological_formation 492 495	RCC
+T6	Pathological_formation 552 555	RCC
+T12	Pathological_formation 657 660	RCC
+T18	Pathological_formation 880 883	RCC
+T38	Pathological_formation 1706 1709	RCC
+T39	Pathological_formation 1617 1620	RCC
+T40	Pathological_formation 589 595	cancer
+T1000	Organism 64 72	patients
+T1001	Organism 456 464	patients
+T1002	Organism 556 564	patients
+T1003	Organism 572 580	patients
+T1004	Organism 661 669	patients
+T1005	Organism 813 821	patients
+T1006	Organism 884 892	patients

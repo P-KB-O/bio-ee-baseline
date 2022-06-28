@@ -1,0 +1,42 @@
+T1	Organism_substance 0 18	Grape seed extract
+T6	Gene_or_gene_product 64 107	vascular endothelial growth factor receptor
+T8	Gene_or_gene_product 215 249	Vascular endothelial growth factor
+T9	Gene_or_gene_product 251 255	VEGF
+T13	Gene_or_gene_product 418 422	VEGF
+T14	Gene_or_gene_product 522 526	VEGF
+T15	Organism_substance 625 643	Grape seed extract
+T16	Organism_substance 645 648	GSE
+T17	Organism_substance 770 773	GSE
+T18	Gene_or_gene_product 777 790	VEGF receptor
+T20	Organism_substance 823 826	GSE
+T23	Gene_or_gene_product 882 897	VEGF receptor 2
+T24	Organism_substance 919 922	GSE
+T25	Organism_substance 956 959	GSE
+T28	Gene_or_gene_product 983 996	VEGF receptor
+T29	Gene_or_gene_product 997 1029	mitogen-activated protein kinase
+T30	Cell 1060 1077	endothelial cells
+T31	Organism_substance 1092 1095	GSE
+T33	Gene_or_gene_product 1110 1114	VEGF
+T38	Cell 1123 1139	endothelial cell
+T40	Tissue 1179 1185	sprout
+T41	Multi-tissue_structure 1201 1211	aorta ring
+T42	Organism_substance 1247 1250	GSE
+T45	Pathological_formation 1265 1270	tumor
+T46	Pathological_formation 1282 1287	tumor
+T49	Cell 1304 1334	MDA-MB-231 breast cancer cells
+T51	Organism_substance 1379 1382	GSE
+T52	Pathological_formation 1396 1401	tumor
+T55	Multi-tissue_structure 1447 1459	blood vessel
+T57	Gene_or_gene_product 1491 1523	mitogen-activated protein kinase
+T59	Drug_or_compound 1538 1548	polyphenol
+T60	Drug_or_compound 1554 1574	polyvinylpyrrolidone
+T62	Organism_substance 1616 1619	GSE
+T63	Drug_or_compound 1660 1670	polyphenol
+T64	Organism_substance 1674 1677	GSE
+T67	Organism_substance 1768 1771	GSE
+T68	Gene_or_gene_product 1816 1820	VEGF
+T1000	Organism 1338 1342	mice
+T1001	Organism 1410 1414	mice
+T43	Pathological_formation 182 188	cancer
+T65	Pathological_formation 706 711	tumor
+T78	Pathological_formation 1866 1872	cancer

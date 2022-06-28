@@ -1,0 +1,170 @@
+T2	Gene_or_gene_product 0 36	Vascular endothelial growth factor-B
+T4	Gene_or_gene_product 41 77	vascular endothelial growth factor-C
+T5	Pathological_formation 92 113	renal cell carcinomas
+T6	Gene_or_gene_product 133 150	von Hippel-Lindau
+T9	Pathological_formation 200 205	tumor
+T12	Gene_or_gene_product 309 343	vascular endothelial growth factor
+T13	Gene_or_gene_product 345 349	VEGF
+T20	Gene_or_gene_product 361 367	VEGF-B
+T27	Gene_or_gene_product 372 378	VEGF-C
+T28	Gene_or_gene_product 388 392	VEGF
+T29	Gene_or_gene_product 473 478	flt-1
+T30	Gene_or_gene_product 480 486	VEGFR1
+T31	Gene_or_gene_product 489 492	KDR
+T32	Gene_or_gene_product 494 500	VEGFR2
+T33	Gene_or_gene_product 507 512	flt-4
+T34	Gene_or_gene_product 514 520	VEGFR3
+T35	Gene_or_gene_product 550 556	VEGF-A
+T36	Pathological_formation 575 591	renal carcinomas
+T37	Pathological_formation 634 647	kidney tumors
+T38	Gene_or_gene_product 709 715	VEGF-B
+T39	Gene_or_gene_product 720 726	VEGF-C
+T40	Multi-tissue_structure 795 816	normal kidney samples
+T41	Pathological_formation 824 842	renal cell cancers
+T43	Gene_or_gene_product 887 893	VEGF-B
+T44	Gene_or_gene_product 914 920	VEGF-C
+T45	Organ 934 951	neoplastic kidney
+T46	Gene_or_gene_product 1004 1018	VEGF receptors
+T47	Pathological_formation 1034 1040	tumors
+T48	Organ 1053 1059	kidney
+T50	Gene_or_gene_product 1107 1112	flt-1
+T51	Gene_or_gene_product 1133 1136	KDR
+T52	Gene_or_gene_product 1151 1156	flt-4
+T53	Gene_or_gene_product 1218 1224	VEGF-C
+T54	Gene_or_gene_product 1251 1256	flt-4
+T55	Gene_or_gene_product 1273 1276	KDR
+T56	Gene_or_gene_product 1315 1321	VEGF-B
+T57	Gene_or_gene_product 1339 1344	flt-1
+T60	Gene_or_gene_product 1396 1401	flt-1
+T61	Gene_or_gene_product 1425 1428	KDR
+T62	Gene_or_gene_product 1445 1450	flt-4
+T63	Gene_or_gene_product 1470 1476	VEGF-B
+T64	Gene_or_gene_product 1491 1497	VEGF-C
+T65	Pathological_formation 1548 1581	chromophil (papillary) carcinomas
+T66	Gene_or_gene_product 1635 1641	VEGF-B
+T67	Gene_or_gene_product 1643 1649	VEGF-C
+T68	Gene_or_gene_product 1651 1656	flt-1
+T69	Gene_or_gene_product 1658 1661	KDR
+T70	Gene_or_gene_product 1667 1672	flt-4
+T71	Pathological_formation 1707 1712	tumor
+T72	Gene_or_gene_product 1757 1774	von Hippel-Lindau
+T73	Gene_or_gene_product 1776 1779	VHL
+T75	Gene_or_gene_product 1801 1807	VEGF-B
+T77	Gene_or_gene_product 1812 1818	VEGF-C
+T78	Pathological_formation 1837 1852	renal carcinoma
+T79	Cell 1863 1868	786-0
+T81	Gene_or_gene_product 1907 1910	VHL
+T82	Gene_or_gene_product 1983 1986	VHL
+T84	Gene_or_gene_product 2002 2008	VEGF-A
+T86	Gene_or_gene_product 2125 2131	VEGF-C
+T88	Gene_or_gene_product 2199 2205	VEGF-C
+T90	Gene_or_gene_product 2225 2228	VHL
+T92	Gene_or_gene_product 2267 2273	VEGF-B
+T93	Gene_or_gene_product 2295 2298	VHL
+T94	Pathological_formation 2405 2426	clear cell carcinomas
+T98	Pathological_formation 2501 2518	clear cell tumors
+T101	Pathological_formation 2629 2646	clear cell tumors
+T102	Gene_or_gene_product 2679 2682	VHL
+T105	Gene_or_gene_product 2822 2828	VEGFR1
+T106	Gene_or_gene_product 2830 2835	flt-l
+T107	Pathological_formation 2876 2881	tumor
+T11	Tissue 966 980	normal tissues
+T80	Gene_or_gene_product 760 765	RNase
+T1000	Organism 1678 1685	patient
+T1001	Organism 1691 1698	patient
+T21	Pathological_formation 2600 2610	chromophil
+T23	Cell 1523 1533	clear cell
+T24	Cell 2218 2239	mutant VHL cell lines
+T26	Cell 1937 1942	cells
+T74	Cell 1973 1992	wild-type VHL cells
+T95	Pathological_formation 2612 2621	papillary
+T7	Blood_vessel_development 170 182	Angiogenesis
+T10	Blood_vessel_development 257 267	angiogenic
+T96	Blood_vessel_development 2441 2453	angiogenesis
+T97	Blood_vessel_development 2461 2478	lymphangiogenesis
+T100	Blood_vessel_development 2543 2553	angiogenic
+T104	Blood_vessel_development 2695 2707	angiogenesis
+T1	Gene_expression 78 88	expression
+E1	Gene_expression:T1 Theme:T4
+T8	Growth 206 212	growth
+E8	Growth:T8 Theme:T9
+T19	Binding 435 439	bind
+E19	Binding:T19 Theme:T29 Theme:T27
+T42	Positive_regulation 870 883	up-regulation
+E42	Positive_regulation:T42 Theme:T43
+T49	Positive_regulation 1085 1098	up-regulation
+E49	Positive_regulation:T49 Theme:T50
+T58	Positive_regulation 1371 1379	increase
+E58	Positive_regulation:T58 Theme:E59
+T59	Gene_expression 1509 1519	expression
+E59	Gene_expression:T59 Theme:T64
+T76	Gene_expression 1819 1829	expression
+E76	Gene_expression:T76 Theme:T77
+T83	Positive_regulation 2027 2039	up-regulated
+E83	Positive_regulation:T83 Theme:T84
+T85	Negative_regulation 2136 2143	reduced
+E85	Negative_regulation:T85 Theme:E28
+T87	Negative_regulation 2185 2195	repression
+E87	Negative_regulation:T87 Theme:T88
+T91	Regulation 2282 2291	regulated
+E91	Regulation:T91 Cause:T93 Theme:T92
+*	Equiv T29 T30
+*	Equiv T31 T32
+*	Equiv T33 T34
+*	Equiv T72 T73
+*	Equiv T105 T106
+*	Equiv T12 T13
+E2	Gene_expression:T1 Theme:T2
+T3	Positive_regulation 186 195	essential
+E3	Positive_regulation:T3 Cause:E34 Theme:E8
+T89	Localization 217 227	metastasis
+E4	Localization:T89 Theme:T9
+E5	Positive_regulation:T3 Cause:E34 Theme:E4
+E6	Binding:T19 Theme:T29 Theme:T20
+E7	Binding:T19 Theme:T31 Theme:T27
+E9	Binding:T19 Theme:T33 Theme:T27
+E10	Binding:T19 Theme:T31 Theme:T20
+E11	Binding:T19 Theme:T33 Theme:T20
+E12	Positive_regulation:T42 Theme:T44
+A1	Negation E12
+E13	Positive_regulation:T49 Theme:T51
+E14	Positive_regulation:T49 Theme:T52
+A2	Negation E14
+A3	Negation E13
+E15	Gene_expression:T59 Theme:T63
+E16	Gene_expression:T59 Theme:T62
+E17	Gene_expression:T59 Theme:T61
+E18	Gene_expression:T59 Theme:T60
+E20	Positive_regulation:T58 Theme:E15
+E21	Positive_regulation:T58 Theme:E16
+E22	Positive_regulation:T58 Theme:E17
+E23	Positive_regulation:T58 Theme:E18
+A4	Negation E58
+A5	Negation E20
+E24	Gene_expression:T76 Theme:T75
+T14	Cell_proliferation 1929 1936	growing
+E25	Cell_proliferation:T14 Theme:T26
+T15	Regulation 1747 1753	effect
+E26	Regulation:T15 Cause:T72 Theme:E24
+E27	Regulation:T15 Cause:T72 Theme:E76
+T16	Gene_expression 2111 2121	expression
+E28	Gene_expression:T16 Theme:T86
+A6	Negation E91
+T17	Positive_regulation 2313 2326	up-regulation
+E29	Positive_regulation:T17 Cause:T93 Theme:T92
+T18	Regulation 2430 2440	regulating
+E30	Regulation:T18 Theme:E36
+E31	Regulation:T18 Theme:E37
+R1	frag Arg1:T21 Arg2:T101	
+T22	Regulation 2686 2694	regulate
+E32	Regulation:T22 Cause:T102 Theme:E39
+T25	Planned_process 1869 1880	transfected
+E33	Planned_process:T25 Theme:T79 Instrument:T81
+E34	Blood_vessel_development:T7 
+E35	Blood_vessel_development:T10 
+E36	Blood_vessel_development:T96 
+E37	Blood_vessel_development:T97 
+E38	Blood_vessel_development:T100 
+E39	Blood_vessel_development:T104 
+*	Equiv T21 T95
+R2	frag Arg1:T95 Arg2:T101	

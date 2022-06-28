@@ -1,0 +1,38 @@
+T1	Drug_or_compound 0 7	Heparin
+T4	Drug_or_compound 94 101	Heparin
+T5	Gene_or_gene_product 214 244	basic fibroblast growth factor
+T6	Gene_or_gene_product 246 250	bFGF
+T9	Drug_or_compound 480 487	Heparin
+T10	Gene_or_gene_product 538 542	bFGF
+T11	Drug_or_compound 563 570	heparin
+T12	Drug_or_compound 592 599	heparin
+T13	Gene_or_gene_product 646 650	bFGF
+T14	Drug_or_compound 663 670	heparin
+T16	Drug_or_compound 937 944	heparin
+T17	Drug_or_compound 981 988	heparin
+T18	Gene_or_gene_product 1015 1019	bFGF
+T19	Drug_or_compound 1146 1153	heparin
+T22	Gene_or_gene_product 1185 1189	bFGF
+T24	Gene_or_gene_product 1220 1224	bFGF
+T25	Drug_or_compound 1237 1244	heparin
+T28	Tissue 1309 1330	vascular microvessels
+T29	Drug_or_compound 1423 1430	heparin
+T30	Gene_or_gene_product 1450 1454	bFGF
+T31	Gene_or_gene_product 1464 1468	bFGF
+T32	Drug_or_compound 1481 1483	HP
+T34	Gene_or_gene_product 1534 1538	bFGF
+T36	Gene_or_gene_product 1598 1602	bFGF
+T37	Drug_or_compound 1618 1625	heparin
+T1000	Organism 1261 1265	mice
+T39	Drug_or_compound 27 31	PLGA
+T40	Drug_or_compound 121 154	poly(D,L-lactic-co-glycolic acid)
+T41	Drug_or_compound 156 160	PLGA
+T42	Drug_or_compound 587 591	PLGA
+T43	Drug_or_compound 658 662	PLGA
+T44	Drug_or_compound 306 310	PLGA
+T46	Drug_or_compound 759 763	PLGA
+T48	Drug_or_compound 976 980	PLGA
+T50	Drug_or_compound 1091 1095	PLGA
+T51	Drug_or_compound 1232 1236	PLGA
+T54	Drug_or_compound 1345 1349	PLGA
+T56	Drug_or_compound 1476 1480	PLGA

@@ -1,0 +1,27 @@
+T4	Cell 40 56	endothelial cell
+T5	Gene_or_gene_product 96 109	ribonucleases
+T12	Multi-tissue_structure 213 226	blood vessels
+T14	Pathological_formation 359 364	tumor
+T18	Cell 453 470	endothelial cells
+T20	Drug_or_compound 536 544	onconase
+T21	Drug_or_compound 549 558	(-4)rhEDN
+T25	Cell 595 611	endothelial cell
+T26	Cell 656 673	endothelial cells
+T27	Cell 712 750	human umbilical vein endothelial cells
+T28	Cell 752 758	HUVECs
+T29	Cell 793 798	HUVEC
+T30	Cell 859 865	HUVECs
+T31	Drug_or_compound 867 875	Onconase
+T34	Drug_or_compound 966 975	(-4)rhEDN
+T35	Cell 1011 1027	HUVEC cell lines
+T36	Cell 1072 1078	HUVECs
+T37	Cell 1170 1191	endothelial cell type
+T33	Pathological_formation 287 293	tumors
+T13	Gene_or_gene_product 763 767	Kras
+T1000	Organism 76 81	human
+T42	Organism 686 695	HPV-16 E6
+T43	Organism 696 698	E7
+T44	Organism 780 789	HPV-16 E6
+T45	Organism 790 792	E7
+T46	Cell 188 204	endothelial cell
+T48	Cell 923 933	cell lines

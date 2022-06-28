@@ -1,0 +1,11 @@
+T2	Organism_subdivision 139 149	lower limb
+T3	Gene_or_gene_product 344 365	phosphodiesterase III
+T4	Drug_or_compound 376 386	cilostazol
+T5	Drug_or_compound 651 661	cilostazol
+T9	Multi-tissue_structure 967 973	vessel
+T11	Organism_subdivision 1021 1031	lower limb
+T1000	Organism 269 277	patients
+T1001	Organism 488 496	patients
+T1002	Organism 682 690	patients
+T1003	Organism 1223 1231	patients
+T17	Tissue 560 566	tissue

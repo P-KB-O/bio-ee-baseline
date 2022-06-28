@@ -1,0 +1,33 @@
+T1	Gene_or_gene_product 19 39	integrin alpha2beta1
+T3	Gene_or_gene_product 93 122	alpha2beta1 integrin receptor
+T6	Gene_or_gene_product 246 261	integrin alpha2
+T8	Cell 329 346	endothelial cells
+T9	Gene_or_gene_product 348 366	fibrillar collagen
+T12	Tissue 382 391	capillary
+T14	Tissue 420 424	tube
+T16	Drug_or_compound 464 470	SMI496
+T17	Gene_or_gene_product 474 479	beta1
+T18	Drug_or_compound 529 545	anti-alpha2beta1
+T19	Drug_or_compound 554 577	-alpha1beta1 antibodies
+T22	Cell 579 596	Endothelial cells
+T23	Gene_or_gene_product 623 641	collagen I fibrils
+T24	Drug_or_compound 684 690	SMI496
+T25	Drug_or_compound 702 708	SMI496
+T26	Cell 761 778	endothelial cells
+T28	Cell 798 814	endothelial cell
+T29	Developing_anatomical_structure 915 922	embryos
+T30	Gene_or_gene_product 934 959	green fluorescent protein
+T31	Gene_or_gene_product 985 1030	vascular endothelial growth factor receptor-2
+T32	Drug_or_compound 1041 1047	SMI496
+T36	Multi-tissue_structure 1158 1171	axial vessels
+T37	Gene_or_gene_product 1208 1223	alpha2 integrin
+T39	Gene_or_gene_product 1394 1409	integrin alpha2
+T40	Multi-tissue_structure 1466 1473	vessels
+T41	Gene_or_gene_product 1519 1539	alpha2beta1 integrin
+T43	Gene_or_gene_product 1637 1657	alpha2beta1 integrin
+T4	Gene_or_gene_product 267 272	beta1
+T42	Gene_or_gene_product 1249 1257	integrin
+T1000	Organism 905 914	zebrafish
+T1001	Organism 1198 1207	zebrafish
+T33	DNA_domain_or_region 1031 1039	promoter
+T61	Cell 716 720	cell

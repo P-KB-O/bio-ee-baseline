@@ -1,0 +1,46 @@
+T1	Cell 0 28	Glioma tumor stem-like cells
+T4	Pathological_formation 37 42	tumor
+T7	Gene_or_gene_product 79 113	vascular endothelial growth factor
+T8	Gene_or_gene_product 118 142	stromal-derived factor 1
+T9	Cell 145 162	Cancer stem cells
+T10	Cell 164 167	CSC
+T12	Pathological_formation 209 214	tumor
+T13	Cell 344 347	CSC
+T15	Pathological_formation 365 370	tumor
+T16	Pathological_formation 396 401	tumor
+T19	Cell 435 438	CSC
+T24	Multi-tissue_structure 459 467	vascular
+T25	Pathological_formation 511 516	tumor
+T26	Cell 535 554	C6 glioma cell line
+T27	Cell 601 604	CSC
+T28	Pathological_formation 620 634	CSC-low tumors
+T30	Pathological_formation 636 651	CSC-high tumors
+T35	Tissue 672 683	microvessel
+T36	Organism_substance 696 701	blood
+T42	Pathological_formation 751 756	tumor
+T43	Multi-tissue_structure 772 783	bone marrow
+T45	Cell 792 820	endothelial progenitor cells
+T46	Cell 822 825	EPC
+T49	Cell 828 853	CSC-high C6 cell cultures
+T53	Cell 884 900	endothelial cell
+T58	Cell 962 978	CSC-low cultures
+T60	Pathological_formation 1002 1008	tumors
+T63	Gene_or_gene_product 1065 1099	vascular endothelial growth factor
+T64	Gene_or_gene_product 1104 1128	stromal-derived factor 1
+T67	Cell 1219 1236	CSC-high cultures
+T68	Pathological_formation 1241 1247	tumors
+T70	Tissue 1259 1270	microvessel
+T74	Cell 1291 1294	EPC
+T77	Cell 1340 1356	endothelial cell
+T79	Cell 1424 1440	CSC-low cultures
+T80	Pathological_formation 1441 1447	tumors
+T81	Cell 1476 1479	CSC
+T83	Pathological_formation 1494 1499	tumor
+T87	Cell 1537 1553	endothelial cell
+T90	Multi-tissue_structure 1607 1618	bone marrow
+T92	Cell 1627 1630	EPC
+T93	Gene_or_gene_product 1636 1670	vascular endothelial growth factor
+T94	Gene_or_gene_product 1685 1709	stromal-derived factor 1
+T2	Cell 980 997	CSC-high cultures
+T59	Tissue 919 925	tubule
+T22	Pathological_formation 453 458	tumor

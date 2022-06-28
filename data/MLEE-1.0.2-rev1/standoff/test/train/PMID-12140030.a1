@@ -1,0 +1,31 @@
+T3	Multi-tissue_structure 53 67	feeder vessels
+T8	Multi-tissue_structure 392 406	feeder vessels
+T9	Multi-tissue_structure 493 514	choroidal vasculature
+T10	Drug_or_compound 631 648	indocyanine green
+T11	Drug_or_compound 650 653	ICG
+T13	Multi-tissue_structure 766 780	feeder vessels
+T14	Multi-tissue_structure 782 785	FVs
+T15	Multi-tissue_structure 902 905	FVs
+T16	Drug_or_compound 921 924	ICG
+T17	Multi-tissue_structure 948 969	choroidal vasculature
+T18	Multi-tissue_structure 978 981	FVs
+T20	Drug_or_compound 1089 1096	ICG dye
+T21	Multi-tissue_structure 1135 1141	vessel
+T23	Multi-tissue_structure 1391 1394	FVs
+T25	Drug_or_compound 1516 1519	ICG
+T27	Multi-tissue_structure 1529 1543	feeder vessels
+T29	Multi-tissue_structure 1704 1706	FV
+T30	Drug_or_compound 1777 1784	ICG dye
+T31	Multi-tissue_structure 1792 1798	vessel
+T32	Multi-tissue_structure 1989 2002	feeder vessel
+T33	Drug_or_compound 2072 2093	Indocyanine green dye
+T35	Multi-tissue_structure 2127 2141	feeder vessels
+T37	Multi-tissue_structure 2335 2341	fundus
+T38	Tissue 2360 2373	fundus tissue
+T39	Multi-tissue_structure 2513 2515	FV
+T40	Tissue 226 233	macular
+T41	Tissue 96 103	macular
+T42	Multi-tissue_structure 1642 1648	fundus
+T43	Multi-tissue_structure 1685 1691	fundus
+T1004	Organism 1414 1422	patients
+T1007	Organism 1957 1964	patient

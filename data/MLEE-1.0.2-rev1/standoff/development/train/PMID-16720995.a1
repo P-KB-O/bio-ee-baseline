@@ -1,0 +1,23 @@
+T1	Drug_or_compound 0 3	GDP
+T2	Drug_or_compound 8 11	AGE
+T3	Multi-tissue_structure 37 47	peritoneal
+T5	Multi-tissue_structure 135 154	peritoneal membrane
+T6	Drug_or_compound 204 232	glucose degradation products
+T7	Drug_or_compound 234 238	GDPs
+T9	Drug_or_compound 354 358	GDPs
+T10	Drug_or_compound 380 410	advanced glycation endproducts
+T11	Drug_or_compound 412 416	AGEs
+T12	Gene_or_gene_product 419 423	RAGE
+T13	Drug_or_compound 502 506	AGEs
+T14	Cell 527 544	mesothelial cells
+T15	Drug_or_compound 592 596	GDPs
+T16	Multi-tissue_structure 643 662	peritoneal membrane
+T18	Gene_or_gene_product 668 672	RAGE
+T19	Gene_or_gene_product 720 724	RAGE
+T22	Multi-tissue_structure 824 843	peritoneal membrane
+T23	Multi-tissue_structure 910 920	peritoneal
+T24	Multi-tissue_structure 983 1002	peritoneal membrane
+T25	Multi-tissue_structure 1006 1016	peritoneal
+T26	Gene_or_gene_product 425 441	receptor for AGE
+T1000	Organism 668 682	RAGE -/- mouse
+T1001	Organism 1026 1034	patients

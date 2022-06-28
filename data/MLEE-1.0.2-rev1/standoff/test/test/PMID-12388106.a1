@@ -1,0 +1,40 @@
+T1	Gene_or_gene_product 0 26	Fibroblast growth factor 2
+T5	Tissue 36 47	microvessel
+T6	Multi-tissue_structure 69 84	embryonic aorta
+T7	Drug_or_compound 115 121	oxygen
+T8	Gene_or_gene_product 126 151	fibroblast growth factors
+T9	Gene_or_gene_product 153 157	FGFs
+T12	Multi-tissue_structure 204 219	embryonic aorta
+T13	Multi-tissue_structure 239 254	embryonic aorta
+T15	Organism_subdivision 265 273	thoracic
+T16	Multi-tissue_structure 283 298	lateral vessels
+T17	Organ 313 324	mesonephros
+T18	Organ 329 340	metanephros
+T19	Gene_or_gene_product 365 380	type I collagen
+T20	Drug_or_compound 427 431	O(2)
+T22	Gene_or_gene_product 467 471	FGF2
+T27	Tissue 512 529	Gs-IB(4-)positive
+T28	Gene_or_gene_product 512 521	Gs-IB(4-)
+T29	Tissue 531 544	CD31-positive
+T30	Gene_or_gene_product 531 535	CD31
+T31	Tissue 550 577	Flk-1-positive microvessels
+T32	Gene_or_gene_product 550 555	Flk-1
+T34	Gene_or_gene_product 615 619	FGF2
+T37	Tissue 631 642	microvessel
+T40	Gene_or_gene_product 687 691	FGF2
+T41	Gene_or_gene_product 716 728	FGF receptor
+T42	Gene_or_gene_product 730 734	FGFR
+T44	Gene_or_gene_product 760 764	FGF2
+T45	Gene_or_gene_product 777 782	FGFR1
+T46	Gene_or_gene_product 787 792	FGFR2
+T48	Gene_or_gene_product 829 834	FGFR1
+T49	Gene_or_gene_product 844 849	FGFR2
+T50	Multi-tissue_structure 869 884	embryonic aorta
+T51	Drug_or_compound 903 907	O(2)
+T52	Drug_or_compound 956 962	oxygen
+T55	Gene_or_gene_product 975 980	FGFR1
+T56	Multi-tissue_structure 995 1010	embryonic aorta
+T57	Gene_or_gene_product 1054 1058	FGF2
+T1000	Organism 63 68	mouse
+T1001	Organism 233 238	mouse
+T43	Gene_or_gene_product 755 775	anti-FGF2 antibodies

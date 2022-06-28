@@ -1,0 +1,20 @@
+T1	Cell 0 10	Mast cells
+T2	Pathological_formation 15 21	tumors
+T3	Pathological_formation 51 56	tumor
+T4	Cell 82 92	Mast cells
+T6	Cell 127 148	peritoneal leukocytes
+T7	Pathological_formation 233 239	tumors
+T8	Cell 276 285	mast cell
+T9	Pathological_formation 286 291	tumor
+T10	Cell 334 343	host cell
+T11	Pathological_formation 344 349	tumor
+T12	Cell 414 423	mast cell
+T13	Drug_or_compound 455 462	heparin
+T14	Pathological_formation 547 552	tumor
+T15	Organism_substance 581 589	granules
+T18	Cell 604 614	fibroblast
+T19	Cell 722 731	mast-cell
+T20	Pathological_formation 741 746	tumor
+T22	Cell 777 787	mast cells
+T25	Tissue 808 825	connective tissue
+T5	Organism_substance 424 432	granules

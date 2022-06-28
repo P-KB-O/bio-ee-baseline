@@ -1,0 +1,30 @@
+T1	Cell 0 9	Mast cell
+T2	Drug_or_compound 10 17	heparin
+T6	Cell 42 69	capillary endothelial cells
+T10	Cell 94 121	capillary endothelial cells
+T14	Cell 194 204	mast cells
+T17	Cell 325 335	mast cells
+T21	Cell 389 415	capillary endothelial cell
+T23	Cell 474 484	mast cells
+T24	Cell 507 517	mast cells
+T25	Cell 545 555	mast cells
+T26	Cell 585 612	capillary endothelial cells
+T28	Cell 627 637	mast cells
+T29	Cell 669 696	capillary endothelial cells
+T31	Cell 731 741	mast cells
+T32	Drug_or_compound 755 762	heparin
+T36	Cell 774 800	capillary endothelial cell
+T38	Drug_or_compound 821 828	Heparin
+T41	Cell 879 905	capillary endothelial cell
+T43	Drug_or_compound 1022 1029	heparin
+T44	Cell 1034 1043	mast cell
+T46	Drug_or_compound 1102 1109	heparin
+T47	Gene_or_gene_product 1111 1120	protamine
+T48	Gene_or_gene_product 1125 1135	heparinase
+T49	Gene_or_gene_product 1149 1167	chondroitinase ABC
+T50	Cell 1195 1204	mast cell
+T51	Cell 1342 1352	mast cells
+T56	Cell 1404 1421	endothelial cells
+T57	Tissue 1433 1444	capillaries
+T1000	Organism 382 388	bovine
+T53	Cell 984 988	cell

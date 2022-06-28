@@ -1,0 +1,60 @@
+T1	Gene_or_gene_product 58 92	vascular endothelial growth factor
+T2	Gene_or_gene_product 137 171	Vascular endothelial growth factor
+T3	Gene_or_gene_product 173 177	VEGF
+T4	Cell 203 219	endothelial cell
+T5	Gene_or_gene_product 297 301	VEGF
+T10	Multi-tissue_structure 368 385	collateral artery
+T11	Gene_or_gene_product 454 458	VEGF
+T12	Gene_or_gene_product 469 478	phVEGF121
+T13	Gene_or_gene_product 480 489	phVEGF165
+T14	Gene_or_gene_product 494 503	phVEGF189
+T15	Multi-tissue_structure 611 623	iliac artery
+T16	Organism_subdivision 660 668	hindlimb
+T17	Gene_or_gene_product 726 730	LacZ
+T18	Gene_or_gene_product 762 768	phVEGF
+T22	Multi-tissue_structure 791 808	collateral vessel
+T23	Organism_subdivision 913 924	normal limb
+T24	Tissue 963 972	capillary
+T25	Cell 976 983	myocyte
+T26	Gene_or_gene_product 1026 1035	phVEGF121
+T27	Gene_or_gene_product 1037 1046	phVEGF165
+T28	Gene_or_gene_product 1052 1061	phVEGF189
+T35	Multi-tissue_structure 1558 1575	collateral vessel
+T6	Organism_substance 947 952	blood
+T1000	Organism 448 453	human
+T1001	Organism 627 634	rabbits
+T1002	Organism 874 878	calf
+T7	Multi-tissue_structure 104 114	collateral
+T42	Organism_substance 879 884	blood
+T44	Cell 1363 1368	cells
+T8	Organism_subdivision 901 909	ischemic
+T29	Blood_vessel_development 1150 1162	angiogenesis
+T31	Blood_vessel_development 1442 1452	angiogenic
+T9	Development 386 397	development
+E9	Development:T9 Theme:T10
+T21	Development 809 820	development
+E21	Development:T21 Theme:T22
+T34	Development 1576 1587	development
+E34	Development:T34 Theme:T35
+*	Equiv T2 T3
+T19	Development 115 126	development
+E1	Development:T19 Theme:T7
+T30	Positive_regulation 93 103	stimulates
+E2	Positive_regulation:T30 Theme:E1 Cause:T1
+T36	Localization 194 202	secreted
+E3	Localization:T36 Theme:T2 FromLoc:T4
+T37	Planned_process 333 354	arterial gene therapy
+E4	Planned_process:T37 Instrument:T5
+T38	Positive_regulation 358 367	stimulate
+E5	Positive_regulation:T38 Cause:T5 Theme:E9
+T39	Planned_process 709 720	transfected
+E6	Planned_process:T39 Instrument:T17
+T40	Planned_process 732 758	site-specific transfection
+E7	Planned_process:T40 Instrument:T18
+T41	Positive_regulation 769 777	resulted
+E10	Positive_regulation:T41 Cause:E7 Theme:E21
+T43	Positive_regulation 1546 1557	stimulating
+E11	Positive_regulation:T43 Theme:E34
+E12	Blood_vessel_development:T29 
+E13	Blood_vessel_development:T31 
+R1	frag Arg1:T8 Arg2:T23	

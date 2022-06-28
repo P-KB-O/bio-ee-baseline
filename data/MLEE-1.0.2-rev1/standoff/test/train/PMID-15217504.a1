@@ -1,0 +1,21 @@
+T2	Pathological_formation 78 91	breast cancer
+T3	Pathological_formation 261 274	breast cancer
+T8	Pathological_formation 901 932	distant dormant micrometastases
+T10	Pathological_formation 1368 1373	tumor
+T13	Pathological_formation 1470 1483	breast cancer
+T15	Multi-tissue_structure 2037 2047	lymph node
+T1000	Organism 92 100	patients
+T1001	Organism 190 198	patients
+T1002	Organism 352 360	patients
+T1003	Organism 437 445	patients
+T1004	Organism 628 633	women
+T1005	Organism 825 833	patients
+T1006	Organism 999 1007	patients
+T1007	Organism 1187 1194	patient
+T1008	Organism 1257 1265	patients
+T1009	Organism 1805 1813	patients
+T1010	Organism 1905 1913	patients
+T1011	Organism 2048 2056	patients
+T6	Pathological_formation 507 538	distant dormant micrometastases
+T9	Pathological_formation 1333 1356	dormant micrometastases
+T27	Multi-tissue_structure 1931 1942	lymph nodes

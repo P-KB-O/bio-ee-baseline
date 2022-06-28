@@ -1,0 +1,38 @@
+T2	Pathological_formation 72 95	breast cancer xenograft
+T5	Pathological_formation 356 389	MDA MB231 breast cancer xenograft
+T7	Gene_or_gene_product 403 429	Green fluorescence protein
+T8	Cell 442 454	cancer cells
+T9	Tissue 478 493	mammary fat pad
+T10	Pathological_formation 816 830	Tumor sections
+T11	Cell 849 866	endothelial cells
+T12	Gene_or_gene_product 872 876	CD31
+T13	Drug_or_compound 881 884	PAS
+T14	Gene_or_gene_product 888 919	hypoxia inducible factor 1alpha
+T15	Gene_or_gene_product 921 924	HIF
+T16	Pathological_formation 941 947	tumors
+T17	Pathological_formation 981 987	tumors
+T18	Pathological_formation 1029 1049	vascularized capsule
+T19	Pathological_formation 1055 1061	cortex
+T20	Pathological_formation 1088 1095	capsule
+T23	Multi-tissue_structure 1124 1137	Blood vessels
+T24	Tissue 1139 1150	capillaries
+T25	Cellular_component 1156 1178	endothelial pseudopods
+T26	Pathological_formation 1228 1235	capsule
+T27	Pathological_formation 1237 1246	subcortex
+T28	Pathological_formation 1249 1255	Tumors
+T29	Multi-tissue_structure 1340 1353	blood vessels
+T30	Pathological_formation 1361 1370	subcortex
+T31	Cellular_component 1380 1402	endothelial pseudopods
+T32	Gene_or_gene_product 1428 1431	HIF
+T33	Pathological_formation 1452 1458	tumors
+T34	Organ 1544 1548	lung
+T36	Pathological_formation 1577 1582	tumor
+T37	Pathological_formation 1725 1730	tumor
+T1000	Organism 66 71	human
+T1001	Organism 330 339	nude mice
+T1002	Organism 350 355	human
+T1003	Organism 510 514	mice
+T1004	Organism 533 537	mice
+T1005	Organism 702 706	mice
+T1006	Organism 1483 1487	Mice
+T1007	Organism 1609 1613	mice

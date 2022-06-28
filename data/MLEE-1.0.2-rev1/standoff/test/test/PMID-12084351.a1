@@ -1,0 +1,31 @@
+T2	Gene_or_gene_product 0 4	Pten
+T3	Gene_or_gene_product 41 45	PTEN
+T4	Gene_or_gene_product 52 107	phosphatase and tensin homolog deleted on chromosome 10
+T5	Gene_or_gene_product 283 287	Pten
+T6	Organ 329 334	brain
+T7	Gene_or_gene_product 485 489	Pten
+T8	Pathological_formation 18 25	gliomas
+T9	Organ 666 671	brain
+T11	Gene_or_gene_product 756 760	Pten
+T13	Gene_or_gene_product 829 859	phosphatidylinositol-3'-kinase
+T14	Gene_or_gene_product 861 865	PI3K
+T15	Gene_or_gene_product 867 870	Akt
+T17	Drug_or_compound 918 959	phosphatidylinositol-(3,4,5)-triphosphate
+T18	Gene_or_gene_product 988 992	Pten
+T19	Gene_or_gene_product 1143 1147	Pten
+T21	Gene_or_gene_product 1201 1205	PTEN
+T23	Cell 1381 1404	PTEN mutant tumor cells
+T24	Gene_or_gene_product 1381 1385	PTEN
+T26	Gene_or_gene_product 1460 1464	Pten
+T27	Gene_or_gene_product 1465 1469	PI3K
+T28	Gene_or_gene_product 1470 1473	Akt
+T29	Pathological_formation 385 392	gliomas
+T30	Pathological_formation 129 134	tumor
+T31	Pathological_formation 724 729	tumor
+T32	Pathological_formation 552 569	malignant gliomas
+T33	Pathological_formation 1554 1561	gliomas
+T34	Drug_or_compound 782 787	lipid
+T1000	Organism 379 384	human
+T43	Pathological_formation 1059 1065	glioma
+T46	Cell 587 591	cell
+T47	Cell 623 627	cell

@@ -1,0 +1,28 @@
+T1	Immaterial_anatomical_entity 87 106	preperitoneal space
+T3	Tissue 786 789	fat
+T4	Tissue 805 822	connective tissue
+T7	Tissue 1049 1056	fibrous
+T9	Tissue 1137 1154	connective tissue
+T11	Tissue 1245 1248	fat
+T12	Tissue 1441 1458	connective tissue
+T14	Tissue 1479 1486	fibrous
+T15	Immaterial_anatomical_entity 621 640	preperitoneal space
+T16	Tissue 774 781	fibrous
+T18	Drug_or_compound 41 50	polyester
+T19	Drug_or_compound 55 68	polypropylene
+T23	Drug_or_compound 1322 1331	polyester
+T24	Drug_or_compound 337 346	polyester
+T25	Drug_or_compound 378 391	polypropylene
+T26	Drug_or_compound 393 395	PP
+T27	Drug_or_compound 442 451	polyester
+T28	Drug_or_compound 407 416	polyester
+T29	Drug_or_compound 466 475	polyester
+T30	Organism_substance 893 900	exudate
+T31	Drug_or_compound 1024 1026	PP
+T32	Drug_or_compound 1112 1114	PP
+T33	Organism_substance 1289 1296	exudate
+T34	Drug_or_compound 1395 1397	PP
+T35	Tissue 14 20	tissue
+T37	Tissue 305 311	tissue
+T38	Tissue 1367 1373	tissue
+T36	Tissue 109 115	Tissue

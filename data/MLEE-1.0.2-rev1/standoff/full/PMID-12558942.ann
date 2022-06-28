@@ -1,0 +1,120 @@
+T3	Gene_or_gene_product 23 57	vascular endothelial growth factor
+T4	Organism_subdivision 61 72	periodontal
+T5	Cell 86 106	gingival fibroblasts
+T7	Gene_or_gene_product 109 143	Vascular endothelial growth factor
+T8	Gene_or_gene_product 145 149	VEGF
+T15	Gene_or_gene_product 403 407	VEGF
+T16	Cell 428 448	gingival fibroblasts
+T17	Cell 450 453	HGF
+T19	Cell 464 467	HGF
+T20	Drug_or_compound 489 507	lipopolysaccharide
+T21	Drug_or_compound 509 512	LPS
+T22	Cellular_component 515 522	vesicle
+T23	Cellular_component 524 526	Ve
+T26	Cell 633 636	HGF
+T28	Gene_or_gene_product 661 665	VEGF
+T29	Cellular_component 746 748	Ve
+T31	Gene_or_gene_product 869 873	VEGF
+T32	Drug_or_compound 903 906	LPS
+T34	Gene_or_gene_product 920 924	VEGF
+T36	Cellular_component 962 964	Ve
+T39	Cell 985 988	HGF
+T41	Multi-tissue_structure 992 1000	vascular
+T43	Cellular_component 1120 1122	Ve
+T46	Cell 1143 1146	HGF
+T48	Multi-tissue_structure 1155 1163	vascular
+T51	Cellular_component 1215 1217	Ve
+T54	Cell 1238 1241	HGF
+T57	Gene_or_gene_product 1329 1333	VEGF
+T58	Gene_or_gene_product 1439 1443	VEGF
+T59	Cellular_component 1464 1466	Ve
+T61	Cellular_component 1512 1514	Ve
+T63	Organism_subdivision 1587 1598	periodontal
+T66	Gene_or_gene_product 1622 1626	VEGF
+T67	Gene_or_gene_product 1652 1656	VEGF
+T10	Organism_subdivision 1778 1789	periodontal
+T6	Multi-tissue_structure 207 215	vascular
+T1000	Organism 422 427	human
+T1001	Organism 566 602	Actinobacillus actinomycetemcomitans
+T1002	Organism 607 631	Porphyromonas gingivalis
+T1003	Organism 762 786	A. actinomycetemcomitans
+T1004	Organism 791 804	P. gingivalis
+T1005	Organism 1058 1069	guinea pigs
+T24	Gene_or_gene_product 532 554	outer membrane protein
+T25	Gene_or_gene_product 556 559	OMP
+T30	Gene_or_gene_product 753 756	OMP
+T38	Gene_or_gene_product 970 973	OMP
+T45	Gene_or_gene_product 1128 1131	OMP
+T53	Gene_or_gene_product 1223 1226	OMP
+T60	Gene_or_gene_product 1471 1474	OMP
+T62	Gene_or_gene_product 1519 1522	OMP
+T56	Gene_or_gene_product 1324 1355	anti-VEGF polyclonal antibodies
+T75	Pathological_formation 1821 1826	edema
+T76	Pathological_formation 294 300	lesion
+T12	Blood_vessel_development 233 245	angiogenesis
+T13	Blood_vessel_development 256 268	angiogenesis
+T69	Blood_vessel_development 1745 1763	neovascularization
+T1	Positive_regulation 0 8	Enhanced
+E1	Positive_regulation:T1 Theme:E2
+T2	Gene_expression 9 19	expression
+E2	Gene_expression:T2 Theme:T3
+T14	Gene_expression 408 418	expression
+E14	Gene_expression:T14 Theme:T15
+T18	Positive_regulation 473 483	stimulated
+E18	Positive_regulation:T18 Theme:T19 Cause:T20
+T27	Gene_expression 652 660	produced
+E27	Gene_expression:T27 Theme:T28
+T33	Transcription 930 940	expression
+E33	Transcription:T33 Theme:T34
+T35	Positive_regulation 974 984	stimulated
+E35	Positive_regulation:T35 Theme:T39 Cause:T38
+T42	Positive_regulation 1132 1142	stimulated
+E42	Positive_regulation:T42 Theme:T46 Cause:T45
+T50	Positive_regulation 1227 1237	stimulated
+E50	Positive_regulation:T50 Theme:T54 Cause:T53
+T64	Positive_regulation 1614 1621	enhance
+E64	Positive_regulation:T64 Theme:E65 Cause:T62
+T65	Gene_expression 1627 1637	expression
+E65	Gene_expression:T65 Theme:T66
+*	Equiv T21 T20
+*	Equiv T7 T8
+*	Equiv T24 T25
+*	Equiv T22 T23
+*	Equiv T16 T17
+T11	Regulation 247 255	Aberrant
+E3	Regulation:T11 Theme:E28
+T68	Positive_regulation 696 704	enhanced
+E4	Positive_regulation:T68 Theme:E27 Cause:E5
+T70	Positive_regulation 729 740	stimulation
+E5	Positive_regulation:T70 Theme:T26 Cause:T29
+E6	Positive_regulation:T70 Theme:T26 Cause:T30
+E7	Positive_regulation:T68 Theme:E27 Cause:E6
+T71	Positive_regulation 890 899	increased
+E8	Positive_regulation:T71 Theme:T31
+A1	Negation E8
+E10	Positive_regulation:T35 Theme:T39 Cause:T36
+T37	Positive_regulation 1014 1025	enhancement
+E11	Positive_regulation:T37 Theme:T41
+E12	Positive_regulation:T42 Theme:T46 Cause:T43
+T44	Positive_regulation 1147 1154	enhance
+E13	Positive_regulation:T44 Cause:T46 Theme:T48
+E15	Positive_regulation:T50 Theme:T54 Cause:T51
+T52	Planned_process 1311 1320	injection
+E16	Planned_process:T52 Instrument:T56
+T72	Negative_regulation 1427 1434	reduced
+E17	Negative_regulation:T72 Theme:T60
+T73	Positive_regulation 1444 1453	enhancing
+E20	Positive_regulation:T73 Theme:T58
+E21	Negative_regulation:T72 Theme:E20
+E22	Positive_regulation:T64 Theme:E65 Cause:T61
+T74	Positive_regulation 1764 1774	stimulated
+E23	Positive_regulation:T74 Theme:E29
+T77	Development 301 310	formation
+E24	Development:T77 Theme:T76
+T78	Regulation 278 288	associated
+E25	Regulation:T78 Cause:E3 Theme:E24
+E26	Blood_vessel_development:T12 
+E28	Blood_vessel_development:T13 
+E29	Blood_vessel_development:T69 
+T9	Positive_regulation 196 203	inducer
+E9	Positive_regulation:T9 Theme:E26 Cause:T7

@@ -1,0 +1,158 @@
+T2	Pathological_formation 36 41	tumor
+T6	Cell 87 93	cancer
+T7	Cell 98 115	endothelial cells
+T10	Cell 193 199	cancer
+T11	Cell 204 221	endothelial cells
+T12	Pathological_formation 225 230	tumor
+T14	Cell 330 351	endothelial cell line
+T15	Cell 353 356	F-2
+T16	Cell 377 400	epidermoid cancer cells
+T17	Cell 402 406	A431
+T18	Cell 413 423	A431 cells
+T20	Cell 472 493	endothelial F-2 cells
+T21	Drug_or_compound 540 555	sialyl Lewis(x)
+T22	Drug_or_compound 557 562	Le(x)
+T23	Drug_or_compound 568 580	sialyl Le(a)
+T24	Cell 629 641	cancer cells
+T26	Gene_or_gene_product 647 657	E-selectin
+T27	Cell 686 695	F-2 cells
+T30	Cell 742 754	cancer cells
+T31	Cell 781 790	F-2 cells
+T32	Gene_or_gene_product 821 845	alpha(3)beta(1)-integrin
+T33	Cell 847 856	F-2 cells
+T36	Tissue 893 897	tube
+T37	Cell 926 935	F-2 cells
+T38	Cell 941 951	A431 cells
+T40	Cell 976 985	A431 cell
+T41	Cell 1050 1059	F-2 cells
+T42	Drug_or_compound 1127 1139	sialyl Le(x)
+T44	Cell 1213 1224	cancer cell
+T45	Cell 1267 1275	F-2 cell
+T46	Pathological_formation 1363 1369	tumors
+T47	Cell 1409 1413	A431
+T48	Cell 1418 1427	F-2 cells
+T49	Pathological_formation 1506 1512	tumors
+T50	Cell 1516 1520	A431
+T51	Cell 1539 1548	F-2 cells
+T54	Tissue 1596 1614	tubular structures
+T55	Cell 1625 1634	F-2 cells
+T56	Cell 1678 1689	blood cells
+T57	Pathological_formation 1695 1700	tumor
+T58	Pathological_formation 1762 1773	A431 tumors
+T61	Cell 1798 1807	F-2 cells
+T66	Pathological_formation 1925 1936	A431 tumors
+T68	Cell 2019 2028	F-2 cells
+T69	Pathological_formation 2048 2059	A431 tumors
+T71	Pathological_formation 2111 2122	A431 tumors
+T73	Cell 2138 2147	F-2 cells
+T74	Cell 2196 2207	tumor cells
+T75	Cell 2212 2229	endothelial cells
+T76	Pathological_formation 2241 2246	tumor
+T82	Cell 2353 2365	cancer cells
+T83	Cell 2369 2386	endothelial cells
+T84	Pathological_formation 2427 2432	tumor
+T4	Gene_or_gene_product 1154 1170	beta(1)-integrin
+T9	Gene_or_gene_product 1854 1870	beta(1)-integrin
+T34	Drug_or_compound 1140 1145	Le(a)
+T78	Drug_or_compound 1834 1839	Le(x)
+T86	Drug_or_compound 1840 1845	Le(a)
+T87	Immaterial_anatomical_entity 1640 1645	lumen
+T1000	Organism 119 128	nude rats
+T1001	Organism 323 329	murine
+T1002	Organism 362 367	human
+T1003	Organism 1491 1500	nude rats
+T1004	Organism 1674 1677	rat
+T43	Gene_or_gene_product 1149 1181	anti-beta(1)-integrin antibodies
+T63	Gene_or_gene_product 1829 1845	anti-Le(x)/Le(a)
+T64	Gene_or_gene_product 1849 1881	anti-beta(1)-integrin antibodies
+T60	Gene_or_gene_product 1122 1145	anti-sialyl Le(x)/Le(a)
+T110	Organism_subdivision 1483 1487	back
+T111	Cell 451 455	cell
+T3	Blood_vessel_development 42 54	angiogenesis
+T13	Blood_vessel_development 231 243	angiogenesis
+T77	Blood_vessel_development 2247 2265	angiomorphogenesis
+T85	Blood_vessel_development 2444 2456	angiogenesis
+T5	Planned_process 66 83	cotransplantation
+E5	Planned_process:T5 Theme:T1000 Instrument:T6 Instrument:T7
+T19	Binding 456 464	adhesion
+E19	Binding:T19 Theme:T20 Theme:T18
+T25	Gene_expression 658 667	expressed
+E25	Gene_expression:T25 Theme:T26
+T28	Regulation 802 810	mediated
+E28	Regulation:T28 Theme:T31 Cause:T32
+T29	Planned_process 726 738	implantation
+E29	Planned_process:T29 Instrument:T30 Theme:T31
+T53	Development 1615 1621	formed
+E53	Development:T53 Theme:T54
+T62	Planned_process 1813 1825	co-injection
+E62	Planned_process:T62 Instrument:T63 Instrument:T64
+T65	Negative_regulation 1900 1909	reduction
+E65	Negative_regulation:T65 Theme:T66
+T79	Regulation 2327 2336	mediating
+E79	Regulation:T79 Theme:E81
+T81	Binding 2341 2349	adhesion
+E81	Binding:T81 Theme:T82 Theme:T83
+R1	frag Arg1:T10 Arg2:T11
+R2	frag Arg1:T6 Arg2:T7
+R4	frag Arg1:T63 Arg2:T64
+*	Equiv T21 T22
+R3	frag Arg1:T60 Arg2:T43	
+T59	Binding 178 189	interaction
+E1	Binding:T59 Theme:T10 Theme:T11
+T67	Positive_regulation 164 173	mediating
+E2	Positive_regulation:T67 Theme:E1
+T70	Positive_regulation 55 62	induced
+E3	Positive_regulation:T70 Cause:E5 Theme:E36
+T88	Planned_process 314 322	cultured
+E6	Planned_process:T88 Theme:T15
+T89	Planned_process 368 376	cultured
+E7	Planned_process:T89 Theme:T17
+T90	Binding 515 523	adhesion
+E8	Binding:T90 Theme:T18 Theme:T20
+T91	Positive_regulation 528 536	mediated
+E9	Positive_regulation:T91 Theme:E8 Cause:T21
+E10	Positive_regulation:T91 Theme:E8 Cause:T23
+E11	Positive_regulation:T91 Theme:E8 Cause:E25
+T92	Planned_process 857 865	cultured
+E12	Planned_process:T92 Instrument:T33
+T93	Development 898 907	formation
+E13	Development:T93 Theme:T36
+T94	Planned_process 913 922	coculture
+E14	Planned_process:T94 Instrument:T38 Instrument:T37
+T39	Binding 1225 1235	aggregates
+E15	Binding:T39 Theme:T44
+T95	Positive_regulation 1200 1209	formation
+E16	Positive_regulation:T95 Theme:E15
+T96	Regulation 1246 1257	independent
+E17	Regulation:T96 Cause:T45 Theme:E16
+A1	Negation E17
+T97	Development 1382 1388	formed
+E18	Development:T97 Theme:T46
+T98	Planned_process 1454 1468	cotransplanted
+E20	Planned_process:T98 Instrument:T48 Instrument:T47 Theme:T110
+R5	frag Arg1:T47 Arg2:T48	
+T99	Planned_process 1521 1533	supplemented
+E21	Planned_process:T99 Theme:T49 Instrument:T51
+T100	Development 1711 1717	formed
+E22	Development:T100 Theme:T57
+T101	Growth 1784 1789	grown
+E23	Growth:T101 Theme:T58
+T102	Positive_regulation 1882 1890	produced
+E24	Positive_regulation:T102 Cause:E62 Theme:E65
+T103	Growth 2123 2129	raised
+E26	Growth:T103 Theme:T71
+T104	Binding 2181 2192	interaction
+E27	Binding:T104 Theme:T74 Theme:T75
+T105	Positive_regulation 2276 2285	dependent
+E30	Positive_regulation:T105 Theme:E27 Cause:E79
+T106	Negative_regulation 2419 2426	retards
+E31	Negative_regulation:T106 Cause:E33 Theme:E32
+T107	Growth 2433 2439	growth
+E32	Growth:T107 Theme:T84
+T108	Negative_regulation 2388 2398	inhibition
+E33	Negative_regulation:T108 Theme:E27
+E34	Negative_regulation:T106 Cause:E33 Theme:E39
+E36	Blood_vessel_development:T3 AtLoc:T2
+E37	Blood_vessel_development:T13 AtLoc:T12
+E38	Blood_vessel_development:T77 AtLoc:T76
+E39	Blood_vessel_development:T85 AtLoc:T84

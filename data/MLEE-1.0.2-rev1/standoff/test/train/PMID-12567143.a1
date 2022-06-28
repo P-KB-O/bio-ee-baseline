@@ -1,0 +1,21 @@
+T1	Pathological_formation 179 184	tumor
+T2	Pathological_formation 233 238	tumor
+T4	Pathological_formation 377 395	osteosarcoma tumor
+T7	Pathological_formation 581 586	tumor
+T8	Pathological_formation 596 601	tumor
+T9	Pathological_formation 636 641	tumor
+T11	Organism_substance 691 696	serum
+T13	Gene_or_gene_product 742 752	endostatin
+T14	Pathological_formation 792 797	tumor
+T17	Drug_or_compound 849 856	TNP-470
+T16	Pathological_formation 1016 1035	osteosarcoma tumors
+T21	Pathological_formation 53 65	osteosarcoma
+T1000	Organism 127 135	patients
+T28	Pathological_formation 141 147	cancer
+T25	Pathological_formation 451 463	osteosarcoma
+T50	Pathological_formation 1210 1222	osteosarcoma
+T22	Organ 1186 1195	pulmonary
+T47	Organ 1060 1069	pulmonary
+T20	Organ 29 38	pulmonary
+T23	Organ 420 429	pulmonary
+T24	Organ 897 906	pulmonary

@@ -1,0 +1,67 @@
+T3	Gene_or_gene_product 8 15	decorin
+T5	Gene_or_gene_product 40 44	VEGF
+T6	Cell 65 91	cerebral endothelial cells
+T10	Gene_or_gene_product 136 139	Sp1
+T11	Gene_or_gene_product 141 150	HIF1alpha
+T12	Gene_or_gene_product 156 161	Stat3
+T14	Gene_or_gene_product 199 206	decorin
+T15	Gene_or_gene_product 208 211	DCN
+T17	Gene_or_gene_product 230 264	vascular endothelial growth factor
+T18	Gene_or_gene_product 266 270	VEGF
+T22	Gene_or_gene_product 302 306	VEGF
+T23	Gene_or_gene_product 340 343	Sp1
+T24	Gene_or_gene_product 345 376	hypoxia-inducible factor 1alpha
+T25	Gene_or_gene_product 378 387	HIF1alpha
+T26	Gene_or_gene_product 394 444	signal transducer and activator of transcription 3
+T27	Gene_or_gene_product 446 451	Stat3
+T29	Gene_or_gene_product 457 489	epidermal growth factor receptor
+T30	Gene_or_gene_product 491 495	EGFR
+T31	Gene_or_gene_product 498 572	mitogen-activated protein kinase extracellular signal-regulated kinase 1/2
+T32	Gene_or_gene_product 574 580	ERK1/2
+T33	Gene_or_gene_product 587 603	protein kinase B
+T34	Gene_or_gene_product 605 608	AKT
+T36	Gene_or_gene_product 622 625	DCN
+T37	Cell 644 676	cerebral endothelial (MCE) cells
+T42	Gene_or_gene_product 787 790	Sp1
+T43	Gene_or_gene_product 792 801	HIF1alpha
+T44	Gene_or_gene_product 807 812	Stat3
+T45	Gene_or_gene_product 895 899	VEGF
+T47	Gene_or_gene_product 920 924	VEGF
+T51	Gene_or_gene_product 1043 1046	DCN
+T52	Cell 1060 1069	MCE cells
+T54	Gene_or_gene_product 1117 1120	Sp1
+T55	Gene_or_gene_product 1125 1134	HIF1alpha
+T57	Gene_or_gene_product 1222 1226	VEGF
+T59	Gene_or_gene_product 1230 1233	DCN
+T60	Cell 1246 1255	MCE cells
+T64	Gene_or_gene_product 1283 1309	matrix metalloproteinase 2
+T65	Gene_or_gene_product 1338 1366	tissue plasminogen activator
+T66	Gene_or_gene_product 1371 1378	plasmin
+T68	Gene_or_gene_product 1382 1385	DCN
+T69	Cell 1402 1411	MCE cells
+T71	Gene_or_gene_product 1478 1482	VEGF
+T79	Gene_or_gene_product 1719 1723	VEGF
+T80	Gene_or_gene_product 1732 1741	HIF1alpha
+T81	Gene_or_gene_product 1743 1748	Stat3
+T82	Gene_or_gene_product 1754 1757	Sp1
+T86	Gene_or_gene_product 1771 1775	VEGF
+T88	Cell 1810 1819	MCE cells
+T1000	Organism 59 64	mouse
+T1001	Organism 638 643	mouse
+T38	Gene_or_gene_product 966 969	DCN
+T72	Gene_or_gene_product 1009 1012	DCN
+T84	Gene_or_gene_product 970 974	EGFR
+T89	Gene_or_gene_product 1013 1017	EGFR
+T90	Gene_or_gene_product 975 1000	phosphoinositide-3 kinase
+T91	Gene_or_gene_product 1001 1004	AKT
+T92	Gene_or_gene_product 1018 1024	ERK1/2
+T93	Gene_or_gene_product 1594 1597	DCN
+T94	Gene_or_gene_product 1614 1617	DCN
+T95	Gene_or_gene_product 1598 1602	EGFR
+T96	Gene_or_gene_product 1603 1609	ERK1/2
+T97	Gene_or_gene_product 1618 1622	EGFR
+T98	Gene_or_gene_product 1623 1648	phosphoinositide-3 kinase
+T99	Gene_or_gene_product 1649 1652	AKT
+T40	DNA_domain_or_region 900 908	promoter
+T104	Gene_or_gene_product 1314 1315	9
+T102	Cell 1075 1079	cell

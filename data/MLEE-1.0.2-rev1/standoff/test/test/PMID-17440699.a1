@@ -1,0 +1,22 @@
+T1	Tissue 61 84	tumour microvasculature
+T2	Tissue 305 328	tumour microvasculature
+T3	Pathological_formation 348 354	tumour
+T6	Pathological_formation 519 526	tumours
+T7	Cell 569 590	colon carcinoma cells
+T9	Cell 605 633	mammary adenocarcinoma cells
+T11	Pathological_formation 701 708	tumours
+T12	Drug_or_compound 753 761	B22956/1
+T13	Drug_or_compound 766 783	Gd-DTPA37-albumin
+T15	Drug_or_compound 861 870	tamoxifen
+T16	Drug_or_compound 875 881	SU6668
+T18	Tissue 977 1000	tumour microvasculature
+T19	Pathological_formation 1138 1155	mammary carcinoma
+T20	Drug_or_compound 1211 1219	B22956/1
+T22	Drug_or_compound 1458 1473	Gd-DTPA-albumin
+T23	Pathological_formation 1592 1607	colon carcinoma
+T25	Pathological_formation 1911 1917	tumour
+T8	Multi-tissue_structure 1168 1176	vascular
+T1000	Organism 513 517	rats
+T1001	Organism 596 600	rats
+T1002	Organism 640 644	rats
+T30	Tissue 1774 1780	tissue

@@ -1,0 +1,38 @@
+T1	Cell 24 61	marrow-derived endothelial precursors
+T4	Multi-tissue_structure 65 82	tumor vasculature
+T5	Cell 107 115	vascular
+T7	Cell 120 137	hemopoietic cells
+T8	Cell 177 190	hemangioblast
+T9	Cell 234 256	endothelial precursors
+T10	Cell 266 283	bone marrow cells
+T13	Pathological_formation 343 348	tumor
+T14	Multi-tissue_structure 412 423	bone marrow
+T15	Cell 433 456	endothelial progenitors
+T17	Tissue 534 556	tumor microvasculature
+T18	Cell 672 715	tumor bone marrow-derived endothelial cells
+T21	Cell 749 767	marrow progenitors
+T23	Cell 957 970	hemangioblast
+T26	Gene_or_gene_product 1015 1058	vascular endothelial growth factor (VEGF)-A
+T27	Cell 1072 1083	tumor cells
+T30	Gene_or_gene_product 1110 1125	VEGF receptor-2
+T31	Cell 1129 1146	bone marrow cells
+T33	Cell 1200 1238	marrow-derived endothelial progenitors
+T36	Tissue 1244 1261	tumor vasculature
+T37	Cell 1281 1307	umbilical cord blood cells
+T40	Cell 1322 1344	endothelial precursors
+T41	Cell 1383 1400	mononuclear cells
+T42	Cell 1432 1443	CD133+ cell
+T43	Cell 1532 1545	hemangioblast
+T44	Cell 1574 1591	marrow stem cells
+T47	Gene_or_gene_product 1677 1683	VEGF-A
+T48	Cell 1699 1716	hemopoietic cells
+T2	Cell 891 911	endothelial lineages
+T3	Cell 875 886	hemopoietic
+T6	Cell 1603 1622	endothelial lineage
+T1000	Organism 405 411	murine
+T1001	Organism 1275 1280	human
+T11	Gene_or_gene_product 1432 1437	CD133
+T39	Cell 477 481	cell
+T45	Cell 783 787	cell
+T50	Cell 803 807	cell
+T52	Cell 1470 1474	cell

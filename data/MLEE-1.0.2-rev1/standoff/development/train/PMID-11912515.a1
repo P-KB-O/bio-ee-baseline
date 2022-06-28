@@ -1,0 +1,41 @@
+T2	Gene_or_gene_product 16 60	vascular endothelial growth factor receptors
+T5	Pathological_formation 147 152	tumor
+T8	Gene_or_gene_product 212 246	Vascular endothelial growth factor
+T9	Gene_or_gene_product 248 252	VEGF
+T12	Gene_or_gene_product 331 336	Flt-1
+T13	Gene_or_gene_product 341 344	KDR
+T15	Gene_or_gene_product 365 369	VEGF
+T17	Multi-tissue_structure 465 487	Tumor biopsy specimens
+T18	Organism_substance 492 497	serum
+T19	Multi-tissue_structure 544 567	adrenal biopsy sections
+T20	Organism_substance 572 576	sera
+T21	Organism_substance 741 746	serum
+T22	Gene_or_gene_product 822 823	C
+T23	Gene_or_gene_product 819 820	B
+T24	Gene_or_gene_product 806 817	VEGF-A(165)
+T25	Gene_or_gene_product 825 830	Flt-1
+T26	Gene_or_gene_product 836 839	KDR
+T28	Gene_or_gene_product 864 868	VEGF
+T29	Gene_or_gene_product 1091 1092	C
+T30	Gene_or_gene_product 1080 1086	VEGF-B
+T31	Gene_or_gene_product 1094 1099	Flt-1
+T32	Gene_or_gene_product 1105 1108	KDR
+T33	Gene_or_gene_product 1156 1162	VEGF-A
+T35	Organism_substance 1199 1204	Serum
+T36	Gene_or_gene_product 1205 1209	VEGF
+T37	Gene_or_gene_product 1269 1280	VEGF-A(165)
+T39	Gene_or_gene_product 1354 1358	VEGF
+T40	Gene_or_gene_product 1382 1385	KDR
+T41	Gene_or_gene_product 1405 1410	Flt-1
+T43	Gene_or_gene_product 1545 1556	VEGF-A(165)
+T44	Organism_substance 1589 1594	serum
+T45	Gene_or_gene_product 1595 1599	VEGF
+T1000	Organism 534 542	patients
+T1001	Organism 589 597	children
+T16	Pathological_formation 418 431	neuroblastoma
+T42	Pathological_formation 520 533	neuroblastoma
+T53	Pathological_formation 1520 1543	stage III neuroblastoma
+T38	Multi-tissue_structure 618 634	Biopsy specimens
+T46	Organism_substance 1132 1146	tissue lysates
+T57	Pathological_formation 920 933	neuroblastoma
+T58	Tissue 946 953	tissues

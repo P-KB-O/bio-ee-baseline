@@ -1,0 +1,69 @@
+T2	Gene_or_gene_product 25 84	chicken ovalbumin upstream promoter-transcription factor II
+T3	Pathological_formation 105 122	colorectal cancer
+T4	Gene_or_gene_product 125 184	Chicken ovalbumin upstream promoter-transcription factor II
+T5	Gene_or_gene_product 186 195	COUP-TFII
+T10	Gene_or_gene_product 301 310	COUP-TFII
+T11	Cell 342 362	lung carcinoma cells
+T15	Gene_or_gene_product 460 469	COUP-TFII
+T16	Pathological_formation 484 501	colorectal cancer
+T18	Gene_or_gene_product 556 565	COUP-TFII
+T19	Pathological_formation 569 586	colorectal cancer
+T20	Gene_or_gene_product 677 686	COUP-TFII
+T21	Pathological_formation 716 733	colorectal cancer
+T22	Gene_or_gene_product 767 776	COUP-TFII
+T23	Tissue 786 811	colorectal cancer tissues
+T24	Tissue 825 839	normal tissues
+T25	Pathological_formation 856 873	colorectal cancer
+T27	Gene_or_gene_product 950 959	COUP-TFII
+T28	Pathological_formation 1091 1097	tumors
+T29	Gene_or_gene_product 1129 1138	COUP-TFII
+T32	Gene_or_gene_product 1227 1236	COUP-TFII
+T35	Multi-tissue_structure 1309 1315	vessel
+T36	Gene_or_gene_product 1326 1350	carcinoembryonic antigen
+T37	Gene_or_gene_product 1352 1355	CEA
+T38	Gene_or_gene_product 1423 1432	COUP-TFII
+T39	Gene_or_gene_product 1490 1499	COUP-TFII
+T40	Gene_or_gene_product 1566 1575	COUP-TFII
+T41	Pathological_formation 1624 1641	colorectal cancer
+T1001	Organism 99 104	human
+T1003	Organism 336 341	human
+T1004	Organism 780 785	human
+T1005	Organism 874 882	patients
+T1006	Organism 1077 1085	patients
+T7	Blood_vessel_development 224 236	angiogenesis
+T1	Gene_expression 85 95	expression
+E1	Gene_expression:T1 Theme:T2
+T8	Positive_regulation 311 319	enhanced
+E8	Positive_regulation:T8 Cause:E9 Theme:E3
+T9	Gene_expression 287 297	expression
+E9	Gene_expression:T9 Theme:T10
+T14	Gene_expression 470 480	expression
+E14	Gene_expression:T14 Theme:T15
+T17	Gene_expression 542 552	expression
+E17	Gene_expression:T17 Theme:T18
+T26	Gene_expression 936 946	expression
+E26	Gene_expression:T26 Theme:T27
+T31	Gene_expression 1237 1247	expression
+E31	Gene_expression:T31 Theme:T32
+T33	Localization 1316 1324	invasion
+E33	Localization:T33 Theme:T35
+*	Equiv T4 T5
+*	Equiv T36 T37
+T6	Regulation 197 220	plays an essential role
+E2	Regulation:T6 Cause:T4 Theme:E12
+T12	Localization 320 332	invasiveness
+E3	Localization:T12 Theme:T11
+T13	Regulation 669 673	role
+E4	Regulation:T13 Cause:T20 Theme:T21
+A1	Speculation E4
+T30	Localization 755 763	presence
+E5	Localization:T30 Theme:T22 AtLoc:T23
+E6	Localization:T30 Theme:T22 AtLoc:T24
+T42	Gene_expression 1098 1108	expressing
+E7	Gene_expression:T42 Theme:T29
+T43	Gene_expression 1433 1441	positive
+E10	Gene_expression:T43 Theme:T38
+T44	Gene_expression 1500 1508	negative
+E11	Gene_expression:T44 Theme:T39
+E12	Blood_vessel_development:T7 
+A3	Negation E11

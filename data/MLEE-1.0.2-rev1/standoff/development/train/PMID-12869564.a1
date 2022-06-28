@@ -1,0 +1,40 @@
+T2	Drug_or_compound 38 46	lipoplex
+T3	Organism_substance 47 52	serum
+T4	Drug_or_compound 175 185	lipoplexes
+T5	Organ 253 258	lungs
+T7	Drug_or_compound 302 312	lipoplexes
+T8	Multi-tissue_structure 329 347	lung vascular tree
+T13	Organ 531 536	liver
+T14	Multi-tissue_structure 538 547	Tail vein
+T16	Drug_or_compound 561 654	N-(1-(2,3-dioleoyloxy)propyl)-N,N,N-trimethylammonium chloride (DOTAP)/cholesterol lipoplexes
+T19	Drug_or_compound 677 685	lipoplex
+T20	Organ 718 723	liver
+T21	Drug_or_compound 781 789	lipoplex
+T22	Drug_or_compound 897 907	lipoplexes
+T23	Organ 935 940	lungs
+T24	Organism_substance 999 1004	serum
+T25	Organ 1020 1024	lung
+T26	Drug_or_compound 1061 1066	DOTAP
+T28	Drug_or_compound 1145 1153	lipoplex
+T29	Organism_substance 1154 1159	serum
+T30	Drug_or_compound 1231 1241	lipoplexes
+T31	Drug_or_compound 1269 1279	lipoplexes
+T32	Drug_or_compound 1314 1325	cholesterol
+T33	Cell 1457 1467	lung cells
+T35	Drug_or_compound 1481 1491	lipoplexes
+T36	Organism_substance 1563 1568	serum
+T37	Drug_or_compound 1587 1615	cholesterol-based lipoplexes
+T38	Drug_or_compound 1617 1667	Dioleoyl phosphatidylethanolamine-based lipoplexes
+T39	Organism_substance 1759 1764	serum
+T40	Drug_or_compound 1888 1896	lipoplex
+T41	Organism_substance 1927 1932	serum
+T9	Gene_or_gene_product 742 752	luciferase
+T10	Drug_or_compound 1205 1210	lipid
+T1000	Organism 84 90	murine
+T1001	Organism 192 196	mice
+T1002	Organism 482 487	mouse
+T27	Organ 391 397	organs
+T56	Organ 12 17	organ
+T57	Organ 843 848	organ
+T60	Tissue 499 505	tissue
+T61	Tissue 1959 1965	tissue

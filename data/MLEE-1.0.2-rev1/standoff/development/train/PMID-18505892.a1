@@ -1,0 +1,38 @@
+T1	Pathological_formation 0 18	Adenomatoid tumour
+T2	Organ 26 31	liver
+T3	Pathological_formation 53 71	adenomatoid tumour
+T4	Organ 94 99	liver
+T5	Pathological_formation 219 225	tumour
+T8	Cell 424 441	epithelioid cells
+T9	Cellular_component 447 467	vacuolated cytoplasm
+T11	Cell 498 515	epithelioid cells
+T15	Tissue 556 567	capillaries
+T16	Multi-tissue_structure 572 580	arteries
+T17	Tissue 595 613	collagenous stroma
+T18	Cell 659 676	epithelioid cells
+T19	Gene_or_gene_product 724 736	cytokeratins
+T20	Gene_or_gene_product 738 741	AE1
+T21	Gene_or_gene_product 742 745	AE3
+T22	Gene_or_gene_product 747 753	CAM5.2
+T23	Gene_or_gene_product 755 782	epithelial membrane antigen
+T24	Gene_or_gene_product 787 800	cytokeratin 7
+T25	Tissue 806 817	mesothelial
+T26	Gene_or_gene_product 827 837	calretinin
+T27	Gene_or_gene_product 839 854	Wilms' tumour 1
+T28	Gene_or_gene_product 859 864	D2-40
+T29	Gene_or_gene_product 897 906	Hep par-1
+T30	Gene_or_gene_product 908 932	carcinoembryonic antigen
+T31	Gene_or_gene_product 934 963	neural cell adhesion molecule
+T32	Gene_or_gene_product 965 969	CD34
+T33	Gene_or_gene_product 971 975	CD31
+T34	Gene_or_gene_product 980 985	HMB45
+T35	Tissue 1008 1019	capillaries
+T36	Pathological_formation 1048 1054	cystic
+T39	Cell 1072 1089	epithelioid cells
+T40	Cellular_component 1095 1103	vacuoles
+T41	Tissue 1143 1162	epithelioid element
+T42	Pathological_formation 1184 1210	hepatic adenomatoid tumour
+T1000	Organism 149 156	patient
+T12	Cellular_component 486 492	nuclei
+T43	Pathological_formation 274 296	microcystic structures
+T44	Cell 873 878	cells

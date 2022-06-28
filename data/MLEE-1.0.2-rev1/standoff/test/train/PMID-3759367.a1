@@ -1,0 +1,10 @@
+T1	Multi-tissue_structure 0 12	Conjunctival
+T6	Multi-tissue_structure 454 466	conjunctival
+T7	Drug_or_compound 467 473	oxygen
+T8	Multi-tissue_structure 525 537	conjunctival
+T9	Multi-tissue_structure 666 678	conjunctival
+T10	Multi-tissue_structure 784 796	conjunctival
+T12	Multi-tissue_structure 1016 1028	conjunctival
+T1000	Organism 301 306	human
+T1001	Organism 923 931	patients
+T4	Multi-tissue_structure 145 152	retinal

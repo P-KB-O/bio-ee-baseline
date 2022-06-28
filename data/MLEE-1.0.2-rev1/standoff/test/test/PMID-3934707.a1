@@ -1,0 +1,42 @@
+T1	Tissue 79 101	cheek pouch epithelium
+T3	Tissue 194 207	microvascular
+T4	Tissue 227 249	cheek pouch epithelium
+T6	Drug_or_compound 289 319	7,12-dimethylbenz[a]anthracene
+T7	Drug_or_compound 321 325	DMBA
+T8	Organism_subdivision 416 420	head
+T9	Organism_subdivision 425 429	neck
+T12	Multi-tissue_structure 545 561	microvasculature
+T14	Pathological_formation 599 604	tumor
+T15	Drug_or_compound 663 667	DMBA
+T16	Drug_or_compound 681 685	DMBA
+T17	Drug_or_compound 1165 1169	DMBA
+T18	Pathological_formation 1289 1298	neoplasms
+T19	Drug_or_compound 1322 1326	DMBA
+T20	Drug_or_compound 1396 1400	DMBA
+T21	Drug_or_compound 1628 1632	DMBA
+T22	Drug_or_compound 1637 1641	DMBA
+T23	Pathological_formation 1664 1669	tumor
+T24	Drug_or_compound 1693 1697	DMBA
+T25	Drug_or_compound 1745 1749	DMBA
+T26	Drug_or_compound 1796 1800	DMBA
+T27	Drug_or_compound 1966 1970	DMBA
+T31	Tissue 2021 2030	capillary
+T32	Tissue 2161 2192	pericapillary connective tissue
+T34	Tissue 2305 2325	vascular endothelium
+T36	Drug_or_compound 2390 2394	DMBA
+T37	Cell 2481 2491	epithelial
+T38	Cell 2499 2516	endothelial cells
+T39	Multi-tissue_structure 2542 2554	vessel walls
+T40	Drug_or_compound 2628 2632	DMBA
+T41	Multi-tissue_structure 2647 2654	vessels
+T2	Multi-tissue_structure 791 805	Pouch vascular
+T5	Multi-tissue_structure 1222 1230	vascular
+T42	Multi-tissue_structure 1592 1600	vascular
+T43	Multi-tissue_structure 1812 1820	vascular
+T44	Organism_subdivision 1678 1691	cheek pouches
+T1000	Organism 64 78	Syrian hamster
+T45	Multi-tissue_structure 44 52	vascular
+T49	Organism 219 226	hamster
+T52	Organism 618 626	Hamsters
+T55	Multi-tissue_structure 1127 1135	vascular
+T70	Tissue 2368 2388	premalignant tissues

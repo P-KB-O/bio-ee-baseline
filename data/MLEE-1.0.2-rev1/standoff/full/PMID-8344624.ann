@@ -1,0 +1,32 @@
+T1	Organism_subdivision 27 31	foot
+T2	Organism_subdivision 64 68	foot
+T3	Multi-tissue_structure 135 141	vessel
+T6	Gene_or_gene_product 434 442	collagen
+T8	Organism_subdivision 1075 1079	foot
+T9	Organism_subdivision 1100 1104	foot
+T10	Drug_or_compound 35 52	hyperbaric oxygen
+T11	Drug_or_compound 798 804	oxygen
+T1000	Organism 1253 1261	patients
+T14	Tissue 487 493	tissue
+T17	Pathological_formation 411 416	edema
+T19	Tissue 686 692	tissue
+T20	Tissue 368 375	tissues
+T7	Blood_vessel_development 458 470	angiogenesis
+T4	Positive_regulation 422 433	accelerates
+E4	Positive_regulation:T4 Theme:E5
+T5	Gene_expression 443 453	production
+E5	Gene_expression:T5 Theme:T6
+T12	Planned_process 1 10	Treatment
+E1	Planned_process:T12 Instrument:T10 Theme:T1
+E2	Positive_regulation:T4 Theme:E10
+T13	Planned_process 1120 1130	amputation
+E3	Planned_process:T13 Theme:T9
+T15	Development 494 500	repair
+E6	Development:T15 Theme:T14
+T16	Positive_regulation 477 486	enhancing
+E7	Positive_regulation:T16 Theme:E6
+T18	Negative_regulation 403 410	reduces
+E8	Negative_regulation:T18 Theme:T17
+T21	Regulation 359 367	affected
+E9	Regulation:T21 Theme:T20
+E10	Blood_vessel_development:T7 

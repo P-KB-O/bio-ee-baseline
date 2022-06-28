@@ -1,0 +1,27 @@
+T2	Cell 22 49	pulmonary endothelial cells
+T4	Organ 151 156	heart
+T5	Organ 324 329	heart
+T7	Cell 558 574	endothelial cell
+T9	Cell 824 832	vascular
+T11	Cell 837 855	perivascular cells
+T13	Multi-tissue_structure 859 878	lung biopsy samples
+T14	Gene_or_gene_product 997 1030	endothelial nitric oxide synthase
+T15	Gene_or_gene_product 1032 1066	vascular endothelial growth factor
+T16	Gene_or_gene_product 1072 1076	CD34
+T19	Gene_or_gene_product 1178 1183	Bcl-2
+T20	Cell 1208 1235	pulmonary endothelial cells
+T21	Cell 1492 1525	perivascular inflammatory T-cells
+T24	Gene_or_gene_product 1688 1722	vascular endothelial growth factor
+T26	Multi-tissue_structure 1737 1743	vessel
+T29	Multi-tissue_structure 1777 1783	vessel
+T31	Cell 1896 1912	endothelial cell
+T33	Cell 1956 1987	perivascular inflammatory cells
+T36	Multi-tissue_structure 2049 2055	vessel
+T3	Tissue 69 76	intimal
+T10	Tissue 599 606	intimal
+T12	Tissue 2023 2030	intimal
+T1000	Organism 371 379	children
+T1001	Organism 887 895	patients
+T1002	Organism 968 976	patients
+T1003	Organism 1319 1327	patients
+T38	Tissue 1351 1358	Intimal

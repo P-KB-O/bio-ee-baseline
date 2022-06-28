@@ -1,0 +1,31 @@
+T3	Gene_or_gene_product 14 18	Dll4
+T7	Multi-tissue_structure 72 79	vessels
+T10	Multi-tissue_structure 119 127	Vascular
+T13	Cell 355 364	pericytes
+T14	Gene_or_gene_product 470 474	VEGF
+T15	Gene_or_gene_product 476 480	Dll4
+T20	Gene_or_gene_product 691 716	Dll4 extracellular domain
+T27	Multi-tissue_structure 780 788	vascular
+T30	Multi-tissue_structure 843 850	vessels
+T31	Immaterial_anatomical_entity 889 901	vessel lumen
+T34	Cell 920 928	pericyte
+T36	Multi-tissue_structure 956 964	vascular
+T37	Gene_or_gene_product 976 981	sDll4
+T41	Multi-tissue_structure 1010 1018	vascular
+T42	Pathological_formation 1031 1036	tumor
+T44	Pathological_formation 1065 1070	tumor
+T46	Gene_or_gene_product 1097 1101	Dll4
+T47	Pathological_formation 1151 1157	tumors
+T49	Gene_or_gene_product 1183 1187	Dll4
+T23	Tissue 286 292	stroma
+T59	Gene_or_gene_product 366 371	Notch
+T60	Gene_or_gene_product 395 401	Jagged
+T61	Gene_or_gene_product 406 411	Delta
+T62	Gene_or_gene_product 495 500	Notch
+T63	Gene_or_gene_product 740 745	Notch
+T64	Gene_or_gene_product 1102 1107	Notch
+T65	Gene_or_gene_product 1188 1193	Notch
+T66	Multi-tissue_structure 524 532	arterial
+T69	Tissue 100 106	tissue
+T70	Tissue 297 304	tissues
+T5	Tissue 306 324	hierarchic network

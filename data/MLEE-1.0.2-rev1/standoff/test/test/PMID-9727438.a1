@@ -1,0 +1,32 @@
+T1	Multi-tissue_structure 4 19	myoadipose flap
+T2	Multi-tissue_structure 55 73	composite fat flap
+T3	Tissue 88 94	muscle
+T4	Tissue 131 138	fat pad
+T5	Organ 201 217	latissimus dorsi
+T6	Tissue 237 257	parascapular fat pad
+T7	Tissue 280 301	contralateral fat pad
+T8	Organism_substance 351 356	blood
+T9	Tissue 405 413	fat pads
+T11	Multi-tissue_structure 448 473	composite fat/muscle flap
+T12	Organism_subdivision 497 507	chest wall
+T13	Multi-tissue_structure 546 551	flaps
+T16	Drug_or_compound 611 622	fluorescein
+T17	Drug_or_compound 626 636	lead oxide
+T18	Tissue 739 747	fat pads
+T20	Multi-tissue_structure 795 800	flaps
+T21	Drug_or_compound 838 849	fluorescein
+T22	Drug_or_compound 854 864	lead oxide
+T23	Tissue 874 882	fat pads
+T24	Drug_or_compound 918 928	lead oxide
+T28	Multi-tissue_structure 964 977	blood vessels
+T29	Multi-tissue_structure 987 1003	latissimus graft
+T30	Tissue 1026 1033	fat pad
+T31	Multi-tissue_structure 1038 1045	vessels
+T32	Multi-tissue_structure 1129 1134	flaps
+T33	Tissue 1191 1194	fat
+T34	Multi-tissue_structure 1259 1264	flaps
+T35	Tissue 1293 1296	fat
+T36	Multi-tissue_structure 1367 1375	fat flap
+T1000	Organism 156 162	rabbit
+T1001	Organism 176 183	rabbits
+T41	Multi-tissue_structure 192 197	strip

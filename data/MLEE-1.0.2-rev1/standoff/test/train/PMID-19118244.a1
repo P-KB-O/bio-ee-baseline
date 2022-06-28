@@ -1,0 +1,53 @@
+T2	Gene_or_gene_product 15 19	PTEN
+T4	Gene_or_gene_product 272 328	Phosphatase and tension homolog deleted on chromosome 10
+T5	Gene_or_gene_product 330 334	PTEN
+T6	Pathological_formation 339 344	tumor
+T8	Gene_or_gene_product 447 451	PTEN
+T12	Pathological_formation 561 567	tumors
+T14	Gene_or_gene_product 616 620	PTEN
+T16	Gene_or_gene_product 673 677	PTEN
+T18	Gene_or_gene_product 876 880	PTEN
+T21	Cell 978 989	endothelial
+T23	Gene_or_gene_product 1053 1057	PTEN
+T24	Gene_or_gene_product 1071 1105	proliferating cell nuclear antigen
+T25	Gene_or_gene_product 1117 1129	phosphor-Akt
+T26	Gene_or_gene_product 1134 1149	phosphor-Erk1,2
+T28	Gene_or_gene_product 1301 1305	PTEN
+T30	Gene_or_gene_product 1382 1386	PTEN
+T32	Gene_or_gene_product 1501 1505	PTEN
+T34	Gene_or_gene_product 1715 1719	PTEN
+T35	Gene_or_gene_product 1738 1742	PTEN
+T36	Gene_or_gene_product 1776 1780	PTEN
+T39	Gene_or_gene_product 1808 1812	PTEN
+T41	Gene_or_gene_product 1870 1904	proliferating cell nuclear antigen
+T43	Gene_or_gene_product 1930 1934	Erk1
+T44	Gene_or_gene_product 1949 1952	Akt
+T46	Gene_or_gene_product 2022 2026	PTEN
+T47	Gene_or_gene_product 2187 2191	Erk1
+T55	Pathological_formation 44 76	cerebral cavernous malformations
+T56	Pathological_formation 103 135	Cerebral cavernous malformations
+T57	Pathological_formation 157 182	cerebral vascular lesions
+T9	DNA_domain_or_region 20 28	promoter
+T48	DNA_domain_or_region 452 460	promoter
+T49	DNA_domain_or_region 621 629	promoter
+T50	DNA_domain_or_region 678 686	promoter
+T51	DNA_domain_or_region 1306 1314	promoter
+T52	DNA_domain_or_region 1387 1395	promoter
+T53	DNA_domain_or_region 1506 1514	promoter
+T54	DNA_domain_or_region 2027 2035	promoter
+T63	Gene_or_gene_product 1935 1936	2
+T64	Gene_or_gene_product 2192 2193	2
+T65	Pathological_formation 137 141	CCMs
+T66	Pathological_formation 658 662	CCMs
+T67	Pathological_formation 737 741	CCMs
+T68	Pathological_formation 1221 1224	CCM
+T69	Pathological_formation 1336 1340	CCMs
+T70	Pathological_formation 1564 1568	CCMs
+T71	Pathological_formation 1754 1758	CCMs
+T72	Pathological_formation 2051 2055	CCMs
+T73	Pathological_formation 2082 2086	CCMs
+T74	Pathological_formation 2159 2163	CCMs
+T75	Pathological_formation 1794 1798	CCMs
+T76	Pathological_formation 1370 1374	CCMs
+T77	Pathological_formation 1633 1637	CCMs
+T78	Pathological_formation 2224 2231	lesions

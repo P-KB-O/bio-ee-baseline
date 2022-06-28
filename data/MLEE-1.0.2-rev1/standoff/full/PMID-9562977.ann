@@ -1,0 +1,77 @@
+T1	Gene_or_gene_product 0 30	Basic fibroblast growth factor
+T2	Gene_or_gene_product 55 67	collagen VII
+T3	Gene_or_gene_product 79 90	collagenase
+T4	Pathological_formation 96 119	squamous cell carcinoma
+T6	Gene_or_gene_product 265 282	collagen type VII
+T8	Gene_or_gene_product 311 333	fibroblast collagenase
+T9	Pathological_formation 367 400	cutaneous squamous cell carcinoma
+T10	Gene_or_gene_product 472 483	collagenase
+T11	Pathological_formation 508 531	squamous cell carcinoma
+T13	Gene_or_gene_product 582 599	collagen type VII
+T15	Gene_or_gene_product 622 633	collagenase
+T16	Pathological_formation 639 662	squamous cell carcinoma
+T17	Gene_or_gene_product 960 990	basic fibroblast growth factor
+T18	Gene_or_gene_product 992 996	bFGF
+T20	Gene_or_gene_product 1276 1280	bFGF
+T21	Gene_or_gene_product 1348 1352	bFGF
+T23	Gene_or_gene_product 1436 1440	bFGF
+T25	Gene_or_gene_product 1494 1498	bFGF
+T27	Gene_or_gene_product 1526 1530	bFGF
+T28	Gene_or_gene_product 1616 1620	bFGF
+T30	Gene_or_gene_product 1799 1803	bFGF
+T32	Gene_or_gene_product 1839 1861	fibroblast collagenase
+T34	Pathological_formation 1885 1908	squamous cell carcinoma
+T37	Gene_or_gene_product 2029 2033	bFGF
+T1000	Organism 180 188	Patients
+T1001	Organism 402 410	Patients
+T1002	Organism 719 727	patients
+T1003	Organism 742 750	patients
+T1004	Organism 795 803	patients
+T1005	Organism 849 857	patients
+T1006	Organism 905 913	patients
+T1007	Organism 918 926	patients
+T1008	Organism 1040 1048	patients
+T1009	Organism 1199 1207	patients
+T1010	Organism 1307 1315	patients
+T1011	Organism 1453 1461	patients
+T1012	Organism 1629 1637	patients
+T1013	Organism 1756 1764	patients
+T39	Organism_substance 705 710	Urine
+T43	Organism_substance 1268 1275	urinary
+T36	Blood_vessel_development 1968 1980	angiogenesis
+T7	Positive_regulation 292 300	elevated
+E7	Positive_regulation:T7 Theme:T8
+T14	Positive_regulation 612 621	increased
+E14	Positive_regulation:T14 Theme:T15
+T19	Positive_regulation 1222 1230	elevated
+E19	Positive_regulation:T19 Theme:T20
+T22	Positive_regulation 1417 1425	elevated
+E22	Positive_regulation:T22 Theme:T23
+T24	Positive_regulation 1475 1483	elevated
+E24	Positive_regulation:T24 Theme:T25
+T26	Positive_regulation 1517 1525	elevated
+E26	Positive_regulation:T26 Theme:T27
+T29	Positive_regulation 1780 1788	elevated
+E29	Positive_regulation:T29 Theme:T30
+T31	Positive_regulation 1829 1838	increased
+E31	Positive_regulation:T31 Theme:T32
+T33	Development 1870 1881	development
+E33	Development:T33 Theme:T34
+T35	Negative_regulation 2003 2025	antagonize the effects
+E35	Negative_regulation:T35 Theme:T37
+T5	Positive_regulation 69 78	increased
+E1	Positive_regulation:T5 Theme:T3
+T12	Gene_expression 249 261	deficiencies
+E2	Gene_expression:T12 Theme:T6
+A1	Negation E2
+T38	Positive_regulation 463 471	elevated
+E3	Positive_regulation:T38 Theme:T10
+A2	Negation E3
+*	Equiv T17 T18
+T40	Localization 948 956	presence
+E4	Localization:T40 Theme:T17
+T41	Positive_regulation 1329 1337	elevated
+E5	Positive_regulation:T41 Theme:T21
+T42	Positive_regulation 1657 1665	elevated
+E6	Positive_regulation:T42 Theme:T28
+E8	Blood_vessel_development:T36 

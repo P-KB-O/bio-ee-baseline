@@ -1,0 +1,35 @@
+T1	Gene_or_gene_product 0 5	CCL16
+T4	Cell 41 67	vascular endothelial cells
+T6	Cell 89 98	leukocyte
+T8	Gene_or_gene_product 233 238	CCL16
+T11	Cell 274 300	vascular endothelial cells
+T14	Gene_or_gene_product 315 319	CCR1
+T15	Gene_or_gene_product 321 326	CCL16
+T19	Cell 386 403	endothelial cells
+T20	Multi-tissue_structure 424 431	vessels
+T21	Tissue 436 453	liver capillaries
+T25	Cell 509 520	endothelial
+T26	Tissue 542 567	capillary-like structures
+T28	Multi-tissue_structure 620 645	chorionallantoic membrane
+T31	Gene_or_gene_product 722 727	CCL16
+T33	Gene_or_gene_product 763 768	CCL16
+T34	Tissue 814 825	endothelium
+T35	Gene_or_gene_product 857 893	vascular endothelial growth factor A
+T38	Gene_or_gene_product 933 938	CXCL8
+T39	Gene_or_gene_product 943 947	CCL2
+T42	Drug_or_compound 987 1104	R-N-[5-chloro-2-[2-[4(4-fluorophenyl) methyl]-2-methyl-1-piperazinyl]-2-oxoethoxy]phenyl] urea hydrochloric acid salt
+T43	Gene_or_gene_product 1109 1113	CCR1
+T46	Gene_or_gene_product 1160 1165	CCL16
+T48	Gene_or_gene_product 1187 1191	CCR8
+T50	Gene_or_gene_product 1209 1213	CCR2
+T51	Gene_or_gene_product 1255 1260	CCL16
+T54	Cell 1278 1289	endothelial
+T55	Gene_or_gene_product 1302 1307	CCL16
+T56	Gene_or_gene_product 1344 1348	CCR1
+T57	Cell 1362 1379	endothelial cells
+T58	Gene_or_gene_product 1404 1409	CCL16
+T59	Organ 1428 1433	liver
+T63	Multi-tissue_structure 1490 1498	vascular
+T2	Drug_or_compound 980 985	BX471
+T1000	Organism 614 619	chick
+T72	Tissue 133 140	tissues

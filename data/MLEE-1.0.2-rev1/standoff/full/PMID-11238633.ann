@@ -1,0 +1,110 @@
+T2	Gene_or_gene_product 0 5	IL-12
+T4	Cell 20 36	endothelial cell
+T8	Cell 75 85	lymphocyte
+T9	Cell 86 102	endothelial cell
+T11	Gene_or_gene_product 124 129	IL-12
+T12	Pathological_formation 140 145	tumor
+T13	Gene_or_gene_product 181 186	IL-12
+T14	Gene_or_gene_product 201 204	CD8
+T19	Cell 369 381	immune cells
+T21	Gene_or_gene_product 404 413	IFN-gamma
+T23	Gene_or_gene_product 527 532	IL-12
+T27	Drug_or_compound 573 578	Con A
+T28	Cell 595 607	spleen cells
+T30	Cell 619 622	spc
+T31	Cell 633 637	PBMC
+T33	Cell 649 653	PBMC
+T35	Cell 725 742	endothelial cells
+T36	Cell 744 746	EC
+T40	Gene_or_gene_product 818 844	matrix metalloproteinase-9
+T42	Cell 865 867	EC
+T43	Gene_or_gene_product 881 892	vitronectin
+T46	Gene_or_gene_product 909 915	ICAM-1
+T47	Gene_or_gene_product 920 926	VCAM-1
+T48	Cell 1051 1065	lymphoid cells
+T49	Cell 1070 1072	EC
+T50	Gene_or_gene_product 1116 1140	IFN-inducible protein-10
+T53	Cell 1296 1299	spc
+T54	Gene_or_gene_product 1359 1362	CD4
+T55	Gene_or_gene_product 1367 1370	CD8
+T56	Cell 1379 1387	NK cells
+T59	Gene_or_gene_product 1451 1456	IL-12
+T1000	Organism 589 594	mouse
+T1001	Organism 627 632	human
+T1002	Organism 1242 1252	nu/nu mice
+T1003	Organism 1254 1281	nonobese diabetic-SCID mice
+T6	Cell 1359 1365	CD4(+)
+T15	Cell 1367 1373	CD8(+)
+T62	Cell 975 979	cell
+T63	Cell 980 984	cell
+T66	Cell 1321 1325	cell
+T5	Blood_vessel_development 51 63	angiogenesis
+T16	Blood_vessel_development 236 248	angiogenesis
+T25	Blood_vessel_development 551 561	angiogenic
+T38	Blood_vessel_development 766 778	angiogenesis
+T58	Blood_vessel_development 1428 1440	angiogenetic
+T1	Negative_regulation 6 16	inhibition
+E1	Negative_regulation:T1 Cause:T2 Theme:T4
+T10	Negative_regulation 146 156	inhibition
+E10	Negative_regulation:T10 Theme:T12
+T20	Gene_expression 390 400	production
+E20	Gene_expression:T20 Theme:T21
+T26	Positive_regulation 579 588	activated
+E26	Positive_regulation:T26 Cause:T27 Theme:T28
+T29	Positive_regulation 609 618	activated
+E29	Positive_regulation:T29 Theme:T30
+T32	Positive_regulation 639 648	activated
+E32	Positive_regulation:T32 Theme:T33
+T34	Negative_regulation 705 711	arrest
+E34	Negative_regulation:T34 Theme:T35
+T39	Negative_regulation 780 799	negatively modulate
+E39	Negative_regulation:T39 Theme:E11
+T41	Binding 871 877	adhere
+E41	Binding:T41 Theme:T42 Theme:T43
+T44	Positive_regulation 897 908	up-regulate
+E44	Positive_regulation:T44 Theme:E45
+T45	Gene_expression 927 937	expression
+E45	Gene_expression:T45 Theme:T47
+T52	Positive_regulation 1286 1295	activated
+E52	Positive_regulation:T52 Theme:T53
+*	Equiv T35 T36
+R1	frag Arg1:T15 Arg2:T56	
+R2	frag Arg1:T6 Arg2:T56	
+E2	Negative_regulation:T1 Cause:T2 Theme:E23
+T7	Positive_regulation 130 139	dependent
+E4	Positive_regulation:T7 Cause:T11 Theme:E10
+T17	Negative_regulation 228 235	inhibit
+E5	Negative_regulation:T17 Cause:T13 Theme:E24
+T18	Positive_regulation 533 542	activates
+E6	Positive_regulation:T18 Cause:T23 Theme:E7
+T22	Negative_regulation 562 569	program
+E7	Negative_regulation:T22 Theme:E25
+*	Equiv T30 T28
+*	Equiv T33 T31
+E8	Positive_regulation:T26 Cause:T27 Theme:T31
+T24	Negative_regulation 749 756	inhibit
+E9	Negative_regulation:T24 Theme:E27
+T37	Gene_expression 804 814	production
+E11	Gene_expression:T37 Theme:T40
+E12	Negative_regulation:T39 Theme:E41
+E13	Gene_expression:T45 Theme:T46
+E14	Positive_regulation:T44 Theme:E13
+T51	Binding 1021 1032	interaction
+E15	Binding:T51 Theme:T48 Theme:T49
+T57	Positive_regulation 1041 1050	activated
+E16	Positive_regulation:T57 Theme:T48
+E17	Positive_regulation:T57 Theme:T49
+T60	Regulation 1406 1413	mediate
+E18	Regulation:T60 Theme:E19
+T61	Regulation 1441 1447	effect
+E19	Regulation:T61 Cause:T59 Theme:E28
+T64	Binding 985 992	contact
+E21	Binding:T64 Theme:T63 Theme:T62
+T65	Regulation 960 967	require
+E22	Regulation:T65 Theme:E21
+A1	Negation E22
+E23	Blood_vessel_development:T5 
+E24	Blood_vessel_development:T16 
+E25	Blood_vessel_development:T25 
+E27	Blood_vessel_development:T38 
+E28	Blood_vessel_development:T58 

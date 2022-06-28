@@ -1,0 +1,18 @@
+T1	Pathological_formation 45 79	hormone-refractory prostate cancer
+T3	Pathological_formation 81 85	HRPC
+T4	Pathological_formation 89 123	Hormone-refractory prostate cancer
+T6	Pathological_formation 125 129	HRPC
+T7	Organ 161 169	prostate
+T8	Pathological_formation 493 497	HRPC
+T10	Gene_or_gene_product 966 976	telomerase
+T11	Pathological_formation 1161 1165	HRPC
+T12	Pathological_formation 1264 1268	HRPC
+T13	Cell 879 883	cell
+T9	Blood_vessel_development 902 914	angiogenesis
+*	Equiv T1 T3
+*	Equiv T4 T6
+T2	Planned_process 32 41	treatment
+E1	Planned_process:T2 Theme:T1
+T5	Development 170 184	carcinogenesis
+E2	Development:T5 Theme:T7
+E3	Blood_vessel_development:T9 

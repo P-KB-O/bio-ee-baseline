@@ -1,0 +1,45 @@
+T2	Cell 24 69	fetal membrane-derived mesenchymal stem cells
+T6	Organism_subdivision 121 130	hind limb
+T7	Cell 142 184	Bone marrow-derived mesenchymal stem cells
+T9	Cell 186 192	BM-MSC
+T11	Cell 370 392	mesenchymal stem cells
+T12	Cell 394 397	MSC
+T13	Multi-tissue_structure 412 427	fetal membranes
+T14	Multi-tissue_structure 429 431	FM
+T15	Cell 524 530	FM-MSC
+T16	Cell 649 655	BM-MSC
+T17	Cell 671 677	BM-MSC
+T19	Cell 679 685	FM-MSC
+T20	Gene_or_gene_product 718 742	hepatocyte growth factor
+T21	Gene_or_gene_product 769 803	vascular endothelial growth factor
+T22	Cell 805 811	FM-MSC
+T23	Cell 816 822	BM-MSC
+T24	Cell 945 955	lymphocyte
+T25	Cell 979 989	lymphocyte
+T26	Cell 999 1005	FM-MSC
+T27	Cell 1009 1015	BM-MSC
+T28	Organism_subdivision 1114 1123	hind limb
+T29	Organism_substance 1163 1168	blood
+T30	Cell 1234 1240	FM-MSC
+T31	Cell 1245 1251	BM-MSC
+T32	Cell 1319 1325	FM-MSC
+T33	Cell 1330 1336	BM-MSC
+T34	Tissue 1373 1390	hind limb tissues
+T36	Cell 1403 1409	FM-MSC
+T37	Cell 1414 1420	BM-MSC
+T38	Cell 1484 1496	T lymphocyte
+T40	Cell 1553 1572	splenic lymphocytes
+T42	Cell 1600 1606	FM-MSC
+T43	Cell 1634 1644	lymphocyte
+T44	Organism_subdivision 1723 1732	hind limb
+T45	Cell 1773 1779	BM-MSC
+T47	Cell 1811 1817	FM-MSC
+T3	Tissue 1183 1192	capillary
+T4	Drug_or_compound 1271 1296	phosphate-buffered saline
+T1000	Organism 108 111	rat
+T1001	Organism 556 560	rats
+T1002	Organism 1036 1040	rats
+T1003	Organism 1101 1104	rat
+T1004	Organism 1710 1713	rat
+T57	Tissue 265 271	tissue
+T60	Cell 249 253	cell

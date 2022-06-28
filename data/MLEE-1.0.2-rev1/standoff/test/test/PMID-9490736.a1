@@ -1,0 +1,30 @@
+T1	Gene_or_gene_product 0 20	Integrin alphavbeta3
+T2	Gene_or_gene_product 47 79	mitogen-activated protein kinase
+T8	Cell 154 167	vascular cell
+T10	Gene_or_gene_product 185 194	Integrins
+T13	Gene_or_gene_product 244 247	ras
+T14	Gene_or_gene_product 248 258	MAP kinase
+T15	Cell 309 326	endothelial cells
+T18	Gene_or_gene_product 396 426	basic fibroblast growth factor
+T19	Gene_or_gene_product 428 432	bFGF
+T20	Multi-tissue_structure 447 471	chorioallantoic membrane
+T21	Multi-tissue_structure 473 476	CAM
+T22	Gene_or_gene_product 496 534	mitogen-activated protein (MAP) kinase
+T23	Cell 479 495	endothelial cell
+T26	Gene_or_gene_product 536 539	ERK
+T27	Gene_or_gene_product 638 641	ERK
+T28	Drug_or_compound 681 701	integrin antagonists
+T29	Gene_or_gene_product 755 775	integrin alphavbeta3
+T30	Gene_or_gene_product 785 800	beta1 integrins
+T32	Gene_or_gene_product 816 833	MAP kinase kinase
+T33	Gene_or_gene_product 835 838	MEK
+T34	Gene_or_gene_product 862 873	alphavbeta3
+T35	Gene_or_gene_product 884 887	ERK
+T38	Multi-tissue_structure 924 937	blood vessels
+T39	Multi-tissue_structure 972 985	blood vessels
+T40	Multi-tissue_structure 993 996	CAM
+T41	Gene_or_gene_product 1012 1015	MEK
+T43	Cell 1081 1098	endothelial cells
+T46	Gene_or_gene_product 1154 1157	ERK
+T48	Gene_or_gene_product 1236 1256	integrin alphavbeta3
+T1000	Organism 441 446	chick

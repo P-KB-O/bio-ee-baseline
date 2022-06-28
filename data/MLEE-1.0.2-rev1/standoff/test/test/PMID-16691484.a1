@@ -1,0 +1,21 @@
+T2	Gene_or_gene_product 24 50	mitochondrial ATP synthase
+T4	Gene_or_gene_product 113 124	angiostatin
+T5	Cell 158 175	endothelial cells
+T6	Gene_or_gene_product 179 201	F(1)-F(0) ATP synthase
+T9	Gene_or_gene_product 282 294	ATP synthase
+T10	Gene_or_gene_product 339 350	angiostatin
+T11	Cell 373 390	Endothelial cells
+T13	Gene_or_gene_product 442 453	angiostatin
+T14	Gene_or_gene_product 477 489	ATP synthase
+T15	Cell 499 516	endothelial cells
+T16	Pathological_formation 531 536	tumor
+T19	Gene_or_gene_product 610 621	Angiostatin
+T20	Gene_or_gene_product 790 801	angiostatin
+T21	Drug_or_compound 885 905	angiostatin-mimetics
+T22	Drug_or_compound 971 990	angiostatin-mimetic
+T24	Gene_or_gene_product 1093 1105	ATP synthase
+T25	Gene_or_gene_product 1154 1165	angiostatin
+T23	Gene_or_gene_product 1035 1105	polyclonal antibody against the beta catalytic subunit of ATP synthase
+T29	Drug_or_compound 305 308	ATP
+T33	Drug_or_compound 636 639	ATP
+T35	Drug_or_compound 654 657	ATP

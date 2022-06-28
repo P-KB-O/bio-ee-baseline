@@ -1,0 +1,58 @@
+T2	Cell 22 49	pulmonary endothelial cells
+T4	Organ 151 156	heart
+T5	Organ 324 329	heart
+T7	Cell 558 574	endothelial cell
+T9	Cell 824 832	vascular
+T11	Cell 837 855	perivascular cells
+T13	Multi-tissue_structure 859 878	lung biopsy samples
+T14	Gene_or_gene_product 997 1030	endothelial nitric oxide synthase
+T15	Gene_or_gene_product 1032 1066	vascular endothelial growth factor
+T16	Gene_or_gene_product 1072 1076	CD34
+T19	Gene_or_gene_product 1178 1183	Bcl-2
+T20	Cell 1208 1235	pulmonary endothelial cells
+T21	Cell 1492 1525	perivascular inflammatory T-cells
+T24	Gene_or_gene_product 1688 1722	vascular endothelial growth factor
+T26	Multi-tissue_structure 1737 1743	vessel
+T29	Multi-tissue_structure 1777 1783	vessel
+T31	Cell 1896 1912	endothelial cell
+T33	Cell 1956 1987	perivascular inflammatory cells
+T36	Multi-tissue_structure 2049 2055	vessel
+T3	Tissue 69 76	intimal
+T10	Tissue 599 606	intimal
+T12	Tissue 2023 2030	intimal
+T1000	Organism 371 379	children
+T1001	Organism 887 895	patients
+T1002	Organism 968 976	patients
+T1003	Organism 1319 1327	patients
+T38	Tissue 1351 1358	Intimal
+T8	Blood_vessel_development 718 730	angiogenesis
+T17	Blood_vessel_development 1106 1121	neoangiogenesis
+T32	Pathway 1927 1950	antiapoptotic signaling
+T1	Death 9 18	apoptosis
+E1	Death:T1 Theme:T2
+T6	Death 575 584	apoptosis
+E6	Death:T6 Theme:T7
+T18	Gene_expression 1195 1204	expressed
+E18	Gene_expression:T18 Theme:T19
+T23	Positive_regulation 1672 1684	upregulation
+E23	Positive_regulation:T23 Theme:T24
+T30	Negative_regulation 1887 1895	impaired
+E30	Negative_regulation:T30 Theme:E2
+R1	frag Arg1:T9 Arg2:T11
+T37	Death 1913 1922	apoptosis
+E2	Death:T37 Theme:T31
+T22	Growth 77 90	proliferation
+E3	Growth:T22 Theme:T3
+T34	Growth 607 620	proliferation
+E4	Growth:T34 Theme:T10
+T39	Growth 1359 1372	proliferation
+E5	Growth:T39 Theme:T38
+T40	Development 1744 1753	formation
+E7	Development:T40 Theme:T26
+E8	Positive_regulation:T23 Theme:E7
+E9	Negative_regulation:T30 Theme:E13
+T41	Growth 2031 2044	proliferation
+E10	Growth:T41 Theme:T12
+E11	Blood_vessel_development:T8 
+E12	Blood_vessel_development:T17 
+E13	Pathway:T32 

@@ -1,0 +1,44 @@
+T1	Drug_or_compound 0 9	Rofecoxib
+T2	Multi-tissue_structure 62 67	Joint
+T5	Gene_or_gene_product 225 241	Cyclooxygenase-2
+T6	Gene_or_gene_product 243 248	COX-2
+T9	Cell 387 395	platelet
+T10	Drug_or_compound 434 471	non-steroidal anti-inflammatory drugs
+T11	Drug_or_compound 606 615	rofecoxib
+T12	Drug_or_compound 719 728	rofecoxib
+T13	Multi-tissue_structure 788 794	joints
+T14	Drug_or_compound 881 890	rofecoxib
+T15	Drug_or_compound 984 993	rofecoxib
+T16	Drug_or_compound 1209 1218	rofecoxib
+T17	Drug_or_compound 1289 1298	Rofecoxib
+T18	Multi-tissue_structure 1351 1357	joints
+T20	Gene_or_gene_product 1564 1569	COX-2
+T1000	Organism 650 657	patient
+T1001	Organism 859 867	patients
+T1002	Organism 1040 1047	patient
+T1003	Organism 1128 1136	patients
+T24	Multi-tissue_structure 942 947	joint
+T3	Blood_vessel_development 211 223	angiogenesis
+T8	Blood_vessel_development 333 343	angiogenic
+*	Equiv T6 T5
+T7	Regulation 380 386	affect
+E1	Regulation:T7 Theme:T9
+A1	Negation E1
+T21	Planned_process 616 625	treatment
+E2	Planned_process:T21 Instrument:T11 Theme:T1000
+T22	Planned_process 732 740	treating
+E3	Planned_process:T22 Instrument:T12 Theme:T13
+T23	Planned_process 868 875	treated
+E4	Planned_process:T23 Theme:T1001 Instrument:T14
+T25	Planned_process 994 1003	treatment
+E5	Planned_process:T25 Instrument:T15 Theme:T1002
+T26	Planned_process 1172 1179	treated
+E6	Planned_process:T26 Theme:T1003
+T27	Planned_process 1219 1228	treatment
+E7	Planned_process:T27 Instrument:T16
+T28	Planned_process 1303 1307	used
+E8	Planned_process:T28 Instrument:T17 Theme:T18
+E9	Blood_vessel_development:T3 
+E10	Blood_vessel_development:T8 
+T29	Negative_regulation 358 368	properties
+E11	Negative_regulation:T29 Theme:E10

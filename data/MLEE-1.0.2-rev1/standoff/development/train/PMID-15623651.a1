@@ -1,0 +1,39 @@
+T1	Drug_or_compound 0 18	2-methoxyestradiol
+T4	Gene_or_gene_product 28 59	hypoxia-inducible factor 1alpha
+T6	Pathological_formation 61 66	tumor
+T8	Drug_or_compound 105 115	paclitaxel
+T11	Pathological_formation 128 165	head and neck squamous cell carcinoma
+T14	Pathological_formation 177 215	Head and neck squamous cell carcinomas
+T16	Gene_or_gene_product 250 287	hypoxia-inducible factor (HIF)-1alpha
+T20	Drug_or_compound 422 440	2-Methoxyestradiol
+T21	Drug_or_compound 442 446	2ME2
+T22	Gene_or_gene_product 475 485	HIF-1alpha
+T23	Pathological_formation 586 598	solid tumors
+T24	Pathological_formation 612 619	myeloma
+T25	Drug_or_compound 690 694	2ME2
+T28	Pathological_formation 698 735	head and neck squamous cell carcinoma
+T29	Drug_or_compound 811 815	2ME2
+T30	Drug_or_compound 846 856	paclitaxel
+T33	Pathological_formation 899 936	head and neck squamous cell carcinoma
+T34	Drug_or_compound 947 951	2ME2
+T35	Cell 1021 1069	head and neck squamous cell carcinoma cell lines
+T40	Gene_or_gene_product 1153 1154	7
+T41	Gene_or_gene_product 1143 1152	caspase-3
+T42	Drug_or_compound 1194 1198	2ME2
+T45	Gene_or_gene_product 1229 1239	HIF-1alpha
+T48	Gene_or_gene_product 1314 1317	bid
+T49	Gene_or_gene_product 1334 1346	bcl-2 family
+T50	Gene_or_gene_product 1359 1393	vascular endothelial growth factor
+T54	Gene_or_gene_product 1442 1445	Bid
+T57	Gene_or_gene_product 1506 1540	vascular endothelial growth factor
+T58	Gene_or_gene_product 1685 1695	HIF-1alpha
+T59	Gene_or_gene_product 1705 1715	HIF-1alpha
+T62	Pathological_formation 1807 1844	head and neck squamous cell carcinoma
+T63	Cell 1851 1867	UM-SCC-11A cells
+T64	Drug_or_compound 1869 1873	2ME2
+T66	Drug_or_compound 2017 2021	2ME2
+T67	Drug_or_compound 2042 2052	paclitaxel
+T70	Pathological_formation 2096 2133	head and neck squamous cell carcinoma
+T3	Gene_or_gene_product 1938 1942	CD31
+T36	Cell 410 414	cell
+T53	Pathological_formation 1888 1893	tumor

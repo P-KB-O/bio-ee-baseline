@@ -1,0 +1,55 @@
+T2	Gene_or_gene_product 0 7	Insulin
+T3	Gene_or_gene_product 16 50	vascular endothelial growth factor
+T4	Multi-tissue_structure 65 71	retina
+T5	Gene_or_gene_product 133 140	insulin
+T6	Gene_or_gene_product 232 239	insulin
+T7	Gene_or_gene_product 322 356	Vascular endothelial growth factor
+T8	Gene_or_gene_product 358 362	VEGF
+T9	Gene_or_gene_product 496 503	insulin
+T12	Gene_or_gene_product 515 519	VEGF
+T13	Gene_or_gene_product 581 588	insulin
+T15	Gene_or_gene_product 592 596	VEGF
+T16	Gene_or_gene_product 677 681	VEGF
+T17	Gene_or_gene_product 730 737	insulin
+T19	Gene_or_gene_product 748 752	VEGF
+T20	Cell 771 809	retinal pigment epithelial (RPE) cells
+T23	Gene_or_gene_product 826 833	insulin
+T24	Gene_or_gene_product 839 843	VEGF
+T25	Gene_or_gene_product 877 882	RNase
+T26	Gene_or_gene_product 932 939	insulin
+T27	Cell 948 957	RPE cells
+T28	Gene_or_gene_product 975 979	VEGF
+T31	Cell 992 1018	capillary endothelial cell
+T33	Gene_or_gene_product 1050 1057	insulin
+T34	Gene_or_gene_product 1075 1079	VEGF
+T35	Gene_or_gene_product 1187 1194	Insulin
+T36	Gene_or_gene_product 1205 1209	VEGF
+T37	Tissue 1229 1237	ganglion
+T38	Tissue 1239 1252	inner nuclear
+T39	Tissue 1258 1273	RPE cell layers
+T40	Gene_or_gene_product 1285 1292	insulin
+T41	Gene_or_gene_product 1303 1307	VEGF
+T42	Cell 1329 1338	RPE cells
+T43	Gene_or_gene_product 1352 1356	VEGF
+T45	Gene_or_gene_product 1415 1422	Insulin
+T46	Gene_or_gene_product 1448 1452	VEGF
+T47	Cell 1483 1491	RPE cell
+T48	Gene_or_gene_product 1576 1583	insulin
+T49	Cell 1596 1604	RPE cell
+T53	Cell 1622 1648	capillary endothelial cell
+T57	Gene_or_gene_product 1751 1758	Insulin
+T58	Gene_or_gene_product 1769 1773	VEGF
+T59	Cell 1810 1819	RPE cells
+T62	Gene_or_gene_product 1858 1862	VEGF
+T63	Gene_or_gene_product 1879 1886	insulin
+T66	Gene_or_gene_product 1994 1998	VEGF
+T50	Gene_or_gene_product 1710 1714	VEGF
+T21	Gene_or_gene_product 1101 1111	luciferase
+T1000	Organism 283 291	patients
+T1001	Organism 665 668	rat
+T1002	Organism 765 770	human
+T1003	Organism 1323 1328	human
+T1004	Organism 1945 1953	patients
+T56	Gene_or_gene_product 1705 1736	anti-VEGF neutralizing antibody
+T70	DNA_domain_or_region 1080 1088	promoter
+T74	DNA_domain_or_region 1357 1365	promoter

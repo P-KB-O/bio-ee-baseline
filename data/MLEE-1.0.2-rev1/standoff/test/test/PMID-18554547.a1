@@ -1,0 +1,22 @@
+T1	Drug_or_compound 43 55	nitric oxide
+T3	Drug_or_compound 100 112	Nitric oxide
+T4	Drug_or_compound 114 116	NO
+T6	Drug_or_compound 197 199	NO
+T7	Anatomical_system 207 218	vasculature
+T8	Gene_or_gene_product 279 313	vascular endothelial growth factor
+T9	Gene_or_gene_product 315 319	VEGF
+T12	Drug_or_compound 353 355	NO
+T13	Cell 377 394	endothelial cells
+T17	Drug_or_compound 602 604	NO
+T19	Drug_or_compound 715 717	NO
+T22	Gene_or_gene_product 844 848	eNOS
+T23	Gene_or_gene_product 886 890	VEGF
+T25	Drug_or_compound 934 936	NO
+T27	Gene_or_gene_product 1016 1019	NOS
+T28	Drug_or_compound 1030 1057	N(G)-iminoethyl-L-ornithine
+T29	Gene_or_gene_product 1061 1065	VEGF
+T31	Drug_or_compound 1183 1185	NO
+T1000	Organism 746 751	mouse
+T1001	Organism 830 834	mice
+T1002	Organism 844 862	eNOS knockout mice
+T1003	Organism 952 956	mice

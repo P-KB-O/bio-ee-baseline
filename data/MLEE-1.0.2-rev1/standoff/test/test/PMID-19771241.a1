@@ -1,0 +1,29 @@
+T1	Pathological_formation 0 5	Tumor
+T4	Gene_or_gene_product 75 94	FGF-Binding Protein
+T7	Pathological_formation 160 192	Gastrointestinal Adenocarcinomas
+T8	Pathological_formation 197 202	Tumor
+T12	Pathological_formation 315 321	tumors
+T17	Pathological_formation 388 393	tumor
+T20	Gene_or_gene_product 446 486	fibroblast growth factor-binding protein
+T21	Gene_or_gene_product 488 494	FGF-BP
+T22	Gene_or_gene_product 544 548	FGFs
+T23	Gene_or_gene_product 559 562	FGF
+T25	Pathological_formation 658 663	tumor
+T28	Gene_or_gene_product 735 741	FGF-BP
+T30	Gene_or_gene_product 811 817	FGF-BP
+T32	Pathological_formation 865 873	pancreas
+T33	Pathological_formation 878 898	colorectal carcinoma
+T35	Gene_or_gene_product 941 947	FGF-BP
+T37	Pathological_formation 1001 1011	colorectal
+T38	Pathological_formation 1016 1041	pancreatic adenocarcinoma
+T40	Pathological_formation 1111 1121	colorectal
+T41	Pathological_formation 1126 1151	pancreatic adenocarcinoma
+T47	Gene_or_gene_product 1303 1309	FGF-BP
+T48	Pathological_formation 1341 1349	pancreas
+T49	Pathological_formation 1354 1366	colon cancer
+T50	Organism_substance 1402 1407	serum
+T51	Pathological_formation 1442 1472	high-risk premalignant lesions
+T52	Gene_or_gene_product 1514 1520	FGF-BP
+T1001	Organism 309 314	human
+T27	Gene_or_gene_product 701 749	monoclonal antibodies that target FGF-BP protein
+T54	Tissue 911 925	tissue samples

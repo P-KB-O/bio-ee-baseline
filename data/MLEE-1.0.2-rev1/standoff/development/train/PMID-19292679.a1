@@ -1,0 +1,34 @@
+T2	Drug_or_compound 14 29	perfluorocarbon
+T3	Drug_or_compound 47 53	oxygen
+T4	Multi-tissue_structure 66 91	tissue-engineered trachea
+T6	Drug_or_compound 123 138	perfluorocarbon
+T7	Drug_or_compound 156 162	oxygen
+T8	Drug_or_compound 172 179	Oxygent
+T9	Multi-tissue_structure 201 226	tissue-engineered trachea
+T10	Multi-tissue_structure 228 231	TET
+T11	Drug_or_compound 287 294	Oxygent
+T12	Drug_or_compound 344 350	oxygen
+T14	Tissue 477 491	TET epithelium
+T17	Drug_or_compound 610 627	glycosaminoglycan
+T18	Tissue 673 697	TET epithelial scaffolds
+T19	Multi-tissue_structure 750 781	embryo chorioallantoic membrane
+T21	Drug_or_compound 783 790	Oxygent
+T22	Tissue 822 836	TET epithelial
+T23	Drug_or_compound 1016 1023	lactate
+T24	Drug_or_compound 1100 1107	lactate
+T25	Drug_or_compound 1108 1116	pyruvate
+T26	Drug_or_compound 1177 1184	lactate
+T27	Drug_or_compound 1185 1192	glucose
+T29	Drug_or_compound 1279 1286	Oxygent
+T30	Drug_or_compound 1309 1326	glycosaminoglycan
+T31	Drug_or_compound 1422 1441	mucopolysaccharides
+T32	Multi-tissue_structure 1581 1606	chorioallantoic membranes
+T33	Drug_or_compound 1679 1686	Oxygent
+T34	Tissue 1697 1711	TET epithelial
+T40	Tissue 1800 1816	cartilage tissue
+T36	Tissue 1529 1538	capillary
+T1000	Organism 744 749	chick
+T44	Tissue 337 343	tissue
+T45	Tissue 654 660	Tissue
+T1	Cell 529 540	Chondrocyte
+T5	Cell 1255 1266	Chondrocyte

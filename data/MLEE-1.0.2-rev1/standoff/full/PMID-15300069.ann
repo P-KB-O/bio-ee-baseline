@@ -1,0 +1,45 @@
+T3	Drug_or_compound 109 120	verteporfin
+T6	Drug_or_compound 272 283	verteporfin
+T7	Organ 337 341	eyes
+T8	Tissue 667 688	foveal avascular zone
+T9	Tissue 690 693	FAZ
+T10	Organ 758 761	eye
+T11	Tissue 1018 1021	FAZ
+T12	Organ 1043 1047	eyes
+T13	Organ 1327 1331	eyes
+T14	Tissue 1613 1626	foveal center
+T2	Drug_or_compound 453 464	Fluorescein
+T5	Drug_or_compound 906 917	fluorescein
+T1001	Organism 349 357	patients
+T1003	Organism 544 552	patients
+T1005	Organism 696 703	Patient
+T20	Pathological_formation 598 604	lesion
+T21	Pathological_formation 932 938	lesion
+T22	Pathological_formation 1253 1260	lesions
+T24	Pathological_formation 1349 1356	lesions
+T25	Pathological_formation 1585 1592	lesions
+T1	Blood_vessel_development 51 69	neovascularization
+T4	Blood_vessel_development 209 227	neovascularization
+T1002	Blood_vessel_development 530 533	CNV
+T1004	Blood_vessel_development 557 560	CNV
+T1006	Blood_vessel_development 842 845	CNV
+T1007	Blood_vessel_development 1064 1067	CNV
+T15	Blood_vessel_development 229 232	CNV
+*	Equiv T8 T9
+T16	Planned_process 70 77	treated
+E1	Planned_process:T16 Instrument:T3 Theme:E6
+T17	Planned_process 234 241	treated
+E2	Planned_process:T17 Instrument:T6 Theme:E12
+T18	Planned_process 358 365	treated
+E3	Planned_process:T18 Theme:T7
+T19	Planned_process 750 757	treated
+E4	Planned_process:T19 Theme:T10
+T23	Development 1261 1271	progressed
+E5	Development:T23 Theme:T22
+E6	Blood_vessel_development:T1 
+E7	Blood_vessel_development:T4 
+E8	Blood_vessel_development:T1002 
+E9	Blood_vessel_development:T1004 
+E10	Blood_vessel_development:T1006 
+E11	Blood_vessel_development:T1007 
+E12	Blood_vessel_development:T15 

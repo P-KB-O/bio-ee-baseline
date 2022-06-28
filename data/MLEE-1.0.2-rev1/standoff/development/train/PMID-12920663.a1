@@ -1,0 +1,32 @@
+T2	Gene_or_gene_product 110 143	pigment epithelium-derived factor
+T3	Gene_or_gene_product 145 149	PEDF
+T4	Organism_substance 154 167	aqueous humor
+T5	Tissue 216 229	microvascular
+T7	Organism_substance 414 427	aqueous humor
+T8	Organ 435 438	eye
+T9	Organism_substance 440 453	Aqueous humor
+T11	Gene_or_gene_product 596 630	vascular endothelial growth factor
+T12	Gene_or_gene_product 632 636	VEGF
+T14	Gene_or_gene_product 663 696	pigment epithelium-derived factor
+T15	Gene_or_gene_product 698 702	PEDF
+T17	Organism_substance 748 761	aqueous humor
+T21	Cell 821 848	capillary endothelial cells
+T23	Organism_substance 857 870	aqueous fluid
+T24	Gene_or_gene_product 872 876	VEGF
+T25	Gene_or_gene_product 978 982	PEDF
+T26	Gene_or_gene_product 1208 1212	PEDF
+T27	Gene_or_gene_product 1252 1256	VEGF
+T30	Gene_or_gene_product 1452 1456	PEDF
+T32	Gene_or_gene_product 1515 1519	PEDF
+T36	Gene_or_gene_product 1621 1625	PEDF
+T39	Gene_or_gene_product 1711 1715	PEDF
+T40	Gene_or_gene_product 1772 1776	PEDF
+T43	Organism_substance 1838 1851	aqueous humor
+T1000	Organism 505 513	patients
+T1001	Organism 1107 1115	patients
+T1002	Organism 1292 1300	patients
+T1003	Organism 1388 1396	patients
+T31	Gene_or_gene_product 1488 1519	neutralizing antibodies to PEDF
+T35	Gene_or_gene_product 1607 1625	antibodies to PEDF
+T48	Organism 561 569	controls
+T49	Organ 81 87	ocular

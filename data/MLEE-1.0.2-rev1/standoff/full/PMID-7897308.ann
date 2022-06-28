@@ -1,0 +1,62 @@
+T1	Drug_or_compound 11 22	doxycycline
+T4	Cell 81 103	breast carcinoma cells
+T6	Gene_or_gene_product 269 287	metalloproteinases
+T7	Gene_or_gene_product 289 292	MPs
+T9	Gene_or_gene_product 384 386	MP
+T11	Pathological_formation 473 486	breast cancer
+T12	Gene_or_gene_product 488 491	MPs
+T14	Pathological_formation 512 517	tumor
+T16	Drug_or_compound 532 545	Tetracyclines
+T18	Gene_or_gene_product 589 591	MP
+T19	Multi-tissue_structure 636 643	gingiva
+T20	Tissue 645 649	bone
+T21	Tissue 655 664	cartilage
+T22	Drug_or_compound 702 715	tetracyclines
+T24	Pathological_formation 729 734	tumor
+T25	Gene_or_gene_product 735 738	MPs
+T26	Drug_or_compound 760 772	tetracycline
+T27	Drug_or_compound 774 785	doxycycline
+T30	Cell 815 853	MDA-MB-435 breast adenocarcinoma cells
+T32	Cellular_component 878 895	basement membrane
+T34	Pathological_formation 974 979	tumor
+T35	Cellular_component 997 1015	basement membranes
+T36	Drug_or_compound 1031 1042	doxycycline
+T39	Cell 1080 1103	breast cancer cell line
+T5	Pathological_formation 454 461	cancers
+T1000	Organism 176 181	human
+T1001	Organism 809 814	human
+T31	Pathological_formation 166 172	cancer
+T42	Tissue 617 624	tissues
+T15	Blood_vessel_development 518 530	angiogenesis
+T2	Cell_proliferation 35 41	growth
+E2	Cell_proliferation:T2 Theme:T4
+T3	Localization 43 52	migration
+E3	Localization:T3 Theme:T4
+T8	Positive_regulation 374 383	Increased
+E8	Positive_regulation:T8 Theme:T9
+T17	Negative_regulation 580 588	suppress
+E17	Negative_regulation:T17 Cause:T16 Theme:T18
+T23	Negative_regulation 720 728	suppress
+E23	Negative_regulation:T23 Cause:T22 Theme:T25
+T28	Negative_regulation 787 795	inhibits
+E28	Negative_regulation:T28 Theme:E29 Cause:T27
+T29	Localization 796 805	migration
+E29	Localization:T29 Theme:T30
+T33	Localization 980 988	invasion
+E33	Localization:T33 Theme:T34
+T37	Negative_regulation 1043 1053	diminishes
+E37	Negative_regulation:T37 Theme:E38 Cause:T36
+T38	Cell_proliferation 1058 1071	proliferation
+E38	Cell_proliferation:T38 Theme:T39
+*	Equiv T6 T7
+T10	Regulation 0 7	Effects
+E1	Regulation:T10 Cause:T1 Theme:E2
+E4	Regulation:T10 Cause:T1 Theme:E3
+T13	Death 155 160	death
+E5	Death:T13 Theme:T1000
+T40	Regulation 497 508	play a role
+E6	Regulation:T40 Cause:T12 Theme:E10
+E7	Negative_regulation:T28 Theme:E29 Cause:T26
+T41	Remodeling 864 877	reconstituted
+E9	Remodeling:T41 Theme:T32
+E10	Blood_vessel_development:T15 AtLoc:T14

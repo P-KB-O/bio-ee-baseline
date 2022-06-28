@@ -1,0 +1,12 @@
+T3	Drug_or_compound 429 440	fluorescein
+T4	Tissue 597 606	capillary
+T5	Multi-tissue_structure 704 719	retinal vessels
+T1000	Organism 474 481	persons
+T1001	Organism 519 526	persons
+T1002	Organism 636 642	cotton
+T8	Blood_vessel_development 740 760	neovascular response
+T6	Positive_regulation 731 737	induce
+E6	Positive_regulation:T6 Theme:E2
+T1	Planned_process 441 452	angiography
+E1	Planned_process:T1 Instrument:T3 Theme:T1000
+E2	Blood_vessel_development:T8 

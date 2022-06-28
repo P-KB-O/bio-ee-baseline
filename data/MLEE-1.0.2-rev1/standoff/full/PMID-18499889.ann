@@ -1,0 +1,30 @@
+T1	Pathological_formation 33 50	colorectal cancer
+T2	Pathological_formation 97 114	colorectal cancer
+T3	Pathological_formation 184 201	colorectal cancer
+T4	Pathological_formation 282 299	colorectal cancer
+T5	Pathological_formation 777 794	colorectal cancer
+T6	Drug_or_compound 1007 1018	Bevacizumab
+T7	Pathological_formation 1162 1179	colorectal cancer
+T8	Pathological_formation 1335 1352	colorectal cancer
+T9	Pathological_formation 1418 1435	colorectal cancer
+T1000	Organism 520 528	patients
+T1001	Organism 562 570	patients
+T1002	Organism 644 651	patient
+T1003	Organism 837 844	patient
+T1004	Organism 1300 1308	patients
+T1005	Organism 1481 1488	patient
+T10	Regulation 151 161	management
+E1	Regulation:T10 Theme:T3
+T11	Planned_process 755 764	Treatment
+E2	Planned_process:T11 Theme:T5
+T12	Planned_process 1039 1051	chemotherapy
+E3	Planned_process:T12 Instrument:T6
+T13	Planned_process 1137 1149	chemotherapy
+E4	Planned_process:T13 Theme:T7
+T14	Planned_process 1284 1296	chemotherapy
+E5	Planned_process:T14 Theme:T8
+T15	Planned_process 1405 1414	treatment
+E6	Planned_process:T15 Theme:T9
+T16	Planned_process 454 466	chemotherapy
+E7	Planned_process:T16 Theme:T1000
+E8	Planned_process:T16 Theme:T1001

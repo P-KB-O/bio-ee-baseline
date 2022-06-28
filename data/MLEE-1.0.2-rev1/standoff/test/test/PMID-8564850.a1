@@ -1,0 +1,17 @@
+T3	Multi-tissue_structure 46 57	bone marrow
+T5	Organism_substance 134 139	blood
+T8	Cell 353 370	endothelial cells
+T11	Tissue 437 446	capillary
+T13	Cell 509 526	bone marrow cells
+T16	Cell 586 597	blood cells
+T20	Tissue 630 639	capillary
+T22	Cell 673 685	marrow cells
+T24	Cell 875 887	Marrow cells
+T26	Gene_or_gene_product 997 1027	basic fibroblast growth factor
+T27	Gene_or_gene_product 1029 1033	bFGF
+T29	Multi-tissue_structure 1158 1169	bone marrow
+T31	Cell 1350 1366	endothelial cell
+T32	Multi-tissue_structure 1481 1492	Bone marrow
+T14	Multi-tissue_structure 824 840	abdominal aortic
+T1000	Organism 856 860	dogs
+T4	Pathological_formation 1465 1473	thrombus

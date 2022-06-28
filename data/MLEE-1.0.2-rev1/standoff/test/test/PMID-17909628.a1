@@ -1,0 +1,29 @@
+T2	Gene_or_gene_product 0 6	CX3CR1
+T3	Cell 17 42	subretinal microglia cell
+T4	Cell 151 167	microglial cells
+T5	Cell 169 172	MCs
+T7	Cell 258 269	retinal MCs
+T8	Gene_or_gene_product 278 303	CX3C chemokine receptor 1
+T9	Gene_or_gene_product 305 311	CX3CR1
+T11	Gene_or_gene_product 343 349	CX3CR1
+T13	Cell 460 463	MCs
+T15	Immaterial_anatomical_entity 483 499	subretinal space
+T18	Gene_or_gene_product 576 582	CX3CR1
+T20	Cell 599 602	MCs
+T21	Immaterial_anatomical_entity 615 627	subretinally
+T22	Drug_or_compound 791 796	lipid
+T23	Cell 805 819	subretinal MCs
+T24	Pathological_formation 824 830	drusen
+T26	Gene_or_gene_product 873 879	CX3CR1
+T27	Cell 890 892	MC
+T32	Gene_or_gene_product 987 993	CX3CR1
+T33	Cell 1020 1034	subretinal MCs
+T10	Tissue 108 115	macular
+T14	Tissue 189 196	macular
+T35	Multi-tissue_structure 512 519	retinal
+T36	Multi-tissue_structure 692 699	retinal
+T1001	Organism 443 449	humans
+T1003	Organism 593 597	mice
+T1004	Organism 733 737	mice
+T1005	Organism 863 867	mice
+T45	Cell 397 401	cell

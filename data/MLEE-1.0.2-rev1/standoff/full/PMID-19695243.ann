@@ -1,0 +1,116 @@
+T1	Drug_or_compound 11 25	5-fluorouracil
+T2	Drug_or_compound 27 38	oxaliplatin
+T3	Drug_or_compound 43 53	irinotecan
+T7	Drug_or_compound 499 509	irinotecan
+T8	Drug_or_compound 511 517	CPT-11
+T9	Drug_or_compound 520 531	oxaliplatin
+T10	Drug_or_compound 533 538	L-OHP
+T11	Drug_or_compound 544 558	5-fluorouracil
+T12	Drug_or_compound 560 564	5-FU
+T14	Gene_or_gene_product 702 736	vascular endothelial growth factor
+T15	Gene_or_gene_product 738 742	VEGF
+T16	Cell 781 802	endothelial (HMVEC-d)
+T17	Cell 807 838	colorectal cancer (HT-29) cells
+T18	Drug_or_compound 889 894	SN-38
+T19	Drug_or_compound 921 927	CPT-11
+T20	Drug_or_compound 929 934	L-OHP
+T21	Drug_or_compound 939 943	5-FU
+T22	Cell 945 950	HT-29
+T24	Pathological_formation 1004 1010	tumour
+T26	Tissue 1019 1030	microvessel
+T27	Gene_or_gene_product 1043 1047	VEGF
+T28	Pathological_formation 1081 1088	tumours
+T29	Drug_or_compound 1128 1134	CPT-11
+T30	Drug_or_compound 1136 1141	L-OHP
+T31	Drug_or_compound 1143 1147	5-FU
+T32	Drug_or_compound 1206 1211	SN-38
+T33	Drug_or_compound 1221 1225	5-FU
+T34	Drug_or_compound 1230 1235	L-OHP
+T38	Cell 1262 1278	endothelial cell
+T39	Cell 1334 1339	HT-29
+T40	Cell 1344 1357	HMVEC-d cells
+T41	Drug_or_compound 1380 1385	SN-38
+T42	Drug_or_compound 1386 1391	L-OHP
+T43	Drug_or_compound 1392 1396	5-FU
+T45	Gene_or_gene_product 1547 1551	VEGF
+T46	Cell 1565 1583	HT-29 cancer cells
+T47	Drug_or_compound 1617 1623	CPT-11
+T48	Drug_or_compound 1633 1637	5-FU
+T49	Drug_or_compound 1642 1647	L-OHP
+T53	Pathological_formation 1672 1683	HT-29 tumor
+T55	Tissue 1695 1706	microvessel
+T56	Drug_or_compound 1771 1775	5-FU
+T57	Drug_or_compound 1776 1781	L-OHP
+T58	Drug_or_compound 1782 1788	CPT-11
+T59	Tissue 1816 1829	microvascular
+T35	Pathological_formation 57 74	colorectal cancer
+T50	Pathological_formation 569 586	colorectal cancer
+T61	Pathological_formation 957 990	colorectal cancer xenograft model
+T62	Pathological_formation 1915 1932	colorectal cancer
+T1000	Organism 951 956	human
+T51	Tissue 230 241	endothelial
+T70	Cell 658 662	cell
+T73	Pathological_formation 468 473	tumor
+T6	Blood_vessel_development 449 459	angiogenic
+T13	Localization 744 753	secretion
+E13	Localization:T13 Theme:T14
+T23	Growth 1011 1017	growth
+E23	Growth:T23 Theme:T24
+T37	Cell_proliferation 1279 1292	proliferation
+E37	Cell_proliferation:T37 Theme:T38
+T44	Localization 1552 1561	secretion
+E44	Localization:T44 Theme:T45
+T52	Growth 1678 1690	tumor growth
+E52	Growth:T52 Theme:T53
+*	Equiv T14 T15
+*	Equiv T7 T8
+*	Equiv T9 T10
+*	Equiv T11 T12
+T5	Planned_process 839 846	exposed
+E1	Planned_process:T5 Instrument:T18 Theme:T17
+E2	Planned_process:T5 Theme:T16 Instrument:T18
+E3	Planned_process:T5 Instrument:T21 Theme:T16
+E5	Planned_process:T5 Instrument:T20 Theme:T16
+E6	Planned_process:T5 Instrument:T19 Theme:T16
+E7	Planned_process:T5 Instrument:T19 Theme:T17
+E8	Planned_process:T5 Instrument:T21 Theme:T17
+E9	Planned_process:T5 Instrument:T20 Theme:T17
+T63	Positive_regulation 1535 1543	increase
+E10	Positive_regulation:T63 Theme:E44
+T64	Negative_regulation 1252 1261	inhibited
+E11	Negative_regulation:T64 Theme:E37 Cause:T32
+E12	Negative_regulation:T64 Theme:E37 Cause:T34
+E14	Negative_regulation:T64 Theme:E37 Cause:T33
+A1	Negation E12
+A2	Negation E14
+T65	Planned_process 1322 1330	exposure
+E15	Planned_process:T65 Instrument:T41 Instrument:T42 Instrument:T43 Theme:T39
+E16	Planned_process:T65 Instrument:T41 Instrument:T42 Instrument:T43 Theme:T40
+T66	Negative_regulation 1663 1671	inhibits
+E17	Negative_regulation:T66 Theme:E52 Cause:T49
+E18	Negative_regulation:T66 Theme:T55 Cause:T49
+E19	Negative_regulation:T66 Theme:T55 Cause:T48
+E20	Negative_regulation:T66 Theme:T55 Cause:T47
+A3	Negation E18
+A4	Negation E19
+E21	Negative_regulation:T66 Theme:E52 Cause:T48
+E22	Negative_regulation:T66 Theme:E52 Cause:T47
+A5	Negation E17
+A6	Negation E21
+T67	Planned_process 1789 1796	therapy
+E24	Planned_process:T67 Instrument:T58 Instrument:T57 Instrument:T56
+T68	Regulation 1805 1811	affect
+E26	Regulation:T68 Cause:E24 Theme:T59
+A7	Negation E26
+R1	frag Arg1:T16 Arg2:T17	
+T60	Negative_regulation 242 250	activity
+E27	Negative_regulation:T60 Theme:T51
+T69	Positive_regulation 212 220	enhances
+E28	Positive_regulation:T69 Theme:E27
+T71	Cell_proliferation 663 676	proliferation
+E29	Cell_proliferation:T71 Theme:T70
+E30	Blood_vessel_development:T6 
+T72	Negative_regulation 474 484	activities
+E31	Negative_regulation:T72 Theme:E30
+E32	Negative_regulation:T72 Theme:T73
+R2	frag Arg1:T39 Arg2:T40	

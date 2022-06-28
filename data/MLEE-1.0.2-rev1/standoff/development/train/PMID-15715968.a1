@@ -1,0 +1,24 @@
+T2	Gene_or_gene_product 61 106	vascular endothelial growth factor receptor 2
+T3	Gene_or_gene_product 133 167	Vascular endothelial growth factor
+T4	Gene_or_gene_product 169 173	VEGF
+T5	Cell 179 195	endothelial cell
+T7	Pathological_formation 225 230	tumor
+T9	Cell 303 320	endothelial cells
+T10	Gene_or_gene_product 341 348	VEGFR-2
+T11	Gene_or_gene_product 349 352	KDR
+T12	Drug_or_compound 596 599	ATP
+T13	Gene_or_gene_product 374 378	VEGF
+T15	Gene_or_gene_product 444 451	VEGFR-2
+T16	Gene_or_gene_product 553 560	VEGFR-2
+T17	Gene_or_gene_product 833 840	VEGFR-2
+T19	Drug_or_compound 912 918	TKI-31
+T21	Gene_or_gene_product 944 951	VEGFR-2
+T23	Cell 1002 1018	NIH3T3/KDR cells
+T24	Drug_or_compound 1024 1030	TKI-31
+T26	Gene_or_gene_product 1039 1043	VEGF
+T27	Gene_or_gene_product 1071 1074	KDR
+T28	Drug_or_compound 1113 1119	TKI-31
+T32	Tissue 1148 1158	HUVEC tube
+T33	Gene_or_gene_product 1235 1242	VEGFR-2
+T34	Drug_or_compound 1280 1286	TKI-31
+T1000	Organism 55 60	human

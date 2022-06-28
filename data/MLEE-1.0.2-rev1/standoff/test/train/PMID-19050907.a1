@@ -1,0 +1,18 @@
+T2	Gene_or_gene_product 1162 1181	alpha2 (I) collagen
+T3	Gene_or_gene_product 1183 1188	COL-I
+T5	Gene_or_gene_product 1191 1207	type IV collagen
+T6	Gene_or_gene_product 1209 1215	COL-IV
+T8	Gene_or_gene_product 1218 1237	alpha1 (V) collagen
+T9	Gene_or_gene_product 1239 1244	COL-V
+T11	Gene_or_gene_product 1251 1285	vascular endothelial growth factor
+T12	Gene_or_gene_product 1287 1291	VEGF
+T14	Gene_or_gene_product 1585 1589	VEGF
+T16	Gene_or_gene_product 1594 1600	COL-IV
+T19	Gene_or_gene_product 1878 1883	COL-I
+T21	Gene_or_gene_product 1888 1893	COL-V
+T23	Cellular_component 2052 2058	matrix
+T24	Organ 2127 2130	ear
+T25	Organism_substance 1099 1104	blood
+T1000	Organism 175 181	people
+T1001	Organism 873 880	rabbits
+T1002	Organism 2120 2126	rabbit

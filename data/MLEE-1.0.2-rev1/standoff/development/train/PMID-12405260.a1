@@ -1,0 +1,25 @@
+T1	Gene_or_gene_product 0 6	Brn-3a
+T5	Gene_or_gene_product 125 131	Brn-3a
+T7	Gene_or_gene_product 242 245	Pit
+T8	Gene_or_gene_product 247 250	Oct
+T9	Gene_or_gene_product 256 259	Unc
+T10	Cell 275 289	neuronal cells
+T11	Gene_or_gene_product 404 409	Bcl-2
+T13	Gene_or_gene_product 439 445	Brn-3a
+T14	Gene_or_gene_product 491 496	Bcl-2
+T15	Cell 587 601	neuronal cells
+T18	Gene_or_gene_product 613 619	Brn-3a
+T20	Gene_or_gene_product 689 694	Bcl-2
+T22	Gene_or_gene_product 783 789	Brn-3a
+T23	Cell 822 836	neuronal cells
+T24	Cell 875 887	cancer cells
+T25	Gene_or_gene_product 943 949	Brn-3a
+T28	Gene_or_gene_product 1033 1038	Bcl-2
+T29	Gene_or_gene_product 1039 1042	p53
+T32	Gene_or_gene_product 1058 1063	Bcl-2
+T33	Gene_or_gene_product 1064 1068	VEGF
+T35	Gene_or_gene_product 1169 1175	Brn-3a
+T3	Pathological_formation 99 105	cancer
+T36	DNA_domain_or_region 335 337	p1
+T37	DNA_domain_or_region 342 354	p2 promoters
+T30	Pathological_formation 1082 1087	tumor

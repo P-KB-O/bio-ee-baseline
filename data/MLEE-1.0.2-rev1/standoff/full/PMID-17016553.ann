@@ -1,0 +1,14 @@
+T1	Pathological_formation 8 13	tumor
+T3	Gene_or_gene_product 52 84	vascular-specific growth factors
+T4	Organism_substance 216 221	blood
+T6	Multi-tissue_structure 331 348	tumor vasculature
+T9	Multi-tissue_structure 475 492	tumor vasculature
+T11	Gene_or_gene_product 517 522	VEGFR
+T1000	Organism 275 280	mouse
+T5	Pathological_formation 158 164	cancer
+T2	Blood_vessel_development 14 26	angiogenesis
+T7	Blood_vessel_development 368 378	angiogenic
+T13	Growth 459 467	regrowth
+E2	Growth:T13 Theme:T9
+E3	Blood_vessel_development:T2 AtLoc:T1
+E4	Blood_vessel_development:T7 

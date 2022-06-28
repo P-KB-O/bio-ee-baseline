@@ -1,0 +1,79 @@
+T1	Organ 339 343	bone
+T2	Organ 355 359	bone
+T3	Gene_or_gene_product 376 410	insulin-like growth factor [IGF] I
+T5	Gene_or_gene_product 412 441	IGF binding protein [IGFBP] 3
+T7	Gene_or_gene_product 443 481	transforming growth factor [TGF] beta1
+T9	Gene_or_gene_product 487 496	basic FGF
+T10	Gene_or_gene_product 498 502	bFGF
+T11	Cellular_component 506 517	bone matrix
+T13	Gene_or_gene_product 580 581	3
+T14	Gene_or_gene_product 573 574	2
+T15	Gene_or_gene_product 537 571	matrix-metalloproteinases [MMPs] 1
+T16	Gene_or_gene_product 584 604	human growth hormone
+T17	Gene_or_gene_product 606 609	hGH
+T18	Organ 616 620	bone
+T19	Gene_or_gene_product 640 643	ALP
+T20	Gene_or_gene_product 645 662	bone-specific ALP
+T21	Gene_or_gene_product 664 667	BAP
+T22	Gene_or_gene_product 674 685	osteocalcin
+T23	Gene_or_gene_product 687 689	OC
+T24	Organism_substance 714 727	serum samples
+T29	Gene_or_gene_product 851 856	MMP-1
+T30	Gene_or_gene_product 858 862	bFGF
+T31	Gene_or_gene_product 864 867	ALP
+T32	Gene_or_gene_product 873 876	BAP
+T37	Gene_or_gene_product 1187 1196	TGF-beta1
+T38	Gene_or_gene_product 1198 1203	IGF-I
+T39	Gene_or_gene_product 1205 1212	IGFBP-3
+T40	Gene_or_gene_product 1218 1221	hGH
+T45	Gene_or_gene_product 1369 1374	MMP-1
+T46	Organ 1376 1380	bone
+T47	Gene_or_gene_product 1397 1406	TGF-beta1
+T48	Gene_or_gene_product 1411 1415	bFGF
+T49	Gene_or_gene_product 1422 1425	hGH
+T50	Gene_or_gene_product 1637 1640	BAP
+T51	Gene_or_gene_product 1642 1651	TGF-beta1
+T52	Gene_or_gene_product 1657 1661	bFGF
+T53	Cell 1688 1706	osteoblastic cells
+T54	Organ 1751 1755	bone
+T57	Gene_or_gene_product 1823 1827	bFGF
+T58	Gene_or_gene_product 1832 1837	MMP-1
+T1000	Organism 256 262	humans
+T1002	Organism 736 744	patients
+T60	Blood_vessel_development 1886 1898	angiogenesis
+T28	Positive_regulation 839 847	increase
+E28	Positive_regulation:T28 Theme:T29
+T36	Positive_regulation 1175 1183	increase
+E36	Positive_regulation:T36 Theme:T37
+T44	Regulation 1358 1365	changes
+E44	Regulation:T44 Theme:T45
+T56	Positive_regulation 1811 1819	increase
+E56	Positive_regulation:T56 Theme:T57
+R1	frag Arg1:T14 Arg2:T15
+R2	frag Arg1:T13 Arg2:T15
+*	Equiv T9 T10
+*	Equiv T16 T17
+*	Equiv T20 T21
+*	Equiv T22 T23
+T4	Regulation 325 335	regulation
+E1	Regulation:T4 Theme:E2
+T6	Development 344 353	formation
+E2	Development:T6 Theme:T1
+E3	Positive_regulation:T28 Theme:T30
+E4	Positive_regulation:T28 Theme:T31
+E5	Positive_regulation:T28 Theme:T32
+E6	Positive_regulation:T36 Theme:T38
+E7	Positive_regulation:T36 Theme:T39
+E8	Positive_regulation:T36 Theme:T40
+E9	Regulation:T44 Theme:T47
+E10	Regulation:T44 Theme:T48
+E11	Regulation:T44 Theme:T49
+T8	Positive_regulation 1678 1687	activated
+E12	Positive_regulation:T8 Theme:T53
+T12	Positive_regulation 1855 1864	increased
+E13	Positive_regulation:T12 Theme:E14 Cause:E56
+T25	Positive_regulation 1871 1882	stimulation
+E14	Positive_regulation:T25 Theme:E17
+E15	Positive_regulation:T56 Theme:T58
+E16	Positive_regulation:T12 Theme:E14 Cause:E15
+E17	Blood_vessel_development:T60 

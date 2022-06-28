@@ -1,0 +1,13 @@
+T3	Pathological_formation 34 40	cancer
+T6	Pathological_formation 201 207	cancer
+T7	Pathological_formation 365 371	cancer
+T9	Gene_or_gene_product 800 805	IGF-I
+T11	Drug_or_compound 833 847	mevalonic acid
+T17	Gene_or_gene_product 931 945	5-lipoxygenase
+T18	Gene_or_gene_product 947 962	12-lipoxygenase
+T19	Gene_or_gene_product 967 972	COX-2
+T24	Gene_or_gene_product 1003 1007	AP-1
+T27	Gene_or_gene_product 1057 1067	PPAR-gamma
+T31	Pathological_formation 1198 1204	cancer
+T26	Drug_or_compound 893 905	arachidonate
+T32	Cell 154 158	cell

@@ -1,0 +1,43 @@
+T1	Gene_or_gene_product 0 34	Prostate-specific membrane antigen
+T7	Gene_or_gene_product 131 165	prostate-specific membrane antigen
+T10	Gene_or_gene_product 167 171	PSMA
+T11	Multi-tissue_structure 207 218	vasculature
+T12	Pathological_formation 222 234	solid tumors
+T13	Pathological_formation 263 268	tumor
+T17	Gene_or_gene_product 364 368	PSMA
+T21	Cell 437 453	endothelial cell
+T22	Cellular_component 475 503	extracellular matrix barrier
+T23	Cellular_component 544 564	extracellular matrix
+T26	Cell 592 603	endothelial
+T28	Gene_or_gene_product 659 663	PSMA
+T29	Cellular_component 680 686	matrix
+T31	Gene_or_gene_product 758 762	PSMA
+T37	Gene_or_gene_product 920 942	p21-activated kinase 1
+T38	Gene_or_gene_product 944 949	PAK-1
+T42	Gene_or_gene_product 974 978	PSMA
+T46	Cell 1026 1042	endothelial cell
+T47	Gene_or_gene_product 1065 1073	integrin
+T48	Gene_or_gene_product 1078 1081	PAK
+T52	Gene_or_gene_product 1150 1157	beta(1)
+T54	Gene_or_gene_product 1181 1184	PAK
+T56	Gene_or_gene_product 1195 1199	PSMA
+T58	Gene_or_gene_product 1251 1255	PSMA
+T61	Gene_or_gene_product 1360 1364	PSMA
+T62	Gene_or_gene_product 1405 1414	filamin A
+T64	Gene_or_gene_product 1425 1429	PSMA
+T65	Gene_or_gene_product 1440 1448	integrin
+T67	Gene_or_gene_product 1463 1466	PAK
+T70	Gene_or_gene_product 1506 1509	PAK
+T73	Gene_or_gene_product 1534 1538	PSMA
+T74	Gene_or_gene_product 1539 1548	filamin A
+T76	Gene_or_gene_product 1579 1583	PSMA
+T77	Gene_or_gene_product 1616 1620	PSMA
+T78	Gene_or_gene_product 1676 1680	PSMA
+T82	Gene_or_gene_product 1716 1719	PAK
+T86	Gene_or_gene_product 1829 1833	PSMA
+T87	Gene_or_gene_product 1891 1895	PSMA
+T4	Gene_or_gene_product 72 80	integrin
+T49	Gene_or_gene_product 862 869	laminin
+T95	Gene_or_gene_product 879 887	integrin
+T96	Gene_or_gene_product 1693 1701	integrin
+T97	Gene_or_gene_product 1790 1806	integrin beta(1)

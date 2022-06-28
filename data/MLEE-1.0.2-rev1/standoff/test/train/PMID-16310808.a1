@@ -1,0 +1,34 @@
+T1	Drug_or_compound 10 21	thalidomide
+T4	Gene_or_gene_product 32 36	VEGF
+T11	Tissue 77 91	capillary tube
+T12	Cell 111 138	endothelial EA.hy 926 cells
+T15	Multi-tissue_structure 159 171	blood vessel
+T23	Cell 272 289	endothelial cells
+T24	Tissue 344 366	capillary microvessels
+T26	Multi-tissue_structure 378 386	vascular
+T28	Multi-tissue_structure 403 415	blood vessel
+T30	Pathological_formation 496 508	solid tumors
+T31	Drug_or_compound 520 531	Thalidomide
+T32	Drug_or_compound 533 566	alpha-(N-phthalimido)-glutarimide
+T36	Drug_or_compound 746 757	thalidomide
+T38	Drug_or_compound 851 862	thalidomide
+T40	Gene_or_gene_product 866 870	VEGF
+T46	Tissue 921 930	capillary
+T47	Cell 950 981	endothelial cell line EA.hy 926
+T48	Drug_or_compound 983 994	Thalidomide
+T50	Gene_or_gene_product 1056 1060	VEGF
+T52	Tissue 1121 1136	capillary tubes
+T53	Gene_or_gene_product 1168 1176	collagen
+T55	Drug_or_compound 1196 1207	thalidomide
+T62	Drug_or_compound 1319 1330	Thalidomide
+T67	Drug_or_compound 1478 1489	thalidomide
+T71	Gene_or_gene_product 1528 1532	VEGF
+T74	Tissue 1547 1568	capillary microvessel
+T79	Cell 1620 1635	EA.hy 926 cells
+T1000	Organism 105 110	human
+T1001	Organism 944 949	human
+T84	Cell 1151 1155	cell
+T85	Cell 1393 1397	cell
+T88	Cell 1420 1433	cell cultures
+T5	Cell 1254 1258	cell
+T16	Cell 1303 1307	cell

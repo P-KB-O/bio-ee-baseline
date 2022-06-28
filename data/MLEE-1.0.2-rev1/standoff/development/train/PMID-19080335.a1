@@ -1,0 +1,46 @@
+T2	Cell 23 45	mesenchymal stem cells
+T3	Organ 96 101	heart
+T5	Cell 159 181	Mesenchymal stem cells
+T6	Cell 183 187	MSCs
+T8	Cell 454 458	MSCs
+T10	Cell 571 575	MSCs
+T11	Organ 626 631	heart
+T12	Cell 661 665	MSCs
+T13	Cell 766 770	MSCs
+T15	Cell 885 889	MSCs
+T16	Cell 1106 1120	cardiomyocytes
+T17	Gene_or_gene_product 1247 1281	vascular endothelial growth factor
+T18	Gene_or_gene_product 1283 1287	VEGF
+T19	Gene_or_gene_product 1290 1301	VIII-factor
+T20	Multi-tissue_structure 1327 1333	vessel
+T21	Gene_or_gene_product 1350 1359	caspase-3
+T23	Cell 1364 1377	cardiomyocyte
+T24	Organ 1436 1441	heart
+T25	Cell 1520 1524	MSCs
+T26	Cell 1593 1597	MSCs
+T28	Cell 1676 1680	MSCs
+T29	Cell 1728 1749	myocardium-like cells
+T31	Gene_or_gene_product 1751 1755	VEGF
+T32	Tissue 1776 1785	capillary
+T34	Cell 1986 1990	MSCs
+T36	Cell 2015 2029	cardiomyocytes
+T37	Cell 2140 2144	MSCs
+T38	Organ 2171 2176	heart
+T39	Multi-tissue_structure 2193 2202	ventricle
+T40	Multi-tissue_structure 2234 2243	ventricle
+T41	Cell 2332 2336	MSCs
+T42	Organ 2377 2382	heart
+T43	Cell 2419 2423	MSCs
+T44	Cell 2502 2506	MSCs
+T45	Organ 2519 2524	heart
+T50	Cell 2584 2597	cardiomyocyte
+T1000	Organism 51 55	rats
+T1001	Organism 318 326	patients
+T1002	Organism 479 487	patients
+T1003	Organism 581 585	rats
+T1004	Organism 671 695	Sprague-Dawley (SD) rats
+T1005	Organism 826 833	SD rats
+T1006	Organism 907 911	rats
+T1007	Organism 931 935	rats
+T66	Cell 1139 1143	cell
+T68	Cell 1095 1100	cells

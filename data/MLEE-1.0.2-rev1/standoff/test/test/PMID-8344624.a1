@@ -1,0 +1,13 @@
+T1	Organism_subdivision 27 31	foot
+T2	Organism_subdivision 64 68	foot
+T3	Multi-tissue_structure 135 141	vessel
+T6	Gene_or_gene_product 434 442	collagen
+T8	Organism_subdivision 1075 1079	foot
+T9	Organism_subdivision 1100 1104	foot
+T10	Drug_or_compound 35 52	hyperbaric oxygen
+T11	Drug_or_compound 798 804	oxygen
+T1000	Organism 1253 1261	patients
+T14	Tissue 487 493	tissue
+T17	Pathological_formation 411 416	edema
+T19	Tissue 686 692	tissue
+T20	Tissue 368 375	tissues

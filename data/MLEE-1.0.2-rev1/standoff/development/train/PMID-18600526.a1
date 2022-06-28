@@ -1,0 +1,32 @@
+T1	Gene_or_gene_product 12 59	platelet-derived endothelial cell growth factor
+T3	Gene_or_gene_product 60 83	thymidine phosphorylase
+T4	Pathological_formation 87 92	tumor
+T5	Gene_or_gene_product 104 151	Platelet-derived endothelial cell growth-factor
+T7	Gene_or_gene_product 153 160	PD-ECGF
+T8	Gene_or_gene_product 198 221	thymidine phosphorylase
+T9	Gene_or_gene_product 223 225	TP
+T11	Gene_or_gene_product 235 237	TP
+T12	Pathological_formation 252 257	tumor
+T15	Pathological_formation 283 288	tumor
+T17	Gene_or_gene_product 356 358	TP
+T18	Gene_or_gene_product 408 410	TP
+T19	Cell 436 447	tumor cells
+T21	Tissue 460 485	tumor surrounding tissues
+T23	Cell 495 525	tumor infiltrating macrophages
+T25	Gene_or_gene_product 527 529	TP
+T26	Drug_or_compound 558 567	thymidine
+T27	Drug_or_compound 571 578	thymine
+T28	Drug_or_compound 583 605	doxyribose-1-phosphate
+T29	Drug_or_compound 607 613	dR-1-P
+T30	Drug_or_compound 668 679	deoxyribose
+T31	Drug_or_compound 681 683	dR
+T34	Drug_or_compound 830 853	reactive oxygen species
+T35	Drug_or_compound 855 868	L-deoxyribose
+T36	Drug_or_compound 870 874	L-dR
+T37	Drug_or_compound 880 913	thymidine phosphorylase inhibitor
+T38	Drug_or_compound 915 918	TPI
+T40	Gene_or_gene_product 964 966	TP
+T41	Gene_or_gene_product 1010 1013	TNF
+T42	Gene_or_gene_product 1015 1019	IL10
+T43	Gene_or_gene_product 1126 1128	TP
+T22	Drug_or_compound 656 661	sugar

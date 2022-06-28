@@ -1,0 +1,21 @@
+T1	Gene_or_gene_product 37 47	endostatin
+T4	Pathological_formation 120 125	tumor
+T12	Gene_or_gene_product 542 552	endostatin
+T15	Cell 613 629	endothelial cell
+T19	Gene_or_gene_product 707 745	vascular endothelial growth factor 165
+T20	Gene_or_gene_product 779 789	endostatin
+T23	Pathological_formation 975 994	JC breast carcinoma
+T24	Pathological_formation 999 1019	Lewis lung carcinoma
+T25	Gene_or_gene_product 1097 1107	endostatin
+T27	Pathological_formation 1163 1188	pulmonary micrometastases
+T28	Pathological_formation 1192 1212	Lewis lung carcinoma
+T29	Pathological_formation 1263 1269	tumors
+T30	Multi-tissue_structure 1305 1318	blood vessels
+T6	Pathological_formation 223 229	cancer
+T8	Pathological_formation 1496 1502	cancer
+T16	Organism_substance 763 768	serum
+T1000	Organism 241 245	mice
+T1001	Organism 535 541	murine
+T1002	Organism 885 894	nude mice
+T26	Organism 0 10	Adenovirus
+T37	Organism 509 519	adenovirus

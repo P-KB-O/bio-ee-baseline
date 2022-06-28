@@ -1,0 +1,44 @@
+T1	Gene_or_gene_product 0 55	Short pigment epithelial-derived factor-derived peptide
+T5	Pathological_formation 82 87	tumor
+T6	Gene_or_gene_product 106 139	Pigment epithelial-derived factor
+T7	Gene_or_gene_product 141 145	PEDF
+T11	Pathological_formation 235 240	tumor
+T12	Gene_or_gene_product 277 281	PEDF
+T15	Gene_or_gene_product 404 408	PEDF
+T19	Gene_or_gene_product 652 655	P14
+T20	Gene_or_gene_product 657 660	P18
+T21	Gene_or_gene_product 666 669	P23
+T25	Cell 706 722	endothelial cell
+T28	Pathological_formation 904 922	prostate carcinoma
+T29	Pathological_formation 945 965	renal cell carcinoma
+T30	Gene_or_gene_product 982 985	P18
+T31	Gene_or_gene_product 1013 1017	PEDF
+T32	Gene_or_gene_product 1059 1071	PEDF targets
+T33	Gene_or_gene_product 1073 1118	vascular endothelial growth factor receptor 2
+T35	Gene_or_gene_product 1124 1135	CD95 ligand
+T36	Gene_or_gene_product 1150 1153	P18
+T37	Multi-tissue_structure 1162 1173	vasculature
+T38	Gene_or_gene_product 1184 1187	P14
+T39	Gene_or_gene_product 1192 1195	P18
+T42	Cell 1204 1220	endothelial cell
+T43	Gene_or_gene_product 1233 1236	P18
+T44	Gene_or_gene_product 1241 1244	P23
+T45	Gene_or_gene_product 1264 1267	P18
+T48	Gene_or_gene_product 1326 1329	P23
+T49	Gene_or_gene_product 1347 1350	P14
+T52	Gene_or_gene_product 1370 1373	P18
+T55	Gene_or_gene_product 1402 1413	CD95 ligand
+T59	Gene_or_gene_product 1444 1489	vascular endothelial growth factor receptor 2
+T60	Cell 1497 1514	endothelial cells
+T61	Pathological_formation 1527 1532	tumor
+T62	Gene_or_gene_product 1542 1545	P18
+T67	Pathological_formation 1612 1627	prostate cancer
+T68	Gene_or_gene_product 1633 1648	parental 34-mer
+T69	Pathological_formation 1657 1677	renal cell carcinoma
+T70	Gene_or_gene_product 1679 1682	P18
+T75	Pathological_formation 1757 1763	tumors
+T76	Gene_or_gene_product 1778 1781	P18
+T80	Pathological_formation 1896 1904	prostate
+T81	Pathological_formation 1909 1921	renal cancer
+T84	Pathological_formation 449 454	tumor
+T85	Pathological_formation 851 856	tumor

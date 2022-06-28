@@ -1,0 +1,39 @@
+T1	Drug_or_compound 0 11	Thalidomide
+T2	Gene_or_gene_product 16 27	angiostatin
+T5	Pathological_formation 36 41	tumor
+T6	Drug_or_compound 142 153	thalidomide
+T7	Gene_or_gene_product 158 169	angiostatin
+T9	Pathological_formation 173 178	tumor
+T13	Cell 281 298	endothelial cells
+T14	Gene_or_gene_product 317 328	angiostatin
+T15	Drug_or_compound 332 343	thalidomide
+T16	Gene_or_gene_product 348 352	bFGF
+T17	Cell 414 435	cervical cancer cells
+T18	Cell 437 442	CaSki
+T19	Cell 447 451	SiHa
+T20	Organism_subdivision 476 482	flanks
+T21	Pathological_formation 503 509	tumors
+T24	Gene_or_gene_product 544 555	angiostatin
+T25	Drug_or_compound 572 583	thalidomide
+T27	Pathological_formation 622 627	tumor
+T28	Pathological_formation 686 692	tumors
+T30	Gene_or_gene_product 790 801	Angiostatin
+T34	Cell 812 828	endothelial cell
+T35	Drug_or_compound 854 865	Thalidomide
+T36	Cell 890 907	endothelial cells
+T37	Gene_or_gene_product 909 920	Angiostatin
+T38	Drug_or_compound 925 936	thalidomide
+T41	Pathological_formation 952 957	tumor
+T43	Pathological_formation 1131 1137	tumors
+T44	Gene_or_gene_product 1173 1184	Angiostatin
+T45	Drug_or_compound 1189 1200	thalidomide
+T31	Pathological_formation 86 101	cervical cancer
+T46	Pathological_formation 239 254	cervical cancer
+T49	Pathological_formation 1285 1300	cervical cancer
+T1000	Organism 54 60	murine
+T1001	Organism 80 85	human
+T1002	Organism 265 270	Human
+T1003	Organism 408 413	Human
+T1004	Organism 486 495	nude mice
+T1005	Organism 521 525	mice
+T47	Pathological_formation 1209 1214	tumor

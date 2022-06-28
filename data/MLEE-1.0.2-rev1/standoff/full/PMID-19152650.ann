@@ -1,0 +1,77 @@
+T2	Drug_or_compound 10 18	estrogen
+T3	Drug_or_compound 23 35	progesterone
+T5	Cell 39 49	macrophage
+T6	Drug_or_compound 464 484	sex steroid hormones
+T7	Drug_or_compound 586 594	estrogen
+T8	Drug_or_compound 759 771	progesterone
+T9	Cell 816 827	Macrophages
+T12	Cell 887 898	Macrophages
+T13	Cell 974 979	T(H)1
+T14	Cell 980 985	T(H)2
+T15	Drug_or_compound 1112 1120	estrogen
+T16	Drug_or_compound 1125 1137	progesterone
+T18	Cell 1141 1151	macrophage
+T20	Drug_or_compound 1239 1255	steroid hormones
+T21	Cell 1303 1313	macrophage
+T22	Gene_or_gene_product 1323 1328	Fizz1
+T23	Gene_or_gene_product 1333 1336	Ym1
+T26	Drug_or_compound 1411 1419	estrogen
+T27	Drug_or_compound 1423 1435	progesterone
+T29	Drug_or_compound 1475 1491	steroid hormones
+T31	Cell 1492 1503	macrophages
+T32	Drug_or_compound 1573 1581	estrogen
+T33	Drug_or_compound 1585 1597	progesterone
+T35	Cell 1622 1632	macrophage
+T1000	Organism 1019 1025	murine
+T43	Tissue 260 266	tissue
+T24	Pathological_formation 1678 1683	wound
+T37	Blood_vessel_development 1692 1704	angiogenesis
+T4	Positive_regulation 50 60	activation
+E4	Positive_regulation:T4 Theme:T5
+T11	Positive_regulation 906 915	activated
+E11	Positive_regulation:T11 Theme:T12
+T17	Positive_regulation 1152 1162	activation
+E17	Positive_regulation:T17 Theme:T18
+T19	Negative_regulation 1226 1235	reduction
+E19	Negative_regulation:T19 Theme:T20
+T25	Planned_process 1393 1407	administration
+E25	Planned_process:T25 Instrument:T26
+T28	Negative_regulation 1462 1471	reduction
+E28	Negative_regulation:T28 Theme:T29
+T30	Positive_regulation 1508 1517	activated
+E30	Positive_regulation:T30 Theme:T31 Cause:E28
+T34	Positive_regulation 1633 1643	activation
+E34	Positive_regulation:T34 Theme:T35
+T1	Regulation 0 6	Effect
+E1	Regulation:T1 Theme:E4 Cause:T2
+E2	Regulation:T1 Theme:E4 Cause:T3
+T10	Planned_process 595 605	treatments
+E3	Planned_process:T10 Instrument:T7
+T36	Regulation 1099 1111	the roles of
+E5	Regulation:T36 Theme:E17 Cause:T15
+A1	Speculation E5
+E6	Regulation:T36 Theme:E17 Cause:T16
+A2	Speculation E6
+T38	Positive_regulation 1293 1302	activated
+E7	Positive_regulation:T38 Theme:T22
+T39	Negative_regulation 1343 1350	reduced
+E8	Negative_regulation:T39 Theme:T23
+E9	Negative_regulation:T39 Theme:T22
+E10	Positive_regulation:T38 Theme:T23
+T40	Regulation 1602 1614	contributing
+E12	Regulation:T40 Theme:E34 Cause:T33
+E13	Regulation:T40 Theme:E34 Cause:T32
+T41	Negative_regulation 1375 1383	reversed
+E14	Negative_regulation:T41 Cause:E25 Theme:E10
+T42	Positive_regulation 1670 1677	driving
+E15	Positive_regulation:T42 Theme:E26 Cause:T33
+T44	Breakdown 267 273	damage
+E16	Breakdown:T44 Theme:T43
+T45	Positive_regulation 308 317	initiated
+E18	Positive_regulation:T45 Theme:E16
+E20	Planned_process:T25 Instrument:T27
+E21	Negative_regulation:T41 Cause:E20 Theme:E10
+E22	Negative_regulation:T41 Cause:E25 Theme:E7
+E23	Negative_regulation:T41 Cause:E20 Theme:E7
+E24	Positive_regulation:T42 Theme:E26 Cause:T32
+E26	Blood_vessel_development:T37 

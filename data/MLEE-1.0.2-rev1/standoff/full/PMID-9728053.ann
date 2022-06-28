@@ -1,0 +1,96 @@
+T1	Drug_or_compound 15 22	calcium
+T2	Cell 54 81	pulmonary endothelial cells
+T3	Gene_or_gene_product 93 97	Trp1
+T4	Drug_or_compound 114 118	Ca2+
+T5	Cell 145 161	endothelial cell
+T8	Cell 266 298	conduit-vessel endothelial cells
+T10	Drug_or_compound 312 316	Ca2+
+T11	Drug_or_compound 407 411	Ca2+
+T12	Cell 524 560	pulmonary arterial endothelial cells
+T14	Drug_or_compound 586 590	Ca2+
+T15	Cell 707 723	endothelial cell
+T16	Drug_or_compound 779 783	Ca2+
+T18	Gene_or_gene_product 817 856	peripheral (cortical) filamentous actin
+T19	Gene_or_gene_product 858 865	F-actin
+T23	Drug_or_compound 1054 1058	Ca2+
+T25	Cell 1173 1209	pulmonary arterial endothelial cells
+T26	Gene_or_gene_product 1249 1253	Trp1
+T27	Gene_or_gene_product 1277 1281	Trp3
+T28	Gene_or_gene_product 1286 1290	Trp6
+T29	Drug_or_compound 1320 1324	Ca2+
+T30	Cell 1334 1361	pulmonary endothelial cells
+T31	Gene_or_gene_product 1495 1499	Trp1
+T6	Cellular_component 615 623	membrane
+T9	Cell 211 220	leukocyte
+T1000	Organism 520 523	rat
+T1001	Organism 963 986	Drosophila melanogaster
+T1002	Organism 1159 1162	rat
+T1003	Organism 1167 1172	human
+T21	Gene_or_gene_product 987 1015	transient receptor potential
+T22	Gene_or_gene_product 1017 1020	trp
+T24	Gene_or_gene_product 1123 1126	Trp
+T53	Cell 334 338	cell
+T54	Cell 453 457	cell
+T55	Cell 1216 1220	cell
+T57	Cell 1384 1388	cell
+T58	Cell 1090 1095	cells
+T59	Organism_substance 576 585	cytosolic
+T7	Blood_vessel_development 250 262	angiogenesis
+T17	Regulation 798 813	reconfiguration
+E17	Regulation:T17 Theme:T18
+*	Equiv T18 T19
+*	Equiv T21 T22
+T13	Positive_regulation 29 37	promotes
+E1	Positive_regulation:T13 Theme:E3 Cause:E4
+T20	Gene_expression 82 92	expressing
+E2	Gene_expression:T20 Theme:T3
+T32	Development 38 50	shape change
+E3	Development:T32 Theme:T2
+T33	Localization 23 28	entry
+E4	Localization:T33 Theme:T1
+T34	Localization 119 124	entry
+E5	Localization:T34 Theme:T4
+T35	Positive_regulation 100 110	Activation
+E6	Positive_regulation:T35 Theme:E5
+T36	Development 162 174	shape change
+E7	Development:T36 Theme:T5
+T37	Regulation 137 144	produce
+E8	Regulation:T37 Cause:E6 Theme:E7
+T38	Localization 221 230	migration
+E9	Localization:T38 Theme:T9
+T39	Positive_regulation 236 246	initiation
+E10	Positive_regulation:T39 Theme:E29
+E11	Regulation:T37 Cause:E6 Theme:E9
+E12	Regulation:T37 Cause:E6 Theme:E10
+T40	Localization 317 322	entry
+E13	Localization:T40 Theme:T10
+T41	Positive_regulation 561 570	increased
+E14	Positive_regulation:T41 Theme:T14
+T42	Positive_regulation 600 609	dependent
+E15	Positive_regulation:T42 Cause:T6 Theme:E14
+T43	Development 696 703	Changes
+E16	Development:T43 Theme:T15
+T44	Positive_regulation 766 775	dependent
+E18	Positive_regulation:T44 Theme:E16 Cause:E17
+T45	Localization 784 789	entry
+E19	Localization:T45 Theme:T16
+T46	Positive_regulation 790 797	induced
+E20	Positive_regulation:T46 Cause:E19 Theme:E17
+T47	Localization 1059 1064	entry
+E21	Localization:T47 Theme:T23
+T48	Gene_expression 1241 1248	express
+E22	Gene_expression:T48 Theme:T26
+T49	Gene_expression 1267 1276	expressed
+E23	Gene_expression:T49 Theme:T27
+A1	Negation E23
+E24	Gene_expression:T49 Theme:T28
+A2	Negation E24
+T50	Localization 1325 1330	entry
+E25	Localization:T50 Theme:T29
+T51	Development 1389 1401	shape change
+E26	Development:T51 Theme:T57
+T52	Regulation 1375 1383	produces
+E27	Regulation:T52 Theme:E26 Cause:E25
+T56	Development 458 470	shape change
+E28	Development:T56 Theme:T54
+E29	Blood_vessel_development:T7 

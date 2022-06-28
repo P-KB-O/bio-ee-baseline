@@ -1,0 +1,18 @@
+T3	Anatomical_system 24 35	vasculature
+T4	Anatomical_system 83 94	vasculature
+T5	Cell 178 194	mesodermal cells
+T8	Cell 225 242	endothelial cells
+T10	Anatomical_system 334 345	vasculature
+T17	Tissue 395 400	cords
+T18	Cell 453 462	pericytes
+T19	Cell 467 486	smooth muscle cells
+T22	Anatomical_system 503 519	vascular network
+T23	Anatomical_system 801 822	embryonic vasculature
+T26	Multi-tissue_structure 1092 1104	blood vessel
+T29	Multi-tissue_structure 1167 1179	blood vessel
+T1000	Organism 624 629	mouse
+T1001	Organism 637 642	chick
+T1002	Organism 915 924	zebrafish
+T12	Organism 631 636	quail
+T31	Organism 648 652	frog
+T11	Cell 371 376	cells

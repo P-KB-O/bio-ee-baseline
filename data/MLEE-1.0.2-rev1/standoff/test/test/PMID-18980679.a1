@@ -1,0 +1,44 @@
+T3	Cell 38 77	roundabout4 knockdown endothelial cells
+T4	Gene_or_gene_product 38 49	roundabout4
+T11	Gene_or_gene_product 308 320	roundabout 4
+T12	Gene_or_gene_product 322 327	robo4
+T13	Gene_or_gene_product 346 350	Robo
+T14	Cell 354 371	endothelial cells
+T15	Cell 430 435	Robo1
+T16	Gene_or_gene_product 430 435	Robo1
+T17	Cell 440 461	Robo4 knockdown cells
+T18	Gene_or_gene_product 440 445	Robo4
+T22	Cell 491 507	endothelial cell
+T24	Gene_or_gene_product 542 547	robo4
+T27	Cell 586 603	endothelial cells
+T28	Gene_or_gene_product 653 658	Slit2
+T29	Cell 666 687	robo1 knockdown cells
+T30	Gene_or_gene_product 666 671	robo1
+T31	Gene_or_gene_product 736 740	VEGF
+T32	Cell 742 775	Robo4 knockdown endothelial cells
+T33	Gene_or_gene_product 742 747	Robo4
+T35	Gene_or_gene_product 811 822	Rho GTPases
+T36	Gene_or_gene_product 834 839	Robo4
+T40	Cell 908 929	robo4 knockdown cells
+T41	Gene_or_gene_product 908 913	robo4
+T43	Gene_or_gene_product 931 936	Robo1
+T44	Gene_or_gene_product 941 946	Robo4
+T45	Gene_or_gene_product 984 989	Slit2
+T46	Gene_or_gene_product 991 995	Mena
+T47	Gene_or_gene_product 1000 1005	Vilse
+T48	Gene_or_gene_product 1009 1018	Cdc42-GAP
+T49	Gene_or_gene_product 1071 1077	IRSp53
+T52	Gene_or_gene_product 1119 1124	Cdc42
+T53	Gene_or_gene_product 1129 1133	Mena
+T55	Gene_or_gene_product 1196 1201	Robo4
+T56	Cell 1215 1232	endothelial cells
+T58	Gene_or_gene_product 1295 1299	Robo
+T62	Cell 1373 1390	endothelial cells
+T8	Organism_substance 727 732	serum
+T9	Organism_substance 880 885	serum
+T1000	Organism 824 833	Zebrafish
+T5	Gene_or_gene_product 92 103	Roundabouts
+T10	Gene_or_gene_product 287 292	Robos
+T38	Gene_or_gene_product 853 863	Rho GTPase
+T66	Organism_substance 607 612	serum
+T1	Multi-tissue_structure 185 193	vascular

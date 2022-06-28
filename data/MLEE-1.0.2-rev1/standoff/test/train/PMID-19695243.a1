@@ -1,0 +1,53 @@
+T1	Drug_or_compound 11 25	5-fluorouracil
+T2	Drug_or_compound 27 38	oxaliplatin
+T3	Drug_or_compound 43 53	irinotecan
+T7	Drug_or_compound 499 509	irinotecan
+T8	Drug_or_compound 511 517	CPT-11
+T9	Drug_or_compound 520 531	oxaliplatin
+T10	Drug_or_compound 533 538	L-OHP
+T11	Drug_or_compound 544 558	5-fluorouracil
+T12	Drug_or_compound 560 564	5-FU
+T14	Gene_or_gene_product 702 736	vascular endothelial growth factor
+T15	Gene_or_gene_product 738 742	VEGF
+T16	Cell 781 802	endothelial (HMVEC-d)
+T17	Cell 807 838	colorectal cancer (HT-29) cells
+T18	Drug_or_compound 889 894	SN-38
+T19	Drug_or_compound 921 927	CPT-11
+T20	Drug_or_compound 929 934	L-OHP
+T21	Drug_or_compound 939 943	5-FU
+T22	Cell 945 950	HT-29
+T24	Pathological_formation 1004 1010	tumour
+T26	Tissue 1019 1030	microvessel
+T27	Gene_or_gene_product 1043 1047	VEGF
+T28	Pathological_formation 1081 1088	tumours
+T29	Drug_or_compound 1128 1134	CPT-11
+T30	Drug_or_compound 1136 1141	L-OHP
+T31	Drug_or_compound 1143 1147	5-FU
+T32	Drug_or_compound 1206 1211	SN-38
+T33	Drug_or_compound 1221 1225	5-FU
+T34	Drug_or_compound 1230 1235	L-OHP
+T38	Cell 1262 1278	endothelial cell
+T39	Cell 1334 1339	HT-29
+T40	Cell 1344 1357	HMVEC-d cells
+T41	Drug_or_compound 1380 1385	SN-38
+T42	Drug_or_compound 1386 1391	L-OHP
+T43	Drug_or_compound 1392 1396	5-FU
+T45	Gene_or_gene_product 1547 1551	VEGF
+T46	Cell 1565 1583	HT-29 cancer cells
+T47	Drug_or_compound 1617 1623	CPT-11
+T48	Drug_or_compound 1633 1637	5-FU
+T49	Drug_or_compound 1642 1647	L-OHP
+T53	Pathological_formation 1672 1683	HT-29 tumor
+T55	Tissue 1695 1706	microvessel
+T56	Drug_or_compound 1771 1775	5-FU
+T57	Drug_or_compound 1776 1781	L-OHP
+T58	Drug_or_compound 1782 1788	CPT-11
+T59	Tissue 1816 1829	microvascular
+T35	Pathological_formation 57 74	colorectal cancer
+T50	Pathological_formation 569 586	colorectal cancer
+T61	Pathological_formation 957 990	colorectal cancer xenograft model
+T62	Pathological_formation 1915 1932	colorectal cancer
+T1000	Organism 951 956	human
+T51	Tissue 230 241	endothelial
+T70	Cell 658 662	cell
+T73	Pathological_formation 468 473	tumor

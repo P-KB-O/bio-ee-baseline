@@ -1,0 +1,28 @@
+T1	Gene_or_gene_product 0 3	p53
+T3	Pathological_formation 30 35	tumor
+T5	Drug_or_compound 56 59	ROS
+T8	Gene_or_gene_product 87 91	HIF1
+T9	Gene_or_gene_product 92 98	VEGF-A
+T10	Gene_or_gene_product 125 128	p53
+T11	Pathological_formation 129 134	tumor
+T12	Pathological_formation 180 186	tumors
+T14	Gene_or_gene_product 305 308	p53
+T15	Pathological_formation 458 464	tumors
+T19	Pathological_formation 501 540	HCT116 human colon carcinoma xenografts
+T21	Pathological_formation 600 605	tumor
+T24	Drug_or_compound 686 709	reactive oxygen species
+T25	Drug_or_compound 711 714	ROS
+T26	Drug_or_compound 729 749	N-acetyl-l-aspartate
+T27	Drug_or_compound 751 754	NAC
+T29	Multi-tissue_structure 766 773	vessels
+T30	Pathological_formation 784 790	tumors
+T31	Gene_or_gene_product 824 827	p53
+T32	Drug_or_compound 866 869	ROS
+T34	Pathological_formation 889 895	tumors
+T36	Gene_or_gene_product 916 919	p53
+T38	Gene_or_gene_product 987 991	HIF1
+T40	Gene_or_gene_product 1048 1054	VEGF-A
+T1000	Organism 174 179	human
+T1001	Organism 452 457	human
+T42	Multi-tissue_structure 490 497	vessels
+T52	Cell 801 806	cells

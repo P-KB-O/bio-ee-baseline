@@ -1,0 +1,44 @@
+T3	Gene_or_gene_product 37 69	telomerase reverse transcriptase
+T4	Gene_or_gene_product 74 108	vascular endothelial growth factor
+T5	Pathological_formation 170 200	p63-positive breast carcinomas
+T6	Gene_or_gene_product 170 173	p63
+T8	Gene_or_gene_product 203 206	p63
+T10	Gene_or_gene_product 210 213	p53
+T11	Cell 230 248	myoepithelial cell
+T12	Organ 270 283	mammary gland
+T13	Cell 288 317	p63-positive neoplastic cells
+T14	Gene_or_gene_product 288 291	p63
+T15	Pathological_formation 347 373	invasive breast carcinomas
+T18	Gene_or_gene_product 426 429	p63
+T19	Pathological_formation 486 491	tumor
+T20	Organism_subdivision 528 534	breast
+T21	Pathological_formation 782 808	invasive ductal carcinomas
+T22	Cell 810 828	p63-positive cells
+T23	Gene_or_gene_product 810 813	p63
+T24	Pathological_formation 850 860	carcinomas
+T25	Cell 862 885	p63-positive carcinomas
+T26	Gene_or_gene_product 862 865	p63
+T27	Gene_or_gene_product 982 985	p63
+T28	Pathological_formation 1036 1041	tumor
+T32	Gene_or_gene_product 1076 1108	telomerase reverse transcriptase
+T33	Gene_or_gene_product 1110 1115	hTERT
+T34	Gene_or_gene_product 1118 1164	tissue inhibitor of matrix metalloproteinase 1
+T35	Gene_or_gene_product 1166 1171	TIMP1
+T36	Gene_or_gene_product 1177 1211	vascular endothelial growth factor
+T37	Gene_or_gene_product 1213 1217	VEGF
+T39	Gene_or_gene_product 1238 1243	TIMP1
+T40	Pathological_formation 1310 1333	p63-positive carcinomas
+T41	Gene_or_gene_product 1310 1313	p63
+T42	Gene_or_gene_product 1335 1340	hTERT
+T44	Gene_or_gene_product 1414 1418	VEGF
+T48	Pathological_formation 1495 1500	tumor
+T50	Gene_or_gene_product 1575 1580	hTERT
+T51	Gene_or_gene_product 1585 1589	VEGF
+T52	Pathological_formation 1593 1623	p63-positive breast carcinomas
+T53	Gene_or_gene_product 1593 1596	p63
+T54	Pathological_formation 1691 1700	neoplasms
+T9	Gene_or_gene_product 628 646	metalloproteinases
+T43	Pathological_formation 940 949	neoplasms
+T1000	Organism 31 36	human
+T1001	Organism 1070 1075	human
+T45	Cell 577 581	cell

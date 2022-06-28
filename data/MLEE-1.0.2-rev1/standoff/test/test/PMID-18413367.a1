@@ -1,0 +1,51 @@
+T1	Gene_or_gene_product 16 32	thrombospondin-1
+T2	Multi-tissue_structure 36 44	cervical
+T5	Tissue 69 75	stroma
+T8	Cell 109 120	fibroblasts
+T10	Pathological_formation 135 141	cancer
+T11	Gene_or_gene_product 144 166	Thrombospondin (TSP)-1
+T14	Gene_or_gene_product 312 317	TSP-1
+T16	Pathological_formation 321 326	tumor
+T17	Tissue 327 333	stroma
+T19	Cell 377 387	fibroblast
+T21	Pathological_formation 443 448	tumor
+T23	Gene_or_gene_product 564 569	TSP-1
+T24	Multi-tissue_structure 596 604	cervical
+T26	Gene_or_gene_product 675 689	stroma markers
+T28	Gene_or_gene_product 691 716	alpha-smooth muscle actin
+T29	Gene_or_gene_product 718 727	alpha-SMA
+T30	Gene_or_gene_product 733 739	desmin
+T32	Cell 757 783	SiHa cervical cancer cells
+T34	Gene_or_gene_product 814 819	TSP-1
+T39	Pathological_formation 895 900	tumor
+T42	Pathological_formation 996 1001	tumor
+T46	Gene_or_gene_product 1043 1052	alpha-SMA
+T47	Gene_or_gene_product 1057 1063	desmin
+T49	Gene_or_gene_product 1117 1122	TSP-1
+T51	Gene_or_gene_product 1136 1141	TSP-1
+T52	Cell 1151 1163	NIH3T3 cells
+T53	Gene_or_gene_product 1200 1209	alpha-SMA
+T54	Gene_or_gene_product 1214 1220	desmin
+T56	Gene_or_gene_product 1249 1273	matrix metalloprotease-2
+T57	Gene_or_gene_product 1284 1315	Transforming growth factor-beta
+T58	Gene_or_gene_product 1317 1325	TGF-beta
+T60	Cell 1364 1375	fibroblasts
+T62	Gene_or_gene_product 1387 1396	alpha-SMA
+T64	Gene_or_gene_product 1401 1407	desmin
+T65	Cell 1469 1481	NIH3T3 cells
+T66	Pathological_formation 1545 1550	tumor
+T68	Gene_or_gene_product 1562 1570	TGF-beta
+T69	Cell 1579 1591	NIH3T3 cells
+T70	Gene_or_gene_product 1627 1632	TSP-1
+T72	Gene_or_gene_product 1655 1660	TSP-1
+T73	Cell 1675 1685	SiHa cells
+T74	Cell 1735 1747	NIH3T3 cells
+T75	Gene_or_gene_product 1800 1805	TSP-1
+T77	Pathological_formation 1817 1822	tumor
+T78	Tissue 1823 1829	stroma
+T81	Cell 1893 1904	fibroblasts
+T82	Cell 1919 1931	cancer cells
+T1000	Organism 503 508	human
+T1001	Organism 951 955	mice
+T91	Cell 267 271	cell
+T92	Cell 1438 1442	cell

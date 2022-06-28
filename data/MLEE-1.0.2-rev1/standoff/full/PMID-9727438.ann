@@ -1,0 +1,55 @@
+T1	Multi-tissue_structure 4 19	myoadipose flap
+T2	Multi-tissue_structure 55 73	composite fat flap
+T3	Tissue 88 94	muscle
+T4	Tissue 131 138	fat pad
+T5	Organ 201 217	latissimus dorsi
+T6	Tissue 237 257	parascapular fat pad
+T7	Tissue 280 301	contralateral fat pad
+T8	Organism_substance 351 356	blood
+T9	Tissue 405 413	fat pads
+T11	Multi-tissue_structure 448 473	composite fat/muscle flap
+T12	Organism_subdivision 497 507	chest wall
+T13	Multi-tissue_structure 546 551	flaps
+T16	Drug_or_compound 611 622	fluorescein
+T17	Drug_or_compound 626 636	lead oxide
+T18	Tissue 739 747	fat pads
+T20	Multi-tissue_structure 795 800	flaps
+T21	Drug_or_compound 838 849	fluorescein
+T22	Drug_or_compound 854 864	lead oxide
+T23	Tissue 874 882	fat pads
+T24	Drug_or_compound 918 928	lead oxide
+T28	Multi-tissue_structure 964 977	blood vessels
+T29	Multi-tissue_structure 987 1003	latissimus graft
+T30	Tissue 1026 1033	fat pad
+T31	Multi-tissue_structure 1038 1045	vessels
+T32	Multi-tissue_structure 1129 1134	flaps
+T33	Tissue 1191 1194	fat
+T34	Multi-tissue_structure 1259 1264	flaps
+T35	Tissue 1293 1296	fat
+T36	Multi-tissue_structure 1367 1375	fat flap
+T1000	Organism 156 162	rabbit
+T1001	Organism 176 183	rabbits
+T41	Multi-tissue_structure 192 197	strip
+T10	Planned_process 478 489	transferred
+E10	Planned_process:T10 Instrument:T11 Theme:T12
+T15	Planned_process 597 605	perfused
+E15	Planned_process:T15 Instrument:T16 Theme:T13
+T19	Planned_process 818 826	perfused
+E19	Planned_process:T19 Theme:T20 Instrument:T21
+T27	Growth 954 960	growth
+E27	Growth:T27 Theme:T28
+T25	Planned_process 41 54	prefabricated
+E1	Planned_process:T25 Theme:T2
+T37	Planned_process 95 100	woven
+E2	Planned_process:T37 Instrument:T2 Theme:T4
+T38	Planned_process 222 227	woven
+E3	Planned_process:T38 Theme:T6 Instrument:T41
+E4	Planned_process:T15 Instrument:T17 Theme:T13
+E5	Planned_process:T19 Theme:T20 Instrument:T22
+T14	Planned_process 904 912	perfused
+E6	Planned_process:T14 Theme:T23
+A1	Negation E6
+T39	Blood_vessel_development 1213 1231	neovascularization
+T40	Planned_process 1347 1361	prefabrication
+E7	Planned_process:T40 Theme:T36
+E8	Blood_vessel_development:T39 

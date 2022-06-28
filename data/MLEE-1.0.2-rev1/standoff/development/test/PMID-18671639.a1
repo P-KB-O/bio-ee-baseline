@@ -1,0 +1,32 @@
+T1	Drug_or_compound 0 11	Bevacizumab
+T2	Drug_or_compound 16 26	irinotecan
+T5	Cell 94 105	Endothelial
+T6	Drug_or_compound 188 199	Bevacizumab
+T7	Gene_or_gene_product 256 290	vascular endothelial growth factor
+T8	Drug_or_compound 368 378	irinotecan
+T9	Drug_or_compound 523 534	bevacizumab
+T10	Drug_or_compound 539 549	irinotecan
+T11	Drug_or_compound 802 813	bevacizumab
+T12	Drug_or_compound 873 884	bevacizumab
+T13	Drug_or_compound 908 918	irinotecan
+T14	Drug_or_compound 1435 1446	Bevacizumab
+T15	Immaterial_anatomical_entity 1498 1510	intracranial
+T16	Drug_or_compound 1553 1564	bevacizumab
+T17	Drug_or_compound 1569 1579	irinotecan
+T18	Pathological_formation 341 348	gliomas
+T19	Pathological_formation 38 61	glioblastoma multiforme
+T1000	Organism 422 430	patients
+T1001	Organism 666 674	patients
+T1002	Organism 777 785	patients
+T1003	Organism 855 863	patients
+T1004	Organism 1003 1011	patients
+T1005	Organism 1109 1117	patients
+T1006	Organism 1291 1299	patients
+T1007	Organism 1335 1343	patients
+T1008	Organism 1390 1398	patients
+T1009	Organism 1469 1477	patients
+T1010	Organism 1671 1679	patients
+T21	Pathological_formation 180 186	glioma
+T22	Gene_or_gene_product 215 232	immunoglobulin G1
+T25	Pathological_formation 475 481	glioma
+T34	Pathological_formation 1706 1712	glioma

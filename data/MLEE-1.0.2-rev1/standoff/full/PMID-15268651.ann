@@ -1,0 +1,53 @@
+T1	Drug_or_compound 10 21	verteporfin
+T2	Multi-tissue_structure 39 80	subfoveal choroidal neovascular membranes
+T4	Tissue 109 116	macular
+T6	Multi-tissue_structure 446 487	subfoveal choroidal neovascular membranes
+T8	Tissue 530 537	macular
+T9	Drug_or_compound 660 671	verteporfin
+T10	Drug_or_compound 693 707	benzoporphyrin
+T11	Drug_or_compound 816 827	Verteporfin
+T12	Multi-tissue_structure 852 883	choroidal neovascular membranes
+T15	Tissue 966 979	microvascular
+T16	Multi-tissue_structure 1025 1031	vessel
+T18	Drug_or_compound 1081 1092	verteporfin
+T20	Drug_or_compound 1347 1358	verteporfin
+T21	Drug_or_compound 1440 1451	verteporfin
+T22	Drug_or_compound 1471 1482	verteporfin
+T23	Drug_or_compound 1741 1752	verteporfin
+T1000	Organism 1675 1682	patient
+T29	Pathological_formation 1155 1161	lesion
+T30	Pathological_formation 1227 1234	lesions
+T31	Pathological_formation 1375 1381	Lesion
+T32	Tissue 354 360	tissue
+T35	Pathological_formation 991 999	thrombus
+T5	Blood_vessel_development 382 392	angiogenic
+T3	Breakdown 117 129	degeneration
+E3	Breakdown:T3 Theme:T4
+T7	Breakdown 538 550	degeneration
+E7	Breakdown:T7 Theme:T8
+T14	Breakdown 980 986	damage
+E14	Breakdown:T14 Theme:T15
+T17	Planned_process 1093 1107	administration
+E17	Planned_process:T17 Instrument:T18
+T19	Planned_process 1359 1373	administration
+E19	Planned_process:T19 Instrument:T20
+T24	Planned_process 26 35	treatment
+E1	Planned_process:T24 Instrument:T1 Theme:T2
+T25	Planned_process 433 442	treatment
+E2	Planned_process:T25 Theme:T6
+T26	Binding 839 847	affinity
+E4	Binding:T26 Theme:T11 Theme:T12
+T27	Planned_process 1452 1455	use
+E5	Planned_process:T27 Instrument:T21 Theme:T31
+T28	Planned_process 1769 1778	treatment
+E6	Planned_process:T28 Instrument:T23
+T33	Breakdown 361 372	destruction
+E8	Breakdown:T33 Theme:T32
+E9	Blood_vessel_development:T5 
+T34	Negative_regulation 393 403	properties
+E10	Negative_regulation:T34 Theme:E9
+T36	Development 1000 1009	formation
+E11	Development:T36 Theme:T35
+T13	Positive_regulation 946 953	results
+E12	Positive_regulation:T13 Theme:E14
+E13	Positive_regulation:T13 Theme:E11

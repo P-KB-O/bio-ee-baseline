@@ -1,0 +1,75 @@
+T1	Pathological_formation 11 42	clear cell renal cell carcinoma
+T3	Pathological_formation 91 111	renal cell carcinoma
+T4	Pathological_formation 193 224	Clear cell renal cell carcinoma
+T5	Pathological_formation 226 232	CC-RCC
+T6	Pathological_formation 259 265	tumour
+T11	Cell 400 416	Endothelial cell
+T14	Pathological_formation 595 601	CC-RCC
+T15	Gene_or_gene_product 667 671	CD34
+T16	Gene_or_gene_product 672 677	Ki-67
+T17	Gene_or_gene_product 679 700	carbonic anhydrase IX
+T18	Gene_or_gene_product 702 733	hypoxia-inducible factor-1alpha
+T19	Gene_or_gene_product 735 745	HIF-1alpha
+T20	Gene_or_gene_product 751 785	vascular endothelial growth factor
+T21	Gene_or_gene_product 787 791	VEGF
+T22	Multi-tissue_structure 794 800	Vessel
+T23	Tissue 816 827	microvessel
+T26	Cell 838 854	endothelial cell
+T29	Cell 889 900	tumour cell
+T32	Pathological_formation 1063 1069	CC-RCC
+T38	Gene_or_gene_product 1136 1140	VEGF
+T40	Gene_or_gene_product 1226 1236	HIF-1alpha
+T41	Pathological_formation 1281 1287	CC-RCC
+T43	Gene_or_gene_product 1360 1374	angiopoietin 2
+T44	Pathological_formation 1388 1394	CC-RCC
+T46	Tissue 1396 1407	Microvessel
+T51	Pathological_formation 1544 1550	CC-RCC
+T58	Multi-tissue_structure 1646 1652	vessel
+T59	Gene_or_gene_product 1691 1714	placental growth factor
+T60	Gene_or_gene_product 1716 1722	PDGFB1
+T61	Gene_or_gene_product 1724 1738	angiopoietin 1
+T62	Pathological_formation 1743 1749	CC-RCC
+T63	Pathological_formation 1776 1782	CC-RCC
+T64	Pathological_formation 1820 1826	CC-RCC
+T68	Multi-tissue_structure 1904 1910	vessel
+T69	Pathological_formation 1925 1931	CC-RCC
+T2	Blood_vessel_development 56 66	angiogenic
+T7	Blood_vessel_development 314 326	angiogenesis
+T8	Blood_vessel_development 345 357	angiogenesis
+T12	Blood_vessel_development 470 482	angiogenesis
+T13	Blood_vessel_development 521 533	angiogenesis
+T31	Blood_vessel_development 972 984	angiogenesis
+T67	Blood_vessel_development 1880 1890	angiogenic
+T10	Cell_proliferation 417 430	proliferation
+E10	Cell_proliferation:T10 Theme:T11
+T25	Cell_proliferation 855 868	proliferation
+E25	Cell_proliferation:T25 Theme:T26
+T37	Gene_expression 1149 1159	expression
+E37	Gene_expression:T37 Theme:T38
+T39	Gene_expression 1245 1255	expression
+E39	Gene_expression:T39 Theme:T40
+T42	Transcription 1346 1356	expression
+E42	Transcription:T42 Theme:T43
+T57	Gene_expression 1632 1642	expression
+E57	Gene_expression:T57 Theme:T59
+*	Equiv T4 T5
+*	Equiv T18 T19
+*	Equiv T20 T21
+T30	Regulation 431 451	plays a pivotal role
+E1	Regulation:T30 Cause:E10 Theme:E12
+T28	Cell_proliferation 901 914	proliferation
+E2	Cell_proliferation:T28 Theme:T29
+E3	Gene_expression:T57 Theme:T60
+E4	Gene_expression:T57 Theme:T61
+T33	Development 1911 1921	maturation
+E5	Development:T33 Theme:T68
+T34	Development 1653 1663	maturation
+E6	Development:T34 Theme:T58
+E7	Blood_vessel_development:T2 AtLoc:T1
+E8	Blood_vessel_development:T7 
+E11	Blood_vessel_development:T8 
+E12	Blood_vessel_development:T12 
+E13	Blood_vessel_development:T13 
+E14	Blood_vessel_development:T31 
+E15	Blood_vessel_development:T67 AtLoc:T69
+E16	Blood_vessel_development:T2 AtLoc:T3

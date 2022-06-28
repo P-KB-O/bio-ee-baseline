@@ -1,0 +1,39 @@
+T1	Cell 0 56	Fibroblast growth factor receptor 2-positive fibroblasts
+T2	Gene_or_gene_product 0 35	Fibroblast growth factor receptor 2
+T5	Pathological_formation 97 102	tumor
+T6	Pathological_formation 134 154	esophageal carcinoma
+T7	Cell 166 183	Tumor fibroblasts
+T9	Cell 185 187	TF
+T10	Pathological_formation 261 266	tumor
+T11	Tissue 267 273	stroma
+T12	Cell 375 377	TF
+T13	Cell 544 547	TFs
+T14	Cell 559 570	fibroblasts
+T15	Pathological_formation 576 610	esophageal squamous cell carcinoma
+T16	Pathological_formation 612 616	ESCC
+T17	Cell 812 815	TFs
+T18	Cellular_component 857 877	extracellular matrix
+T20	Gene_or_gene_product 928 963	fibroblast growth factor receptor 2
+T21	Gene_or_gene_product 965 970	FGFR2
+T22	Cell 1046 1049	TFs
+T23	Cell 1084 1095	fibroblasts
+T24	Cell 1124 1150	FGFR2-positive fibroblasts
+T25	Gene_or_gene_product 1124 1129	FGFR2
+T26	Tissue 1181 1194	tumor tissues
+T27	Tissue 1206 1239	tumor-surrounding stromal tissues
+T28	Gene_or_gene_product 1257 1262	FGFR2
+T29	Cell 1282 1284	TF
+T30	Pathological_formation 1304 1308	ESCC
+T31	Cell 1348 1351	TFs
+T36	Cell 1384 1399	ESCC tumor cell
+T38	Pathological_formation 1502 1519	esophageal cancer
+T39	Cell 1580 1592	FGFR2(+)-TFs
+T40	Gene_or_gene_product 1580 1585	FGFR2
+T41	Cell 1607 1619	cancer cells
+T44	Cell 1756 1767	cancer cell
+T47	Cell 1890 1900	epithelial
+T48	Cell 1901 1912	mesenchymal
+T49	Pathological_formation 385 402	esophageal cancer
+T56	Cell 837 841	cell
+T58	Cell 1824 1828	cell
+T59	Cell 1854 1858	cell

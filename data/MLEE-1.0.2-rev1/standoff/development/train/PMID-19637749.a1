@@ -1,0 +1,15 @@
+T1	Cell 19 30	neutrophils
+T2	Cell 94 124	polymorphonuclear granulocytes
+T3	Cell 126 137	neutrophils
+T4	Pathological_formation 173 178	tumor
+T5	Cell 225 236	neutrophils
+T6	Cell 413 423	neutrophil
+T7	Cell 471 482	neutrophils
+T8	Cell 587 598	neutrophils
+T9	Pathological_formation 618 623	tumor
+T11	Pathological_formation 686 691	tumor
+T12	Cell 738 748	neutrophil
+T13	Drug_or_compound 267 290	reactive oxygen species
+T14	Drug_or_compound 292 295	ROS
+T15	Drug_or_compound 768 771	ROS
+T22	Pathological_formation 507 512	tumor

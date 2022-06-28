@@ -1,0 +1,40 @@
+T3	Drug_or_compound 63 87	conjugated linoleic acid
+T4	Drug_or_compound 98 122	conjugated linoleic acid
+T5	Drug_or_compound 124 127	CLA
+T6	Organ 170 177	mammary
+T7	Cell 227 251	mammary epithelial cells
+T8	Drug_or_compound 314 317	CLA
+T11	Cell 388 409	mammary stromal cells
+T12	Cell 416 432	endothelial cell
+T13	Drug_or_compound 453 456	CLA
+T15	Cell 494 515	mammary stromal cells
+T18	Multi-tissue_structure 545 568	microcapillary networks
+T19	Cellular_component 625 642	basement membrane
+T20	Drug_or_compound 664 667	CLA
+T23	Drug_or_compound 798 801	CLA
+T28	Multi-tissue_structure 1018 1043	networks of blood vessels
+T29	Cell 1073 1077	RBCs
+T30	Drug_or_compound 1109 1112	CLA
+T33	Multi-tissue_structure 1192 1209	cellular networks
+T34	Immaterial_anatomical_entity 1247 1252	lumen
+T35	Cell 1260 1264	RBCs
+T36	Drug_or_compound 1289 1292	CLA
+T38	Cell 1336 1339	RBC
+T39	Multi-tissue_structure 1351 1358	vessels
+T40	Drug_or_compound 1427 1430	CLA
+T42	Organism_substance 1441 1446	serum
+T43	Gene_or_gene_product 1457 1491	vascular endothelial growth factor
+T44	Gene_or_gene_product 1493 1497	VEGF
+T45	Organ 1509 1522	mammary gland
+T46	Gene_or_gene_product 1533 1537	VEGF
+T47	Gene_or_gene_product 1555 1560	Flk-1
+T55	Drug_or_compound 1711 1714	CLA
+T1000	Organism 166 169	rat
+T1001	Organism 739 743	mice
+T48	Drug_or_compound 1567 1572	cis-9
+T49	Drug_or_compound 1574 1582	trans-11
+T50	Drug_or_compound 1587 1595	trans-10
+T51	Drug_or_compound 1597 1615	cis-12 CLA isomers
+T14	Pathological_formation 34 40	cancer
+T64	Immaterial_anatomical_entity 1056 1061	lumen
+T69	Cell 1154 1159	cells

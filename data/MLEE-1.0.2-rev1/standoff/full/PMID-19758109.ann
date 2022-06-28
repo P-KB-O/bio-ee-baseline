@@ -1,0 +1,74 @@
+T1	Drug_or_compound 0 7	AVE8062
+T2	Multi-tissue_structure 41 49	vascular
+T8	Pathological_formation 132 137	tumor
+T10	Multi-tissue_structure 192 214	tumor vascular network
+T13	Cell 308 325	endothelial cells
+T14	Cellular_component 330 350	extracellular matrix
+T17	Pathological_formation 421 426	tumor
+T19	Drug_or_compound 443 468	vascular-targeting agents
+T21	Drug_or_compound 470 473	VTA
+T22	Drug_or_compound 476 480	VTAs
+T23	Drug_or_compound 513 534	antiangiogenic agents
+T25	Drug_or_compound 539 565	vascular-disrupting agents
+T28	Drug_or_compound 567 571	VDAs
+T29	Drug_or_compound 574 578	VTAs
+T33	Pathological_formation 692 704	tumor masses
+T34	Tissue 716 731	tumor periphery
+T37	Gene_or_gene_product 836 849	VEGF receptor
+T39	Drug_or_compound 851 855	VDAs
+T41	Multi-tissue_structure 905 918	tumor vessels
+T43	Pathological_formation 958 964	masses
+T45	Pathological_formation 1022 1044	peripheral tumor layer
+T46	Drug_or_compound 1046 1050	VDAs
+T48	Drug_or_compound 1158 1177	small-molecule VDAs
+T49	Drug_or_compound 1183 1193	flavonoids
+T50	Drug_or_compound 1203 1239	5,6-dimethylxanthenone-4-acetic acid
+T51	Drug_or_compound 1241 1246	DMXAA
+T52	Drug_or_compound 1253 1285	microtubule-destabilizing agents
+T53	Drug_or_compound 1421 1439	antitubulin agents
+T54	Drug_or_compound 1445 1483	combretastatin A4-phosphate derivative
+T55	Drug_or_compound 1485 1493	AVE8062A
+T4	Drug_or_compound 15 29	combretastatin
+T3	Blood_vessel_development 69 81	Angiogenesis
+T11	Blood_vessel_development 236 246	angiogenic
+T15	Blood_vessel_development 366 376	angiogenic
+T24	Blood_vessel_development 517 527	angiogenic
+T31	Blood_vessel_development 638 648	angiogenic
+T5	Positive_regulation 121 131	supporting
+E5	Positive_regulation:T5 Theme:E7
+T6	Positive_regulation 107 116	promoting
+E6	Positive_regulation:T6 Theme:E7
+T7	Growth 138 144	growth
+E7	Growth:T7 Theme:T8
+T12	Binding 288 299	interaction
+E12	Binding:T12 Theme:T13 Theme:T14
+T16	Regulation 427 434	control
+E16	Regulation:T16 Theme:T17
+T38	Regulation 869 875	target
+E38	Regulation:T38 Theme:T41 Cause:T39
+T40	Negative_regulation 880 887	destroy
+E40	Negative_regulation:T40 Theme:T41 Cause:T39
+T42	Breakdown 937 948	destruction
+E42	Breakdown:T42 Theme:T43
+*	Equiv T25 T28
+*	Equiv T19 T21
+*	Equiv T50 T51
+T9	Breakdown 50 60	disrupting
+E1	Breakdown:T9 Theme:T2
+T18	Regulation 82 103	has an essential role
+E2	Regulation:T18 Cause:E11 Theme:E6
+E3	Regulation:T18 Cause:E11 Theme:E5
+T20	Positive_regulation 413 420	improve
+E4	Positive_regulation:T20 Cause:T19 Theme:E16
+T27	Development 893 904	established
+E8	Development:T27 Theme:T41
+T30	Death 1003 1011	survival
+E9	Death:T30 Theme:T45
+A1	Negation E9
+T32	Death 990 998	necrosis
+E10	Death:T32 Theme:T43
+E11	Blood_vessel_development:T3 
+E13	Blood_vessel_development:T11 
+E14	Blood_vessel_development:T15 
+E15	Blood_vessel_development:T24 
+E17	Blood_vessel_development:T31 

@@ -1,0 +1,54 @@
+T1	Gene_or_gene_product 16 19	Crk
+T3	Gene_or_gene_product 36 45	ephrin-B1
+T6	Cellular_component 54 62	membrane
+T9	Cell 108 132	aortic endothelial cells
+T13	Cell 135 151	Endothelial cell
+T17	Gene_or_gene_product 228 253	receptor tyrosine kinases
+T19	Gene_or_gene_product 314 323	ephrin-B1
+T23	Cellular_component 333 341	membrane
+T24	Cell 360 384	aortic endothelial cells
+T28	Cellular_component 394 402	membrane
+T31	Cell 420 429	cell body
+T32	Gene_or_gene_product 478 481	Crk
+T34	Gene_or_gene_product 501 505	EphB
+T35	Drug_or_compound 532 537	DsRed
+T36	Gene_or_gene_product 545 548	Crk
+T38	Gene_or_gene_product 605 608	Crk
+T39	Cellular_component 630 651	nascent focal complex
+T40	Gene_or_gene_product 658 667	ephrin-B1
+T41	Gene_or_gene_product 708 717	p130(Cas)
+T43	Gene_or_gene_product 727 735	paxillin
+T45	Gene_or_gene_product 747 750	Crk
+T46	Cellular_component 758 779	nascent focal complex
+T48	Gene_or_gene_product 798 801	Crk
+T49	Gene_or_gene_product 805 814	ephrin-B1
+T52	Cellular_component 823 831	membrane
+T54	Gene_or_gene_product 899 902	Crk
+T56	Gene_or_gene_product 935 938	Crk
+T57	Gene_or_gene_product 1030 1033	Crk
+T58	Gene_or_gene_product 1035 1039	Rac1
+T59	Gene_or_gene_product 1044 1048	Rap1
+T60	Gene_or_gene_product 1082 1086	Rac1
+T62	Gene_or_gene_product 1108 1117	ephrin-B1
+T65	Cellular_component 1126 1134	membrane
+T67	Gene_or_gene_product 1185 1194	rap1GAPII
+T68	Gene_or_gene_product 1220 1224	Rap1
+T70	Gene_or_gene_product 1242 1251	ephrin-B1
+T73	Cellular_component 1260 1268	membrane
+T74	Cell 1291 1317	rap1GAPII-expressing cells
+T75	Gene_or_gene_product 1291 1300	rap1GAPII
+T76	Gene_or_gene_product 1319 1328	ephrin-B1
+T80	Cellular_component 1344 1352	membrane
+T81	Cellular_component 1399 1412	focal complex
+T82	Gene_or_gene_product 1443 1446	Crk
+T84	Gene_or_gene_product 1472 1476	Rac1
+T87	Cellular_component 1485 1493	membrane
+T88	Gene_or_gene_product 1507 1511	Rap1
+T90	Cellular_component 1521 1542	nascent focal complex
+T92	Gene_or_gene_product 1573 1582	ephrin-B1
+T95	Cell 1597 1621	aortic endothelial cells
+T1000	Organism 102 107	human
+T1001	Organism 354 359	human
+T1002	Organism 1591 1596	human
+T2	Cellular_component 1148 1161	focal complex
+T4	Cellular_component 76 89	focal complex

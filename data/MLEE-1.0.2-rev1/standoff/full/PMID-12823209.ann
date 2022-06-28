@@ -1,0 +1,80 @@
+T2	Gene_or_gene_product 20 23	p53
+T4	Gene_or_gene_product 47 81	vascular endothelial growth factor
+T5	Pathological_formation 105 128	squamous cell carcinoma
+T6	Organ 136 145	esophagus
+T8	Gene_or_gene_product 223 226	p53
+T9	Gene_or_gene_product 260 263	p53
+T15	Pathological_formation 456 467	solid tumor
+T16	Gene_or_gene_product 491 525	Vascular endothelial growth factor
+T17	Gene_or_gene_product 527 531	VEGF
+T19	Pathological_formation 625 630	tumor
+T23	Gene_or_gene_product 709 712	p53
+T25	Gene_or_gene_product 717 721	VEGF
+T26	Pathological_formation 751 771	esophageal carcinoma
+T27	Pathological_formation 840 863	squamous cell carcinoma
+T28	Organ 877 886	esophagus
+T30	Gene_or_gene_product 936 940	VEGF
+T32	Gene_or_gene_product 945 948	p53
+T33	Pathological_formation 997 1003	tumors
+T34	Gene_or_gene_product 1023 1026	p53
+T35	Gene_or_gene_product 1031 1035	VEGF
+T36	Pathological_formation 1089 1095	tumors
+T37	Gene_or_gene_product 1146 1149	p53
+T38	Gene_or_gene_product 1154 1158	VEGF
+T40	Gene_or_gene_product 1233 1236	p53
+T42	Gene_or_gene_product 1240 1244	VEGF
+T44	Gene_or_gene_product 1292 1295	p53
+T46	Gene_or_gene_product 1300 1304	VEGF
+T47	Gene_or_gene_product 1362 1365	p53
+T48	Gene_or_gene_product 1370 1374	VEGF
+T49	Organ 1455 1464	esophagus
+T12	Pathological_formation 865 868	SCC
+T21	Pathological_formation 1444 1447	SCC
+T50	Pathological_formation 211 218	cancers
+T1000	Organism 809 817	patients
+T1001	Organism 1413 1421	patients
+T41	Cell 345 349	cell
+T11	Blood_vessel_development 418 430	Angiogenesis
+T18	Blood_vessel_development 587 597	angiogenic
+T20	Blood_vessel_development 631 643	angiogenesis
+T1	Gene_expression 32 42	expression
+E1	Gene_expression:T1 Theme:T2
+T3	Gene_expression 82 92	expression
+E3	Gene_expression:T3 Theme:T4
+T13	Localization 479 489	metastasis
+E13	Localization:T13 Theme:T15
+T14	Growth 468 474	growth
+E14	Growth:T14 Theme:T15
+T22	Gene_expression 722 733	expressions
+E22	Gene_expression:T22 Theme:T25
+T29	Gene_expression 949 960	expressions
+E29	Gene_expression:T29 Theme:T32
+T39	Gene_expression 1245 1255	expression
+E39	Gene_expression:T39 Theme:T42
+T43	Gene_expression 1305 1316	expressions
+E43	Gene_expression:T43 Theme:T46
+*	Equiv T16 T17
+*	Equiv T27 T12
+T7	Planned_process 96 104	resected
+E2	Planned_process:T7 Theme:T5
+T51	Regulation 436 444	critical
+E5	Regulation:T51 Cause:E19 Theme:E14
+E6	Regulation:T51 Cause:E19 Theme:E13
+E7	Gene_expression:T22 Theme:T23
+T24	Planned_process 795 803	resected
+E8	Planned_process:T24 Theme:T27
+E9	Gene_expression:T29 Theme:T30
+E10	Gene_expression:T39 Theme:T40
+T31	Regulation 644 653	regulator
+E11	Regulation:T31 Cause:T16 Theme:E21
+T52	Death 365 374	apoptosis
+E15	Death:T52 Theme:T41
+T53	Cell_proliferation 350 363	proliferation
+E16	Cell_proliferation:T53 Theme:T41
+T54	Regulation 334 341	control
+E17	Regulation:T54 Cause:T9 Theme:E16
+E12	Regulation:T54 Cause:T9 Theme:E15
+E18	Gene_expression:T43 Theme:T44
+E19	Blood_vessel_development:T11 
+E20	Blood_vessel_development:T18 
+E21	Blood_vessel_development:T20 AtLoc:T19

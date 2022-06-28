@@ -1,0 +1,39 @@
+T2	Cell 0 22	Tumor endothelial cell
+T4	Drug_or_compound 32 70	cyclic RGD-modified heparin derivative
+T10	Pathological_formation 103 108	tumor
+T12	Tissue 139 156	tumor endothelium
+T13	Drug_or_compound 166 198	cRGD-modified heparin derivative
+T14	Drug_or_compound 200 207	cRGD-HL
+T15	Drug_or_compound 221 245	heparin-lithocholic acid
+T16	Drug_or_compound 247 249	HL
+T17	Drug_or_compound 256 262	cRGDyK
+T21	Drug_or_compound 300 307	cRGD-HL
+T24	Pathological_formation 328 333	tumor
+T26	Drug_or_compound 390 397	cRGD-HL
+T31	Cell 421 437	endothelial cell
+T34	Gene_or_gene_product 464 475	vitronectin
+T36	Tissue 477 481	tube
+T37	Gene_or_gene_product 522 546	alpha(v)beta(3) integrin
+T38	Drug_or_compound 607 614	cRGD-HL
+T40	Pathological_formation 648 653	tumor
+T42	Tissue 665 676	microvessel
+T43	Pathological_formation 690 726	squamous cell carcinoma (SCC7) tumor
+T46	Drug_or_compound 741 748	cRGD-HL
+T54	Cell 799 816	endothelial cells
+T55	Gene_or_gene_product 820 831	vitronectin
+T57	Cell 859 876	endothelial cells
+T58	Drug_or_compound 890 896	cRGDyK
+T59	Drug_or_compound 901 903	HL
+T60	Drug_or_compound 905 912	cRGD-HL
+T61	Gene_or_gene_product 951 975	alpha(v)beta(3) integrin
+T64	Drug_or_compound 1015 1022	cRGD-HL
+T68	Gene_or_gene_product 1096 1100	bFGF
+T71	Multi-tissue_structure 1125 1137	blood vessel
+T73	Drug_or_compound 1201 1208	cRGD-HL
+T77	Gene_or_gene_product 1249 1264	alpha(v)beta(3)
+T78	Pathological_formation 1342 1352	SCC7 tumor
+T79	Drug_or_compound 1398 1430	cRGD-modified heparin derivative
+T83	Pathological_formation 1478 1489	solid tumor
+T85	Pathological_formation 1543 1550	cancers
+T56	Tissue 837 855	tubular structures
+T82	Pathological_formation 589 594	tumor

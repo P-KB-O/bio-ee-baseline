@@ -1,0 +1,139 @@
+T1	Pathological_formation 0 5	Tumor
+T5	Cell 29 38	leukocyte
+T6	Multi-tissue_structure 39 50	vessel wall
+T15	Cell 198 207	leukocyte
+T16	Multi-tissue_structure 208 219	vessel wall
+T19	Cell 328 337	leukocyte
+T20	Multi-tissue_structure 338 349	vessel wall
+T21	Pathological_formation 384 389	tumor
+T23	Gene_or_gene_product 426 453	tumor necrosis factor alpha
+T25	Cell 465 474	leukocyte
+T26	Multi-tissue_structure 475 486	vessel wall
+T27	Tissue 516 537	ear skin microvessels
+T32	Pathological_formation 571 594	LS174T colon carcinomas
+T35	Cell 648 657	Leukocyte
+T36	Multi-tissue_structure 658 669	vessel wall
+T37	Pathological_formation 726 732	tumors
+T38	Organ 748 751	ear
+T39	Tissue 760 776	ear microvessels
+T42	Pathological_formation 798 803	tumor
+T43	Organism_subdivision 821 826	flank
+T44	Pathological_formation 828 833	Tumor
+T45	Organ 916 919	ear
+T46	Organ 945 948	ear
+T47	Cell 950 959	leukocyte
+T48	Tissue 1013 1020	vessels
+T50	Pathological_formation 1032 1041	ear tumor
+T51	Pathological_formation 1125 1130	tumor
+T53	Cell 1159 1168	leukocyte
+T54	Multi-tissue_structure 1181 1192	ear venules
+T58	Pathological_formation 1214 1225	flank tumor
+T59	Cell 1258 1267	Leukocyte
+T60	Pathological_formation 1352 1357	tumor
+T62	Pathological_formation 1463 1472	ear tumor
+T65	Cell 1571 1580	leukocyte
+T66	Multi-tissue_structure 1581 1592	vessel wall
+T68	Multi-tissue_structure 1617 1630	tumor vessels
+T70	Cell 1732 1741	tumor ECs
+T71	Gene_or_gene_product 1768 1801	intercellular adhesion molecule 1
+T72	Cell 1819 1822	ECs
+T73	Cell 1862 1874	b.END5 cells
+T74	Gene_or_gene_product 1879 1906	tumor necrosis factor alpha
+T77	Gene_or_gene_product 1932 1965	intercellular adhesion molecule 1
+T78	Gene_or_gene_product 1970 2003	vascular cell adhesion molecule 1
+T79	Cell 2019 2022	ECs
+T80	Gene_or_gene_product 2051 2081	basic fibroblast growth factor
+T81	Gene_or_gene_product 2085 2119	vascular endothelial growth factor
+T82	Cell 2240 2261	immune effector cells
+T83	Pathological_formation 2287 2299	tumor tissue
+T84	Gene_or_gene_product 1503 1528	endothelial growth factor
+T86	Pathological_formation 630 646	B16F10 melanomas
+T1000	Organism 541 550	nude mice
+T1001	Organism 565 570	human
+T1002	Organism 602 614	C57Bl/6 mice
+T1003	Organism 623 629	murine
+T1004	Organism 780 784	mice
+T1005	Organism 839 843	mice
+T1006	Organism 1050 1055	mouse
+T1007	Organism 1196 1200	mice
+T1008	Organism 1361 1370	nude mice
+T1009	Organism 1415 1427	C57Bl/6 mice
+T1010	Organism 1442 1446	mice
+T1011	Organism 1835 1840	mouse
+T7	Gene_or_gene_product 84 113	endothelial adhesion molecule
+T9	Gene_or_gene_product 145 185	endothelial cell (EC) adhesion molecules
+T63	Gene_or_gene_product 1480 1537	humanized antivascular endothelial growth factor antibody
+T75	Tissue 1841 1848	tissues
+T87	Cell 1690 1694	cell
+T2	Blood_vessel_development 6 18	angiogenesis
+T3	Regulation 19 28	modulates
+E3	Regulation:T3 Theme:E4 Cause:E2
+T4	Binding 51 63	interactions
+E4	Binding:T4 Theme:T6 Theme:T5
+T8	Gene_expression 114 124	expression
+E8	Gene_expression:T8 Theme:T7
+T10	Gene_expression 131 141	expression
+E10	Gene_expression:T10 Theme:T9
+T14	Binding 220 232	interactions
+E14	Binding:T14 Theme:T16 Theme:T15
+T17	Regulation 314 324	regulation
+E17	Regulation:T17 Theme:E18 Cause:T21
+T18	Binding 350 362	interactions
+E18	Binding:T18 Theme:T20 Theme:T19
+T22	Positive_regulation 454 464	stimulated
+E22	Positive_regulation:T22 Cause:T23 Theme:E24
+T24	Binding 487 499	interactions
+E24	Binding:T24 Theme:T26 Theme:T25
+T34	Binding 670 682	interactions
+E34	Binding:T34 Theme:T36 Theme:T35
+T52	Binding 1169 1177	adhesion
+E52	Binding:T52 Theme:T53
+T64	Binding 1593 1605	interactions
+E64	Binding:T64 Theme:T66 Theme:T65
+T76	Positive_regulation 1915 1928	up-regulation
+E76	Positive_regulation:T76 Theme:T77
+T85	Binding 960 968	adhesion
+E1	Binding:T85 Theme:T47
+T11	Negative_regulation 75 83	reducing
+E2	Negative_regulation:T11 Theme:E8 Cause:E33
+T12	Regulation 186 194	involved
+E5	Regulation:T12 Theme:E14 Cause:E10
+A1	Speculation E17
+T13	Growth 733 740	growing
+E6	Growth:T13 Theme:T37
+T28	Growth 804 811	growing
+E7	Growth:T28 Theme:T42
+T30	Negative_regulation 985 995	diminished
+E11	Negative_regulation:T30 Theme:E1
+T31	Negative_regulation 1069 1078	reduction
+E12	Negative_regulation:T31 Theme:E1
+T33	Negative_regulation 1235 1242	reduced
+E13	Negative_regulation:T33 Theme:E52
+T40	Planned_process 1429 1438	Treatment
+E15	Planned_process:T40 Theme:T1010 Instrument:T63
+T41	Negative_regulation 1538 1547	prevented
+E16	Negative_regulation:T41 Cause:E15 Theme:E19
+T49	Negative_regulation 1552 1567	down-regulation
+E19	Negative_regulation:T49 Theme:E64
+T55	Planned_process 1649 1659	nontreated
+E20	Planned_process:T55 Theme:T1010
+A3	Negation E20
+T56	Negative_regulation 1747 1757	suppressed
+E21	Negative_regulation:T56 Cause:T70 Theme:T71
+T57	Positive_regulation 1907 1914	induced
+E23	Positive_regulation:T57 Cause:T74 Theme:E76
+T61	Negative_regulation 2008 2015	reduced
+E25	Negative_regulation:T61 Theme:E76
+E26	Positive_regulation:T76 Theme:T78
+E27	Positive_regulation:T57 Cause:T74 Theme:E26
+E28	Negative_regulation:T61 Theme:E26
+T67	Planned_process 2033 2045	preincubated
+E29	Planned_process:T67 Theme:T79 Instrument:T80
+E30	Planned_process:T67 Theme:T79 Instrument:T81
+T69	Localization 2281 2286	enter
+E31	Localization:T69 Theme:T82 ToLoc:T83
+A4	Speculation E31
+A5	Negation E31
+T88	Positive_regulation 1680 1689	activated
+E32	Positive_regulation:T88 Theme:T87
+E33	Blood_vessel_development:T2 AtLoc:T1

@@ -1,0 +1,17 @@
+T1	Multi-tissue_structure 33 47	uterine cervix
+T3	Multi-tissue_structure 93 107	uterine cervix
+T4	Multi-tissue_structure 216 222	vessel
+T5	Gene_or_gene_product 298 305	laminin
+T6	Gene_or_gene_product 310 326	type IV collagen
+T7	Tissue 330 340	epithelium
+T8	Cellular_component 345 370	vessel basement membranes
+T10	Multi-tissue_structure 774 781	vessels
+T13	Multi-tissue_structure 944 960	abnormal vessels
+T14	Multi-tissue_structure 569 577	vascular
+T16	Tissue 1015 1035	cancerized epithelia
+T18	Multi-tissue_structure 832 840	vascular
+T20	Pathological_formation 816 826	carcinomas
+T21	Pathological_formation 646 664	epithelial lesions
+T22	Pathological_formation 474 483	carcinoma
+T25	Pathological_formation 1 25	Intraepithelial neoplasm
+T26	Pathological_formation 886 904	histologic lesions

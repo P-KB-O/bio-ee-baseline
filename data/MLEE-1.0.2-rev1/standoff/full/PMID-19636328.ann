@@ -1,0 +1,36 @@
+T2	Gene_or_gene_product 43 47	VEGF
+T5	Gene_or_gene_product 186 190	VEGF
+T7	Pathological_formation 227 232	tumor
+T10	Gene_or_gene_product 351 355	VEGF
+T13	Gene_or_gene_product 699 703	VEGF
+T14	Drug_or_compound 729 740	bevacizumab
+T15	Gene_or_gene_product 793 797	VEGF
+T16	Drug_or_compound 876 887	bevacizumab
+T17	Drug_or_compound 1008 1019	bevacizumab
+T18	Pathological_formation 1055 1067	colon cancer
+T19	Gene_or_gene_product 1087 1091	VEGF
+T1000	Organism 1032 1040	patients
+T21	Pathological_formation 396 401	tumor
+T24	Gene_or_gene_product 346 355	anti-VEGF
+T1	Blood_vessel_development 10 22	angiogenesis
+T3	Blood_vessel_development 81 93	Angiogenesis
+T4	Pathway 191 197	system
+T8	Blood_vessel_development 243 255	angiogenesis
+T9	Blood_vessel_development 284 296	angiogenesis
+T11	Blood_vessel_development 607 617	angiogenic
+T12	Pathway 704 710	system
+T6	Planned_process 1023 1031	treating
+E1	Planned_process:T6 Instrument:T17 Theme:T1000
+E2	Blood_vessel_development:T1 
+E3	Blood_vessel_development:T3 
+E4	Blood_vessel_development:T8 
+E5	Blood_vessel_development:T9 
+E6	Blood_vessel_development:T11 
+T20	Positive_regulation 233 242	initiated
+E7	Positive_regulation:T20 Cause:T7 Theme:E4
+T22	Negative_regulation 402 410	efficacy
+E8	Negative_regulation:T22 Theme:T21 Cause:E9
+T23	Planned_process 356 365	therapies
+E9	Planned_process:T23 Instrument:T24
+E10	Pathway:T4 Participant:T5
+E11	Pathway:T12 Participant:T13

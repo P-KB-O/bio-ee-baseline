@@ -1,0 +1,31 @@
+T2	Organ 364 367	eye
+T3	Multi-tissue_structure 506 510	iris
+T5	Organ 579 583	eyes
+T6	Multi-tissue_structure 594 604	arterioles
+T7	Organ 614 617	eye
+T8	Multi-tissue_structure 685 701	carotid arteries
+T9	Multi-tissue_structure 744 759	carotid vessels
+T10	Multi-tissue_structure 837 864	right common carotid artery
+T11	Multi-tissue_structure 894 920	left common carotid artery
+T12	Multi-tissue_structure 935 950	abdominal aorta
+T13	Organ 1068 1071	eye
+T14	Multi-tissue_structure 1095 1123	left external carotid artery
+T16	Multi-tissue_structure 1155 1159	iris
+T17	Organ 1178 1182	eyes
+T18	Multi-tissue_structure 1207 1211	iris
+T20	Multi-tissue_structure 1287 1303	carotid arteries
+T22	Organ 63 69	Ocular
+T21	Organism 226 230	male
+T24	Multi-tissue_structure 1011 1015	lens
+T4	Blood_vessel_development 511 529	neovascularization
+T15	Blood_vessel_development 1129 1147	neovascularization
+T19	Blood_vessel_development 1212 1230	neovascularization
+T23	Planned_process 232 239	treated
+E2	Planned_process:T23 Theme:T21
+T25	Planned_process 983 995	implantation
+E3	Planned_process:T25 Theme:T24
+E4	Blood_vessel_development:T4 AtLoc:T3
+E5	Blood_vessel_development:T15 AtLoc:T16
+E6	Blood_vessel_development:T19 AtLoc:T18
+T26	Negative_regulation 1160 1169	regressed
+E7	Negative_regulation:T26 Theme:E5
