@@ -4,3 +4,6 @@ venv
 
 .idea
 data-log.txt
+
+*.npy
+*.pkl
