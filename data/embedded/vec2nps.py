@@ -18,13 +18,13 @@ for i,line in enumerate(fh):
     vocab.append(line[0])
     wvecs[i,] = np.array(list(map(float, line[1:])))
 
-np.save(foutname + ".npy", wvecs)
-with open(foutname + '.pkl', 'wb') as file:
+np.save(foutname + ".npy", wvecs)   # to numpy format
+with open(foutname + '.pkl', 'wb') as file:  # to pickle format
     pickle.dump(wvecs, file)
 
 with open(foutname+".vocab","w") as outf:
-   print(" ".join(vocab), file=outf)
+   print(" ".join(vocab), file=outf)  # write into outf
 
 
-with open(foutname + '_vocab.pkl', 'wb') as file:
+with open(foutname + '_vocab.pkl', 'wb') as file: # to pickle format
     pickle.dump(vocab, file)
