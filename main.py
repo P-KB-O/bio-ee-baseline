@@ -8,6 +8,15 @@ from torch.utils.data import DataLoader
 
 from models import model, util
 
+# ************* basic-statics start *************
+num_words = 12428
+entity_type_num = 4
+embedding_dim = 200
+entity_dim = 50
+model_dir = './ckpt'  # checkpoints
+
+# ************* basic-statics ended *************
+
 # ************* hyper-parameters start *************
 max_epochs = 30
 batchsize = 32

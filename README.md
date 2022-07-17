@@ -18,6 +18,14 @@ First, I get PudMed abstracts data by crawling [PudMed E-utilizes api](https://w
 In paper, author use **GDep parser** for dependency parses, but I can't get this software. In this repo, so we use stanford [CoreNLP](https://stanfordnlp.github.io/CoreNLP/) for dependency parses and apply its result to train dependency-base word embedding.(word2vecf code from [BIU-NLP/word2vecf](https://github.com/BIU-NLP/word2vecf), a kind of a variant of word2vec)
 
 ## Usage
+
+preprocess stage:
+
+``` shell
+./preprocess.sh
+```
+
+
 train stage:
 
 ``` python
