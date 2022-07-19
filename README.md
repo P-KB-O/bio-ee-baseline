@@ -23,8 +23,9 @@ preprocess stage:
 
 ``` shell
 cd data
-./preprocess.sh
+./preprocess.sh GE09
 ```
+After running this command, you will get `output.conf` in your root directory.
 
 
 train stage:

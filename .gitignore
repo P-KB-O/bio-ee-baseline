@@ -11,3 +11,5 @@ data-log.txt
 data/preprocessed/GE09
 data/preprocessed/BB11
 data/preprocessed/GE11
+
+*.conf

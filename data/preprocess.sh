@@ -1,6 +1,9 @@
+dataset=$1
+echo $dataset
+
 # preprocess raw xml data
 echo "------------------starting to process raw data-----------------"
-res=$(python preprocess4xml.py --data GE09 --input_dir ./xml)
+res=$(python preprocess4xml.py --data $dataset --input_dir ./xml)
 echo $res
 
 # get input info for downstream task
@@ -12,12 +15,12 @@ echo "----------------------------end--------------------------------"
 
 
 echo "-------------------starting to construct dict------------------"
-python data2inputs.py --dest_dir ./preprocessed --data GE09 --seq_len 125
+python data2inputs.py --dest_dir ./preprocessed --data $dataset --seq_len 125
 echo "----------------------------end--------------------------------"
 
 
 echo "-------------------starting to read embedding------------------"
-res=$(python read_embedding.py --dest_dir ./preprocessed --data GE09 --entity_classes $entity)
+res=$(python read_embedding.py --dest_dir ./preprocessed --data $dataset --entity_classes $entity)
 echo $res
 
 res=$(echo $res | grep 'word')
@@ -25,5 +28,7 @@ word_num=$(echo $res | awk -F ' ' '{print $3}')  # the number of words
 echo "----------------------------end--------------------------------"
 
 echo "-------------------construct attention labels------------------"
-python construct_attention.py --dest_dir ./preprocessed --data GE09 --seq_len 125 --num_label $triggers
+python construct_attention.py --dest_dir ./preprocessed --data $dataset --seq_len 125 --num_label $triggers
 echo "----------------------------end--------------------------------"
+
+echo "trigger_types, ${triggers}\nentity_types, ${entity}\nword_num, ${word_num}" > ../output.conf
