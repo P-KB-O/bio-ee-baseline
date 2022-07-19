@@ -23,3 +23,7 @@ echo $res
 res=$(echo $res | grep 'word')
 word_num=$(echo $res | awk -F ' ' '{print $3}')  # the number of words
 echo "----------------------------end--------------------------------"
+
+echo "-------------------construct attention labels------------------"
+python construct_attention.py --dest_dir ./preprocessed --data GE09 --seq_len 125 --num_label $triggers
+echo "----------------------------end--------------------------------"
