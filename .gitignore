@@ -7,3 +7,7 @@ data-log.txt
 
 *.npy
 *.pkl
+
+data/preprocessed/GE09
+data/preprocessed/BB11
+data/preprocessed/GE11
