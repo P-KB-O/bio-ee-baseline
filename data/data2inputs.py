@@ -1,8 +1,10 @@
 import os
 import pickle
 import argparse
+import numpy as np
 
 # https://stackoverflow.com/questions/57767854/keras-preprocessing-text-tokenizer-equivalent-in-pytorch
+import torch
 from torchnlp.encoders.text import StaticTokenizerEncoder, stack_and_pad_tensors, pad_tensor
 
 
@@ -56,6 +58,7 @@ class Data2Inputs(object):
         return inputs, labels, entity_labels, deps
 
     def convert_text_to_index(self, train_inputs, test_inputs, padding=False):
+        # replace keras api with pytorch api
         print("start convert text to index.")
         encoder = StaticTokenizerEncoder(train_inputs, tokenize=lambda s: s.split())
         train_inputs = [encoder.encode(example) for example in train_inputs]
@@ -70,7 +73,7 @@ class Data2Inputs(object):
             self.write_word_inputs(test_inputs, False)
 
     def pad_inputs(self, inputs):
-        return stack_and_pad_tensors([pad_tensor(input[:self.max_len], self.max_len) for input in inputs])
+        return stack_and_pad_tensors([pad_tensor(input[:self.max_len], self.max_len) for input in inputs]).tensor.type(torch.int64)
 
     def write_ids(self, ids={}, file=""):
         wf = open(os.path.join(self.dir_, self.data_name, file), 'wb')
@@ -78,6 +81,8 @@ class Data2Inputs(object):
         wf.close()
 
     def write_word_inputs(self, inputs=[], train=True):
+        if inputs is not np.ndarray:
+            inputs = inputs.numpy()
         if train:
             output_file = os.path.join(self.dir_, self.data_name, "train_input.txt")
         else:
