@@ -22,6 +22,7 @@ In paper, author use **GDep parser** for dependency parses, but I can't get this
 preprocess stage:
 
 ``` shell
+cd data
 ./preprocess.sh
 ```
 
