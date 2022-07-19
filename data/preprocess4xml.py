@@ -393,7 +393,7 @@ if __name__ == '__main__':
         p = PreProcessor(output_based_dir, data_name)
 
     p.process(train_file, train=True)
-    p.process(test_file, train=True)
+    p.process(test_file, train=False)
 
     p.write_ids()
     print(p)
