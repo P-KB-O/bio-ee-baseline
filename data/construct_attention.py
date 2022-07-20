@@ -106,6 +106,7 @@ class ExampleReader(object):
 
         res = []
 
+        # can't understand this part 20220720 by eleve11
         for i in range(len(labels)):
             res.append([])
             for j in range(len(labels[i])):
@@ -130,7 +131,7 @@ class ExampleReader(object):
             ori_label[i] = ori_label[i].split()
             labels.append([])
             for j in range(len(ori_label[i])):
-                k = int(class_ids.get(ori_label[i][j])) + 1
+                k = int(class_ids.get(ori_label[i][j])) + 1  # why plus 1 here
                 labels[i].append(k)
 
         k = int(class_ids.get("O"))
@@ -220,7 +221,7 @@ class ExampleReader(object):
                         if k >= len(tri_attention_label) or j == k:
                             attention_label[i][j].append(0)
                         elif tri_attention_label[k] == 0 and entity_attention_label[k] == 0:
-                                attention_label[i][j].append(0)
+                            attention_label[i][j].append(0)
                         else:
                             # print(str(score))
                             attention_label[i][j].append(ave_score)
@@ -347,7 +348,6 @@ class ExampleReader(object):
             duplicated_dict[key] = value
         rf.close()
         return duplicated_dict
-
 
 
 if __name__ == '__main__':
