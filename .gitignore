@@ -13,3 +13,5 @@ data/preprocessed/BB11
 data/preprocessed/GE11
 
 *.conf
+
+__pycache__
