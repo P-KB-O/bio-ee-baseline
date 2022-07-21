@@ -6,7 +6,7 @@ import pickle
 
 
 def random_init_entity(path_, entity_classes, embedding_dim=50):
-    embedding = np.random.normal(size=(entity_classes, embedding_dim))
+    embedding = np.random.normal(size=(entity_classes+2, embedding_dim))
     row, col = embedding.shape
 
     with open(os.path.join(path_, 'entity_type_matrix.txt'), 'w+') as fw:
