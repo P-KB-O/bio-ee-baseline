@@ -106,7 +106,8 @@ class ExampleReader(object):
 
         res = []
 
-        # can't understand this part 20220720 by eleve11
+        # construct a tensor (doc_dim, sentence_dim, class_dim)
+        # e.g  7000 docs, 125 lenght of a sentence, 70 classes -> (7000, 125, 70)
         for i in range(len(labels)):
             res.append([])
             for j in range(len(labels[i])):
