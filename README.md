@@ -34,7 +34,7 @@ train stage:
 python main.py
 ```
 
-test stage:
+test stage(TBD):
 
 ``` python
 python test.py
